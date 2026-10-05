@@ -1,0 +1,11 @@
+{
+  "seed": 0,
+  "indices": [
+    0,
+    1,
+    2
+  ],
+  "selection": "fixed first three test contexts; fewer columns solely for A4 legibility",
+  "full_supplement": "generated_paths_all_cells.pdf contains fixed first six contexts",
+  "same_y_limits_across_models_per_context": true
+}

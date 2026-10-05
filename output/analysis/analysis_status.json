@@ -1,0 +1,22 @@
+{
+  "complete": true,
+  "expected_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "expected_runs": 25,
+  "observed_runs": 25,
+  "missing_runs": [],
+  "missing_sample_archives": [],
+  "seed_counts": {
+    "White noise + MLP": 5,
+    "White noise + S4": 5,
+    "GP + MLP": 5,
+    "GP + S4": 5,
+    "GP + whitened MLP": 5
+  },
+  "config_sha256": "ee1b5f0b49d436f32fb5e952dc207633453d5ba8a84d93f1922b2d967cc3842f"
+}

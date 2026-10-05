@@ -1,0 +1,21 @@
+{
+  "seed": 0,
+  "indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "selection": "first six test contexts, no outcome selection",
+  "normalization": "history-normalized observation coordinates",
+  "interpretation": "Generated and observed futures are distinct stochastic draws; their pointwise difference is not the forecast error metric.",
+  "files": [
+    "results/main/samples/white_mlp_seed0.npz",
+    "results/main/samples/white_s4_seed0.npz",
+    "results/main/samples/gp_mlp_seed0.npz",
+    "results/main/samples/gp_s4_seed0.npz",
+    "results/main/samples/gp_whitened_mlp_seed0.npz"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "report": "/Users/daniil_koblov/IT/TS Project/output/pdf/research-report.pdf",
+  "pages": 11,
+  "runs": 25,
+  "config_sha256": "ee1b5f0b49d436f32fb5e952dc207633453d5ba8a84d93f1922b2d967cc3842f",
+  "results": "/Users/daniil_koblov/IT/TS Project/results/main",
+  "analysis": "/Users/daniil_koblov/IT/TS Project/output/analysis",
+  "conclusions_sha256": "2d5549b3e237ab248a55a44421a125a7b54747da8a1afac35ae789a1fc41cece",
+  "lengthscale_results": "/Users/daniil_koblov/IT/TS Project/results/lengthscale6",
+  "lengthscale_runs": 15,
+  "optimization_runs": 9,
+  "note": "Eleven-page count verified by report layout; visually render all pages before delivery."
+}

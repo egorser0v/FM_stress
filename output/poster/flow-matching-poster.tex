@@ -1,0 +1,131 @@
+\documentclass{article}
+\usepackage[paperwidth=841mm,paperheight=594mm,margin=0mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{amsmath,amssymb}
+\usepackage{newtxmath}
+\usepackage{tikz}
+\usepackage{array,booktabs,tabularx,colortbl}
+\usepackage{microtype}
+\usepackage[colorlinks=true,urlcolor=teal]{hyperref}
+\hypersetup{pdftitle={Smooth source, unstructured head},pdfauthor={Egor Serov, Kirill Frolov, Daniil Koblov, Vasilii Lyamin},pdfsubject={Research proposal poster, A1 landscape}}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\definecolor{navy}{HTML}{172F3C}
+\definecolor{ink}{HTML}{283C47}
+\definecolor{teal}{HTML}{006C70}
+\definecolor{muted}{HTML}{586C76}
+\definecolor{rulegray}{HTML}{D8E2E5}
+\definecolor{pale}{HTML}{F0F6F5}
+\definecolor{rust}{HTML}{A94C2A}
+\definecolor{peach}{HTML}{FBEEE6}
+\definecolor{softwhite}{HTML}{E0F0EF}
+\newcommand{\sz}[2]{\fontsize{#1}{#2}\selectfont}
+\newcommand{\at}[4]{\node[anchor=north west,inner sep=0pt,outer sep=0pt,text=ink] at ([xshift=#1mm,yshift=-#2mm]current page.north west) {\begin{minipage}[t]{#3mm}\raggedright #4\end{minipage}};}
+% Check revised text against its allotted space in the editor's own compiler.
+\newsavebox{\posterbox}
+\newcommand{\atfit}[5]{%
+  \node[anchor=north west,inner sep=0pt,outer sep=0pt,text=ink] at ([xshift=#1mm,yshift=-#2mm]current page.north west) {%
+    \sbox{\posterbox}{\begin{minipage}[t]{#3mm}\raggedright #5\end{minipage}}%
+    \ifdim\dimexpr\ht\posterbox+\dp\posterbox\relax>#4mm
+      \PackageError{poster-layout}{Text at (#1,#2) exceeds its #4 mm space}{Shorten the text or enlarge its allotted space.}%
+    \fi
+    \usebox{\posterbox}};}
+\newcommand{\sect}[2]{{\sz{27}{33}\color{teal}#1\hspace{4mm}\color{navy}\bfseries #2}}
+\newcommand{\subhead}[1]{{\sz{24}{29}\bfseries\color{navy}#1}}
+\newcommand{\body}{\sz{23}{29}}
+\newcommand{\smallbody}{\sz{20}{25}}
+\newcommand{\source}[1]{\textsuperscript{\sz{14}{16}#1}}
+\newcommand{\mathblock}[1]{{\color{navy}\sz{30}{38}\(\displaystyle #1\)}}
+\begin{document}
+\null
+\begin{tikzpicture}[remember picture,overlay]
+  \fill[navy] (current page.north west) rectangle ([yshift=-98mm]current page.north east);
+  \at{25}{17}{670}{{\color{white}\sz{72}{83}\bfseries Smooth source, unstructured head}}
+  \at{26}{53}{690}{{\color{softwhite}\sz{29}{35}A flow-matching stress test for time series forecasting}}
+  \atfit{26}{76}{790}{17}{{\color{white}\sz{28}{34}Egor Serov\quad Kirill Frolov\quad Daniil Koblov\quad Vasilii Lyamin}}
+
+  \atfit{25}{112}{791}{18}{{\sz{34}{41}\color{navy}\bfseries Does a smooth starting curve need a temporally structured network?}}
+  \atfit{25}{132}{791}{32}{{\sz{28}{35}\color{ink}Flow matching turns a random starting curve into a forecast through learned updates guided by past observations.\source{4}\par\vspace{2mm}\textbf{Hypothesis:} with smooth starting curves and targets, an MLP may learn the overall trend but produce unwanted local fluctuations.}}
+  \draw[rulegray,line width=0.7pt] ([xshift=25mm,yshift=-168mm]current page.north west) -- ([xshift=-25mm,yshift=-168mm]current page.north east);
+
+  % Column 1: synthesis, rather than three separate paper summaries.
+  \at{25}{180}{230}{\sect{01}{Evidence and open question}}
+  \at{25}{203}{230}{{\sz{21}{27}\setlength{\tabcolsep}{0pt}\renewcommand{\arraystretch}{1.32}
+  \begin{tabularx}{230mm}{@{}p{48mm}p{87mm}X@{}}
+  \toprule[1pt]
+  & \textbf{TimeFlow (Sundial)}\source{1} & \textbf{TSFlow}\source{2}\\
+  \midrule[0.5pt]
+  Source & Independent noise & Correlated GP\\
+  Head & AdaLN MLP & DiffWave + S4\source{3}\\
+  History & Transformer state & Past + mask\\
+  Forecast & Multi-patch & Fixed windows\\
+  \bottomrule[0.6pt]
+  \end{tabularx}}}
+  \at{25}{292}{230}{\subhead{What the papers evaluate}}
+  \atfit{25}{310}{230}{39}{\body\textbf{Sundial.} Zero-shot GIFT-Eval: 23 datasets, 97 settings, 100 sample paths. MASE and CRPS assess point and probabilistic forecasts. Test datasets are excluded from pretraining.\source{1}}
+  \atfit{25}{357}{230}{39}{\body\textbf{TSFlow.} Eight univariate datasets. Forecast CRPS uses nine quantiles and 100 samples, over five seeds. Prior comparisons keep the structured head fixed.\source{2}}
+  \at{25}{410}{230}{\subhead{What remains unresolved}}
+  \atfit{25}{428}{230}{54}{\body Published evidence supports probabilistic forecasting with each chosen source--head pairing.\source{1,2} It does not show that a GP prior helps an MLP. Our shared-data \(2\times2\) test separates source choice from architecture.}
+
+  \at{25}{490}{230}{\subhead{Planned outputs}}
+  \atfit{25}{505}{230}{32}{\body Four-cell table and whitening control: PC1 velocity MSE; PCs 3--\(F\) velocity MSE; sample-path roughness. Generated paths plotted against targets.}
+
+  % Column 2: the dominant visual is the factorial experiment.
+  \at{282}{180}{280}{\sect{02}{The decisive experiment}}
+  \at{282}{204}{280}{{\sz{23}{29}\color{muted}Same smooth targets and tiny lookback encoder}}
+  \begin{scope}[shift={([xshift=282mm,yshift=-225mm]current page.north west)},x=1mm,y=-1mm]
+    \fill[pale] (0,0) rectangle (280,19);
+    \fill[peach] (70,61) rectangle (175,104);
+    \draw[rulegray,line width=0.7pt] (0,19)--(280,19) (0,61)--(280,61) (0,104)--(280,104) (70,0)--(70,104) (175,0)--(175,104);
+    \node[anchor=west,text=muted,font=\sz{19}{23}] at (5,9.5) {Source};
+    \node[text=navy,font=\sz{24}{29}\bfseries] at (122.5,6.5) {AdaLN MLP};
+    \node[text=muted,font=\sz{16}{20}] at (122.5,14.5) {Fully connected network};
+    \node[text=navy,font=\sz{24}{29}\bfseries] at (227.5,6.5) {S4 head};
+    \node[text=muted,font=\sz{16}{20}] at (227.5,14.5) {Temporal structure, 3 S4 blocks};
+    \node[anchor=west,text=ink,font=\sz{22}{27}] at (5,30) {White Gaussian};
+    \node[anchor=west,text=ink,font=\sz{22}{27}] at (5,73) {Matched GP};
+    \node[align=left,anchor=west,text=ink,font=\sz{23}{29},text width=90mm] at (77,40) {\textbf{White noise + MLP}\\{\sz{18}{23}TimeFlow-style baseline}};
+    \node[align=left,anchor=west,text=ink,font=\sz{23}{29},text width=90mm] at (182,40) {\textbf{White noise + S4}\\{\sz{18}{23}Structured network baseline}};
+    \node[align=left,anchor=west,text=rust,font=\sz{23}{29},text width=90mm] at (77,82.5) {\textbf{GP + MLP}\\{\sz{18}{23}Main stress test}};
+    \node[align=left,anchor=west,text=ink,font=\sz{23}{29},text width=90mm] at (182,82.5) {\textbf{GP + S4}\\{\sz{18}{23}TSFlow-style baseline}};
+    % Source thumbnails are schematic, with no axes or empirical claims.
+    \draw[muted,line width=0.85pt] (6,49)--(10,46)--(14,52)--(18,43)--(22,53)--(26,47)--(30,51)--(34,42)--(38,49)--(42,45)--(46,53)--(50,47)--(54,50)--(58,44)--(62,48);
+    \draw[teal,line width=1.1pt] (6,94) .. controls (19,94) and (21,85) .. (34,88) .. controls (46,91) and (50,96) .. (62,91);
+  \end{scope}
+  % Experimental data followed by the PCA validation gate.
+  \at{282}{350}{280}{\subhead{Experimental setup}}
+  \atfit{282}{369}{280}{57}{\smallbody
+    \textbf{Data.} Joint smooth GP windows, \(F=16\); matched source kernel and Sundial instance normalization.\par\vspace{2mm}
+    \textbf{Training.} Independent source--target pairs in observation space; small models trained from scratch with comparable sizes and budgets.\par\vspace{2mm}
+    \textbf{Evaluation.} Independent train/validation/test draws; train-only PCA; a fixed number of Euler steps.}
+  \draw[rulegray,line width=0.6pt] ([xshift=282mm,yshift=-430mm]current page.north west) -- ([xshift=562mm,yshift=-430mm]current page.north west);
+  \at{282}{438}{280}{\subhead{Validate the stress-test data}}
+  \atfit{282}{456}{280}{24}{{\sz{22}{28}Fit PCA on training draws; check on validation draws whether the first two PCs capture most velocity variation.}}
+  \at{282}{484}{280}{{\sz{27}{34}\color{navy}\(\displaystyle E_2=\frac{\text{variance in the first two PCs}}{\text{total velocity variance}}>0.90\)}}
+  \atfit{282}{513}{280}{25}{\smallbody\color{muted}Require this threshold for matched-GP velocities. Report target and both velocity spectra. If it fails, adjust the GP lengthscale; reject constant data.}
+
+  % Column 3 reads as one argument: measure, explain, then choose.
+  \at{591}{180}{225}{\sect{03}{Evaluation and conclusions}}
+  \at{591}{204}{225}{\subhead{Accuracy and smoothness}}
+  \atfit{591}{222}{225}{31}{\body Compare mean squared error (MSE) of velocity in the dominant pattern (PC1) and weaker patterns (PCs \(3,\ldots,F\)). Report PC2 separately.}
+  \at{595}{264}{217}{\mathblock{R(x)=\frac{1}{F-1}\sum_{i=1}^{F-1}\lvert x_{i+1}-x_i\rvert}}
+  \atfit{591}{302}{225}{19}{\smallbody\color{muted}\(R(x)\) measures adjacent jumps. Generated curves should match target roughness; excessive smoothness also fails.}
+  \atfit{591}{326}{225}{28}{{\sz{20}{25}\color{muted}\textbf{Proposed success rule:} residual error within 20\% of PC1 error; roughness within 20\% of target. Fix MSE normalization before training.}}
+  \at{591}{365}{225}{\subhead{Does the coordinate scaling matter?}}
+  \atfit{591}{383}{225}{54}{\body Add a \textbf{PCA-whitened MLP} with the same GP source and encoder. Rescale components to equal variance using a transform fitted on training velocities. Evaluate all three metrics back in observation space.}
+  \at{591}{447}{225}{\subhead{Which head should we keep?}}
+  \atfit{591}{465}{225}{70}{\body If \textbf{whitening closes the gap}, use better-scaled coordinates. If \textbf{S4 still wins}, investigate temporal structure. If \textbf{MLP matches S4 on all three metrics with a GP source}, the predicted gap is absent. This guides the next structured-prior model, within this synthetic setting.}
+
+  % Quiet footer: plan above references, no dashboard-like strip.
+  \draw[rulegray,line width=0.7pt] ([xshift=25mm,yshift=-540mm]current page.north west) -- ([xshift=-25mm,yshift=-540mm]current page.north east);
+  \atfit{25}{548}{190}{19}{{\sz{18}{22}\color{teal}\bfseries WEEK 1}\quad{\sz{20}{25}Generate synthetic GP data and check PCA spectra}}
+  \atfit{229}{548}{190}{19}{{\sz{18}{22}\color{teal}\bfseries WEEK 2}\quad{\sz{20}{25}Implement MLP and S4; run the \(2\times2\) experiments}}
+  \atfit{433}{548}{190}{19}{{\sz{18}{22}\color{teal}\bfseries WEEK 3}\quad{\sz{20}{25}Evaluate errors and roughness; test the whitened MLP}}
+  \atfit{637}{548}{179}{19}{{\sz{18}{22}\color{teal}\bfseries WEEK 4}\quad{\sz{20}{25}Analyse results, plot paths and write recommendations}}
+  \at{25}{569}{390}{{\sz{14}{18}\color{muted}[1] Liu et al. \textit{Sundial}. ICML 2025. \href{https://arxiv.org/abs/2502.00816}{arXiv:2502.00816}.\par[2] Kollovieh et al. \textit{Flow Matching with GP Priors}. ICLR 2025. \href{https://arxiv.org/abs/2410.03024}{arXiv:2410.03024}.}}
+  \at{433}{569}{383}{{\sz{14}{18}\color{muted}[3] Gu, Goel \& R\'e. \textit{Structured State Spaces (S4)}. ICLR 2022. \href{https://arxiv.org/abs/2111.00396}{arXiv:2111.00396}.\par[4] Lipman et al. \textit{Flow Matching for Generative Modeling}. ICLR 2023. \href{https://arxiv.org/abs/2210.02747}{arXiv:2210.02747}.}}
+\end{tikzpicture}
+\end{document}

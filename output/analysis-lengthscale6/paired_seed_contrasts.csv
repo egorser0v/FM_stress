@@ -1,0 +1,79 @@
+contrast,a,b,metric,direction,seeds,mean_difference,ci_low,ci_high,pairs
+"Head effect, white source",White noise + S4,White noise + MLP,pc1_mse,a minus b,"0,1,2",-0.030269718070454015,-0.16270236584623365,0.07065018512891097,3
+"Head effect, white source",White noise + S4,White noise + MLP,pc2_mse,a minus b,"0,1,2",0.017016836673107605,-0.021292563518364727,0.08592151692831962,3
+"Head effect, white source",White noise + S4,White noise + MLP,residual_mse,a minus b,"0,1,2",-0.0018869509764664338,-0.005976401866872844,0.001448297089483519,3
+"Head effect, white source",White noise + S4,White noise + MLP,velocity_mse,a minus b,"0,1,2",-0.0024793871917411225,-0.010232423131985913,0.008794576745567828,3
+"Head effect, white source",White noise + S4,White noise + MLP,pc1_normalized_mse,a minus b,"0,1,2",-0.0006107955526867085,-0.00328307918954443,0.001425610201350097,3
+"Head effect, white source",White noise + S4,White noise + MLP,pc2_normalized_mse,a minus b,"0,1,2",0.0013032641989704496,-0.0016307282176389326,0.0065804496502500365,3
+"Head effect, white source",White noise + S4,White noise + MLP,residual_normalized_mse,a minus b,"0,1,2",-0.005176015228556009,-0.0077763776417281855,-0.0019269069899157804,3
+"Head effect, white source",White noise + S4,White noise + MLP,generated_roughness,a minus b,"0,1,2",-0.006073471050222499,-0.011047606289374318,0.001273998050752817,3
+"Head effect, white source",White noise + S4,White noise + MLP,target_roughness,a minus b,"0,1,2",0.0,0.0,0.0,3
+"Head effect, white source",White noise + S4,White noise + MLP,roughness_ratio,a minus b,"0,1,2",-0.026913288049605726,-0.04895510456309404,0.005645449896940047,3
+"Head effect, white source",White noise + S4,White noise + MLP,roughness_relative_deviation,a minus b,"0,1,2",0.026913288049605726,-0.005645449896940047,0.04895510456309404,3
+"Head effect, white source",White noise + S4,White noise + MLP,residual_to_pc1,a minus b,"0,1,2",-0.0001611614533978227,-0.0009315657355052943,0.0009203475174700826,3
+"Head effect, white source",White noise + S4,White noise + MLP,normalized_residual_to_pc1,a minus b,"0,1,2",-0.03574971704347881,-0.05985643004478358,0.004022016850842913,3
+"Head effect, GP source",GP + S4,GP + MLP,pc1_mse,a minus b,"0,1,2",-0.21540860912710139,-0.43157447643841707,-0.053091401145721306,3
+"Head effect, GP source",GP + S4,GP + MLP,pc2_mse,a minus b,"0,1,2",0.008273901540744552,-0.040494133052127346,0.09944545672298588,3
+"Head effect, GP source",GP + S4,GP + MLP,residual_mse,a minus b,"0,1,2",0.007376464302590054,0.005458625463591549,0.009610941124480396,3
+"Head effect, GP source",GP + S4,GP + MLP,velocity_mse,a minus b,"0,1,2",-0.006491512959380996,-0.015981766451575563,0.0029582597217787665,3
+"Head effect, GP source",GP + S4,GP + MLP,pc1_normalized_mse,a minus b,"0,1,2",-0.0036543977328849877,-0.007321642318097787,-0.000900693323116597,3
+"Head effect, GP source",GP + S4,GP + MLP,pc2_normalized_mse,a minus b,"0,1,2",0.0005106277898168273,-0.0024991147838938077,0.006137323912270509,3
+"Head effect, GP source",GP + S4,GP + MLP,residual_normalized_mse,a minus b,"0,1,2",30.150356629810535,26.923058890818947,34.14641860923367,3
+"Head effect, GP source",GP + S4,GP + MLP,generated_roughness,a minus b,"0,1,2",-0.0015806829275561614,-0.01878845273308799,0.007846884343083116,3
+"Head effect, GP source",GP + S4,GP + MLP,target_roughness,a minus b,"0,1,2",0.0,0.0,0.0,3
+"Head effect, GP source",GP + S4,GP + MLP,roughness_ratio,a minus b,"0,1,2",-0.0070044583390011335,-0.08325701007391395,0.03477178978396556,3
+"Head effect, GP source",GP + S4,GP + MLP,roughness_relative_deviation,a minus b,"0,1,2",0.0070044583390011335,-0.03477178978396556,0.08325701007391395,3
+"Head effect, GP source",GP + S4,GP + MLP,residual_to_pc1,a minus b,"0,1,2",0.000516051181320433,0.0004761598792018835,0.0005783975657860227,3
+"Head effect, GP source",GP + S4,GP + MLP,normalized_residual_to_pc1,a minus b,"0,1,2",102.99951579168169,91.88323099884333,116.59686649571273,3
+"Source effect, MLP",GP + MLP,White noise + MLP,pc1_mse,a minus b,"0,1,2",10.880986293689697,10.608599672282214,11.095460728315667,3
+"Source effect, MLP",GP + MLP,White noise + MLP,pc2_mse,a minus b,"0,1,2",2.246421313306115,2.216059018848813,2.304532853473153,3
+"Source effect, MLP",GP + MLP,White noise + MLP,residual_mse,a minus b,"0,1,2",-0.06646269925036437,-0.06927187235707917,-0.06347036419672897,3
+"Source effect, MLP",GP + MLP,White noise + MLP,velocity_mse,a minus b,"0,1,2",0.7623081135931696,0.7433893551947856,0.7819630301896673,3
+"Source effect, MLP",GP + MLP,White noise + MLP,pc1_normalized_mse,a minus b,"0,1,2",0.163414192015796,0.1584198801984938,0.16698455518450392,3
+"Source effect, MLP",GP + MLP,White noise + MLP,pc2_normalized_mse,a minus b,"0,1,2",0.10116426842829046,0.09859449135608574,0.10550051092270034,3
+"Source effect, MLP",GP + MLP,White noise + MLP,residual_normalized_mse,a minus b,"0,1,2",0.20429925083706846,0.2017001603269156,0.20879151444946564,3
+"Source effect, MLP",GP + MLP,White noise + MLP,generated_roughness,a minus b,"0,1,2",-0.009898665435727908,-0.017981261011307953,0.0018104659173786841,3
+"Source effect, MLP",GP + MLP,White noise + MLP,target_roughness,a minus b,"0,1,2",0.0,0.0,0.0,3
+"Source effect, MLP",GP + MLP,White noise + MLP,roughness_ratio,a minus b,"0,1,2",-0.043863818889638306,-0.07968011258977636,0.008022692515612051,3
+"Source effect, MLP",GP + MLP,White noise + MLP,roughness_relative_deviation,a minus b,"0,1,2",0.043863818889638306,-0.008022692515612051,0.07968011258977636,3
+"Source effect, MLP",GP + MLP,White noise + MLP,residual_to_pc1,a minus b,"0,1,2",-0.021784151629698597,-0.022745682108058274,-0.021076425754832845,3
+"Source effect, MLP",GP + MLP,White noise + MLP,normalized_residual_to_pc1,a minus b,"0,1,2",0.25975598016898005,0.23324633592714283,0.30698072237679364,3
+"Source effect, S4",GP + S4,White noise + S4,pc1_mse,a minus b,"0,1,2",10.69584740263305,10.59323606674834,10.776095504168085,3
+"Source effect, S4",GP + S4,White noise + S4,pc2_mse,a minus b,"0,1,2",2.237678378173752,2.189143329187318,2.3180567932678193,3
+"Source effect, S4",GP + S4,White noise + S4,residual_mse,a minus b,"0,1,2",-0.057199283971307885,-0.058483217162288104,-0.05623564417050811,3
+"Source effect, S4",GP + S4,White noise + S4,velocity_mse,a minus b,"0,1,2",0.7582959878255299,0.7565800380485502,0.7611212384355154,3
+"Source effect, S4",GP + S4,White noise + S4,pc1_normalized_mse,a minus b,"0,1,2",0.1603705898355977,0.15823730266505603,0.16207220077681547,3
+"Source effect, S4",GP + S4,White noise + S4,pc2_normalized_mse,a minus b,"0,1,2",0.10037163201913683,0.09793861705789125,0.1050573851847208,3
+"Source effect, S4",GP + S4,White noise + S4,residual_normalized_mse,a minus b,"0,1,2",30.35983189587616,27.130583812199887,34.35713703067305,3
+"Source effect, S4",GP + S4,White noise + S4,generated_roughness,a minus b,"0,1,2",-0.0054058773130615705,-0.018251984866462123,0.002768488041874656,3
+"Source effect, S4",GP + S4,White noise + S4,target_roughness,a minus b,"0,1,2",0.0,0.0,0.0,3
+"Source effect, S4",GP + S4,White noise + S4,roughness_ratio,a minus b,"0,1,2",-0.023954989179033714,-0.08087976745524195,0.01226796267187813,3
+"Source effect, S4",GP + S4,White noise + S4,roughness_relative_deviation,a minus b,"0,1,2",0.023954989179033714,-0.01226796267187813,0.08087976745524195,3
+"Source effect, S4",GP + S4,White noise + S4,residual_to_pc1,a minus b,"0,1,2",-0.02110693899498034,-0.021418375706516904,-0.02056448478507302,3
+"Source effect, S4",GP + S4,White noise + S4,normalized_residual_to_pc1,a minus b,"0,1,2",103.29502148889416,92.17368661898284,116.89982520123868,3
+Whitening control,GP + whitened MLP,GP + MLP,pc1_mse,a minus b,"0,1,2",-0.9362831343754662,-1.4071009644142762,-0.6262627573577078,3
+Whitening control,GP + whitened MLP,GP + MLP,pc2_mse,a minus b,"0,1,2",-0.15936219591860082,-0.20081449876726332,-0.11722203534538433,3
+Whitening control,GP + whitened MLP,GP + MLP,residual_mse,a minus b,"0,1,2",-0.015130636680806645,-0.019072485980484263,-0.011487145094688775,3
+Whitening control,GP + whitened MLP,GP + MLP,velocity_mse,a minus b,"0,1,2",-0.08171714023908565,-0.11195861271790641,-0.06174358046566075,3
+Whitening control,GP + whitened MLP,GP + MLP,pc1_normalized_mse,a minus b,"0,1,2",-0.01588400286072722,-0.023871406974554643,-0.010624520579527619,3
+Whitening control,GP + whitened MLP,GP + MLP,pc2_normalized_mse,a minus b,"0,1,2",-0.009835114121378422,-0.012393362812421649,-0.00723441396195984,3
+Whitening control,GP + whitened MLP,GP + MLP,residual_normalized_mse,a minus b,"0,1,2",-0.1218474670851472,-0.12274248858570395,-0.12049989178123377,3
+Whitening control,GP + whitened MLP,GP + MLP,generated_roughness,a minus b,"0,1,2",0.000521170162945043,-0.013197367359187723,0.01031913213238625,3
+Whitening control,GP + whitened MLP,GP + MLP,target_roughness,a minus b,"0,1,2",0.0,0.0,0.0,3
+Whitening control,GP + whitened MLP,GP + MLP,roughness_ratio,a minus b,"0,1,2",0.002309454116470322,-0.058481310982995804,0.04572702713231491,3
+Whitening control,GP + whitened MLP,GP + MLP,roughness_relative_deviation,a minus b,"0,1,2",-0.002309454116470322,-0.04572702713231491,0.058481310982995804,3
+Whitening control,GP + whitened MLP,GP + MLP,residual_to_pc1,a minus b,"0,1,2",-0.0005139912383442703,-0.0005618243968073524,-0.00042396068792224274,3
+Whitening control,GP + whitened MLP,GP + MLP,normalized_residual_to_pc1,a minus b,"0,1,2",-0.37565319955862647,-0.39388659583718927,-0.34795539087389776,3
+Whitened MLP versus S4,GP + whitened MLP,GP + S4,pc1_mse,a minus b,"0,1,2",-0.7208745252483647,-0.9755264879758592,-0.5731713562119864,3
+Whitened MLP versus S4,GP + whitened MLP,GP + S4,pc2_mse,a minus b,"0,1,2",-0.16763609745934538,-0.21666749206837022,-0.11955592059102749,3
+Whitened MLP versus S4,GP + whitened MLP,GP + S4,residual_mse,a minus b,"0,1,2",-0.0225071009833967,-0.024531111444075812,-0.02109808621916917,3
+Whitened MLP versus S4,GP + whitened MLP,GP + S4,velocity_mse,a minus b,"0,1,2",-0.07522562727970465,-0.09597684626633085,-0.06470184018743952,3
+Whitened MLP versus S4,GP + whitened MLP,GP + S4,pc1_normalized_mse,a minus b,"0,1,2",-0.012229605127842233,-0.016549764656456856,-0.009723827256411022,3
+Whitened MLP versus S4,GP + whitened MLP,GP + S4,pc2_normalized_mse,a minus b,"0,1,2",-0.01034574191119525,-0.01337173787423035,-0.007378450805859971,3
+Whitened MLP versus S4,GP + whitened MLP,GP + S4,residual_normalized_mse,a minus b,"0,1,2",-30.272204096895678,-34.26916109781938,-27.043558782600183,3
+Whitened MLP versus S4,GP + whitened MLP,GP + S4,generated_roughness,a minus b,"0,1,2",0.0021018530905012045,-0.0034051386274465134,0.0055910853739002675,3
+Whitened MLP versus S4,GP + whitened MLP,GP + S4,target_roughness,a minus b,"0,1,2",0.0,0.0,0.0,3
+Whitened MLP versus S4,GP + whitened MLP,GP + S4,roughness_ratio,a minus b,"0,1,2",0.009313912455471455,-0.015089143583873699,0.024775699090918146,3
+Whitened MLP versus S4,GP + whitened MLP,GP + S4,roughness_relative_deviation,a minus b,"0,1,2",-0.009313912455471455,-0.024775699090918146,0.015089143583873699,3
+Whitened MLP versus S4,GP + whitened MLP,GP + S4,residual_to_pc1,a minus b,"0,1,2",-0.0010300424196647033,-0.0010497847292766085,-0.0010023582537082654,3
+Whitened MLP versus S4,GP + whitened MLP,GP + S4,normalized_residual_to_pc1,a minus b,"0,1,2",-103.3751689912403,-116.99075309154993,-92.23118638971725,3

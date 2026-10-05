@@ -1,0 +1,15 @@
+{
+  "decision": "expand to seeds 1 and 2",
+  "selection_information": "validation only; no test metric used",
+  "rule_source": "docs/optimization_sensitivity.md",
+  "rule": "S4 validation improvement > 5 percent OR MLP/S4 validation raw MSE ordering reverses",
+  "s4_validation_improvement_fraction": 0.09615018614280542,
+  "initial_mlp_minus_s4_validation_mse": -0.0053539276123046875,
+  "warm_mlp_minus_s4_validation_mse": 0.019418001174926758,
+  "s4_gt_5pct": true,
+  "ordering_reversed": true,
+  "next_seeds": [
+    1,
+    2
+  ]
+}

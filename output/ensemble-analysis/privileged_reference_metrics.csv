@@ -1,0 +1,11 @@
+metric,value,information
+fair_crps,0.30622589714618886,Exact conditional GP draws given RAW history; different information
+fair_energy_score,1.668580704959548,Exact conditional GP draws given RAW history; different information
+mean_forecast_mse,0.6207824689545225,Exact conditional GP draws given RAW history; different information
+ensemble_variance,0.9547047322337179,Exact conditional GP draws given RAW history; different information
+generated_roughness,0.18910029391560157,Exact conditional GP draws given RAW history; different information
+target_roughness,0.18978818756205737,Exact conditional GP draws given RAW history; different information
+coverage_80,0.818115234375,Exact conditional GP draws given RAW history; different information
+width_80,1.5579098910278506,Exact conditional GP draws given RAW history; different information
+coverage_90,0.89990234375,Exact conditional GP draws given RAW history; different information
+width_90,1.9677805848935122,Exact conditional GP draws given RAW history; different information

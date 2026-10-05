@@ -1,0 +1,15 @@
+{
+  "execution_device": "cpu",
+  "status": "passed",
+  "scope": "controlled",
+  "controlled": {
+    "pilots": 8,
+    "final_runs": 12,
+    "locked_lr_argmin_verified": true,
+    "all_metrics_recomputed": true,
+    "fresh_split_and_source_exact_match": true,
+    "checkpoint_cpu_prediction_max_difference": 5.602836608886719e-06,
+    "aggregate_and_bootstrap_recomputed": true,
+    "actual_source_hashes_verified": true
+  }
+}

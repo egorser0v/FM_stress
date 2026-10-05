@@ -1,0 +1,72 @@
+START WARM RESTART gp_mlp_seed0 from 4000 val 1.2273235321044922 additional 3000 lr 0.0003
+gp_mlp_seed0 extra 500 val 1.193494 raw 1.193494
+gp_mlp_seed0 extra 1000 val 1.185995 raw 1.185995
+gp_mlp_seed0 extra 1500 val 1.164785 raw 1.164785
+gp_mlp_seed0 extra 2000 val 1.133573 raw 1.133573
+gp_mlp_seed0 extra 2500 val 1.159261 raw 1.159261
+gp_mlp_seed0 extra 3000 val 1.163103 raw 1.163103
+DONE WARM RESTART gp_mlp_seed0 validation improvement 7.639 percent; roughness ratio 0.9975
+START WARM RESTART gp_s4_seed0 from 5500 val 1.2326774597167969 additional 3000 lr 0.0003
+gp_s4_seed0 extra 500 val 1.169769 raw 1.169769
+gp_s4_seed0 extra 1000 val 1.174762 raw 1.174762
+gp_s4_seed0 extra 1500 val 1.137235 raw 1.137235
+gp_s4_seed0 extra 2000 val 1.115165 raw 1.115165
+gp_s4_seed0 extra 2500 val 1.154358 raw 1.154358
+gp_s4_seed0 extra 3000 val 1.114155 raw 1.114155
+DONE WARM RESTART gp_s4_seed0 validation improvement 9.615 percent; roughness ratio 1.0049
+START WARM RESTART gp_whitened_mlp_seed0 from 6000 val 0.13805373013019562 additional 3000 lr 0.0003
+gp_whitened_mlp_seed0 extra 500 val 0.135337 raw 1.081495
+gp_whitened_mlp_seed0 extra 1000 val 0.134318 raw 1.070693
+gp_whitened_mlp_seed0 extra 1500 val 0.133976 raw 1.067791
+gp_whitened_mlp_seed0 extra 2000 val 0.133946 raw 1.063019
+gp_whitened_mlp_seed0 extra 2500 val 0.133945 raw 1.056519
+gp_whitened_mlp_seed0 extra 3000 val 0.133344 raw 1.044356
+DONE WARM RESTART gp_whitened_mlp_seed0 validation improvement 3.412 percent; roughness ratio 1.0028
+START WARM RESTART gp_mlp_seed1 from 5000 val 1.1833112239837646 additional 3000 lr 0.0003
+gp_mlp_seed1 extra 500 val 1.152175 raw 1.152175
+gp_mlp_seed1 extra 1000 val 1.135553 raw 1.135553
+gp_mlp_seed1 extra 1500 val 1.171641 raw 1.171641
+gp_mlp_seed1 extra 2000 val 1.134785 raw 1.134785
+gp_mlp_seed1 extra 2500 val 1.095259 raw 1.095259
+gp_mlp_seed1 extra 3000 val 1.107648 raw 1.107648
+DONE WARM RESTART gp_mlp_seed1 validation improvement 7.441 percent; roughness ratio 1.0356
+START WARM RESTART gp_s4_seed1 from 5000 val 1.2118557691574097 additional 3000 lr 0.0003
+gp_s4_seed1 extra 500 val 1.231824 raw 1.231824
+gp_s4_seed1 extra 1000 val 1.184751 raw 1.184751
+gp_s4_seed1 extra 1500 val 1.201154 raw 1.201154
+gp_s4_seed1 extra 2000 val 1.163138 raw 1.163138
+gp_s4_seed1 extra 2500 val 1.119593 raw 1.119593
+gp_s4_seed1 extra 3000 val 1.134137 raw 1.134137
+DONE WARM RESTART gp_s4_seed1 validation improvement 7.613 percent; roughness ratio 1.0653
+START WARM RESTART gp_whitened_mlp_seed1 from 5000 val 0.13641315698623657 additional 3000 lr 0.0003
+gp_whitened_mlp_seed1 extra 500 val 0.133993 raw 1.072964
+gp_whitened_mlp_seed1 extra 1000 val 0.134651 raw 1.074088
+gp_whitened_mlp_seed1 extra 1500 val 0.133612 raw 1.05962
+gp_whitened_mlp_seed1 extra 2000 val 0.133265 raw 1.065987
+gp_whitened_mlp_seed1 extra 2500 val 0.133469 raw 1.052887
+gp_whitened_mlp_seed1 extra 3000 val 0.134273 raw 1.0738
+DONE WARM RESTART gp_whitened_mlp_seed1 validation improvement 2.308 percent; roughness ratio 1.0181
+START WARM RESTART gp_mlp_seed2 from 5000 val 1.1569963693618774 additional 3000 lr 0.0003
+gp_mlp_seed2 extra 500 val 1.141474 raw 1.141474
+gp_mlp_seed2 extra 1000 val 1.106908 raw 1.106908
+gp_mlp_seed2 extra 1500 val 1.11929 raw 1.11929
+gp_mlp_seed2 extra 2000 val 1.175115 raw 1.175115
+gp_mlp_seed2 extra 2500 val 1.091414 raw 1.091414
+gp_mlp_seed2 extra 3000 val 1.083592 raw 1.083592
+DONE WARM RESTART gp_mlp_seed2 validation improvement 6.344 percent; roughness ratio 0.993
+START WARM RESTART gp_s4_seed2 from 4000 val 1.24885892868042 additional 3000 lr 0.0003
+gp_s4_seed2 extra 500 val 1.195672 raw 1.195672
+gp_s4_seed2 extra 1000 val 1.186321 raw 1.186321
+gp_s4_seed2 extra 1500 val 1.220972 raw 1.220972
+gp_s4_seed2 extra 2000 val 1.184081 raw 1.184081
+gp_s4_seed2 extra 2500 val 1.158387 raw 1.158387
+gp_s4_seed2 extra 3000 val 1.142215 raw 1.142215
+DONE WARM RESTART gp_s4_seed2 validation improvement 8.539 percent; roughness ratio 1.0447
+START WARM RESTART gp_whitened_mlp_seed2 from 5500 val 0.13658195734024048 additional 3000 lr 0.0003
+gp_whitened_mlp_seed2 extra 500 val 0.134803 raw 1.075343
+gp_whitened_mlp_seed2 extra 1000 val 0.13244 raw 1.029902
+gp_whitened_mlp_seed2 extra 1500 val 0.132235 raw 1.035265
+gp_whitened_mlp_seed2 extra 2000 val 0.132422 raw 1.025748
+gp_whitened_mlp_seed2 extra 2500 val 0.131704 raw 1.022268
+gp_whitened_mlp_seed2 extra 3000 val 0.132108 raw 1.036801
+DONE WARM RESTART gp_whitened_mlp_seed2 validation improvement 3.571 percent; roughness ratio 0.9947

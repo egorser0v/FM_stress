@@ -1,0 +1,37 @@
+START gp_mlp_seed0 histories 256 ensemble 64 Euler 128 device mps
+DONE gp_mlp_seed0 CRPS 0.4734792839393449 energy 2.4384363895759167 seconds 5.533381165936589
+START gp_mlp_seed1 histories 256 ensemble 64 Euler 128 device mps
+DONE gp_mlp_seed1 CRPS 0.4603260837552786 energy 2.385997466368405 seconds 5.599460957804695
+START gp_mlp_seed2 histories 256 ensemble 64 Euler 128 device mps
+DONE gp_mlp_seed2 CRPS 0.46278273540942316 energy 2.407190998695483 seconds 5.390797750093043
+START gp_mlp_seed3 histories 256 ensemble 64 Euler 128 device mps
+DONE gp_mlp_seed3 CRPS 0.46520591312100984 energy 2.408986568711609 seconds 5.440040166955441
+START gp_mlp_seed4 histories 256 ensemble 64 Euler 128 device mps
+DONE gp_mlp_seed4 CRPS 0.46973385029137127 energy 2.4254275788447752 seconds 5.452987166121602
+START gp_s4_seed0 histories 256 ensemble 64 Euler 128 device mps
+DONE gp_s4_seed0 CRPS 0.46524463793622245 energy 2.4061724141787844 seconds 18.029357665916905
+START gp_s4_seed1 histories 256 ensemble 64 Euler 128 device mps
+DONE gp_s4_seed1 CRPS 0.4524502185334157 energy 2.3485115970129495 seconds 18.287596500013024
+START gp_s4_seed2 histories 256 ensemble 64 Euler 128 device mps
+DONE gp_s4_seed2 CRPS 0.4661853269366584 energy 2.4225105074596645 seconds 18.12857325002551
+START gp_s4_seed3 histories 256 ensemble 64 Euler 128 device mps
+DONE gp_s4_seed3 CRPS 0.47237157783340256 energy 2.447306857851809 seconds 17.986146291019395
+START gp_s4_seed4 histories 256 ensemble 64 Euler 128 device mps
+DONE gp_s4_seed4 CRPS 0.4503223169767767 energy 2.3356195116690337 seconds 18.35497387498617
+START gp_whitened_mlp_seed0 histories 256 ensemble 64 Euler 128 device mps
+DONE gp_whitened_mlp_seed0 CRPS 0.4696843049998051 energy 2.4232161246456694 seconds 5.517690250184387
+START gp_whitened_mlp_seed1 histories 256 ensemble 64 Euler 128 device mps
+DONE gp_whitened_mlp_seed1 CRPS 0.44791048600952427 energy 2.3320188259770047 seconds 5.484403458889574
+START gp_whitened_mlp_seed2 histories 256 ensemble 64 Euler 128 device mps
+DONE gp_whitened_mlp_seed2 CRPS 0.4600697180140406 energy 2.3824091904065074 seconds 5.437177292071283
+START gp_whitened_mlp_seed3 histories 256 ensemble 64 Euler 128 device mps
+DONE gp_whitened_mlp_seed3 CRPS 0.4611894566019453 energy 2.3882727244246325 seconds 5.460915375035256
+START gp_whitened_mlp_seed4 histories 256 ensemble 64 Euler 128 device mps
+DONE gp_whitened_mlp_seed4 CRPS 0.46398408903027355 energy 2.407082998064744 seconds 5.445574749959633
+SOLVER START gp_mlp_seed0 Euler 256 histories 32
+SOLVER DONE gp_mlp_seed0 endpoint RMSE 0.013663337187401953
+SOLVER START gp_s4_seed0 Euler 256 histories 32
+SOLVER DONE gp_s4_seed0 endpoint RMSE 0.01273373492545635
+SOLVER START gp_whitened_mlp_seed0 Euler 256 histories 32
+SOLVER DONE gp_whitened_mlp_seed0 endpoint RMSE 0.013297078523775423
+COMPLETE 15 evaluations

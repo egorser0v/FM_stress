@@ -1,0 +1,9 @@
+{
+  "complete": true,
+  "observed_runs": 15,
+  "fingerprint": "e1825b26d15eb0b9b0df620bd90ff5b3014f4fb1f0db66f5e722dbc211af9630",
+  "results": "results/ensemble-evaluation",
+  "n_histories": 256,
+  "ensemble_size": 64,
+  "euler_steps": 128
+}

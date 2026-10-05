@@ -1,0 +1,21 @@
+white_mlp_seed0 Euler 32 roughness ratio 1.07078
+white_mlp_seed0 Euler 64 roughness ratio 1.08337
+white_mlp_seed0 Euler 128 roughness ratio 1.0929
+white_mlp_seed0 Euler 256 roughness ratio 1.09817
+white_s4_seed0 Euler 32 roughness ratio 1.02495
+white_s4_seed0 Euler 64 roughness ratio 1.04166
+white_s4_seed0 Euler 128 roughness ratio 1.05081
+white_s4_seed0 Euler 256 roughness ratio 1.05544
+gp_mlp_seed0 Euler 32 roughness ratio 0.99586
+gp_mlp_seed0 Euler 64 roughness ratio 1.00761
+gp_mlp_seed0 Euler 128 roughness ratio 1.01542
+gp_mlp_seed0 Euler 256 roughness ratio 1.01938
+gp_s4_seed0 Euler 32 roughness ratio 1.04333
+gp_s4_seed0 Euler 64 roughness ratio 1.06342
+gp_s4_seed0 Euler 128 roughness ratio 1.07268
+gp_s4_seed0 Euler 256 roughness ratio 1.07751
+gp_whitened_mlp_seed0 Euler 32 roughness ratio 0.9169
+gp_whitened_mlp_seed0 Euler 64 roughness ratio 0.92859
+gp_whitened_mlp_seed0 Euler 128 roughness ratio 0.93617
+gp_whitened_mlp_seed0 Euler 256 roughness ratio 0.94016
+Saved results/main/robustness/solver_seed0.json

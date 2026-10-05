@@ -1,0 +1,10 @@
+{
+  "recorded_utc": "2026-10-04T08:24:02.806903+00:00",
+  "note": "Recorded during main execution; numerical source files unchanged since launch.",
+  "files": {
+    "fm_stress/experiment.py": "dedca2b6e2d51c9c8a6d2a343617a7d28eb451e55cbbf06969402b876a14ef1f",
+    "fm_stress/models.py": "902e2f591f1b3e55d98e4903847bb859bd3ce859ba5c044d6f2c5b793b4199ce",
+    "fm_stress/data.py": "5d9c43431c4ece24f89ca7f0c65029b9fe9c0f60c851fd977686c92911cc8c9d",
+    "fm_stress/metrics.py": "4b0aa09389b684d710eed2a9a03be9a3b3ab9b9c17f81eeca8a09774087df2e3"
+  }
+}

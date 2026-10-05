@@ -1,0 +1,20 @@
+# Controlled follow-up findings
+
+All eight validation-only pilots and twelve final MPS runs completed under the fixed protocol. Each head/objective cell selected learning rate 0.001 from the same two candidates. The two families received identical normalized history through an identity encoder. Training losses differed, but both networks' inputs and outputs remained in temporal coordinates. The complete source manifest, locked selection, checkpoint identities, best-validation records and stored-array metrics were verified. The full test suite passed on an MPS-enabled process: **34 passed, zero skipped**.
+
+| Head / loss | PC1 velocity MSE | Residual velocity MSE | Normalized residual MSE | Roughness / target | Generated / target PC7–16 second moment |
+|---|---:|---:|---:|---:|---:|
+| MLP / raw | 14.00289 | 0.046687 | 0.22222 | 1.0098 | 0.267 |
+| MLP / balanced | 85.23700 | 0.043891 | 0.17458 | 0.8659 | 0.606 |
+| S4 / raw | 14.25550 | 0.057060 | 31.12191 | 1.0967 | 597.199 |
+| S4 / balanced | 22.72105 | 0.060587 | 0.15766 | 0.9471 | 0.585 |
+
+These are means over three optimization seeds on one fresh GP dataset. The final column uses a **separate common PCA fit to training targets**, centered at the training-target mean, and sums squared generated/target coordinates 7–16. It does not use the velocity PCA or its variance floor. The same first 1,024 held-out histories/source draws are used for every model. This is an unconditional second-moment diagnostic over those contexts, not a measurement of calibrated conditional variance.
+
+**The clearest result is an interaction between architecture and the training objective.** Under raw loss, S4 has higher residual velocity MSE on all three seeds, while its PC1 difference from MLP is not consistently signed. Its very small-scale generated target-PCA components carry 407–928 times the target second moment despite near-target aggregate roughness. Balanced loss removes this excess in all three S4 seeds (ratios 0.526–0.660). Thus near-correct roughness alone hides a large error in low-variance directions.
+
+This correction carries a tradeoff. S4's mean PC1 error increases from 14.26 to 22.72, and its mean raw residual error rises from 0.05706 to 0.06059. The latter difference varies across seeds: paired differences are +0.00462, +0.00634 and −0.00038. Its normalized residual error, however, falls from 31.12 to 0.15766. For balanced MLP, normalized residual error also improves, but PC1 error rises sharply to 85.24. Under the balanced objective, S4 therefore retains the broad velocity component substantially better than MLP and has slightly lower normalized residual error, while **MLP still has lower raw residual error**. Neither head is uniformly better across the declared metrics.
+
+For raw loss the S4-minus-MLP normalized residual gap is +30.8997; for balanced loss it is −0.01692. All three paired gaps agree with the sign within each objective. Three-seed bootstrap intervals are supplied as descriptive optimization-seed uncertainty in `output/controlled-followup/summary.json`; they do not establish a population-level ranking. Likewise, balanced S4's target-PCA tail second moment remains below the target, so removing an excess is not equivalent to recovering the true distribution.
+
+This follow-up supports testing **head and objective together**, rather than treating temporal structure as an automatic remedy. It does not identify a unique mechanistic cause, demonstrate full convergence or reproduce full-size TSFlow/Sundial. Identity history removes representation co-adaptation within this study; its effect cannot be separated from changed data and budget by comparing with the earlier study. The PCA floor still affects the balanced objective and normalized error, and ten velocity components are floored. Earlier full-coordinate whitening of the MLP is a different intervention from the loss-only weighting tested here. Further claims about probabilistic calibration require the separate conditional-ensemble evaluation.

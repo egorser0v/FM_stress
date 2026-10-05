@@ -1,0 +1,33 @@
+{
+  "name": "fresh_conditional_ensemble_evaluation",
+  "training_config": "configs/main.json",
+  "checkpoint_directory": "results/main/checkpoints",
+  "output": "results/ensemble-evaluation",
+  "data_seed": 87041,
+  "source_seed": 88041,
+  "reference_seed": 89041,
+  "n_histories": 256,
+  "ensemble_size": 64,
+  "euler_steps": 128,
+  "batch_size": 256,
+  "heads": [
+    "mlp",
+    "s4",
+    "whitened_mlp"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "bootstrap_seed": 90041,
+  "bootstrap_repetitions": 10000,
+  "include_privileged_reference": true,
+  "solver_sensitivity": {
+    "n_histories": 32,
+    "seed": 0,
+    "euler_steps": 256
+  }
+}

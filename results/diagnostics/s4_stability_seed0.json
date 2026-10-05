@@ -1,0 +1,33 @@
+{
+  "checkpoint_step": 4500,
+  "run": "white_s4_seed0",
+  "layers": [
+    {
+      "layer": "base.blocks.0.temporal.kernel",
+      "max_continuous_real_eigenvalue": -0.38512318911396826,
+      "max_discrete_spectral_radius": 0.9993988384820245,
+      "stable": true,
+      "dt_min": 0.0009727589358693123,
+      "dt_max": 0.10215455593928606,
+      "kernel_abs_max": 0.28252281271421636
+    },
+    {
+      "layer": "base.blocks.1.temporal.kernel",
+      "max_continuous_real_eigenvalue": -0.426701400948586,
+      "max_discrete_spectral_radius": 0.9989855370406999,
+      "stable": true,
+      "dt_min": 0.0012935407820945358,
+      "dt_max": 0.12976813268223353,
+      "kernel_abs_max": 0.42958382837161513
+    },
+    {
+      "layer": "base.blocks.2.temporal.kernel",
+      "max_continuous_real_eigenvalue": -0.3543363196722606,
+      "max_discrete_spectral_radius": 0.9992378225565399,
+      "stable": true,
+      "dt_min": 0.0011463918312561191,
+      "dt_max": 0.09766426408814735,
+      "kernel_abs_max": 0.5749579812270862
+    }
+  ]
+}

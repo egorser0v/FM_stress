@@ -1,0 +1,296 @@
+START pilot mlp_raw_lr0.001 seed 20 params 63352 device mps
+mlp_raw_lr0.001 500 val 1.897713 raw 1.897713
+mlp_raw_lr0.001 1000 val 1.646998 raw 1.646998
+mlp_raw_lr0.001 1500 val 1.529205 raw 1.529205
+mlp_raw_lr0.001 2000 val 1.467754 raw 1.467754
+mlp_raw_lr0.001 2500 val 1.388677 raw 1.388677
+mlp_raw_lr0.001 3000 val 1.432297 raw 1.432297
+mlp_raw_lr0.001 3500 val 1.324362 raw 1.324362
+mlp_raw_lr0.001 4000 val 1.372026 raw 1.372026
+DONE mlp_raw_lr0.001 seconds 18.7
+START pilot mlp_raw_lr0.0003 seed 20 params 63352 device mps
+mlp_raw_lr0.0003 500 val 2.208723 raw 2.208723
+mlp_raw_lr0.0003 1000 val 1.954254 raw 1.954254
+mlp_raw_lr0.0003 1500 val 1.781778 raw 1.781778
+mlp_raw_lr0.0003 2000 val 1.677193 raw 1.677193
+mlp_raw_lr0.0003 2500 val 1.628957 raw 1.628957
+mlp_raw_lr0.0003 3000 val 1.586493 raw 1.586493
+mlp_raw_lr0.0003 3500 val 1.556323 raw 1.556323
+mlp_raw_lr0.0003 4000 val 1.492567 raw 1.492567
+DONE mlp_raw_lr0.0003 seconds 16.7
+START pilot mlp_balanced_lr0.001 seed 20 params 63352 device mps
+mlp_balanced_lr0.001 500 val 0.368729 raw 6.968287
+mlp_balanced_lr0.001 1000 val 0.343949 raw 6.918706
+mlp_balanced_lr0.001 1500 val 0.316581 raw 6.866305
+mlp_balanced_lr0.001 2000 val 0.305891 raw 6.851455
+mlp_balanced_lr0.001 2500 val 0.304153 raw 6.848257
+mlp_balanced_lr0.001 3000 val 0.301008 raw 6.837579
+mlp_balanced_lr0.001 3500 val 0.295561 raw 6.840743
+mlp_balanced_lr0.001 4000 val 0.290811 raw 6.832022
+DONE mlp_balanced_lr0.001 seconds 16.4
+START pilot mlp_balanced_lr0.0003 seed 20 params 63352 device mps
+mlp_balanced_lr0.0003 500 val 0.383321 raw 6.964036
+mlp_balanced_lr0.0003 1000 val 0.344768 raw 6.908998
+mlp_balanced_lr0.0003 1500 val 0.330856 raw 6.866507
+mlp_balanced_lr0.0003 2000 val 0.315392 raw 6.844299
+mlp_balanced_lr0.0003 2500 val 0.316039 raw 6.8399
+mlp_balanced_lr0.0003 3000 val 0.307143 raw 6.826073
+mlp_balanced_lr0.0003 3500 val 0.305075 raw 6.820357
+mlp_balanced_lr0.0003 4000 val 0.297081 raw 6.801313
+DONE mlp_balanced_lr0.0003 seconds 16.2
+START pilot s4_raw_lr0.001 seed 20 params 63169 device mps
+s4_raw_lr0.001 500 val 2.016865 raw 2.016865
+s4_raw_lr0.001 1000 val 1.849162 raw 1.849162
+s4_raw_lr0.001 1500 val 1.681424 raw 1.681424
+s4_raw_lr0.001 2000 val 1.530138 raw 1.530138
+s4_raw_lr0.001 2500 val 1.454248 raw 1.454248
+s4_raw_lr0.001 3000 val 1.467083 raw 1.467083
+s4_raw_lr0.001 3500 val 1.460272 raw 1.460272
+s4_raw_lr0.001 4000 val 1.348976 raw 1.348976
+DONE s4_raw_lr0.001 seconds 47.4
+START pilot s4_raw_lr0.0003 seed 20 params 63169 device mps
+s4_raw_lr0.0003 500 val 2.507575 raw 2.507575
+s4_raw_lr0.0003 1000 val 2.047599 raw 2.047599
+s4_raw_lr0.0003 1500 val 1.865428 raw 1.865428
+s4_raw_lr0.0003 2000 val 1.818703 raw 1.818703
+s4_raw_lr0.0003 2500 val 1.640652 raw 1.640652
+s4_raw_lr0.0003 3000 val 1.591528 raw 1.591528
+s4_raw_lr0.0003 3500 val 1.577901 raw 1.577901
+s4_raw_lr0.0003 4000 val 1.760183 raw 1.760183
+DONE s4_raw_lr0.0003 seconds 47.1
+START pilot s4_balanced_lr0.001 seed 20 params 63169 device mps
+s4_balanced_lr0.001 500 val 0.293459 raw 3.301988
+s4_balanced_lr0.001 1000 val 0.300864 raw 2.727249
+s4_balanced_lr0.001 1500 val 0.356089 raw 2.373025
+s4_balanced_lr0.001 2000 val 0.26769 raw 2.216187
+s4_balanced_lr0.001 2500 val 0.263979 raw 2.134748
+s4_balanced_lr0.001 3000 val 0.283444 raw 2.066691
+s4_balanced_lr0.001 3500 val 0.241772 raw 1.997765
+s4_balanced_lr0.001 4000 val 0.217387 raw 1.928304
+DONE s4_balanced_lr0.001 seconds 48.3
+START pilot s4_balanced_lr0.0003 seed 20 params 63169 device mps
+s4_balanced_lr0.0003 500 val 0.345039 raw 4.459844
+s4_balanced_lr0.0003 1000 val 0.330223 raw 3.704309
+s4_balanced_lr0.0003 1500 val 0.41517 raw 3.224209
+s4_balanced_lr0.0003 2000 val 0.388057 raw 2.969971
+s4_balanced_lr0.0003 2500 val 0.366939 raw 2.79773
+s4_balanced_lr0.0003 3000 val 0.413965 raw 2.64401
+s4_balanced_lr0.0003 3500 val 0.351639 raw 2.516973
+s4_balanced_lr0.0003 4000 val 0.329352 raw 2.420224
+DONE s4_balanced_lr0.0003 seconds 49.7
+START final gp_mlp_raw_seed10 seed 10 params 63352 device mps
+gp_mlp_raw_seed10 500 val 1.888526 raw 1.888526
+gp_mlp_raw_seed10 1000 val 1.650589 raw 1.650589
+gp_mlp_raw_seed10 1500 val 1.656032 raw 1.656032
+gp_mlp_raw_seed10 2000 val 1.519474 raw 1.519474
+gp_mlp_raw_seed10 2500 val 1.492974 raw 1.492974
+gp_mlp_raw_seed10 3000 val 1.320715 raw 1.320715
+gp_mlp_raw_seed10 3500 val 1.383939 raw 1.383939
+gp_mlp_raw_seed10 4000 val 1.344738 raw 1.344738
+gp_mlp_raw_seed10 4500 val 1.305552 raw 1.305552
+gp_mlp_raw_seed10 5000 val 1.285489 raw 1.285489
+gp_mlp_raw_seed10 5500 val 1.239619 raw 1.239619
+gp_mlp_raw_seed10 6000 val 1.277999 raw 1.277999
+gp_mlp_raw_seed10 6500 val 1.29811 raw 1.29811
+gp_mlp_raw_seed10 7000 val 1.253061 raw 1.253061
+gp_mlp_raw_seed10 7500 val 1.259039 raw 1.259039
+gp_mlp_raw_seed10 8000 val 1.180725 raw 1.180725
+DONE gp_mlp_raw_seed10 seconds 36.0
+START final gp_mlp_balanced_seed10 seed 10 params 63352 device mps
+gp_mlp_balanced_seed10 500 val 0.366807 raw 6.962869
+gp_mlp_balanced_seed10 1000 val 0.320787 raw 6.88202
+gp_mlp_balanced_seed10 1500 val 0.309027 raw 6.859975
+gp_mlp_balanced_seed10 2000 val 0.304901 raw 6.853204
+gp_mlp_balanced_seed10 2500 val 0.320346 raw 6.853909
+gp_mlp_balanced_seed10 3000 val 0.30539 raw 6.840026
+gp_mlp_balanced_seed10 3500 val 0.292558 raw 6.82972
+gp_mlp_balanced_seed10 4000 val 0.291058 raw 6.825136
+gp_mlp_balanced_seed10 4500 val 0.29186 raw 6.813617
+gp_mlp_balanced_seed10 5000 val 0.292754 raw 6.815664
+gp_mlp_balanced_seed10 5500 val 0.294594 raw 6.797446
+gp_mlp_balanced_seed10 6000 val 0.288859 raw 6.751903
+gp_mlp_balanced_seed10 6500 val 0.280075 raw 6.616827
+gp_mlp_balanced_seed10 7000 val 0.270415 raw 6.129753
+gp_mlp_balanced_seed10 7500 val 0.237744 raw 6.030612
+gp_mlp_balanced_seed10 8000 val 0.240537 raw 6.01503
+DONE gp_mlp_balanced_seed10 seconds 34.5
+START final gp_s4_raw_seed10 seed 10 params 63169 device mps
+gp_s4_raw_seed10 500 val 1.937154 raw 1.937154
+gp_s4_raw_seed10 1000 val 1.658372 raw 1.658372
+gp_s4_raw_seed10 1500 val 1.587741 raw 1.587741
+gp_s4_raw_seed10 2000 val 1.47104 raw 1.47104
+gp_s4_raw_seed10 2500 val 1.424402 raw 1.424402
+gp_s4_raw_seed10 3000 val 1.415623 raw 1.415623
+gp_s4_raw_seed10 3500 val 1.348059 raw 1.348059
+gp_s4_raw_seed10 4000 val 1.364258 raw 1.364258
+gp_s4_raw_seed10 4500 val 1.291334 raw 1.291334
+gp_s4_raw_seed10 5000 val 1.335173 raw 1.335173
+gp_s4_raw_seed10 5500 val 1.295295 raw 1.295295
+gp_s4_raw_seed10 6000 val 1.319088 raw 1.319088
+gp_s4_raw_seed10 6500 val 1.287439 raw 1.287439
+gp_s4_raw_seed10 7000 val 1.225792 raw 1.225792
+gp_s4_raw_seed10 7500 val 1.24758 raw 1.24758
+gp_s4_raw_seed10 8000 val 1.209034 raw 1.209034
+DONE gp_s4_raw_seed10 seconds 97.7
+START final gp_s4_balanced_seed10 seed 10 params 63169 device mps
+gp_s4_balanced_seed10 500 val 0.287583 raw 3.234121
+gp_s4_balanced_seed10 1000 val 0.269155 raw 2.592689
+gp_s4_balanced_seed10 1500 val 0.294229 raw 2.343592
+gp_s4_balanced_seed10 2000 val 0.290708 raw 2.214618
+gp_s4_balanced_seed10 2500 val 0.259611 raw 2.121942
+gp_s4_balanced_seed10 3000 val 0.220359 raw 2.071491
+gp_s4_balanced_seed10 3500 val 0.238222 raw 1.964575
+gp_s4_balanced_seed10 4000 val 0.219304 raw 1.918922
+gp_s4_balanced_seed10 4500 val 0.212052 raw 1.914078
+gp_s4_balanced_seed10 5000 val 0.202488 raw 1.843965
+gp_s4_balanced_seed10 5500 val 0.240469 raw 1.969662
+gp_s4_balanced_seed10 6000 val 0.206904 raw 1.725504
+gp_s4_balanced_seed10 6500 val 0.176031 raw 1.658817
+gp_s4_balanced_seed10 7000 val 0.190313 raw 1.553429
+gp_s4_balanced_seed10 7500 val 0.18685 raw 1.559317
+gp_s4_balanced_seed10 8000 val 0.191149 raw 1.526605
+DONE gp_s4_balanced_seed10 seconds 100.1
+START final gp_mlp_raw_seed11 seed 11 params 63352 device mps
+gp_mlp_raw_seed11 500 val 1.856172 raw 1.856172
+gp_mlp_raw_seed11 1000 val 1.743098 raw 1.743098
+gp_mlp_raw_seed11 1500 val 1.58955 raw 1.58955
+gp_mlp_raw_seed11 2000 val 1.575247 raw 1.575247
+gp_mlp_raw_seed11 2500 val 1.405944 raw 1.405944
+gp_mlp_raw_seed11 3000 val 1.426833 raw 1.426833
+gp_mlp_raw_seed11 3500 val 1.322966 raw 1.322966
+gp_mlp_raw_seed11 4000 val 1.312649 raw 1.312649
+gp_mlp_raw_seed11 4500 val 1.27737 raw 1.27737
+gp_mlp_raw_seed11 5000 val 1.294452 raw 1.294452
+gp_mlp_raw_seed11 5500 val 1.283877 raw 1.283877
+gp_mlp_raw_seed11 6000 val 1.344176 raw 1.344176
+gp_mlp_raw_seed11 6500 val 1.356796 raw 1.356796
+gp_mlp_raw_seed11 7000 val 1.283895 raw 1.283895
+gp_mlp_raw_seed11 7500 val 1.245389 raw 1.245389
+gp_mlp_raw_seed11 8000 val 1.260641 raw 1.260641
+DONE gp_mlp_raw_seed11 seconds 33.5
+START final gp_mlp_balanced_seed11 seed 11 params 63352 device mps
+gp_mlp_balanced_seed11 500 val 0.365555 raw 6.963488
+gp_mlp_balanced_seed11 1000 val 0.336797 raw 6.907375
+gp_mlp_balanced_seed11 1500 val 0.324602 raw 6.865749
+gp_mlp_balanced_seed11 2000 val 0.312342 raw 6.86202
+gp_mlp_balanced_seed11 2500 val 0.305502 raw 6.8554
+gp_mlp_balanced_seed11 3000 val 0.303706 raw 6.841954
+gp_mlp_balanced_seed11 3500 val 0.296439 raw 6.835143
+gp_mlp_balanced_seed11 4000 val 0.297023 raw 6.822139
+gp_mlp_balanced_seed11 4500 val 0.292917 raw 6.82501
+gp_mlp_balanced_seed11 5000 val 0.286989 raw 6.796803
+gp_mlp_balanced_seed11 5500 val 0.289152 raw 6.794328
+gp_mlp_balanced_seed11 6000 val 0.285323 raw 6.726687
+gp_mlp_balanced_seed11 6500 val 0.283726 raw 6.669567
+gp_mlp_balanced_seed11 7000 val 0.274354 raw 6.525648
+gp_mlp_balanced_seed11 7500 val 0.257991 raw 6.193324
+gp_mlp_balanced_seed11 8000 val 0.253305 raw 6.081869
+DONE gp_mlp_balanced_seed11 seconds 32.1
+START final gp_s4_raw_seed11 seed 11 params 63169 device mps
+gp_s4_raw_seed11 500 val 2.094055 raw 2.094055
+gp_s4_raw_seed11 1000 val 1.790769 raw 1.790769
+gp_s4_raw_seed11 1500 val 1.595064 raw 1.595064
+gp_s4_raw_seed11 2000 val 1.554332 raw 1.554332
+gp_s4_raw_seed11 2500 val 1.573114 raw 1.573114
+gp_s4_raw_seed11 3000 val 1.414891 raw 1.414891
+gp_s4_raw_seed11 3500 val 1.413197 raw 1.413197
+gp_s4_raw_seed11 4000 val 1.358787 raw 1.358787
+gp_s4_raw_seed11 4500 val 1.308598 raw 1.308598
+gp_s4_raw_seed11 5000 val 1.436707 raw 1.436707
+gp_s4_raw_seed11 5500 val 1.27494 raw 1.27494
+gp_s4_raw_seed11 6000 val 1.307031 raw 1.307031
+gp_s4_raw_seed11 6500 val 1.298211 raw 1.298211
+gp_s4_raw_seed11 7000 val 1.219703 raw 1.219703
+gp_s4_raw_seed11 7500 val 1.30777 raw 1.30777
+gp_s4_raw_seed11 8000 val 1.203533 raw 1.203533
+DONE gp_s4_raw_seed11 seconds 94.5
+START final gp_s4_balanced_seed11 seed 11 params 63169 device mps
+gp_s4_balanced_seed11 500 val 0.288571 raw 3.179763
+gp_s4_balanced_seed11 1000 val 0.561523 raw 2.61845
+gp_s4_balanced_seed11 1500 val 0.332823 raw 2.343103
+gp_s4_balanced_seed11 2000 val 0.3266 raw 2.20506
+gp_s4_balanced_seed11 2500 val 0.266191 raw 2.073028
+gp_s4_balanced_seed11 3000 val 0.218082 raw 2.056607
+gp_s4_balanced_seed11 3500 val 0.20752 raw 2.004113
+gp_s4_balanced_seed11 4000 val 0.21562 raw 1.953696
+gp_s4_balanced_seed11 4500 val 0.199094 raw 1.968228
+gp_s4_balanced_seed11 5000 val 0.221866 raw 1.892223
+gp_s4_balanced_seed11 5500 val 0.188857 raw 1.831237
+gp_s4_balanced_seed11 6000 val 0.183021 raw 1.761994
+gp_s4_balanced_seed11 6500 val 0.181492 raw 1.749919
+gp_s4_balanced_seed11 7000 val 0.178979 raw 1.793791
+gp_s4_balanced_seed11 7500 val 0.182721 raw 1.759874
+gp_s4_balanced_seed11 8000 val 0.181714 raw 1.68755
+DONE gp_s4_balanced_seed11 seconds 97.8
+START final gp_mlp_raw_seed12 seed 12 params 63352 device mps
+gp_mlp_raw_seed12 500 val 1.838787 raw 1.838787
+gp_mlp_raw_seed12 1000 val 1.677577 raw 1.677577
+gp_mlp_raw_seed12 1500 val 1.587808 raw 1.587808
+gp_mlp_raw_seed12 2000 val 1.554956 raw 1.554956
+gp_mlp_raw_seed12 2500 val 1.429837 raw 1.429837
+gp_mlp_raw_seed12 3000 val 1.424718 raw 1.424718
+gp_mlp_raw_seed12 3500 val 1.329727 raw 1.329727
+gp_mlp_raw_seed12 4000 val 1.272153 raw 1.272153
+gp_mlp_raw_seed12 4500 val 1.364481 raw 1.364481
+gp_mlp_raw_seed12 5000 val 1.268419 raw 1.268419
+gp_mlp_raw_seed12 5500 val 1.453111 raw 1.453111
+gp_mlp_raw_seed12 6000 val 1.283952 raw 1.283952
+gp_mlp_raw_seed12 6500 val 1.291891 raw 1.291891
+gp_mlp_raw_seed12 7000 val 1.239253 raw 1.239253
+gp_mlp_raw_seed12 7500 val 1.231865 raw 1.231865
+gp_mlp_raw_seed12 8000 val 1.212035 raw 1.212035
+DONE gp_mlp_raw_seed12 seconds 34.0
+START final gp_mlp_balanced_seed12 seed 12 params 63352 device mps
+gp_mlp_balanced_seed12 500 val 0.364985 raw 6.963078
+gp_mlp_balanced_seed12 1000 val 0.331074 raw 6.903577
+gp_mlp_balanced_seed12 1500 val 0.31458 raw 6.859921
+gp_mlp_balanced_seed12 2000 val 0.306723 raw 6.851971
+gp_mlp_balanced_seed12 2500 val 0.301494 raw 6.841413
+gp_mlp_balanced_seed12 3000 val 0.294988 raw 6.837319
+gp_mlp_balanced_seed12 3500 val 0.295327 raw 6.831746
+gp_mlp_balanced_seed12 4000 val 0.299043 raw 6.822859
+gp_mlp_balanced_seed12 4500 val 0.285867 raw 6.77698
+gp_mlp_balanced_seed12 5000 val 0.292109 raw 6.75528
+gp_mlp_balanced_seed12 5500 val 0.281262 raw 6.679524
+gp_mlp_balanced_seed12 6000 val 0.270859 raw 6.531897
+gp_mlp_balanced_seed12 6500 val 0.256992 raw 6.319238
+gp_mlp_balanced_seed12 7000 val 0.250069 raw 6.245133
+gp_mlp_balanced_seed12 7500 val 0.245661 raw 6.141915
+gp_mlp_balanced_seed12 8000 val 0.255695 raw 6.077363
+DONE gp_mlp_balanced_seed12 seconds 32.4
+START final gp_s4_raw_seed12 seed 12 params 63169 device mps
+gp_s4_raw_seed12 500 val 1.925739 raw 1.925739
+gp_s4_raw_seed12 1000 val 1.754122 raw 1.754122
+gp_s4_raw_seed12 1500 val 1.566869 raw 1.566869
+gp_s4_raw_seed12 2000 val 1.544104 raw 1.544104
+gp_s4_raw_seed12 2500 val 1.451129 raw 1.451129
+gp_s4_raw_seed12 3000 val 1.418918 raw 1.418918
+gp_s4_raw_seed12 3500 val 1.36362 raw 1.36362
+gp_s4_raw_seed12 4000 val 1.272223 raw 1.272223
+gp_s4_raw_seed12 4500 val 1.333142 raw 1.333142
+gp_s4_raw_seed12 5000 val 1.250124 raw 1.250124
+gp_s4_raw_seed12 5500 val 1.300839 raw 1.300839
+gp_s4_raw_seed12 6000 val 1.252052 raw 1.252052
+gp_s4_raw_seed12 6500 val 1.301792 raw 1.301792
+gp_s4_raw_seed12 7000 val 1.191372 raw 1.191372
+gp_s4_raw_seed12 7500 val 1.213314 raw 1.213314
+gp_s4_raw_seed12 8000 val 1.225018 raw 1.225018
+DONE gp_s4_raw_seed12 seconds 94.9
+START final gp_s4_balanced_seed12 seed 12 params 63169 device mps
+gp_s4_balanced_seed12 500 val 0.266749 raw 3.412614
+gp_s4_balanced_seed12 1000 val 0.32266 raw 2.737539
+gp_s4_balanced_seed12 1500 val 0.231125 raw 2.446429
+gp_s4_balanced_seed12 2000 val 0.233752 raw 2.259789
+gp_s4_balanced_seed12 2500 val 0.280274 raw 2.218033
+gp_s4_balanced_seed12 3000 val 0.209883 raw 2.170797
+gp_s4_balanced_seed12 3500 val 0.219407 raw 2.105594
+gp_s4_balanced_seed12 4000 val 0.236369 raw 1.959868
+gp_s4_balanced_seed12 4500 val 0.19364 raw 1.977098
+gp_s4_balanced_seed12 5000 val 0.194258 raw 1.947556
+gp_s4_balanced_seed12 5500 val 0.179146 raw 1.857534
+gp_s4_balanced_seed12 6000 val 0.200605 raw 1.810544
+gp_s4_balanced_seed12 6500 val 0.194041 raw 1.802114
+gp_s4_balanced_seed12 7000 val 0.195697 raw 1.855049
+gp_s4_balanced_seed12 7500 val 0.181278 raw 1.652067
+gp_s4_balanced_seed12 8000 val 0.201997 raw 1.656983
+DONE gp_s4_balanced_seed12 seconds 96.0

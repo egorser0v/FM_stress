@@ -1,0 +1,18 @@
+[
+  {
+    "project": "state-spaces/s4",
+    "revision": "e757cef57d89e448c413de7325ed5601aceaac13",
+    "source_url": "https://raw.githubusercontent.com/state-spaces/s4/e757cef57d89e448c413de7325ed5601aceaac13/models/s4/s4.py",
+    "path": "vendor/state_spaces_s4/s4_original.py",
+    "sha256": "9f3418b396ec9ccbea30d1f1de92b55e631a3380ebbb19257a73f0219e2a23a6",
+    "license": "Apache-2.0"
+  },
+  {
+    "project": "thuml/sundial-base-128m",
+    "revision": "3212e42564493f520593e5414af4367fc4b49226",
+    "source_url": "https://huggingface.co/thuml/sundial-base-128m/resolve/3212e42564493f520593e5414af4367fc4b49226/flow_loss.py",
+    "path": "vendor/sundial/flow_loss_original.py",
+    "sha256": "fb33d3c3988015124c9f4e05728127d85afee8b416930c0e6d5097e4ced2ecf8",
+    "license": "Apache-2.0"
+  }
+]

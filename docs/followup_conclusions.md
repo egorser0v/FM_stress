@@ -1,0 +1,11 @@
+# S4 / MLP follow-up: final interpretation
+
+**The strongest finding is an objective-dependent difference.** With ordinary loss, normalized residual velocity MSE is 0.222 for MLP and 31.122 for S4. With balanced loss it is 0.175 and 0.158, respectively. All three paired seed differences have the corresponding sign. Raw residual error still favors MLP under both objectives.
+
+**Balancing has a cost.** S4's generated/target tail second-moment ratio falls from 597 to 0.585, removing the excess but undershooting the target. Its mean PC1 error rises from 14.26 to 22.72; balanced MLP rises from 14.00 to 85.24. This supports studying the head and loss together, not declaring S4 uniformly superior. Ten of sixteen velocity directions use the variance floor; weighting is regularized.
+
+**Forecast quality remains unresolved between heads.** For the original models on fresh histories, CRPS is 0.4663 (MLP), 0.4613 (S4) and 0.4606 (whitened MLP). All four declared proper-score comparisons against MLP have 95% paired-history intervals containing zero. This is insufficient evidence of superiority, not evidence of equivalence. Marginal 90% coverage is 90.3–91.1%; it does not establish conditional or simultaneous calibration. Euler-128/256 score changes on the fixed subset are small.
+
+**Recommendation.** Retain the raw and whitened MLP baselines; keep balanced S4 as a useful comparison, not a proven replacement. A subsequent study should prospectively test intermediate directional weights and multiple independent training datasets, evaluating proper forecast scores alongside per-PC errors. Full coordinate whitening and loss-only balancing are different interventions.
+
+**Scope and assignment.** All requested original tasks and outcomes are preserved. The two-sided raw 20% equality rule was our declared operational interpretation of an ambiguous instruction, not the only possible reading; follow-up findings do not redefine it. These small synthetic models, three new training seeds and 256 fresh evaluation histories cannot establish a universal architecture ranking. Independent audits verified saved arrays, checkpoint selection and provenance; all 34 tests passed, including CPU/MPS checks.

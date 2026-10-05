@@ -1,0 +1,92 @@
+[
+  {
+    "checkpoint": "gp_s4_seed0.pt",
+    "layer": "base.blocks.0.temporal.kernel",
+    "float64_complex_max_abs_error": 3.365363543395006e-16,
+    "float32_vs_complex64_max_abs_error": 1.5289490629122326e-07
+  },
+  {
+    "checkpoint": "gp_s4_seed0.pt",
+    "layer": "base.blocks.1.temporal.kernel",
+    "float64_complex_max_abs_error": 4.371503159461554e-16,
+    "float32_vs_complex64_max_abs_error": 1.6943968458860148e-07
+  },
+  {
+    "checkpoint": "gp_s4_seed0.pt",
+    "layer": "base.blocks.2.temporal.kernel",
+    "float64_complex_max_abs_error": 4.77048955893622e-16,
+    "float32_vs_complex64_max_abs_error": 2.623868995133005e-07
+  },
+  {
+    "checkpoint": "gp_s4_seed1.pt",
+    "layer": "base.blocks.0.temporal.kernel",
+    "float64_complex_max_abs_error": 3.8510861166685117e-16,
+    "float32_vs_complex64_max_abs_error": 3.668545103720916e-07
+  },
+  {
+    "checkpoint": "gp_s4_seed1.pt",
+    "layer": "base.blocks.1.temporal.kernel",
+    "float64_complex_max_abs_error": 4.85722573273506e-16,
+    "float32_vs_complex64_max_abs_error": 1.98587935554273e-07
+  },
+  {
+    "checkpoint": "gp_s4_seed1.pt",
+    "layer": "base.blocks.2.temporal.kernel",
+    "float64_complex_max_abs_error": 7.840950111415168e-16,
+    "float32_vs_complex64_max_abs_error": 1.8152773290092128e-07
+  },
+  {
+    "checkpoint": "gp_s4_seed2.pt",
+    "layer": "base.blocks.0.temporal.kernel",
+    "float64_complex_max_abs_error": 5.967448757360216e-16,
+    "float32_vs_complex64_max_abs_error": 1.586274541200139e-07
+  },
+  {
+    "checkpoint": "gp_s4_seed2.pt",
+    "layer": "base.blocks.1.temporal.kernel",
+    "float64_complex_max_abs_error": 6.331740687315346e-16,
+    "float32_vs_complex64_max_abs_error": 1.7224986680053345e-07
+  },
+  {
+    "checkpoint": "gp_s4_seed2.pt",
+    "layer": "base.blocks.2.temporal.kernel",
+    "float64_complex_max_abs_error": 8.396061623727746e-16,
+    "float32_vs_complex64_max_abs_error": 3.1002921062339706e-07
+  },
+  {
+    "checkpoint": "gp_s4_seed3.pt",
+    "layer": "base.blocks.0.temporal.kernel",
+    "float64_complex_max_abs_error": 6.661338147750939e-16,
+    "float32_vs_complex64_max_abs_error": 1.599956359343846e-07
+  },
+  {
+    "checkpoint": "gp_s4_seed3.pt",
+    "layer": "base.blocks.1.temporal.kernel",
+    "float64_complex_max_abs_error": 4.440892098500626e-16,
+    "float32_vs_complex64_max_abs_error": 1.7261781483368654e-07
+  },
+  {
+    "checkpoint": "gp_s4_seed3.pt",
+    "layer": "base.blocks.2.temporal.kernel",
+    "float64_complex_max_abs_error": 4.996003610813204e-16,
+    "float32_vs_complex64_max_abs_error": 2.0963747955626832e-07
+  },
+  {
+    "checkpoint": "gp_s4_seed4.pt",
+    "layer": "base.blocks.0.temporal.kernel",
+    "float64_complex_max_abs_error": 3.5388358909926865e-16,
+    "float32_vs_complex64_max_abs_error": 1.349729842406444e-07
+  },
+  {
+    "checkpoint": "gp_s4_seed4.pt",
+    "layer": "base.blocks.1.temporal.kernel",
+    "float64_complex_max_abs_error": 6.938893903907228e-16,
+    "float32_vs_complex64_max_abs_error": 3.2136005079230756e-07
+  },
+  {
+    "checkpoint": "gp_s4_seed4.pt",
+    "layer": "base.blocks.2.temporal.kernel",
+    "float64_complex_max_abs_error": 7.771561172376096e-16,
+    "float32_vs_complex64_max_abs_error": 7.810214244785563e-07
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "main": {
+    "runs": 25,
+    "all_mps": true,
+    "complete": true,
+    "all_metrics_recomputed_from_saved_arrays": true,
+    "validation_checkpoint_selection_verified": true
+  },
+  "lengthscale6": {
+    "runs": 15,
+    "all_mps": true,
+    "complete": true,
+    "all_metrics_recomputed_from_saved_arrays": true,
+    "validation_checkpoint_selection_verified": true
+  },
+  "optimization_sensitivity": {
+    "runs": 9,
+    "all_mps": true,
+    "original_checkpoints_verified": true,
+    "all_metrics_recomputed_from_saved_arrays": true
+  },
+  "reports": {
+    "one_page_synthesis": true,
+    "report_pages": 11,
+    "conclusions_match_export": true,
+    "no_empty_pages": true
+  }
+}

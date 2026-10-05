@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.DS_Store
+.poster-build/
+*.egg-info/
+output/*.zip
+output/**/*-preview/
+output/**/*-preview.png
+# Superseded poster exports; current LaTeX source and PDF are tracked.
+output/poster/flow-matching-poster-A1-EN.pdf
+output/poster/flow-matching-poster-A1-EN.pptx

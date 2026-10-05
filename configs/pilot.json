@@ -1,0 +1,32 @@
+{
+  "name": "pilot",
+  "data": {
+    "lookback": 32,
+    "horizon": 16,
+    "lengthscale": 8.0,
+    "variance": 1.0,
+    "nugget": 1e-06
+  },
+  "data_seed": 17041,
+  "n_train": 8192,
+  "n_val": 1024,
+  "n_test": 1024,
+  "n_paths": 128,
+  "seeds": [
+    0
+  ],
+  "steps": 250,
+  "batch_size": 256,
+  "eval_every": 125,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "clip_grad": 1.0,
+  "euler_steps": 64,
+  "model": {
+    "width": 56,
+    "encoder_dim": 32,
+    "depth": 3,
+    "state_size": 16,
+    "time_dim": 32
+  }
+}
