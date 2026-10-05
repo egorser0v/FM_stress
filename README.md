@@ -6,6 +6,10 @@ sources**, **AdaLN MLP vs three-block S4-NPLR velocity heads**, and a mandatory
 **PCA-whitened MLP control**. This is not pretrained Sundial or a full TSFlow
 benchmark reproduction.
 
+## Contributors
+
+- [Daniil Koblov (@KoblovDA)](https://github.com/KoblovDA)
+
 ## Start here
 
 - Poster: [PDF](output/poster/flow-matching-poster-LaTeX-A1.pdf) · [editable LaTeX](output/poster/flow-matching-poster.tex). This is the project proposal; completed results are in the reports below.
