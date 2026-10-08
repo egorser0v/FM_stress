@@ -1,0 +1,140 @@
+{
+  "config": {
+    "name": "multivariate_and_real_extension",
+    "heads": [
+      "mlp",
+      "sparse_mlp",
+      "s4",
+      "unet"
+    ],
+    "sources": [
+      "white",
+      "gp"
+    ],
+    "seeds": [
+      31,
+      32,
+      33
+    ],
+    "density": 0.5,
+    "parameter_target": 64000,
+    "steps": 2000,
+    "batch_size": 128,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "clip_grad": 1.0,
+    "eval_every": 250,
+    "evaluation_seed": 110041,
+    "n_ensemble_contexts": 64,
+    "ensemble_size": 32,
+    "euler_steps": 64,
+    "generation_batch_size": 1024,
+    "ridge_alphas": [
+      0.1,
+      1.0,
+      10.0,
+      100.0
+    ],
+    "datasets": {
+      "gp_multi": {
+        "kind": "synthetic",
+        "lookback": 32,
+        "horizon": 16,
+        "channels": 3,
+        "channel_correlation": 0.6,
+        "lengthscale": 8.0,
+        "source_lengthscale": 8.0,
+        "seed": 100041,
+        "n_train": 8192,
+        "n_val": 1024,
+        "n_test": 1024
+      },
+      "etth1_uni": {
+        "kind": "real",
+        "path": "data/real/ETTh1.csv",
+        "format": "csv",
+        "columns": [
+          "OT"
+        ],
+        "lookback": 48,
+        "horizon": 24,
+        "split_ends": [
+          8640,
+          11520,
+          14400
+        ],
+        "strides": {
+          "train": 4,
+          "val": 24,
+          "test": 24
+        },
+        "source_lengthscale": 8.0,
+        "seasonal_period": 24
+      },
+      "etth1_multi": {
+        "kind": "real",
+        "path": "data/real/ETTh1.csv",
+        "format": "csv",
+        "columns": [
+          "HUFL",
+          "HULL",
+          "MUFL",
+          "MULL",
+          "LUFL",
+          "LULL",
+          "OT"
+        ],
+        "lookback": 48,
+        "horizon": 24,
+        "split_ends": [
+          8640,
+          11520,
+          14400
+        ],
+        "strides": {
+          "train": 4,
+          "val": 24,
+          "test": 24
+        },
+        "source_lengthscale": 8.0,
+        "seasonal_period": 24
+      },
+      "exchange_multi": {
+        "kind": "real",
+        "path": "data/real/exchange_rate.txt",
+        "format": "text",
+        "delimiter": ",",
+        "lookback": 32,
+        "horizon": 16,
+        "split_fractions": [
+          0.7,
+          0.1,
+          0.2
+        ],
+        "strides": {
+          "train": 1,
+          "val": 16,
+          "test": 16
+        },
+        "source_lengthscale": 8.0
+      }
+    }
+  },
+  "source_sha256": {
+    "extended_experiment.py": "9c88677a6ccced9e074974d936aef7fa12f2c5bfaa57647e4a96ee221d4b93dd",
+    "extended_data.py": "8b574fcf1265483d69bce73148091a149fa59a56db8e821967c47aab6a612c97",
+    "extended_models.py": "cb6b4892ecfa78579ac7515818487438e7f54896bbbfaedc0f6e34a06e339564",
+    "extended_metrics.py": "e78bafc09eb050bf9e0034c84cc7e85b01a19ca921dc15c75836906cfd3aa1eb",
+    "models.py": "902e2f591f1b3e55d98e4903847bb859bd3ce859ba5c044d6f2c5b793b4199ce",
+    "metrics.py": "4b0aa09389b684d710eed2a9a03be9a3b3ab9b9c17f81eeca8a09774087df2e3",
+    "experiment.py": "dedca2b6e2d51c9c8a6d2a343617a7d28eb451e55cbbf06969402b876a14ef1f",
+    "ensemble_evaluation.py": "9f5bd62155629835f1d2b29af3b33024e04abca5c255465aaad18d17f62b87f0",
+    "data.py": "5d9c43431c4ece24f89ca7f0c65029b9fe9c0f60c851fd977686c92911cc8c9d",
+    "robustness.py": "eee3935230b040a4c27732351fc13b94b79d5593af17e06e704ca9fd3337466f"
+  },
+  "dataset_sha256": {
+    "data/real/ETTh1.csv": "f18de3ad269cef59bb07b5438d79bb3042d3be49bdeecf01c1cd6d29695ee066",
+    "data/real/exchange_rate.txt": "0127465b51e3cd3c360f8eb2be30cfd294689a2a55903eb8245aafc396626c7f"
+  },
+  "fingerprint": "9a70916123dd084ec4e2016b036d51b50128b051899b762b91a9d8f3a1c31978"
+}

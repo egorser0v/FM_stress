@@ -1,0 +1,5 @@
+VERIFIED gp_multi 24 runs
+VERIFIED etth1_uni 24 runs
+VERIFIED etth1_multi 24 runs
+VERIFIED exchange_multi 3 runs
+PARTIAL 75 / 96 verified; results/extension/independent_verification.json

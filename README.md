@@ -85,6 +85,49 @@ The extended package is `output/fm-stress-extended.zip`; it includes both the or
 project and the new checkpoints, sample arrays, analyses and verification records.
 Saved source hashes reject accidental mixing of numerical code revisions.
 
+## Multivariate and real-series extension
+
+The separate extension adds a fixed-mask sparse MLP and a temporal U-Net alongside
+fresh dense-MLP and S4 controls, with **joint** multichannel inputs and outputs.
+It covers a three-channel synthetic GP, ETTh1 oil temperature (univariate), all
+seven ETTh1 variables, and all eight Exchange variables. Sources are temporally
+white or smooth GP, with the same training-fitted cross-channel correlation.
+
+The frozen design is four datasets × four heads × two sources × three seeds,
+approximately 64k active parameters and 2,000 updates per fit. This is a short,
+fixed-budget generalization study; it is not a full benchmark reproduction or a
+claim that every head has converged. New train-only global channel scaling differs
+from the original history-instance-normalized GP experiments.
+
+- Protocol and dataset provenance: [extension protocol](docs/extension_protocol.md).
+- Code: `fm_stress/extended_models.py`, `extended_data.py`, `extended_experiment.py`.
+- Configuration: `configs/extension.json`; outputs: `results/extension/`.
+- Independent audit: `scripts/check_extension.py`; analysis: `fm_stress/analyze_extension.py`.
+- Summary tables, geometry, learning curves and example paths: `output/extension-analysis/`.
+- Completed [extension report](output/pdf/multivariate-real-extension.pdf) and
+  [findings](docs/extension_findings.md): 96 MPS fits, 58 passing tests, independent
+  per-run and aggregate/OT verification. Sparse MLP improves Exchange relative to
+  dense MLP; ETTh1 OT shows a source-dependent S4/MLP forecast crossover, but not
+  improved small-PC error. Ridge with residual bootstrap has better mean proper
+  scores than every neural cell on all four datasets.
+
+Run from the repository root, sequentially on MPS:
+
+```sh
+.venv/bin/python scripts/fetch_extension_data.py
+.venv/bin/python -m fm_stress.extended_experiment --device mps
+.venv/bin/python scripts/check_extension.py
+.venv/bin/python -m fm_stress.analyze_extension
+.venv/bin/python scripts/check_extension_analysis.py
+.venv/bin/python scripts/build_extension_report.py
+.venv/bin/python scripts/package_project.py --multivariate
+```
+
+Raw public data are downloaded at pinned revisions with SHA-256 manifests and
+are excluded from Git/the archive. Training/test arrays reconstruct from that
+cache. The new package is `output/fm-stress-multivariate.zip`; previous packages
+are preserved. Completed reports must be built only after the full audit passes.
+
 ## Environment
 
 Python 3.12 on macOS/Apple Silicon is the tested environment. Create an isolated

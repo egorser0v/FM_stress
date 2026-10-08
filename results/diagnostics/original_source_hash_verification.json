@@ -1,0 +1,11 @@
+{
+  "complete": true,
+  "reference_manifest": "results/controlled_followup/source_manifest.json",
+  "checks": {
+    "fm_stress/controlled_followup.py": true,
+    "fm_stress/models.py": true,
+    "fm_stress/data.py": true,
+    "fm_stress/metrics.py": true,
+    "fm_stress/experiment.py": true
+  }
+}

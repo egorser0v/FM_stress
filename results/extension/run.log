@@ -1,0 +1,961 @@
+START gp_multi white_mlp_seed31 {'allocated': 63913, 'active': 63913, 'allocated_trainable': 63913, 'effective_trainable': 63913, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+gp_multi white_mlp_seed31 250 val 0.626484
+gp_multi white_mlp_seed31 500 val 0.520023
+gp_multi white_mlp_seed31 750 val 0.472442
+gp_multi white_mlp_seed31 1000 val 0.447259
+gp_multi white_mlp_seed31 1250 val 0.41428
+gp_multi white_mlp_seed31 1500 val 0.386697
+gp_multi white_mlp_seed31 1750 val 0.37391
+gp_multi white_mlp_seed31 2000 val 0.379161
+DONE gp_multi white_mlp_seed31 CRPS 0.324548 seconds 10.4
+START gp_multi white_sparse_mlp_seed31 {'allocated': 126097, 'active': 63395, 'allocated_trainable': 126097, 'effective_trainable': 63395, 'masked_weight_allocated': 123970, 'masked_weight_active': 61268, 'realized_weight_density': 0.49421634266354764}
+gp_multi white_sparse_mlp_seed31 250 val 0.696196
+gp_multi white_sparse_mlp_seed31 500 val 0.568242
+gp_multi white_sparse_mlp_seed31 750 val 0.498646
+gp_multi white_sparse_mlp_seed31 1000 val 0.46448
+gp_multi white_sparse_mlp_seed31 1250 val 0.425005
+gp_multi white_sparse_mlp_seed31 1500 val 0.403457
+gp_multi white_sparse_mlp_seed31 1750 val 0.384551
+gp_multi white_sparse_mlp_seed31 2000 val 0.390559
+DONE gp_multi white_sparse_mlp_seed31 CRPS 0.325251 seconds 9.5
+START gp_multi white_s4_seed31 {'allocated': 64212, 'active': 64212, 'allocated_trainable': 64212, 'effective_trainable': 64212, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+gp_multi white_s4_seed31 250 val 0.714411
+gp_multi white_s4_seed31 500 val 0.525615
+gp_multi white_s4_seed31 750 val 0.451715
+gp_multi white_s4_seed31 1000 val 0.440414
+gp_multi white_s4_seed31 1250 val 0.425312
+gp_multi white_s4_seed31 1500 val 0.395269
+gp_multi white_s4_seed31 1750 val 0.385181
+gp_multi white_s4_seed31 2000 val 0.375321
+DONE gp_multi white_s4_seed31 CRPS 0.32665 seconds 26.0
+START gp_multi white_unet_seed31 {'allocated': 62403, 'active': 62403, 'allocated_trainable': 62403, 'effective_trainable': 62403, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+gp_multi white_unet_seed31 250 val 0.581786
+gp_multi white_unet_seed31 500 val 0.443793
+gp_multi white_unet_seed31 750 val 0.386436
+gp_multi white_unet_seed31 1000 val 0.378696
+gp_multi white_unet_seed31 1250 val 0.359608
+gp_multi white_unet_seed31 1500 val 0.343047
+gp_multi white_unet_seed31 1750 val 0.332319
+gp_multi white_unet_seed31 2000 val 0.338416
+DONE gp_multi white_unet_seed31 CRPS 0.323376 seconds 19.9
+START gp_multi gp_mlp_seed31 {'allocated': 63913, 'active': 63913, 'allocated_trainable': 63913, 'effective_trainable': 63913, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+gp_multi gp_mlp_seed31 250 val 0.999013
+gp_multi gp_mlp_seed31 500 val 0.841417
+gp_multi gp_mlp_seed31 750 val 0.7889
+gp_multi gp_mlp_seed31 1000 val 0.745744
+gp_multi gp_mlp_seed31 1250 val 0.709299
+gp_multi gp_mlp_seed31 1500 val 0.705329
+gp_multi gp_mlp_seed31 1750 val 0.688898
+gp_multi gp_mlp_seed31 2000 val 0.686377
+DONE gp_multi gp_mlp_seed31 CRPS 0.321748 seconds 8.2
+START gp_multi gp_sparse_mlp_seed31 {'allocated': 126097, 'active': 63395, 'allocated_trainable': 126097, 'effective_trainable': 63395, 'masked_weight_allocated': 123970, 'masked_weight_active': 61268, 'realized_weight_density': 0.49421634266354764}
+gp_multi gp_sparse_mlp_seed31 250 val 1.053926
+gp_multi gp_sparse_mlp_seed31 500 val 0.878945
+gp_multi gp_sparse_mlp_seed31 750 val 0.794488
+gp_multi gp_sparse_mlp_seed31 1000 val 0.772757
+gp_multi gp_sparse_mlp_seed31 1250 val 0.745623
+gp_multi gp_sparse_mlp_seed31 1500 val 0.71059
+gp_multi gp_sparse_mlp_seed31 1750 val 0.692948
+gp_multi gp_sparse_mlp_seed31 2000 val 0.698047
+DONE gp_multi gp_sparse_mlp_seed31 CRPS 0.331023 seconds 8.6
+START gp_multi gp_s4_seed31 {'allocated': 64212, 'active': 64212, 'allocated_trainable': 64212, 'effective_trainable': 64212, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+gp_multi gp_s4_seed31 250 val 1.107209
+gp_multi gp_s4_seed31 500 val 0.931264
+gp_multi gp_s4_seed31 750 val 0.867527
+gp_multi gp_s4_seed31 1000 val 0.865859
+gp_multi gp_s4_seed31 1250 val 0.787418
+gp_multi gp_s4_seed31 1500 val 0.770101
+gp_multi gp_s4_seed31 1750 val 0.765752
+gp_multi gp_s4_seed31 2000 val 0.72837
+DONE gp_multi gp_s4_seed31 CRPS 0.319618 seconds 26.5
+START gp_multi gp_unet_seed31 {'allocated': 62403, 'active': 62403, 'allocated_trainable': 62403, 'effective_trainable': 62403, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+gp_multi gp_unet_seed31 250 val 1.124523
+gp_multi gp_unet_seed31 500 val 0.897136
+gp_multi gp_unet_seed31 750 val 0.850076
+gp_multi gp_unet_seed31 1000 val 0.791709
+gp_multi gp_unet_seed31 1250 val 0.760499
+gp_multi gp_unet_seed31 1500 val 0.737461
+gp_multi gp_unet_seed31 1750 val 0.718677
+gp_multi gp_unet_seed31 2000 val 0.694716
+DONE gp_multi gp_unet_seed31 CRPS 0.32526 seconds 21.1
+START gp_multi white_mlp_seed32 {'allocated': 63913, 'active': 63913, 'allocated_trainable': 63913, 'effective_trainable': 63913, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+gp_multi white_mlp_seed32 250 val 0.640062
+gp_multi white_mlp_seed32 500 val 0.522936
+gp_multi white_mlp_seed32 750 val 0.466537
+gp_multi white_mlp_seed32 1000 val 0.43881
+gp_multi white_mlp_seed32 1250 val 0.416219
+gp_multi white_mlp_seed32 1500 val 0.392759
+gp_multi white_mlp_seed32 1750 val 0.380911
+gp_multi white_mlp_seed32 2000 val 0.373095
+DONE gp_multi white_mlp_seed32 CRPS 0.33141 seconds 9.7
+START gp_multi white_sparse_mlp_seed32 {'allocated': 126097, 'active': 63395, 'allocated_trainable': 126097, 'effective_trainable': 63395, 'masked_weight_allocated': 123970, 'masked_weight_active': 61268, 'realized_weight_density': 0.49421634266354764}
+gp_multi white_sparse_mlp_seed32 250 val 0.699068
+gp_multi white_sparse_mlp_seed32 500 val 0.564384
+gp_multi white_sparse_mlp_seed32 750 val 0.502078
+gp_multi white_sparse_mlp_seed32 1000 val 0.454246
+gp_multi white_sparse_mlp_seed32 1250 val 0.434696
+gp_multi white_sparse_mlp_seed32 1500 val 0.404865
+gp_multi white_sparse_mlp_seed32 1750 val 0.390722
+gp_multi white_sparse_mlp_seed32 2000 val 0.382833
+DONE gp_multi white_sparse_mlp_seed32 CRPS 0.33311 seconds 10.2
+START gp_multi white_s4_seed32 {'allocated': 64212, 'active': 64212, 'allocated_trainable': 64212, 'effective_trainable': 64212, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+gp_multi white_s4_seed32 250 val 0.695932
+gp_multi white_s4_seed32 500 val 0.509788
+gp_multi white_s4_seed32 750 val 0.465326
+gp_multi white_s4_seed32 1000 val 0.421858
+gp_multi white_s4_seed32 1250 val 0.406812
+gp_multi white_s4_seed32 1500 val 0.390688
+gp_multi white_s4_seed32 1750 val 0.401244
+gp_multi white_s4_seed32 2000 val 0.374533
+DONE gp_multi white_s4_seed32 CRPS 0.347041 seconds 25.1
+START gp_multi white_unet_seed32 {'allocated': 62403, 'active': 62403, 'allocated_trainable': 62403, 'effective_trainable': 62403, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+gp_multi white_unet_seed32 250 val 0.597437
+gp_multi white_unet_seed32 500 val 0.425571
+gp_multi white_unet_seed32 750 val 0.377563
+gp_multi white_unet_seed32 1000 val 0.358996
+gp_multi white_unet_seed32 1250 val 0.361833
+gp_multi white_unet_seed32 1500 val 0.341088
+gp_multi white_unet_seed32 1750 val 0.336659
+gp_multi white_unet_seed32 2000 val 0.331443
+DONE gp_multi white_unet_seed32 CRPS 0.326168 seconds 20.3
+START gp_multi gp_mlp_seed32 {'allocated': 63913, 'active': 63913, 'allocated_trainable': 63913, 'effective_trainable': 63913, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+gp_multi gp_mlp_seed32 250 val 0.996685
+gp_multi gp_mlp_seed32 500 val 0.851276
+gp_multi gp_mlp_seed32 750 val 0.788455
+gp_multi gp_mlp_seed32 1000 val 0.746985
+gp_multi gp_mlp_seed32 1250 val 0.727287
+gp_multi gp_mlp_seed32 1500 val 0.69641
+gp_multi gp_mlp_seed32 1750 val 0.698462
+gp_multi gp_mlp_seed32 2000 val 0.698946
+DONE gp_multi gp_mlp_seed32 CRPS 0.337758 seconds 9.8
+START gp_multi gp_sparse_mlp_seed32 {'allocated': 126097, 'active': 63395, 'allocated_trainable': 126097, 'effective_trainable': 63395, 'masked_weight_allocated': 123970, 'masked_weight_active': 61268, 'realized_weight_density': 0.49421634266354764}
+gp_multi gp_sparse_mlp_seed32 250 val 1.054155
+gp_multi gp_sparse_mlp_seed32 500 val 0.860365
+gp_multi gp_sparse_mlp_seed32 750 val 0.791356
+gp_multi gp_sparse_mlp_seed32 1000 val 0.760765
+gp_multi gp_sparse_mlp_seed32 1250 val 0.720908
+gp_multi gp_sparse_mlp_seed32 1500 val 0.711249
+gp_multi gp_sparse_mlp_seed32 1750 val 0.68607
+gp_multi gp_sparse_mlp_seed32 2000 val 0.701587
+DONE gp_multi gp_sparse_mlp_seed32 CRPS 0.334169 seconds 9.9
+START gp_multi gp_s4_seed32 {'allocated': 64212, 'active': 64212, 'allocated_trainable': 64212, 'effective_trainable': 64212, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+gp_multi gp_s4_seed32 250 val 1.15154
+gp_multi gp_s4_seed32 500 val 0.961975
+gp_multi gp_s4_seed32 750 val 0.916666
+gp_multi gp_s4_seed32 1000 val 0.834856
+gp_multi gp_s4_seed32 1250 val 0.815977
+gp_multi gp_s4_seed32 1500 val 0.784283
+gp_multi gp_s4_seed32 1750 val 0.769373
+gp_multi gp_s4_seed32 2000 val 0.743023
+DONE gp_multi gp_s4_seed32 CRPS 0.336275 seconds 26.6
+START gp_multi gp_unet_seed32 {'allocated': 62403, 'active': 62403, 'allocated_trainable': 62403, 'effective_trainable': 62403, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+gp_multi gp_unet_seed32 250 val 1.058741
+gp_multi gp_unet_seed32 500 val 0.889018
+gp_multi gp_unet_seed32 750 val 0.836915
+gp_multi gp_unet_seed32 1000 val 0.766672
+gp_multi gp_unet_seed32 1250 val 0.766721
+gp_multi gp_unet_seed32 1500 val 0.714295
+gp_multi gp_unet_seed32 1750 val 0.709238
+gp_multi gp_unet_seed32 2000 val 0.693466
+DONE gp_multi gp_unet_seed32 CRPS 0.348401 seconds 19.8
+START gp_multi white_mlp_seed33 {'allocated': 63913, 'active': 63913, 'allocated_trainable': 63913, 'effective_trainable': 63913, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+gp_multi white_mlp_seed33 250 val 0.631927
+gp_multi white_mlp_seed33 500 val 0.525218
+gp_multi white_mlp_seed33 750 val 0.48277
+gp_multi white_mlp_seed33 1000 val 0.448881
+gp_multi white_mlp_seed33 1250 val 0.425634
+gp_multi white_mlp_seed33 1500 val 0.411422
+gp_multi white_mlp_seed33 1750 val 0.390267
+gp_multi white_mlp_seed33 2000 val 0.37998
+DONE gp_multi white_mlp_seed33 CRPS 0.330362 seconds 10.0
+START gp_multi white_sparse_mlp_seed33 {'allocated': 126097, 'active': 63395, 'allocated_trainable': 126097, 'effective_trainable': 63395, 'masked_weight_allocated': 123970, 'masked_weight_active': 61268, 'realized_weight_density': 0.49421634266354764}
+gp_multi white_sparse_mlp_seed33 250 val 0.69464
+gp_multi white_sparse_mlp_seed33 500 val 0.569424
+gp_multi white_sparse_mlp_seed33 750 val 0.491668
+gp_multi white_sparse_mlp_seed33 1000 val 0.45132
+gp_multi white_sparse_mlp_seed33 1250 val 0.423599
+gp_multi white_sparse_mlp_seed33 1500 val 0.409102
+gp_multi white_sparse_mlp_seed33 1750 val 0.390557
+gp_multi white_sparse_mlp_seed33 2000 val 0.379644
+DONE gp_multi white_sparse_mlp_seed33 CRPS 0.318821 seconds 9.5
+START gp_multi white_s4_seed33 {'allocated': 64212, 'active': 64212, 'allocated_trainable': 64212, 'effective_trainable': 64212, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+gp_multi white_s4_seed33 250 val 0.719425
+gp_multi white_s4_seed33 500 val 0.510687
+gp_multi white_s4_seed33 750 val 0.464812
+gp_multi white_s4_seed33 1000 val 0.429825
+gp_multi white_s4_seed33 1250 val 0.429344
+gp_multi white_s4_seed33 1500 val 0.4165
+gp_multi white_s4_seed33 1750 val 0.383717
+gp_multi white_s4_seed33 2000 val 0.35906
+DONE gp_multi white_s4_seed33 CRPS 0.325267 seconds 25.6
+START gp_multi white_unet_seed33 {'allocated': 62403, 'active': 62403, 'allocated_trainable': 62403, 'effective_trainable': 62403, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+gp_multi white_unet_seed33 250 val 0.683658
+gp_multi white_unet_seed33 500 val 0.43374
+gp_multi white_unet_seed33 750 val 0.384736
+gp_multi white_unet_seed33 1000 val 0.373194
+gp_multi white_unet_seed33 1250 val 0.350867
+gp_multi white_unet_seed33 1500 val 0.336664
+gp_multi white_unet_seed33 1750 val 0.330951
+gp_multi white_unet_seed33 2000 val 0.326294
+DONE gp_multi white_unet_seed33 CRPS 0.314951 seconds 19.8
+START gp_multi gp_mlp_seed33 {'allocated': 63913, 'active': 63913, 'allocated_trainable': 63913, 'effective_trainable': 63913, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+gp_multi gp_mlp_seed33 250 val 0.984579
+gp_multi gp_mlp_seed33 500 val 0.852154
+gp_multi gp_mlp_seed33 750 val 0.791284
+gp_multi gp_mlp_seed33 1000 val 0.759331
+gp_multi gp_mlp_seed33 1250 val 0.766292
+gp_multi gp_mlp_seed33 1500 val 0.710805
+gp_multi gp_mlp_seed33 1750 val 0.695063
+gp_multi gp_mlp_seed33 2000 val 0.714279
+DONE gp_multi gp_mlp_seed33 CRPS 0.33894 seconds 8.9
+START gp_multi gp_sparse_mlp_seed33 {'allocated': 126097, 'active': 63395, 'allocated_trainable': 126097, 'effective_trainable': 63395, 'masked_weight_allocated': 123970, 'masked_weight_active': 61268, 'realized_weight_density': 0.49421634266354764}
+gp_multi gp_sparse_mlp_seed33 250 val 1.077315
+gp_multi gp_sparse_mlp_seed33 500 val 0.88208
+gp_multi gp_sparse_mlp_seed33 750 val 0.805292
+gp_multi gp_sparse_mlp_seed33 1000 val 0.76147
+gp_multi gp_sparse_mlp_seed33 1250 val 0.747283
+gp_multi gp_sparse_mlp_seed33 1500 val 0.702629
+gp_multi gp_sparse_mlp_seed33 1750 val 0.701315
+gp_multi gp_sparse_mlp_seed33 2000 val 0.703854
+DONE gp_multi gp_sparse_mlp_seed33 CRPS 0.330106 seconds 9.6
+START gp_multi gp_s4_seed33 {'allocated': 64212, 'active': 64212, 'allocated_trainable': 64212, 'effective_trainable': 64212, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+gp_multi gp_s4_seed33 250 val 1.137729
+gp_multi gp_s4_seed33 500 val 0.943475
+gp_multi gp_s4_seed33 750 val 0.855868
+gp_multi gp_s4_seed33 1000 val 0.820348
+gp_multi gp_s4_seed33 1250 val 0.810488
+gp_multi gp_s4_seed33 1500 val 0.787561
+gp_multi gp_s4_seed33 1750 val 0.767416
+gp_multi gp_s4_seed33 2000 val 0.770349
+DONE gp_multi gp_s4_seed33 CRPS 0.339472 seconds 25.2
+START gp_multi gp_unet_seed33 {'allocated': 62403, 'active': 62403, 'allocated_trainable': 62403, 'effective_trainable': 62403, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+gp_multi gp_unet_seed33 250 val 1.213176
+gp_multi gp_unet_seed33 500 val 0.942626
+gp_multi gp_unet_seed33 750 val 0.846404
+gp_multi gp_unet_seed33 1000 val 0.801035
+gp_multi gp_unet_seed33 1250 val 0.784312
+gp_multi gp_unet_seed33 1500 val 0.736883
+gp_multi gp_unet_seed33 1750 val 0.697048
+gp_multi gp_unet_seed33 2000 val 0.741411
+DONE gp_multi gp_unet_seed33 CRPS 0.332109 seconds 19.4
+START etth1_uni white_mlp_seed31 {'allocated': 62999, 'active': 62999, 'allocated_trainable': 62999, 'effective_trainable': 62999, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_uni white_mlp_seed31 250 val 0.32636
+etth1_uni white_mlp_seed31 500 val 0.287411
+etth1_uni white_mlp_seed31 750 val 0.281667
+etth1_uni white_mlp_seed31 1000 val 0.271538
+etth1_uni white_mlp_seed31 1250 val 0.265746
+etth1_uni white_mlp_seed31 1500 val 0.261365
+etth1_uni white_mlp_seed31 1750 val 0.252167
+etth1_uni white_mlp_seed31 2000 val 0.254922
+DONE etth1_uni white_mlp_seed31 CRPS 0.173571 seconds 8.6
+START etth1_uni white_sparse_mlp_seed31 {'allocated': 124607, 'active': 64105, 'allocated_trainable': 124607, 'effective_trainable': 64105, 'masked_weight_allocated': 122450, 'masked_weight_active': 61948, 'realized_weight_density': 0.5059044507962434}
+etth1_uni white_sparse_mlp_seed31 250 val 0.332839
+etth1_uni white_sparse_mlp_seed31 500 val 0.290182
+etth1_uni white_sparse_mlp_seed31 750 val 0.276392
+etth1_uni white_sparse_mlp_seed31 1000 val 0.27041
+etth1_uni white_sparse_mlp_seed31 1250 val 0.261579
+etth1_uni white_sparse_mlp_seed31 1500 val 0.262268
+etth1_uni white_sparse_mlp_seed31 1750 val 0.252247
+etth1_uni white_sparse_mlp_seed31 2000 val 0.260818
+DONE etth1_uni white_sparse_mlp_seed31 CRPS 0.148566 seconds 8.6
+START etth1_uni white_s4_seed31 {'allocated': 63966, 'active': 63966, 'allocated_trainable': 63966, 'effective_trainable': 63966, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_uni white_s4_seed31 250 val 0.285865
+etth1_uni white_s4_seed31 500 val 0.280915
+etth1_uni white_s4_seed31 750 val 0.274518
+etth1_uni white_s4_seed31 1000 val 0.270769
+etth1_uni white_s4_seed31 1250 val 0.267127
+etth1_uni white_s4_seed31 1500 val 0.282817
+etth1_uni white_s4_seed31 1750 val 0.26157
+etth1_uni white_s4_seed31 2000 val 0.254653
+DONE etth1_uni white_s4_seed31 CRPS 0.157426 seconds 28.4
+START etth1_uni white_unet_seed31 {'allocated': 61621, 'active': 61621, 'allocated_trainable': 61621, 'effective_trainable': 61621, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_uni white_unet_seed31 250 val 0.296765
+etth1_uni white_unet_seed31 500 val 0.277797
+etth1_uni white_unet_seed31 750 val 0.263519
+etth1_uni white_unet_seed31 1000 val 0.282474
+etth1_uni white_unet_seed31 1250 val 0.265313
+etth1_uni white_unet_seed31 1500 val 0.264616
+etth1_uni white_unet_seed31 1750 val 0.255519
+etth1_uni white_unet_seed31 2000 val 0.257356
+DONE etth1_uni white_unet_seed31 CRPS 0.248201 seconds 21.7
+START etth1_uni gp_mlp_seed31 {'allocated': 62999, 'active': 62999, 'allocated_trainable': 62999, 'effective_trainable': 62999, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_uni gp_mlp_seed31 250 val 0.448013
+etth1_uni gp_mlp_seed31 500 val 0.416914
+etth1_uni gp_mlp_seed31 750 val 0.410964
+etth1_uni gp_mlp_seed31 1000 val 0.438367
+etth1_uni gp_mlp_seed31 1250 val 0.408925
+etth1_uni gp_mlp_seed31 1500 val 0.40141
+etth1_uni gp_mlp_seed31 1750 val 0.392577
+etth1_uni gp_mlp_seed31 2000 val 0.383043
+DONE etth1_uni gp_mlp_seed31 CRPS 0.187022 seconds 10.7
+START etth1_uni gp_sparse_mlp_seed31 {'allocated': 124607, 'active': 64105, 'allocated_trainable': 124607, 'effective_trainable': 64105, 'masked_weight_allocated': 122450, 'masked_weight_active': 61948, 'realized_weight_density': 0.5059044507962434}
+etth1_uni gp_sparse_mlp_seed31 250 val 0.441909
+etth1_uni gp_sparse_mlp_seed31 500 val 0.412456
+etth1_uni gp_sparse_mlp_seed31 750 val 0.423596
+etth1_uni gp_sparse_mlp_seed31 1000 val 0.434762
+etth1_uni gp_sparse_mlp_seed31 1250 val 0.408763
+etth1_uni gp_sparse_mlp_seed31 1500 val 0.389947
+etth1_uni gp_sparse_mlp_seed31 1750 val 0.39331
+etth1_uni gp_sparse_mlp_seed31 2000 val 0.375074
+DONE etth1_uni gp_sparse_mlp_seed31 CRPS 0.221616 seconds 8.6
+START etth1_uni gp_s4_seed31 {'allocated': 63966, 'active': 63966, 'allocated_trainable': 63966, 'effective_trainable': 63966, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_uni gp_s4_seed31 250 val 0.473518
+etth1_uni gp_s4_seed31 500 val 0.460004
+etth1_uni gp_s4_seed31 750 val 0.447225
+etth1_uni gp_s4_seed31 1000 val 0.464039
+etth1_uni gp_s4_seed31 1250 val 0.455928
+etth1_uni gp_s4_seed31 1500 val 0.419519
+etth1_uni gp_s4_seed31 1750 val 0.413951
+etth1_uni gp_s4_seed31 2000 val 0.391195
+DONE etth1_uni gp_s4_seed31 CRPS 0.138075 seconds 28.5
+START etth1_uni gp_unet_seed31 {'allocated': 61621, 'active': 61621, 'allocated_trainable': 61621, 'effective_trainable': 61621, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_uni gp_unet_seed31 250 val 0.456612
+etth1_uni gp_unet_seed31 500 val 0.435574
+etth1_uni gp_unet_seed31 750 val 0.408463
+etth1_uni gp_unet_seed31 1000 val 0.429559
+etth1_uni gp_unet_seed31 1250 val 0.411174
+etth1_uni gp_unet_seed31 1500 val 0.407848
+etth1_uni gp_unet_seed31 1750 val 0.380627
+etth1_uni gp_unet_seed31 2000 val 0.414389
+DONE etth1_uni gp_unet_seed31 CRPS 0.188787 seconds 18.5
+START etth1_uni white_mlp_seed32 {'allocated': 62999, 'active': 62999, 'allocated_trainable': 62999, 'effective_trainable': 62999, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_uni white_mlp_seed32 250 val 0.31746
+etth1_uni white_mlp_seed32 500 val 0.286162
+etth1_uni white_mlp_seed32 750 val 0.271615
+etth1_uni white_mlp_seed32 1000 val 0.263543
+etth1_uni white_mlp_seed32 1250 val 0.260966
+etth1_uni white_mlp_seed32 1500 val 0.263335
+etth1_uni white_mlp_seed32 1750 val 0.260199
+etth1_uni white_mlp_seed32 2000 val 0.255439
+DONE etth1_uni white_mlp_seed32 CRPS 0.140445 seconds 9.3
+START etth1_uni white_sparse_mlp_seed32 {'allocated': 124607, 'active': 64105, 'allocated_trainable': 124607, 'effective_trainable': 64105, 'masked_weight_allocated': 122450, 'masked_weight_active': 61948, 'realized_weight_density': 0.5059044507962434}
+etth1_uni white_sparse_mlp_seed32 250 val 0.324928
+etth1_uni white_sparse_mlp_seed32 500 val 0.278979
+etth1_uni white_sparse_mlp_seed32 750 val 0.266855
+etth1_uni white_sparse_mlp_seed32 1000 val 0.261506
+etth1_uni white_sparse_mlp_seed32 1250 val 0.26088
+etth1_uni white_sparse_mlp_seed32 1500 val 0.260951
+etth1_uni white_sparse_mlp_seed32 1750 val 0.260076
+etth1_uni white_sparse_mlp_seed32 2000 val 0.256809
+DONE etth1_uni white_sparse_mlp_seed32 CRPS 0.157263 seconds 10.3
+START etth1_uni white_s4_seed32 {'allocated': 63966, 'active': 63966, 'allocated_trainable': 63966, 'effective_trainable': 63966, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_uni white_s4_seed32 250 val 0.285352
+etth1_uni white_s4_seed32 500 val 0.28615
+etth1_uni white_s4_seed32 750 val 0.264678
+etth1_uni white_s4_seed32 1000 val 0.269658
+etth1_uni white_s4_seed32 1250 val 0.265257
+etth1_uni white_s4_seed32 1500 val 0.264347
+etth1_uni white_s4_seed32 1750 val 0.256929
+etth1_uni white_s4_seed32 2000 val 0.256402
+DONE etth1_uni white_s4_seed32 CRPS 0.187546 seconds 27.9
+START etth1_uni white_unet_seed32 {'allocated': 61621, 'active': 61621, 'allocated_trainable': 61621, 'effective_trainable': 61621, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_uni white_unet_seed32 250 val 0.286784
+etth1_uni white_unet_seed32 500 val 0.268051
+etth1_uni white_unet_seed32 750 val 0.253181
+etth1_uni white_unet_seed32 1000 val 0.260987
+etth1_uni white_unet_seed32 1250 val 0.254538
+etth1_uni white_unet_seed32 1500 val 0.249753
+etth1_uni white_unet_seed32 1750 val 0.250915
+etth1_uni white_unet_seed32 2000 val 0.2495
+DONE etth1_uni white_unet_seed32 CRPS 0.194282 seconds 19.4
+START etth1_uni gp_mlp_seed32 {'allocated': 62999, 'active': 62999, 'allocated_trainable': 62999, 'effective_trainable': 62999, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_uni gp_mlp_seed32 250 val 0.440428
+etth1_uni gp_mlp_seed32 500 val 0.408122
+etth1_uni gp_mlp_seed32 750 val 0.402993
+etth1_uni gp_mlp_seed32 1000 val 0.422662
+etth1_uni gp_mlp_seed32 1250 val 0.399549
+etth1_uni gp_mlp_seed32 1500 val 0.377711
+etth1_uni gp_mlp_seed32 1750 val 0.382651
+etth1_uni gp_mlp_seed32 2000 val 0.396702
+DONE etth1_uni gp_mlp_seed32 CRPS 0.214939 seconds 8.8
+START etth1_uni gp_sparse_mlp_seed32 {'allocated': 124607, 'active': 64105, 'allocated_trainable': 124607, 'effective_trainable': 64105, 'masked_weight_allocated': 122450, 'masked_weight_active': 61948, 'realized_weight_density': 0.5059044507962434}
+etth1_uni gp_sparse_mlp_seed32 250 val 0.439293
+etth1_uni gp_sparse_mlp_seed32 500 val 0.420071
+etth1_uni gp_sparse_mlp_seed32 750 val 0.40993
+etth1_uni gp_sparse_mlp_seed32 1000 val 0.421295
+etth1_uni gp_sparse_mlp_seed32 1250 val 0.40761
+etth1_uni gp_sparse_mlp_seed32 1500 val 0.386657
+etth1_uni gp_sparse_mlp_seed32 1750 val 0.381916
+etth1_uni gp_sparse_mlp_seed32 2000 val 0.393373
+DONE etth1_uni gp_sparse_mlp_seed32 CRPS 0.161012 seconds 8.5
+START etth1_uni gp_s4_seed32 {'allocated': 63966, 'active': 63966, 'allocated_trainable': 63966, 'effective_trainable': 63966, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_uni gp_s4_seed32 250 val 0.47772
+etth1_uni gp_s4_seed32 500 val 0.430549
+etth1_uni gp_s4_seed32 750 val 0.428888
+etth1_uni gp_s4_seed32 1000 val 0.466793
+etth1_uni gp_s4_seed32 1250 val 0.417713
+etth1_uni gp_s4_seed32 1500 val 0.412186
+etth1_uni gp_s4_seed32 1750 val 0.397532
+etth1_uni gp_s4_seed32 2000 val 0.41499
+DONE etth1_uni gp_s4_seed32 CRPS 0.165822 seconds 28.0
+START etth1_uni gp_unet_seed32 {'allocated': 61621, 'active': 61621, 'allocated_trainable': 61621, 'effective_trainable': 61621, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_uni gp_unet_seed32 250 val 0.447525
+etth1_uni gp_unet_seed32 500 val 0.454044
+etth1_uni gp_unet_seed32 750 val 0.416019
+etth1_uni gp_unet_seed32 1000 val 0.446523
+etth1_uni gp_unet_seed32 1250 val 0.428191
+etth1_uni gp_unet_seed32 1500 val 0.431024
+etth1_uni gp_unet_seed32 1750 val 0.423662
+etth1_uni gp_unet_seed32 2000 val 0.418675
+DONE etth1_uni gp_unet_seed32 CRPS 0.179881 seconds 21.1
+START etth1_uni white_mlp_seed33 {'allocated': 62999, 'active': 62999, 'allocated_trainable': 62999, 'effective_trainable': 62999, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_uni white_mlp_seed33 250 val 0.328318
+etth1_uni white_mlp_seed33 500 val 0.296753
+etth1_uni white_mlp_seed33 750 val 0.278735
+etth1_uni white_mlp_seed33 1000 val 0.266546
+etth1_uni white_mlp_seed33 1250 val 0.263205
+etth1_uni white_mlp_seed33 1500 val 0.261998
+etth1_uni white_mlp_seed33 1750 val 0.260366
+etth1_uni white_mlp_seed33 2000 val 0.261275
+DONE etth1_uni white_mlp_seed33 CRPS 0.112649 seconds 9.2
+START etth1_uni white_sparse_mlp_seed33 {'allocated': 124607, 'active': 64105, 'allocated_trainable': 124607, 'effective_trainable': 64105, 'masked_weight_allocated': 122450, 'masked_weight_active': 61948, 'realized_weight_density': 0.5059044507962434}
+etth1_uni white_sparse_mlp_seed33 250 val 0.341345
+etth1_uni white_sparse_mlp_seed33 500 val 0.292729
+etth1_uni white_sparse_mlp_seed33 750 val 0.276259
+etth1_uni white_sparse_mlp_seed33 1000 val 0.273324
+etth1_uni white_sparse_mlp_seed33 1250 val 0.264217
+etth1_uni white_sparse_mlp_seed33 1500 val 0.262489
+etth1_uni white_sparse_mlp_seed33 1750 val 0.258246
+etth1_uni white_sparse_mlp_seed33 2000 val 0.265283
+DONE etth1_uni white_sparse_mlp_seed33 CRPS 0.116775 seconds 9.3
+START etth1_uni white_s4_seed33 {'allocated': 63966, 'active': 63966, 'allocated_trainable': 63966, 'effective_trainable': 63966, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_uni white_s4_seed33 250 val 0.294703
+etth1_uni white_s4_seed33 500 val 0.272785
+etth1_uni white_s4_seed33 750 val 0.267233
+etth1_uni white_s4_seed33 1000 val 0.259983
+etth1_uni white_s4_seed33 1250 val 0.262914
+etth1_uni white_s4_seed33 1500 val 0.253791
+etth1_uni white_s4_seed33 1750 val 0.258524
+etth1_uni white_s4_seed33 2000 val 0.249854
+DONE etth1_uni white_s4_seed33 CRPS 0.166373 seconds 28.5
+START etth1_uni white_unet_seed33 {'allocated': 61621, 'active': 61621, 'allocated_trainable': 61621, 'effective_trainable': 61621, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_uni white_unet_seed33 250 val 0.302439
+etth1_uni white_unet_seed33 500 val 0.278043
+etth1_uni white_unet_seed33 750 val 0.262997
+etth1_uni white_unet_seed33 1000 val 0.262271
+etth1_uni white_unet_seed33 1250 val 0.261149
+etth1_uni white_unet_seed33 1500 val 0.254135
+etth1_uni white_unet_seed33 1750 val 0.254745
+etth1_uni white_unet_seed33 2000 val 0.260736
+DONE etth1_uni white_unet_seed33 CRPS 0.17105 seconds 21.7
+START etth1_uni gp_mlp_seed33 {'allocated': 62999, 'active': 62999, 'allocated_trainable': 62999, 'effective_trainable': 62999, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_uni gp_mlp_seed33 250 val 0.491246
+etth1_uni gp_mlp_seed33 500 val 0.460885
+etth1_uni gp_mlp_seed33 750 val 0.426474
+etth1_uni gp_mlp_seed33 1000 val 0.409429
+etth1_uni gp_mlp_seed33 1250 val 0.425246
+etth1_uni gp_mlp_seed33 1500 val 0.404638
+etth1_uni gp_mlp_seed33 1750 val 0.415215
+etth1_uni gp_mlp_seed33 2000 val 0.417009
+DONE etth1_uni gp_mlp_seed33 CRPS 0.183003 seconds 9.8
+START etth1_uni gp_sparse_mlp_seed33 {'allocated': 124607, 'active': 64105, 'allocated_trainable': 124607, 'effective_trainable': 64105, 'masked_weight_allocated': 122450, 'masked_weight_active': 61948, 'realized_weight_density': 0.5059044507962434}
+etth1_uni gp_sparse_mlp_seed33 250 val 0.461885
+etth1_uni gp_sparse_mlp_seed33 500 val 0.424395
+etth1_uni gp_sparse_mlp_seed33 750 val 0.412834
+etth1_uni gp_sparse_mlp_seed33 1000 val 0.402128
+etth1_uni gp_sparse_mlp_seed33 1250 val 0.406334
+etth1_uni gp_sparse_mlp_seed33 1500 val 0.385152
+etth1_uni gp_sparse_mlp_seed33 1750 val 0.390042
+etth1_uni gp_sparse_mlp_seed33 2000 val 0.395852
+DONE etth1_uni gp_sparse_mlp_seed33 CRPS 0.219151 seconds 10.4
+START etth1_uni gp_s4_seed33 {'allocated': 63966, 'active': 63966, 'allocated_trainable': 63966, 'effective_trainable': 63966, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_uni gp_s4_seed33 250 val 0.477348
+etth1_uni gp_s4_seed33 500 val 0.458183
+etth1_uni gp_s4_seed33 750 val 0.482151
+etth1_uni gp_s4_seed33 1000 val 0.402577
+etth1_uni gp_s4_seed33 1250 val 0.450749
+etth1_uni gp_s4_seed33 1500 val 0.405488
+etth1_uni gp_s4_seed33 1750 val 0.414584
+etth1_uni gp_s4_seed33 2000 val 0.414521
+DONE etth1_uni gp_s4_seed33 CRPS 0.127254 seconds 28.3
+START etth1_uni gp_unet_seed33 {'allocated': 61621, 'active': 61621, 'allocated_trainable': 61621, 'effective_trainable': 61621, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_uni gp_unet_seed33 250 val 0.488857
+etth1_uni gp_unet_seed33 500 val 0.465741
+etth1_uni gp_unet_seed33 750 val 0.443765
+etth1_uni gp_unet_seed33 1000 val 0.414783
+etth1_uni gp_unet_seed33 1250 val 0.384095
+etth1_uni gp_unet_seed33 1500 val 0.39056
+etth1_uni gp_unet_seed33 1750 val 0.394516
+etth1_uni gp_unet_seed33 2000 val 0.399818
+DONE etth1_uni gp_unet_seed33 CRPS 0.231788 seconds 19.1
+START etth1_multi white_mlp_seed31 {'allocated': 64883, 'active': 64883, 'allocated_trainable': 64883, 'effective_trainable': 64883, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_multi white_mlp_seed31 250 val 1.291026
+etth1_multi white_mlp_seed31 500 val 1.198754
+etth1_multi white_mlp_seed31 750 val 1.166886
+etth1_multi white_mlp_seed31 1000 val 1.182897
+etth1_multi white_mlp_seed31 1250 val 1.190917
+etth1_multi white_mlp_seed31 1500 val 1.193303
+etth1_multi white_mlp_seed31 1750 val 1.2045
+etth1_multi white_mlp_seed31 2000 val 1.265784
+DONE etth1_multi white_mlp_seed31 CRPS 0.351781 seconds 8.6
+START etth1_multi white_sparse_mlp_seed31 {'allocated': 126822, 'active': 64386, 'allocated_trainable': 126822, 'effective_trainable': 64386, 'masked_weight_allocated': 124872, 'masked_weight_active': 62436, 'realized_weight_density': 0.5}
+etth1_multi white_sparse_mlp_seed31 250 val 1.368785
+etth1_multi white_sparse_mlp_seed31 500 val 1.262439
+etth1_multi white_sparse_mlp_seed31 750 val 1.212488
+etth1_multi white_sparse_mlp_seed31 1000 val 1.160924
+etth1_multi white_sparse_mlp_seed31 1250 val 1.158838
+etth1_multi white_sparse_mlp_seed31 1500 val 1.143335
+etth1_multi white_sparse_mlp_seed31 1750 val 1.14982
+etth1_multi white_sparse_mlp_seed31 2000 val 1.144904
+DONE etth1_multi white_sparse_mlp_seed31 CRPS 0.37222 seconds 8.7
+START etth1_multi white_s4_seed31 {'allocated': 64519, 'active': 64519, 'allocated_trainable': 64519, 'effective_trainable': 64519, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_multi white_s4_seed31 250 val 1.380732
+etth1_multi white_s4_seed31 500 val 1.238675
+etth1_multi white_s4_seed31 750 val 1.161439
+etth1_multi white_s4_seed31 1000 val 1.084515
+etth1_multi white_s4_seed31 1250 val 1.094213
+etth1_multi white_s4_seed31 1500 val 1.102006
+etth1_multi white_s4_seed31 1750 val 1.057249
+etth1_multi white_s4_seed31 2000 val 1.101987
+DONE etth1_multi white_s4_seed31 CRPS 0.445837 seconds 25.8
+START etth1_multi white_unet_seed31 {'allocated': 66127, 'active': 66127, 'allocated_trainable': 66127, 'effective_trainable': 66127, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_multi white_unet_seed31 250 val 1.32564
+etth1_multi white_unet_seed31 500 val 1.218955
+etth1_multi white_unet_seed31 750 val 1.188574
+etth1_multi white_unet_seed31 1000 val 1.186841
+etth1_multi white_unet_seed31 1250 val 1.187141
+etth1_multi white_unet_seed31 1500 val 1.155811
+etth1_multi white_unet_seed31 1750 val 1.17824
+etth1_multi white_unet_seed31 2000 val 1.191992
+DONE etth1_multi white_unet_seed31 CRPS 0.37119 seconds 20.5
+START etth1_multi gp_mlp_seed31 {'allocated': 64883, 'active': 64883, 'allocated_trainable': 64883, 'effective_trainable': 64883, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_multi gp_mlp_seed31 250 val 1.871338
+etth1_multi gp_mlp_seed31 500 val 1.722053
+etth1_multi gp_mlp_seed31 750 val 1.799839
+etth1_multi gp_mlp_seed31 1000 val 1.976156
+etth1_multi gp_mlp_seed31 1250 val 1.804973
+etth1_multi gp_mlp_seed31 1500 val 1.829374
+etth1_multi gp_mlp_seed31 1750 val 1.95464
+etth1_multi gp_mlp_seed31 2000 val 1.978737
+DONE etth1_multi gp_mlp_seed31 CRPS 0.386002 seconds 9.3
+START etth1_multi gp_sparse_mlp_seed31 {'allocated': 126822, 'active': 64386, 'allocated_trainable': 126822, 'effective_trainable': 64386, 'masked_weight_allocated': 124872, 'masked_weight_active': 62436, 'realized_weight_density': 0.5}
+etth1_multi gp_sparse_mlp_seed31 250 val 1.543312
+etth1_multi gp_sparse_mlp_seed31 500 val 1.398368
+etth1_multi gp_sparse_mlp_seed31 750 val 1.459107
+etth1_multi gp_sparse_mlp_seed31 1000 val 1.496907
+etth1_multi gp_sparse_mlp_seed31 1250 val 1.462685
+etth1_multi gp_sparse_mlp_seed31 1500 val 1.494847
+etth1_multi gp_sparse_mlp_seed31 1750 val 1.440371
+etth1_multi gp_sparse_mlp_seed31 2000 val 1.559685
+DONE etth1_multi gp_sparse_mlp_seed31 CRPS 0.36538 seconds 9.6
+START etth1_multi gp_s4_seed31 {'allocated': 64519, 'active': 64519, 'allocated_trainable': 64519, 'effective_trainable': 64519, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_multi gp_s4_seed31 250 val 1.591477
+etth1_multi gp_s4_seed31 500 val 1.332504
+etth1_multi gp_s4_seed31 750 val 1.267301
+etth1_multi gp_s4_seed31 1000 val 1.335611
+etth1_multi gp_s4_seed31 1250 val 1.30385
+etth1_multi gp_s4_seed31 1500 val 1.30661
+etth1_multi gp_s4_seed31 1750 val 1.337373
+etth1_multi gp_s4_seed31 2000 val 1.312396
+DONE etth1_multi gp_s4_seed31 CRPS 0.397117 seconds 27.5
+START etth1_multi gp_unet_seed31 {'allocated': 66127, 'active': 66127, 'allocated_trainable': 66127, 'effective_trainable': 66127, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_multi gp_unet_seed31 250 val 1.792772
+etth1_multi gp_unet_seed31 500 val 1.596921
+etth1_multi gp_unet_seed31 750 val 1.646019
+etth1_multi gp_unet_seed31 1000 val 1.713199
+etth1_multi gp_unet_seed31 1250 val 1.845902
+etth1_multi gp_unet_seed31 1500 val 1.874073
+etth1_multi gp_unet_seed31 1750 val 1.926662
+etth1_multi gp_unet_seed31 2000 val 2.021295
+DONE etth1_multi gp_unet_seed31 CRPS 0.43746 seconds 22.3
+START etth1_multi white_mlp_seed32 {'allocated': 64883, 'active': 64883, 'allocated_trainable': 64883, 'effective_trainable': 64883, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_multi white_mlp_seed32 250 val 1.26952
+etth1_multi white_mlp_seed32 500 val 1.171827
+etth1_multi white_mlp_seed32 750 val 1.150043
+etth1_multi white_mlp_seed32 1000 val 1.168424
+etth1_multi white_mlp_seed32 1250 val 1.19696
+etth1_multi white_mlp_seed32 1500 val 1.188969
+etth1_multi white_mlp_seed32 1750 val 1.278174
+etth1_multi white_mlp_seed32 2000 val 1.346145
+DONE etth1_multi white_mlp_seed32 CRPS 0.365456 seconds 9.1
+START etth1_multi white_sparse_mlp_seed32 {'allocated': 126822, 'active': 64386, 'allocated_trainable': 126822, 'effective_trainable': 64386, 'masked_weight_allocated': 124872, 'masked_weight_active': 62436, 'realized_weight_density': 0.5}
+etth1_multi white_sparse_mlp_seed32 250 val 1.338872
+etth1_multi white_sparse_mlp_seed32 500 val 1.252399
+etth1_multi white_sparse_mlp_seed32 750 val 1.187037
+etth1_multi white_sparse_mlp_seed32 1000 val 1.17099
+etth1_multi white_sparse_mlp_seed32 1250 val 1.168256
+etth1_multi white_sparse_mlp_seed32 1500 val 1.149123
+etth1_multi white_sparse_mlp_seed32 1750 val 1.191182
+etth1_multi white_sparse_mlp_seed32 2000 val 1.165434
+DONE etth1_multi white_sparse_mlp_seed32 CRPS 0.339406 seconds 9.6
+START etth1_multi white_s4_seed32 {'allocated': 64519, 'active': 64519, 'allocated_trainable': 64519, 'effective_trainable': 64519, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_multi white_s4_seed32 250 val 1.378438
+etth1_multi white_s4_seed32 500 val 1.18254
+etth1_multi white_s4_seed32 750 val 1.110351
+etth1_multi white_s4_seed32 1000 val 1.087622
+etth1_multi white_s4_seed32 1250 val 1.14969
+etth1_multi white_s4_seed32 1500 val 1.162591
+etth1_multi white_s4_seed32 1750 val 1.165319
+etth1_multi white_s4_seed32 2000 val 1.159058
+DONE etth1_multi white_s4_seed32 CRPS 0.378373 seconds 28.0
+START etth1_multi white_unet_seed32 {'allocated': 66127, 'active': 66127, 'allocated_trainable': 66127, 'effective_trainable': 66127, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_multi white_unet_seed32 250 val 1.3118
+etth1_multi white_unet_seed32 500 val 1.185881
+etth1_multi white_unet_seed32 750 val 1.06601
+etth1_multi white_unet_seed32 1000 val 1.069273
+etth1_multi white_unet_seed32 1250 val 1.03665
+etth1_multi white_unet_seed32 1500 val 1.120356
+etth1_multi white_unet_seed32 1750 val 1.132224
+etth1_multi white_unet_seed32 2000 val 1.125252
+DONE etth1_multi white_unet_seed32 CRPS 0.42533 seconds 21.6
+START etth1_multi gp_mlp_seed32 {'allocated': 64883, 'active': 64883, 'allocated_trainable': 64883, 'effective_trainable': 64883, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_multi gp_mlp_seed32 250 val 1.444654
+etth1_multi gp_mlp_seed32 500 val 1.235238
+etth1_multi gp_mlp_seed32 750 val 1.33914
+etth1_multi gp_mlp_seed32 1000 val 1.494846
+etth1_multi gp_mlp_seed32 1250 val 1.514896
+etth1_multi gp_mlp_seed32 1500 val 1.508993
+etth1_multi gp_mlp_seed32 1750 val 1.580897
+etth1_multi gp_mlp_seed32 2000 val 1.53604
+DONE etth1_multi gp_mlp_seed32 CRPS 0.356316 seconds 9.5
+START etth1_multi gp_sparse_mlp_seed32 {'allocated': 126822, 'active': 64386, 'allocated_trainable': 126822, 'effective_trainable': 64386, 'masked_weight_allocated': 124872, 'masked_weight_active': 62436, 'realized_weight_density': 0.5}
+etth1_multi gp_sparse_mlp_seed32 250 val 1.425732
+etth1_multi gp_sparse_mlp_seed32 500 val 1.392657
+etth1_multi gp_sparse_mlp_seed32 750 val 1.338236
+etth1_multi gp_sparse_mlp_seed32 1000 val 1.398547
+etth1_multi gp_sparse_mlp_seed32 1250 val 1.329591
+etth1_multi gp_sparse_mlp_seed32 1500 val 1.383176
+etth1_multi gp_sparse_mlp_seed32 1750 val 1.534171
+etth1_multi gp_sparse_mlp_seed32 2000 val 1.442218
+DONE etth1_multi gp_sparse_mlp_seed32 CRPS 0.400232 seconds 11.0
+START etth1_multi gp_s4_seed32 {'allocated': 64519, 'active': 64519, 'allocated_trainable': 64519, 'effective_trainable': 64519, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_multi gp_s4_seed32 250 val 1.560276
+etth1_multi gp_s4_seed32 500 val 1.371275
+etth1_multi gp_s4_seed32 750 val 1.335879
+etth1_multi gp_s4_seed32 1000 val 1.309069
+etth1_multi gp_s4_seed32 1250 val 1.282225
+etth1_multi gp_s4_seed32 1500 val 1.352549
+etth1_multi gp_s4_seed32 1750 val 1.42339
+etth1_multi gp_s4_seed32 2000 val 1.334599
+DONE etth1_multi gp_s4_seed32 CRPS 0.387508 seconds 27.0
+START etth1_multi gp_unet_seed32 {'allocated': 66127, 'active': 66127, 'allocated_trainable': 66127, 'effective_trainable': 66127, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_multi gp_unet_seed32 250 val 1.575335
+etth1_multi gp_unet_seed32 500 val 1.539327
+etth1_multi gp_unet_seed32 750 val 1.494326
+etth1_multi gp_unet_seed32 1000 val 1.592997
+etth1_multi gp_unet_seed32 1250 val 1.567877
+etth1_multi gp_unet_seed32 1500 val 1.746673
+etth1_multi gp_unet_seed32 1750 val 1.820289
+etth1_multi gp_unet_seed32 2000 val 1.830613
+DONE etth1_multi gp_unet_seed32 CRPS 0.428918 seconds 20.0
+START etth1_multi white_mlp_seed33 {'allocated': 64883, 'active': 64883, 'allocated_trainable': 64883, 'effective_trainable': 64883, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_multi white_mlp_seed33 250 val 1.222679
+etth1_multi white_mlp_seed33 500 val 1.158135
+etth1_multi white_mlp_seed33 750 val 1.15253
+etth1_multi white_mlp_seed33 1000 val 1.160279
+etth1_multi white_mlp_seed33 1250 val 1.172636
+etth1_multi white_mlp_seed33 1500 val 1.199487
+etth1_multi white_mlp_seed33 1750 val 1.228412
+etth1_multi white_mlp_seed33 2000 val 1.221414
+DONE etth1_multi white_mlp_seed33 CRPS 0.369125 seconds 8.9
+START etth1_multi white_sparse_mlp_seed33 {'allocated': 126822, 'active': 64386, 'allocated_trainable': 126822, 'effective_trainable': 64386, 'masked_weight_allocated': 124872, 'masked_weight_active': 62436, 'realized_weight_density': 0.5}
+etth1_multi white_sparse_mlp_seed33 250 val 1.357455
+etth1_multi white_sparse_mlp_seed33 500 val 1.25052
+etth1_multi white_sparse_mlp_seed33 750 val 1.195092
+etth1_multi white_sparse_mlp_seed33 1000 val 1.180583
+etth1_multi white_sparse_mlp_seed33 1250 val 1.155218
+etth1_multi white_sparse_mlp_seed33 1500 val 1.144648
+etth1_multi white_sparse_mlp_seed33 1750 val 1.179125
+etth1_multi white_sparse_mlp_seed33 2000 val 1.150488
+DONE etth1_multi white_sparse_mlp_seed33 CRPS 0.363731 seconds 9.3
+START etth1_multi white_s4_seed33 {'allocated': 64519, 'active': 64519, 'allocated_trainable': 64519, 'effective_trainable': 64519, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_multi white_s4_seed33 250 val 1.359937
+etth1_multi white_s4_seed33 500 val 1.254852
+etth1_multi white_s4_seed33 750 val 1.19632
+etth1_multi white_s4_seed33 1000 val 1.248751
+etth1_multi white_s4_seed33 1250 val 1.176895
+etth1_multi white_s4_seed33 1500 val 1.219487
+etth1_multi white_s4_seed33 1750 val 1.251794
+etth1_multi white_s4_seed33 2000 val 1.256321
+DONE etth1_multi white_s4_seed33 CRPS 0.389236 seconds 26.8
+START etth1_multi white_unet_seed33 {'allocated': 66127, 'active': 66127, 'allocated_trainable': 66127, 'effective_trainable': 66127, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_multi white_unet_seed33 250 val 1.261256
+etth1_multi white_unet_seed33 500 val 1.107772
+etth1_multi white_unet_seed33 750 val 1.060012
+etth1_multi white_unet_seed33 1000 val 1.068499
+etth1_multi white_unet_seed33 1250 val 1.035856
+etth1_multi white_unet_seed33 1500 val 1.022217
+etth1_multi white_unet_seed33 1750 val 1.029407
+etth1_multi white_unet_seed33 2000 val 1.02954
+DONE etth1_multi white_unet_seed33 CRPS 0.351031 seconds 20.1
+START etth1_multi gp_mlp_seed33 {'allocated': 64883, 'active': 64883, 'allocated_trainable': 64883, 'effective_trainable': 64883, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_multi gp_mlp_seed33 250 val 1.409425
+etth1_multi gp_mlp_seed33 500 val 1.359609
+etth1_multi gp_mlp_seed33 750 val 1.262713
+etth1_multi gp_mlp_seed33 1000 val 1.319214
+etth1_multi gp_mlp_seed33 1250 val 1.252894
+etth1_multi gp_mlp_seed33 1500 val 1.279451
+etth1_multi gp_mlp_seed33 1750 val 1.461076
+etth1_multi gp_mlp_seed33 2000 val 1.420547
+DONE etth1_multi gp_mlp_seed33 CRPS 0.382762 seconds 8.9
+START etth1_multi gp_sparse_mlp_seed33 {'allocated': 126822, 'active': 64386, 'allocated_trainable': 126822, 'effective_trainable': 64386, 'masked_weight_allocated': 124872, 'masked_weight_active': 62436, 'realized_weight_density': 0.5}
+etth1_multi gp_sparse_mlp_seed33 250 val 1.575576
+etth1_multi gp_sparse_mlp_seed33 500 val 1.555932
+etth1_multi gp_sparse_mlp_seed33 750 val 1.569289
+etth1_multi gp_sparse_mlp_seed33 1000 val 1.546879
+etth1_multi gp_sparse_mlp_seed33 1250 val 1.470719
+etth1_multi gp_sparse_mlp_seed33 1500 val 1.506331
+etth1_multi gp_sparse_mlp_seed33 1750 val 1.596809
+etth1_multi gp_sparse_mlp_seed33 2000 val 1.475865
+DONE etth1_multi gp_sparse_mlp_seed33 CRPS 0.359625 seconds 9.3
+START etth1_multi gp_s4_seed33 {'allocated': 64519, 'active': 64519, 'allocated_trainable': 64519, 'effective_trainable': 64519, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_multi gp_s4_seed33 250 val 1.483788
+etth1_multi gp_s4_seed33 500 val 1.289663
+etth1_multi gp_s4_seed33 750 val 1.250978
+etth1_multi gp_s4_seed33 1000 val 1.298946
+etth1_multi gp_s4_seed33 1250 val 1.293965
+etth1_multi gp_s4_seed33 1500 val 1.279331
+etth1_multi gp_s4_seed33 1750 val 1.423009
+etth1_multi gp_s4_seed33 2000 val 1.291308
+DONE etth1_multi gp_s4_seed33 CRPS 0.42538 seconds 26.9
+START etth1_multi gp_unet_seed33 {'allocated': 66127, 'active': 66127, 'allocated_trainable': 66127, 'effective_trainable': 66127, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_multi gp_unet_seed33 250 val 1.640532
+etth1_multi gp_unet_seed33 500 val 1.509734
+etth1_multi gp_unet_seed33 750 val 1.459696
+etth1_multi gp_unet_seed33 1000 val 1.490721
+etth1_multi gp_unet_seed33 1250 val 1.46203
+etth1_multi gp_unet_seed33 1500 val 1.534579
+etth1_multi gp_unet_seed33 1750 val 1.564843
+etth1_multi gp_unet_seed33 2000 val 1.613642
+DONE etth1_multi gp_unet_seed33 CRPS 0.448206 seconds 20.3
+START exchange_multi white_mlp_seed31 {'allocated': 64482, 'active': 64482, 'allocated_trainable': 64482, 'effective_trainable': 64482, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+exchange_multi white_mlp_seed31 250 val 0.615881
+exchange_multi white_mlp_seed31 500 val 0.551728
+exchange_multi white_mlp_seed31 750 val 0.517591
+exchange_multi white_mlp_seed31 1000 val 0.515136
+exchange_multi white_mlp_seed31 1250 val 0.477706
+exchange_multi white_mlp_seed31 1500 val 0.557922
+exchange_multi white_mlp_seed31 1750 val 0.472734
+exchange_multi white_mlp_seed31 2000 val 0.489282
+DONE exchange_multi white_mlp_seed31 CRPS 0.293506 seconds 9.6
+START exchange_multi white_sparse_mlp_seed31 {'allocated': 125225, 'active': 62923, 'allocated_trainable': 125225, 'effective_trainable': 62923, 'masked_weight_allocated': 123234, 'masked_weight_active': 60932, 'realized_weight_density': 0.4944414690750929}
+exchange_multi white_sparse_mlp_seed31 250 val 0.717822
+exchange_multi white_sparse_mlp_seed31 500 val 0.658803
+exchange_multi white_sparse_mlp_seed31 750 val 0.595469
+exchange_multi white_sparse_mlp_seed31 1000 val 0.627943
+exchange_multi white_sparse_mlp_seed31 1250 val 0.583949
+exchange_multi white_sparse_mlp_seed31 1500 val 0.711758
+exchange_multi white_sparse_mlp_seed31 1750 val 0.607469
+exchange_multi white_sparse_mlp_seed31 2000 val 0.574384
+DONE exchange_multi white_sparse_mlp_seed31 CRPS 0.296345 seconds 10.3
+START exchange_multi white_s4_seed31 {'allocated': 64248, 'active': 64248, 'allocated_trainable': 64248, 'effective_trainable': 64248, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+exchange_multi white_s4_seed31 250 val 1.072697
+exchange_multi white_s4_seed31 500 val 0.8662
+exchange_multi white_s4_seed31 750 val 0.877141
+exchange_multi white_s4_seed31 1000 val 0.750608
+exchange_multi white_s4_seed31 1250 val 0.889853
+exchange_multi white_s4_seed31 1500 val 0.823133
+exchange_multi white_s4_seed31 1750 val 0.683782
+exchange_multi white_s4_seed31 2000 val 1.107487
+DONE exchange_multi white_s4_seed31 CRPS 0.262713 seconds 28.7
+START exchange_multi white_unet_seed31 {'allocated': 64958, 'active': 64958, 'allocated_trainable': 64958, 'effective_trainable': 64958, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+exchange_multi white_unet_seed31 250 val 0.972285
+exchange_multi white_unet_seed31 500 val 1.125007
+exchange_multi white_unet_seed31 750 val 1.168413
+exchange_multi white_unet_seed31 1000 val 1.399652
+exchange_multi white_unet_seed31 1250 val 1.165203
+exchange_multi white_unet_seed31 1500 val 1.528047
+exchange_multi white_unet_seed31 1750 val 1.498838
+exchange_multi white_unet_seed31 2000 val 1.815129
+DONE exchange_multi white_unet_seed31 CRPS 0.571653 seconds 21.8
+START exchange_multi gp_mlp_seed31 {'allocated': 64482, 'active': 64482, 'allocated_trainable': 64482, 'effective_trainable': 64482, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+exchange_multi gp_mlp_seed31 250 val 0.820572
+exchange_multi gp_mlp_seed31 500 val 0.665393
+exchange_multi gp_mlp_seed31 750 val 0.563211
+exchange_multi gp_mlp_seed31 1000 val 0.835756
+exchange_multi gp_mlp_seed31 1250 val 0.567617
+exchange_multi gp_mlp_seed31 1500 val 0.730298
+exchange_multi gp_mlp_seed31 1750 val 0.610639
+exchange_multi gp_mlp_seed31 2000 val 0.660088
+DONE exchange_multi gp_mlp_seed31 CRPS 0.39039 seconds 9.6
+START exchange_multi gp_sparse_mlp_seed31 {'allocated': 125225, 'active': 62923, 'allocated_trainable': 125225, 'effective_trainable': 62923, 'masked_weight_allocated': 123234, 'masked_weight_active': 60932, 'realized_weight_density': 0.4944414690750929}
+exchange_multi gp_sparse_mlp_seed31 250 val 0.604223
+exchange_multi gp_sparse_mlp_seed31 500 val 0.521822
+exchange_multi gp_sparse_mlp_seed31 750 val 0.519745
+exchange_multi gp_sparse_mlp_seed31 1000 val 0.58529
+exchange_multi gp_sparse_mlp_seed31 1250 val 0.546485
+exchange_multi gp_sparse_mlp_seed31 1500 val 0.673734
+exchange_multi gp_sparse_mlp_seed31 1750 val 0.822275
+exchange_multi gp_sparse_mlp_seed31 2000 val 0.588569
+DONE exchange_multi gp_sparse_mlp_seed31 CRPS 0.329197 seconds 9.9
+START exchange_multi gp_s4_seed31 {'allocated': 64248, 'active': 64248, 'allocated_trainable': 64248, 'effective_trainable': 64248, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+exchange_multi gp_s4_seed31 250 val 0.685233
+exchange_multi gp_s4_seed31 500 val 0.8277
+exchange_multi gp_s4_seed31 750 val 0.797332
+exchange_multi gp_s4_seed31 1000 val 1.201384
+exchange_multi gp_s4_seed31 1250 val 0.913017
+exchange_multi gp_s4_seed31 1500 val 0.870057
+exchange_multi gp_s4_seed31 1750 val 1.013064
+exchange_multi gp_s4_seed31 2000 val 0.855982
+DONE exchange_multi gp_s4_seed31 CRPS 0.433397 seconds 26.2
+START exchange_multi gp_unet_seed31 {'allocated': 64958, 'active': 64958, 'allocated_trainable': 64958, 'effective_trainable': 64958, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+exchange_multi gp_unet_seed31 250 val 1.66531
+exchange_multi gp_unet_seed31 500 val 2.311765
+exchange_multi gp_unet_seed31 750 val 2.994411
+exchange_multi gp_unet_seed31 1000 val 2.80865
+exchange_multi gp_unet_seed31 1250 val 3.079305
+exchange_multi gp_unet_seed31 1500 val 3.267245
+exchange_multi gp_unet_seed31 1750 val 2.825258
+exchange_multi gp_unet_seed31 2000 val 3.433574
+DONE exchange_multi gp_unet_seed31 CRPS 0.584412 seconds 21.5
+START exchange_multi white_mlp_seed32 {'allocated': 64482, 'active': 64482, 'allocated_trainable': 64482, 'effective_trainable': 64482, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+exchange_multi white_mlp_seed32 250 val 0.760353
+exchange_multi white_mlp_seed32 500 val 0.613932
+exchange_multi white_mlp_seed32 750 val 0.506664
+exchange_multi white_mlp_seed32 1000 val 0.515737
+exchange_multi white_mlp_seed32 1250 val 0.640546
+exchange_multi white_mlp_seed32 1500 val 0.557917
+exchange_multi white_mlp_seed32 1750 val 0.62674
+exchange_multi white_mlp_seed32 2000 val 0.61918
+DONE exchange_multi white_mlp_seed32 CRPS 0.316661 seconds 10.6
+START exchange_multi white_sparse_mlp_seed32 {'allocated': 125225, 'active': 62923, 'allocated_trainable': 125225, 'effective_trainable': 62923, 'masked_weight_allocated': 123234, 'masked_weight_active': 60932, 'realized_weight_density': 0.4944414690750929}
+exchange_multi white_sparse_mlp_seed32 250 val 0.767899
+exchange_multi white_sparse_mlp_seed32 500 val 0.584958
+exchange_multi white_sparse_mlp_seed32 750 val 0.510151
+exchange_multi white_sparse_mlp_seed32 1000 val 0.564025
+exchange_multi white_sparse_mlp_seed32 1250 val 0.644943
+exchange_multi white_sparse_mlp_seed32 1500 val 0.52616
+exchange_multi white_sparse_mlp_seed32 1750 val 0.559341
+exchange_multi white_sparse_mlp_seed32 2000 val 0.522883
+DONE exchange_multi white_sparse_mlp_seed32 CRPS 0.297211 seconds 11.0
+START exchange_multi white_s4_seed32 {'allocated': 64248, 'active': 64248, 'allocated_trainable': 64248, 'effective_trainable': 64248, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+exchange_multi white_s4_seed32 250 val 0.744147
+exchange_multi white_s4_seed32 500 val 0.770269
+exchange_multi white_s4_seed32 750 val 0.579025
+exchange_multi white_s4_seed32 1000 val 0.605318
+exchange_multi white_s4_seed32 1250 val 1.018369
+exchange_multi white_s4_seed32 1500 val 0.839628
+exchange_multi white_s4_seed32 1750 val 0.883246
+exchange_multi white_s4_seed32 2000 val 0.842039
+DONE exchange_multi white_s4_seed32 CRPS 0.402302 seconds 26.5
+START exchange_multi white_unet_seed32 {'allocated': 64958, 'active': 64958, 'allocated_trainable': 64958, 'effective_trainable': 64958, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+exchange_multi white_unet_seed32 250 val 1.26718
+exchange_multi white_unet_seed32 500 val 1.183821
+exchange_multi white_unet_seed32 750 val 1.094121
+exchange_multi white_unet_seed32 1000 val 1.398304
+exchange_multi white_unet_seed32 1250 val 1.392164
+exchange_multi white_unet_seed32 1500 val 1.402636
+exchange_multi white_unet_seed32 1750 val 1.312366
+exchange_multi white_unet_seed32 2000 val 1.721951
+DONE exchange_multi white_unet_seed32 CRPS 0.530344 seconds 22.3
+START exchange_multi gp_mlp_seed32 {'allocated': 64482, 'active': 64482, 'allocated_trainable': 64482, 'effective_trainable': 64482, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+exchange_multi gp_mlp_seed32 250 val 0.724153
+exchange_multi gp_mlp_seed32 500 val 0.727289
+exchange_multi gp_mlp_seed32 750 val 0.821615
+exchange_multi gp_mlp_seed32 1000 val 0.757989
+exchange_multi gp_mlp_seed32 1250 val 0.58227
+exchange_multi gp_mlp_seed32 1500 val 0.714421
+exchange_multi gp_mlp_seed32 1750 val 0.698894
+exchange_multi gp_mlp_seed32 2000 val 0.719476
+DONE exchange_multi gp_mlp_seed32 CRPS 0.348245 seconds 9.7
+START exchange_multi gp_sparse_mlp_seed32 {'allocated': 125225, 'active': 62923, 'allocated_trainable': 125225, 'effective_trainable': 62923, 'masked_weight_allocated': 123234, 'masked_weight_active': 60932, 'realized_weight_density': 0.4944414690750929}
+exchange_multi gp_sparse_mlp_seed32 250 val 0.744092
+exchange_multi gp_sparse_mlp_seed32 500 val 0.60489
+exchange_multi gp_sparse_mlp_seed32 750 val 0.535834
+exchange_multi gp_sparse_mlp_seed32 1000 val 0.453415
+exchange_multi gp_sparse_mlp_seed32 1250 val 0.551088
+exchange_multi gp_sparse_mlp_seed32 1500 val 0.56876
+exchange_multi gp_sparse_mlp_seed32 1750 val 0.575082
+exchange_multi gp_sparse_mlp_seed32 2000 val 0.527686
+DONE exchange_multi gp_sparse_mlp_seed32 CRPS 0.295747 seconds 8.4
+START exchange_multi gp_s4_seed32 {'allocated': 64248, 'active': 64248, 'allocated_trainable': 64248, 'effective_trainable': 64248, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+exchange_multi gp_s4_seed32 250 val 0.657602
+exchange_multi gp_s4_seed32 500 val 0.762643
+exchange_multi gp_s4_seed32 750 val 0.54857
+exchange_multi gp_s4_seed32 1000 val 0.947165
+exchange_multi gp_s4_seed32 1250 val 0.950141
+exchange_multi gp_s4_seed32 1500 val 1.148072
+exchange_multi gp_s4_seed32 1750 val 1.288739
+exchange_multi gp_s4_seed32 2000 val 1.241147
+DONE exchange_multi gp_s4_seed32 CRPS 0.38389 seconds 24.2
+START exchange_multi gp_unet_seed32 {'allocated': 64958, 'active': 64958, 'allocated_trainable': 64958, 'effective_trainable': 64958, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+exchange_multi gp_unet_seed32 250 val 1.946933
+exchange_multi gp_unet_seed32 500 val 2.299303
+exchange_multi gp_unet_seed32 750 val 1.797535
+exchange_multi gp_unet_seed32 1000 val 2.484421
+exchange_multi gp_unet_seed32 1250 val 2.554659
+exchange_multi gp_unet_seed32 1500 val 2.588077
+exchange_multi gp_unet_seed32 1750 val 2.702268
+exchange_multi gp_unet_seed32 2000 val 2.484207
+DONE exchange_multi gp_unet_seed32 CRPS 0.530712 seconds 21.2
+START exchange_multi white_mlp_seed33 {'allocated': 64482, 'active': 64482, 'allocated_trainable': 64482, 'effective_trainable': 64482, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+exchange_multi white_mlp_seed33 250 val 0.632964
+exchange_multi white_mlp_seed33 500 val 0.553467
+exchange_multi white_mlp_seed33 750 val 0.510416
+exchange_multi white_mlp_seed33 1000 val 0.504149
+exchange_multi white_mlp_seed33 1250 val 0.562863
+exchange_multi white_mlp_seed33 1500 val 0.502808
+exchange_multi white_mlp_seed33 1750 val 0.52622
+exchange_multi white_mlp_seed33 2000 val 0.596455
+DONE exchange_multi white_mlp_seed33 CRPS 0.330863 seconds 9.6
+START exchange_multi white_sparse_mlp_seed33 {'allocated': 125225, 'active': 62923, 'allocated_trainable': 125225, 'effective_trainable': 62923, 'masked_weight_allocated': 123234, 'masked_weight_active': 60932, 'realized_weight_density': 0.4944414690750929}
+exchange_multi white_sparse_mlp_seed33 250 val 0.752552
+exchange_multi white_sparse_mlp_seed33 500 val 0.621315
+exchange_multi white_sparse_mlp_seed33 750 val 0.575627
+exchange_multi white_sparse_mlp_seed33 1000 val 0.51788
+exchange_multi white_sparse_mlp_seed33 1250 val 0.577711
+exchange_multi white_sparse_mlp_seed33 1500 val 0.529356
+exchange_multi white_sparse_mlp_seed33 1750 val 0.541847
+exchange_multi white_sparse_mlp_seed33 2000 val 0.556801
+DONE exchange_multi white_sparse_mlp_seed33 CRPS 0.257415 seconds 10.0
+START exchange_multi white_s4_seed33 {'allocated': 64248, 'active': 64248, 'allocated_trainable': 64248, 'effective_trainable': 64248, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+exchange_multi white_s4_seed33 250 val 1.085911
+exchange_multi white_s4_seed33 500 val 1.269613
+exchange_multi white_s4_seed33 750 val 0.845435
+exchange_multi white_s4_seed33 1000 val 1.086771
+exchange_multi white_s4_seed33 1250 val 1.029357
+exchange_multi white_s4_seed33 1500 val 1.030301
+exchange_multi white_s4_seed33 1750 val 0.971961
+exchange_multi white_s4_seed33 2000 val 0.803153
+DONE exchange_multi white_s4_seed33 CRPS 0.341143 seconds 25.8
+START exchange_multi white_unet_seed33 {'allocated': 64958, 'active': 64958, 'allocated_trainable': 64958, 'effective_trainable': 64958, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+exchange_multi white_unet_seed33 250 val 1.115216
+exchange_multi white_unet_seed33 500 val 0.979772
+exchange_multi white_unet_seed33 750 val 1.103963
+exchange_multi white_unet_seed33 1000 val 1.083324
+exchange_multi white_unet_seed33 1250 val 1.092206
+exchange_multi white_unet_seed33 1500 val 1.266582
+exchange_multi white_unet_seed33 1750 val 1.252369
+exchange_multi white_unet_seed33 2000 val 1.494444
+DONE exchange_multi white_unet_seed33 CRPS 0.566674 seconds 21.0
+START exchange_multi gp_mlp_seed33 {'allocated': 64482, 'active': 64482, 'allocated_trainable': 64482, 'effective_trainable': 64482, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+exchange_multi gp_mlp_seed33 250 val 0.700921
+exchange_multi gp_mlp_seed33 500 val 0.537768
+exchange_multi gp_mlp_seed33 750 val 0.563646
+exchange_multi gp_mlp_seed33 1000 val 0.473082
+exchange_multi gp_mlp_seed33 1250 val 0.614868
+exchange_multi gp_mlp_seed33 1500 val 0.4975
+exchange_multi gp_mlp_seed33 1750 val 0.479147
+exchange_multi gp_mlp_seed33 2000 val 0.564084
+DONE exchange_multi gp_mlp_seed33 CRPS 0.416953 seconds 9.6
+START exchange_multi gp_sparse_mlp_seed33 {'allocated': 125225, 'active': 62923, 'allocated_trainable': 125225, 'effective_trainable': 62923, 'masked_weight_allocated': 123234, 'masked_weight_active': 60932, 'realized_weight_density': 0.4944414690750929}
+exchange_multi gp_sparse_mlp_seed33 250 val 0.652464
+exchange_multi gp_sparse_mlp_seed33 500 val 0.567798
+exchange_multi gp_sparse_mlp_seed33 750 val 0.542054
+exchange_multi gp_sparse_mlp_seed33 1000 val 0.55853
+exchange_multi gp_sparse_mlp_seed33 1250 val 0.767046
+exchange_multi gp_sparse_mlp_seed33 1500 val 0.514824
+exchange_multi gp_sparse_mlp_seed33 1750 val 0.496204
+exchange_multi gp_sparse_mlp_seed33 2000 val 0.624232
+DONE exchange_multi gp_sparse_mlp_seed33 CRPS 0.278281 seconds 10.1
+START exchange_multi gp_s4_seed33 {'allocated': 64248, 'active': 64248, 'allocated_trainable': 64248, 'effective_trainable': 64248, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+exchange_multi gp_s4_seed33 250 val 0.99315
+exchange_multi gp_s4_seed33 500 val 1.25658
+exchange_multi gp_s4_seed33 750 val 1.880587
+exchange_multi gp_s4_seed33 1000 val 1.409061
+exchange_multi gp_s4_seed33 1250 val 2.646313
+exchange_multi gp_s4_seed33 1500 val 1.656216
+exchange_multi gp_s4_seed33 1750 val 1.824913
+exchange_multi gp_s4_seed33 2000 val 1.652904
+DONE exchange_multi gp_s4_seed33 CRPS 0.459073 seconds 27.7
+START exchange_multi gp_unet_seed33 {'allocated': 64958, 'active': 64958, 'allocated_trainable': 64958, 'effective_trainable': 64958, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+exchange_multi gp_unet_seed33 250 val 2.167251
+exchange_multi gp_unet_seed33 500 val 2.439163
+exchange_multi gp_unet_seed33 750 val 2.5077
+exchange_multi gp_unet_seed33 1000 val 2.341166
+exchange_multi gp_unet_seed33 1250 val 3.514424
+exchange_multi gp_unet_seed33 1500 val 2.224268
+exchange_multi gp_unet_seed33 1750 val 2.546255
+exchange_multi gp_unet_seed33 2000 val 2.55778
+DONE exchange_multi gp_unet_seed33 CRPS 0.66302 seconds 19.7
+SUITE FINISHED results/extension

@@ -65,4 +65,21 @@ The poster rubric asks for a common research problem, synthesis of assumptions/m
 | Verification | 26 passing tests with MPS access; `scripts/check_delivery.py` recomputes all 49 saved-run metrics and checks selected checkpoints, hashes and report completeness |
 | Handoff | `README.md`, `docs/README_RU.md`, exact dependencies, configurations, checkpoints, samples and a checksummed project archive |
 
-The optional real-series extension was omitted. The existing LaTeX poster describes the proposal, while `output/pdf/research-report.pdf` presents measured results. Oral participation by every team member is a human delivery requirement and is not claimed as completed by the code.
+The optional real-series extension was omitted in the original 4 October delivery. The existing LaTeX poster describes the proposal, while `output/pdf/research-report.pdf` presents measured results. Oral participation by every team member is a human delivery requirement and is not claimed as completed by the code.
+
+## Separate extension completed — 2026-10-08
+
+`configs/extension.json` and `docs/extension_protocol.md` define 96 new MPS fits:
+dense/sparse MLP, S4 and U-Net; temporally white/GP sources; three seeds; correlated
+three-channel GP, ETTh1 OT-only, seven-channel ETTh1 and eight-channel Exchange.
+Real targets, full joint-channel forecasting, train-only global channel scaling,
+chronological contained windows, proper forecast scores and simple baselines are
+implemented and independently verified. All original numerical files and primary
+results are preserved.
+
+This extension reports joint E2/E2C and per-channel geometry, but does not impose
+or redefine the original univariate rank-two gate. It is a generalization study
+with changed normalization, horizons and budgets, not a substitute for Tasks 1–3.
+ETTh1 OT happens to have GP-velocity validation E2=0.9076; the other extensions
+must not be described as automatic additional passes of the original stress test.
+See `docs/extension_findings.md` and `output/pdf/multivariate-real-extension.pdf`.

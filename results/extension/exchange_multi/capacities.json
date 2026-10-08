@@ -1,0 +1,42 @@
+{
+  "mlp": {
+    "width": 46,
+    "allocated": 64482,
+    "active": 64482,
+    "allocated_trainable": 64482,
+    "effective_trainable": 64482,
+    "masked_weight_allocated": 0,
+    "masked_weight_active": 0,
+    "realized_weight_density": null
+  },
+  "sparse_mlp": {
+    "width": 69,
+    "allocated": 125225,
+    "active": 62923,
+    "allocated_trainable": 125225,
+    "effective_trainable": 62923,
+    "masked_weight_allocated": 123234,
+    "masked_weight_active": 60932,
+    "realized_weight_density": 0.4944414690750929
+  },
+  "s4": {
+    "width": 40,
+    "allocated": 64248,
+    "active": 64248,
+    "allocated_trainable": 64248,
+    "effective_trainable": 64248,
+    "masked_weight_allocated": 0,
+    "masked_weight_active": 0,
+    "realized_weight_density": null
+  },
+  "unet": {
+    "width": 15,
+    "allocated": 64958,
+    "active": 64958,
+    "allocated_trainable": 64958,
+    "effective_trainable": 64958,
+    "masked_weight_allocated": 0,
+    "masked_weight_active": 0,
+    "realized_weight_density": null
+  }
+}

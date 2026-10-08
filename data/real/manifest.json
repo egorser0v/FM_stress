@@ -1,0 +1,16 @@
+{
+  "ETTh1.csv": {
+    "url": "https://raw.githubusercontent.com/zhouhaoyi/ETDataset/1d16c8f4f943005d613b5bc962e9eeb06058cf07/ETT-small/ETTh1.csv",
+    "revision": "1d16c8f4f943005d613b5bc962e9eeb06058cf07",
+    "download_sha256": "f18de3ad269cef59bb07b5438d79bb3042d3be49bdeecf01c1cd6d29695ee066",
+    "content_sha256": "f18de3ad269cef59bb07b5438d79bb3042d3be49bdeecf01c1cd6d29695ee066",
+    "bytes": 2589657
+  },
+  "exchange_rate.txt": {
+    "url": "https://raw.githubusercontent.com/laiguokun/multivariate-time-series-data/7f402f185cc2435b5e66aed13a3b560ed142e023/exchange_rate/exchange_rate.txt.gz",
+    "revision": "7f402f185cc2435b5e66aed13a3b560ed142e023",
+    "download_sha256": "6a4fbb561dcdee43f071a83badbeec9223a335552278348656738b556f1c2e9d",
+    "content_sha256": "0127465b51e3cd3c360f8eb2be30cfd294689a2a55903eb8245aafc396626c7f",
+    "bytes": 546336
+  }
+}

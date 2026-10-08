@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "fingerprint": "9a70916123dd084ec4e2016b036d51b50128b051899b762b91a9d8f3a1c31978",
+  "summary_sha256": "4d64812ffd8055e66b8239af27a4e90c0a5a9049a31d76fb12d11a3a9cae6e5e",
+  "verified_runs": 96,
+  "aggregate_cells": 32,
+  "aggregate_metric_mean_sd_pairs": 544,
+  "paired_seed_contrasts": 104,
+  "context_contrast_means": 182,
+  "ot_saved_array_rescorings": 48,
+  "ot_aggregate_mean_sd_pairs": 144,
+  "ot_paired_seed_contrasts": 16,
+  "ot_channel_index": 6,
+  "scope": "Independent aggregation and paired-difference arithmetic; independent off-diagonal scoring of all48OTarray slices; scaler/origin/target alignment. Does not independently validate bootstrap confidence coverage.",
+  "script_sha256": "6696a1d800c699c14db77b0cad1c0deb51683b03a99e8407236248c3d7a81ae7"
+}

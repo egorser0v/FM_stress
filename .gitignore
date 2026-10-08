@@ -1,4 +1,8 @@
 .venv/
+.local/telegram/
+data/real/*.csv
+data/real/*.txt
+data/real/*.gz
 __pycache__/
 .pytest_cache/
 .DS_Store
