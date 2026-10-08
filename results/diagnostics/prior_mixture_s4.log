@@ -1,0 +1,100 @@
+START 137041 white_s4_seed41 device mps params 65281
+PROGRESS 137041 white_s4_seed41 500 val 1.029217
+PROGRESS 137041 white_s4_seed41 1000 val 0.956807
+PROGRESS 137041 white_s4_seed41 1500 val 0.764042
+PROGRESS 137041 white_s4_seed41 2000 val 0.708851
+PROGRESS 137041 white_s4_seed41 2500 val 0.653984
+PROGRESS 137041 white_s4_seed41 3000 val 0.651611
+PROGRESS 137041 white_s4_seed41 3500 val 0.640868
+PROGRESS 137041 white_s4_seed41 4000 val 0.623193
+PROGRESS 137041 white_s4_seed41 4500 val 0.610316
+PROGRESS 137041 white_s4_seed41 5000 val 0.597862
+PROGRESS 137041 white_s4_seed41 5500 val 0.587086
+PROGRESS 137041 white_s4_seed41 6000 val 0.584212
+DONE 137041 white_s4_seed41 seconds 91.4 CRPS 0.522665
+START 137041 white_s4_seed42 device mps params 65281
+PROGRESS 137041 white_s4_seed42 500 val 1.018818
+PROGRESS 137041 white_s4_seed42 1000 val 0.874502
+PROGRESS 137041 white_s4_seed42 1500 val 0.750317
+PROGRESS 137041 white_s4_seed42 2000 val 0.70452
+PROGRESS 137041 white_s4_seed42 2500 val 0.706222
+PROGRESS 137041 white_s4_seed42 3000 val 0.640302
+PROGRESS 137041 white_s4_seed42 3500 val 0.623479
+PROGRESS 137041 white_s4_seed42 4000 val 0.630661
+PROGRESS 137041 white_s4_seed42 4500 val 0.605959
+PROGRESS 137041 white_s4_seed42 5000 val 0.600164
+PROGRESS 137041 white_s4_seed42 5500 val 0.591255
+PROGRESS 137041 white_s4_seed42 6000 val 0.58867
+DONE 137041 white_s4_seed42 seconds 96.9 CRPS 0.529598
+START 137041 white_s4_seed43 device mps params 65281
+PROGRESS 137041 white_s4_seed43 500 val 1.069384
+PROGRESS 137041 white_s4_seed43 1000 val 0.891894
+PROGRESS 137041 white_s4_seed43 1500 val 0.764684
+PROGRESS 137041 white_s4_seed43 2000 val 0.744174
+PROGRESS 137041 white_s4_seed43 2500 val 0.721146
+PROGRESS 137041 white_s4_seed43 3000 val 0.661519
+PROGRESS 137041 white_s4_seed43 3500 val 0.631275
+PROGRESS 137041 white_s4_seed43 4000 val 0.637401
+PROGRESS 137041 white_s4_seed43 4500 val 0.62727
+PROGRESS 137041 white_s4_seed43 5000 val 0.597714
+PROGRESS 137041 white_s4_seed43 5500 val 0.601244
+PROGRESS 137041 white_s4_seed43 6000 val 0.586519
+DONE 137041 white_s4_seed43 seconds 99.4 CRPS 0.509706
+START 137041 mix050_s4_seed41 device mps params 65281
+PROGRESS 137041 mix050_s4_seed41 500 val 1.49723
+PROGRESS 137041 mix050_s4_seed41 1000 val 1.277705
+PROGRESS 137041 mix050_s4_seed41 1500 val 1.215653
+PROGRESS 137041 mix050_s4_seed41 2000 val 1.201152
+PROGRESS 137041 mix050_s4_seed41 2500 val 1.166739
+PROGRESS 137041 mix050_s4_seed41 3000 val 1.113272
+PROGRESS 137041 mix050_s4_seed41 3500 val 1.06782
+PROGRESS 137041 mix050_s4_seed41 4000 val 1.020461
+PROGRESS 137041 mix050_s4_seed41 4500 val 1.010604
+PROGRESS 137041 mix050_s4_seed41 5000 val 0.987042
+PROGRESS 137041 mix050_s4_seed41 5500 val 0.975026
+PROGRESS 137041 mix050_s4_seed41 6000 val 0.967219
+DONE 137041 mix050_s4_seed41 seconds 104.5 CRPS 0.508114
+START 137041 mix050_s4_seed42 device mps params 65281
+PROGRESS 137041 mix050_s4_seed42 500 val 1.535149
+PROGRESS 137041 mix050_s4_seed42 1000 val 1.402611
+PROGRESS 137041 mix050_s4_seed42 1500 val 1.242568
+PROGRESS 137041 mix050_s4_seed42 2000 val 1.17684
+PROGRESS 137041 mix050_s4_seed42 2500 val 1.093623
+PROGRESS 137041 mix050_s4_seed42 3000 val 1.04612
+PROGRESS 137041 mix050_s4_seed42 3500 val 1.034585
+PROGRESS 137041 mix050_s4_seed42 4000 val 1.015207
+PROGRESS 137041 mix050_s4_seed42 4500 val 0.986024
+PROGRESS 137041 mix050_s4_seed42 5000 val 0.994788
+PROGRESS 137041 mix050_s4_seed42 5500 val 0.967076
+PROGRESS 137041 mix050_s4_seed42 6000 val 0.971444
+DONE 137041 mix050_s4_seed42 seconds 106.6 CRPS 0.522743
+START 137041 mix050_s4_seed43 device mps params 65281
+PROGRESS 137041 mix050_s4_seed43 500 val 1.529731
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/daniil_koblov/IT/TS Project/fm_stress/prior_mixture.py", line 241, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/Users/daniil_koblov/IT/TS Project/fm_stress/prior_mixture.py", line 239, in main
+    train_run(cfg,bundles[d],a.output,d,alpha,head,seed,device)
+  File "/Users/daniil_koblov/IT/TS Project/fm_stress/prior_mixture.py", line 172, in train_run
+    loss.backward();torch.nn.utils.clip_grad_norm_(model.parameters(),cfg['clip_grad']);optimizer.step()
+                                                                                        ^^^^^^^^^^^^^^^^
+  File "/Users/daniil_koblov/IT/TS Project/.venv/lib/python3.12/site-packages/torch/optim/optimizer.py", line 549, in wrapper
+    out = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniil_koblov/IT/TS Project/.venv/lib/python3.12/site-packages/torch/optim/optimizer.py", line 79, in _use_grad
+    ret = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniil_koblov/IT/TS Project/.venv/lib/python3.12/site-packages/torch/optim/adam.py", line 248, in step
+    adam(
+  File "/Users/daniil_koblov/IT/TS Project/.venv/lib/python3.12/site-packages/torch/optim/optimizer.py", line 157, in maybe_fallback
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniil_koblov/IT/TS Project/.venv/lib/python3.12/site-packages/torch/optim/adam.py", line 970, in adam
+    func(
+  File "/Users/daniil_koblov/IT/TS Project/.venv/lib/python3.12/site-packages/torch/optim/adam.py", line 475, in _single_tensor_adam
+    exp_avg_sq.mul_(beta2).addcmul_(grad, grad, value=1 - beta2)  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

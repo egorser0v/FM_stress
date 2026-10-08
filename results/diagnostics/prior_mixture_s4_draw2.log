@@ -1,0 +1,205 @@
+START 237041 white_s4_seed41 device mps params 65281
+PROGRESS 237041 white_s4_seed41 500 val 1.081156
+PROGRESS 237041 white_s4_seed41 1000 val 0.938876
+PROGRESS 237041 white_s4_seed41 1500 val 0.788664
+PROGRESS 237041 white_s4_seed41 2000 val 0.758112
+PROGRESS 237041 white_s4_seed41 2500 val 0.68856
+PROGRESS 237041 white_s4_seed41 3000 val 0.658574
+PROGRESS 237041 white_s4_seed41 3500 val 0.64724
+PROGRESS 237041 white_s4_seed41 4000 val 0.625754
+PROGRESS 237041 white_s4_seed41 4500 val 0.599107
+PROGRESS 237041 white_s4_seed41 5000 val 0.600116
+PROGRESS 237041 white_s4_seed41 5500 val 0.585092
+PROGRESS 237041 white_s4_seed41 6000 val 0.595207
+DONE 237041 white_s4_seed41 seconds 113.5 CRPS 0.488958
+START 237041 white_s4_seed42 device mps params 65281
+PROGRESS 237041 white_s4_seed42 500 val 1.239948
+PROGRESS 237041 white_s4_seed42 1000 val 1.013445
+PROGRESS 237041 white_s4_seed42 1500 val 0.826937
+PROGRESS 237041 white_s4_seed42 2000 val 0.752872
+PROGRESS 237041 white_s4_seed42 2500 val 0.704255
+PROGRESS 237041 white_s4_seed42 3000 val 0.65258
+PROGRESS 237041 white_s4_seed42 3500 val 0.630445
+PROGRESS 237041 white_s4_seed42 4000 val 0.607754
+PROGRESS 237041 white_s4_seed42 4500 val 0.626977
+PROGRESS 237041 white_s4_seed42 5000 val 0.593133
+PROGRESS 237041 white_s4_seed42 5500 val 0.575936
+PROGRESS 237041 white_s4_seed42 6000 val 0.575586
+DONE 237041 white_s4_seed42 seconds 105.8 CRPS 0.48117
+START 237041 white_s4_seed43 device mps params 65281
+PROGRESS 237041 white_s4_seed43 500 val 1.098868
+PROGRESS 237041 white_s4_seed43 1000 val 0.91244
+PROGRESS 237041 white_s4_seed43 1500 val 0.833143
+PROGRESS 237041 white_s4_seed43 2000 val 0.751414
+PROGRESS 237041 white_s4_seed43 2500 val 0.702713
+PROGRESS 237041 white_s4_seed43 3000 val 0.685717
+PROGRESS 237041 white_s4_seed43 3500 val 0.646686
+PROGRESS 237041 white_s4_seed43 4000 val 0.6465
+PROGRESS 237041 white_s4_seed43 4500 val 0.603286
+PROGRESS 237041 white_s4_seed43 5000 val 0.590372
+PROGRESS 237041 white_s4_seed43 5500 val 0.577491
+PROGRESS 237041 white_s4_seed43 6000 val 0.575325
+DONE 237041 white_s4_seed43 seconds 109.4 CRPS 0.468617
+START 237041 mix050_s4_seed41 device mps params 65281
+PROGRESS 237041 mix050_s4_seed41 500 val 1.610962
+PROGRESS 237041 mix050_s4_seed41 1000 val 1.457379
+PROGRESS 237041 mix050_s4_seed41 1500 val 1.272866
+PROGRESS 237041 mix050_s4_seed41 2000 val 1.216872
+PROGRESS 237041 mix050_s4_seed41 2500 val 1.083501
+PROGRESS 237041 mix050_s4_seed41 3000 val 1.080471
+PROGRESS 237041 mix050_s4_seed41 3500 val 1.051454
+PROGRESS 237041 mix050_s4_seed41 4000 val 1.042599
+PROGRESS 237041 mix050_s4_seed41 4500 val 1.001666
+PROGRESS 237041 mix050_s4_seed41 5000 val 0.984269
+PROGRESS 237041 mix050_s4_seed41 5500 val 0.962314
+PROGRESS 237041 mix050_s4_seed41 6000 val 0.976777
+DONE 237041 mix050_s4_seed41 seconds 107.2 CRPS 0.474644
+START 237041 mix050_s4_seed42 device mps params 65281
+PROGRESS 237041 mix050_s4_seed42 500 val 1.752211
+PROGRESS 237041 mix050_s4_seed42 1000 val 1.460864
+PROGRESS 237041 mix050_s4_seed42 1500 val 1.343858
+PROGRESS 237041 mix050_s4_seed42 2000 val 1.181731
+PROGRESS 237041 mix050_s4_seed42 2500 val 1.128143
+PROGRESS 237041 mix050_s4_seed42 3000 val 1.062253
+PROGRESS 237041 mix050_s4_seed42 3500 val 1.045149
+PROGRESS 237041 mix050_s4_seed42 4000 val 1.002168
+PROGRESS 237041 mix050_s4_seed42 4500 val 1.080426
+PROGRESS 237041 mix050_s4_seed42 5000 val 0.995355
+PROGRESS 237041 mix050_s4_seed42 5500 val 0.981031
+PROGRESS 237041 mix050_s4_seed42 6000 val 0.972282
+DONE 237041 mix050_s4_seed42 seconds 109.3 CRPS 0.478673
+START 237041 mix050_s4_seed43 device mps params 65281
+PROGRESS 237041 mix050_s4_seed43 500 val 1.666028
+PROGRESS 237041 mix050_s4_seed43 1000 val 1.427904
+PROGRESS 237041 mix050_s4_seed43 1500 val 1.331411
+PROGRESS 237041 mix050_s4_seed43 2000 val 1.255673
+PROGRESS 237041 mix050_s4_seed43 2500 val 1.185711
+PROGRESS 237041 mix050_s4_seed43 3000 val 1.121311
+PROGRESS 237041 mix050_s4_seed43 3500 val 1.050147
+PROGRESS 237041 mix050_s4_seed43 4000 val 1.024988
+PROGRESS 237041 mix050_s4_seed43 4500 val 1.041138
+PROGRESS 237041 mix050_s4_seed43 5000 val 0.99418
+PROGRESS 237041 mix050_s4_seed43 5500 val 0.978635
+PROGRESS 237041 mix050_s4_seed43 6000 val 0.975765
+DONE 237041 mix050_s4_seed43 seconds 107.5 CRPS 0.460724
+START 237041 mix090_s4_seed41 device mps params 65281
+PROGRESS 237041 mix090_s4_seed41 500 val 1.844565
+PROGRESS 237041 mix090_s4_seed41 1000 val 1.632365
+PROGRESS 237041 mix090_s4_seed41 1500 val 1.458103
+PROGRESS 237041 mix090_s4_seed41 2000 val 1.346977
+PROGRESS 237041 mix090_s4_seed41 2500 val 1.271941
+PROGRESS 237041 mix090_s4_seed41 3000 val 1.244395
+PROGRESS 237041 mix090_s4_seed41 3500 val 1.249517
+PROGRESS 237041 mix090_s4_seed41 4000 val 1.19329
+PROGRESS 237041 mix090_s4_seed41 4500 val 1.166237
+PROGRESS 237041 mix090_s4_seed41 5000 val 1.147961
+PROGRESS 237041 mix090_s4_seed41 5500 val 1.120143
+PROGRESS 237041 mix090_s4_seed41 6000 val 1.138185
+DONE 237041 mix090_s4_seed41 seconds 104.0 CRPS 0.469754
+START 237041 mix090_s4_seed42 device mps params 65281
+PROGRESS 237041 mix090_s4_seed42 500 val 1.890489
+PROGRESS 237041 mix090_s4_seed42 1000 val 1.701324
+PROGRESS 237041 mix090_s4_seed42 1500 val 1.563586
+PROGRESS 237041 mix090_s4_seed42 2000 val 1.362987
+PROGRESS 237041 mix090_s4_seed42 2500 val 1.268829
+PROGRESS 237041 mix090_s4_seed42 3000 val 1.183712
+PROGRESS 237041 mix090_s4_seed42 3500 val 1.193168
+PROGRESS 237041 mix090_s4_seed42 4000 val 1.136788
+PROGRESS 237041 mix090_s4_seed42 4500 val 1.193016
+PROGRESS 237041 mix090_s4_seed42 5000 val 1.129479
+PROGRESS 237041 mix090_s4_seed42 5500 val 1.10734
+PROGRESS 237041 mix090_s4_seed42 6000 val 1.096723
+DONE 237041 mix090_s4_seed42 seconds 111.4 CRPS 0.472871
+START 237041 mix090_s4_seed43 device mps params 65281
+PROGRESS 237041 mix090_s4_seed43 500 val 1.835645
+PROGRESS 237041 mix090_s4_seed43 1000 val 1.591609
+PROGRESS 237041 mix090_s4_seed43 1500 val 1.497251
+PROGRESS 237041 mix090_s4_seed43 2000 val 1.430765
+PROGRESS 237041 mix090_s4_seed43 2500 val 1.297041
+PROGRESS 237041 mix090_s4_seed43 3000 val 1.267009
+PROGRESS 237041 mix090_s4_seed43 3500 val 1.20466
+PROGRESS 237041 mix090_s4_seed43 4000 val 1.171611
+PROGRESS 237041 mix090_s4_seed43 4500 val 1.182253
+PROGRESS 237041 mix090_s4_seed43 5000 val 1.146431
+PROGRESS 237041 mix090_s4_seed43 5500 val 1.116051
+PROGRESS 237041 mix090_s4_seed43 6000 val 1.117796
+DONE 237041 mix090_s4_seed43 seconds 104.4 CRPS 0.471578
+START 237041 mix099_s4_seed41 device mps params 65281
+PROGRESS 237041 mix099_s4_seed41 500 val 1.800531
+PROGRESS 237041 mix099_s4_seed41 1000 val 1.590882
+PROGRESS 237041 mix099_s4_seed41 1500 val 1.462075
+PROGRESS 237041 mix099_s4_seed41 2000 val 1.369659
+PROGRESS 237041 mix099_s4_seed41 2500 val 1.268688
+PROGRESS 237041 mix099_s4_seed41 3000 val 1.233609
+PROGRESS 237041 mix099_s4_seed41 3500 val 1.257068
+PROGRESS 237041 mix099_s4_seed41 4000 val 1.180135
+PROGRESS 237041 mix099_s4_seed41 4500 val 1.188158
+PROGRESS 237041 mix099_s4_seed41 5000 val 1.151618
+PROGRESS 237041 mix099_s4_seed41 5500 val 1.12754
+PROGRESS 237041 mix099_s4_seed41 6000 val 1.132521
+DONE 237041 mix099_s4_seed41 seconds 93.0 CRPS 0.472638
+START 237041 mix099_s4_seed42 device mps params 65281
+PROGRESS 237041 mix099_s4_seed42 500 val 1.86649
+PROGRESS 237041 mix099_s4_seed42 1000 val 1.699034
+PROGRESS 237041 mix099_s4_seed42 1500 val 1.485714
+PROGRESS 237041 mix099_s4_seed42 2000 val 1.37411
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/daniil_koblov/IT/TS Project/fm_stress/prior_mixture.py", line 241, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/Users/daniil_koblov/IT/TS Project/fm_stress/prior_mixture.py", line 239, in main
+    train_run(cfg,bundles[d],a.output,d,alpha,head,seed,device)
+  File "/Users/daniil_koblov/IT/TS Project/fm_stress/prior_mixture.py", line 171, in train_run
+    optimizer.zero_grad(set_to_none=True);loss=objective(model,model(x,t,hh),u)
+                                                               ^^^^^^^^^^^^^
+  File "/Users/daniil_koblov/IT/TS Project/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniil_koblov/IT/TS Project/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniil_koblov/IT/TS Project/fm_stress/prior_mixture.py", line 106, in forward
+    return self.inverse(self.base(self.coordinates(x),t,h)) if self.whiten_input else self.base(x,t,h)
+                                                                                      ^^^^^^^^^^^^^^^^
+  File "/Users/daniil_koblov/IT/TS Project/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniil_koblov/IT/TS Project/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniil_koblov/IT/TS Project/fm_stress/models.py", line 244, in forward
+    z, skip = block(z, time, h)
+              ^^^^^^^^^^^^^^^^^
+  File "/Users/daniil_koblov/IT/TS Project/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniil_koblov/IT/TS Project/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniil_koblov/IT/TS Project/fm_stress/models.py", line 213, in forward
+    z = z + self.temporal(self.norm(z))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniil_koblov/IT/TS Project/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniil_koblov/IT/TS Project/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniil_koblov/IT/TS Project/fm_stress/models.py", line 191, in forward
+    kernel = self.kernel(length)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniil_koblov/IT/TS Project/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniil_koblov/IT/TS Project/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniil_koblov/IT/TS Project/fm_stress/models.py", line 169, in forward
+    a_bar, b_bar = self.discretize()
+                   ^^^^^^^^^^^^^^^^^
+  File "/Users/daniil_koblov/IT/TS Project/fm_stress/models.py", line 165, in discretize
+    b_bar = (inverse @ (2 * h * self.b).unsqueeze(-1)).squeeze(-1)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

@@ -1,0 +1,84 @@
+START 137041 gp_balanced_mlp_seed41 device mps params 65464
+PROGRESS 137041 gp_balanced_mlp_seed41 500 val 0.345584
+PROGRESS 137041 gp_balanced_mlp_seed41 1000 val 0.309195
+PROGRESS 137041 gp_balanced_mlp_seed41 1500 val 0.290847
+PROGRESS 137041 gp_balanced_mlp_seed41 2000 val 0.28258
+PROGRESS 137041 gp_balanced_mlp_seed41 2500 val 0.275734
+PROGRESS 137041 gp_balanced_mlp_seed41 3000 val 0.273735
+PROGRESS 137041 gp_balanced_mlp_seed41 3500 val 0.270085
+PROGRESS 137041 gp_balanced_mlp_seed41 4000 val 0.265741
+PROGRESS 137041 gp_balanced_mlp_seed41 4500 val 0.26235
+PROGRESS 137041 gp_balanced_mlp_seed41 5000 val 0.259332
+PROGRESS 137041 gp_balanced_mlp_seed41 5500 val 0.255532
+PROGRESS 137041 gp_balanced_mlp_seed41 6000 val 0.254278
+DONE 137041 gp_balanced_mlp_seed41 seconds 40.8 CRPS 1.41903
+START 137041 gp_balanced_mlp_seed42 device mps params 65464
+PROGRESS 137041 gp_balanced_mlp_seed42 500 val 0.340612
+PROGRESS 137041 gp_balanced_mlp_seed42 1000 val 0.311893
+PROGRESS 137041 gp_balanced_mlp_seed42 1500 val 0.285964
+PROGRESS 137041 gp_balanced_mlp_seed42 2000 val 0.28472
+PROGRESS 137041 gp_balanced_mlp_seed42 2500 val 0.277801
+PROGRESS 137041 gp_balanced_mlp_seed42 3000 val 0.277285
+PROGRESS 137041 gp_balanced_mlp_seed42 3500 val 0.266713
+PROGRESS 137041 gp_balanced_mlp_seed42 4000 val 0.263215
+PROGRESS 137041 gp_balanced_mlp_seed42 4500 val 0.257386
+PROGRESS 137041 gp_balanced_mlp_seed42 5000 val 0.251847
+PROGRESS 137041 gp_balanced_mlp_seed42 5500 val 0.2431
+PROGRESS 137041 gp_balanced_mlp_seed42 6000 val 0.238236
+DONE 137041 gp_balanced_mlp_seed42 seconds 44.5 CRPS 1.337517
+START 137041 gp_balanced_mlp_seed43 device mps params 65464
+PROGRESS 137041 gp_balanced_mlp_seed43 500 val 0.335
+PROGRESS 137041 gp_balanced_mlp_seed43 1000 val 0.310501
+PROGRESS 137041 gp_balanced_mlp_seed43 1500 val 0.292906
+PROGRESS 137041 gp_balanced_mlp_seed43 2000 val 0.284795
+PROGRESS 137041 gp_balanced_mlp_seed43 2500 val 0.278862
+PROGRESS 137041 gp_balanced_mlp_seed43 3000 val 0.270198
+PROGRESS 137041 gp_balanced_mlp_seed43 3500 val 0.270239
+PROGRESS 137041 gp_balanced_mlp_seed43 4000 val 0.263323
+PROGRESS 137041 gp_balanced_mlp_seed43 4500 val 0.258985
+PROGRESS 137041 gp_balanced_mlp_seed43 5000 val 0.257344
+PROGRESS 137041 gp_balanced_mlp_seed43 5500 val 0.254944
+PROGRESS 137041 gp_balanced_mlp_seed43 6000 val 0.24872
+DONE 137041 gp_balanced_mlp_seed43 seconds 42.3 CRPS 1.392339
+START 237041 gp_balanced_mlp_seed41 device mps params 65464
+PROGRESS 237041 gp_balanced_mlp_seed41 500 val 0.366978
+PROGRESS 237041 gp_balanced_mlp_seed41 1000 val 0.328607
+PROGRESS 237041 gp_balanced_mlp_seed41 1500 val 0.307957
+PROGRESS 237041 gp_balanced_mlp_seed41 2000 val 0.294625
+PROGRESS 237041 gp_balanced_mlp_seed41 2500 val 0.288616
+PROGRESS 237041 gp_balanced_mlp_seed41 3000 val 0.291305
+PROGRESS 237041 gp_balanced_mlp_seed41 3500 val 0.280736
+PROGRESS 237041 gp_balanced_mlp_seed41 4000 val 0.27686
+PROGRESS 237041 gp_balanced_mlp_seed41 4500 val 0.274576
+PROGRESS 237041 gp_balanced_mlp_seed41 5000 val 0.273566
+PROGRESS 237041 gp_balanced_mlp_seed41 5500 val 0.270914
+PROGRESS 237041 gp_balanced_mlp_seed41 6000 val 0.267679
+DONE 237041 gp_balanced_mlp_seed41 seconds 42.3 CRPS 1.210712
+START 237041 gp_balanced_mlp_seed42 device mps params 65464
+PROGRESS 237041 gp_balanced_mlp_seed42 500 val 0.364776
+PROGRESS 237041 gp_balanced_mlp_seed42 1000 val 0.3245
+PROGRESS 237041 gp_balanced_mlp_seed42 1500 val 0.304073
+PROGRESS 237041 gp_balanced_mlp_seed42 2000 val 0.305344
+PROGRESS 237041 gp_balanced_mlp_seed42 2500 val 0.288229
+PROGRESS 237041 gp_balanced_mlp_seed42 3000 val 0.284785
+PROGRESS 237041 gp_balanced_mlp_seed42 3500 val 0.282
+PROGRESS 237041 gp_balanced_mlp_seed42 4000 val 0.277153
+PROGRESS 237041 gp_balanced_mlp_seed42 4500 val 0.278255
+PROGRESS 237041 gp_balanced_mlp_seed42 5000 val 0.267865
+PROGRESS 237041 gp_balanced_mlp_seed42 5500 val 0.262002
+PROGRESS 237041 gp_balanced_mlp_seed42 6000 val 0.257677
+DONE 237041 gp_balanced_mlp_seed42 seconds 41.4 CRPS 1.169986
+START 237041 gp_balanced_mlp_seed43 device mps params 65464
+PROGRESS 237041 gp_balanced_mlp_seed43 500 val 0.3592
+PROGRESS 237041 gp_balanced_mlp_seed43 1000 val 0.337183
+PROGRESS 237041 gp_balanced_mlp_seed43 1500 val 0.306844
+PROGRESS 237041 gp_balanced_mlp_seed43 2000 val 0.299131
+PROGRESS 237041 gp_balanced_mlp_seed43 2500 val 0.291888
+PROGRESS 237041 gp_balanced_mlp_seed43 3000 val 0.285776
+PROGRESS 237041 gp_balanced_mlp_seed43 3500 val 0.288975
+PROGRESS 237041 gp_balanced_mlp_seed43 4000 val 0.276717
+PROGRESS 237041 gp_balanced_mlp_seed43 4500 val 0.272802
+PROGRESS 237041 gp_balanced_mlp_seed43 5000 val 0.267805
+PROGRESS 237041 gp_balanced_mlp_seed43 5500 val 0.255896
+PROGRESS 237041 gp_balanced_mlp_seed43 6000 val 0.246228
+DONE 237041 gp_balanced_mlp_seed43 seconds 40.7 CRPS 1.108487

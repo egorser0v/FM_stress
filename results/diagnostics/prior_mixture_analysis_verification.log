@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "summary_sha256": "cc1a8924ca0ca15ee5fd5c7573161edffcd55e5c99664a8670934ba0420e89f2",
+  "analysis_summary": "output/prior-mixture/summary.json",
+  "manifest_fingerprint": "b8b0d5e495da264c58504770bf7a615a297336694e1cdbd15eb0bd8d6d25c6fe",
+  "config_sha256": "ff4fb5e379033d62e0517ae11aace4638e75e686ed5aca8e8974af6efc6c3223",
+  "rows_verified": 102,
+  "cells_verified": 17,
+  "dataset_metric_summaries_verified": 374,
+  "contrasts_verified": 385,
+  "individual_seed_contrasts_verified": 2310,
+  "scope": "Independent saved-array rows, within-dataset seed mean/SD, equal-weight dataset means, all paired head/source and coordinate/loss equations; no analyzer helpers imported."
+}

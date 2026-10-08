@@ -1,0 +1,11 @@
+reference 137041 white expected noise 0.3984830200692112
+reference 137041 mix050 expected noise 0.6532923077597103
+reference 137041 mix090 expected noise 0.7232495273695926
+reference 137041 mix099 expected noise 0.7083829384505571
+reference 137041 gp expected noise 0.678966864317033
+reference 237041 white expected noise 0.4041873227993175
+reference 237041 mix050 expected noise 0.6599106622160601
+reference 237041 mix090 expected noise 0.7303161211629402
+reference 237041 mix099 expected noise 0.7154026551799696
+reference 237041 gp expected noise 0.6858091988487788
+complete 102 / 102

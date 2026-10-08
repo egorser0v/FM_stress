@@ -107,3 +107,28 @@ and dictionary-span diagnostics. All 122 tests pass with actual MPS access.
 Results remain fixed-budget and exploratory; 125/264 main checkpoints select the
 last step. This follow-up does not redefine the original geometry gate or its
 literal success rule, and does not establish oral presentation participation.
+
+## Original-setting source-mixture follow-up completed - 8 October 2026
+
+The 102-fit covariance-mixture study returns to the original univariate,
+history-instance-normalized synthetic geometry. Both independently generated
+datasets pass the Task 1 validation gate; sources interpolate between white
+and unit-variance matched-kernel GP covariance at alpha 0/.5/.9/.99/1. Original
+MLP/S4 heads and full whitening are crossed with every source. A GP-only 2x2
+coordinate/objective control distinguishes whitening from loss balancing.
+
+The original three metrics and literal success flags remain intact (0/102 pass).
+Both dataset means, within-dataset optimization-seed variation, proper forecast
+scores, raw/optimized-objective gradient diagnostics and privileged GP noise
+references are reported separately. No causal Jacobian mechanism is claimed.
+Mixture benefits for MLP and GP-source CRPS benefits for S4 do not establish the
+assignment's predicted MLP residual-error failure. Forecast and velocity errors
+have different rankings. The source endpoint's tiny variance rescaling and
+smoke/test-window overlap are disclosed; no outcome-based tuning occurred.
+
+Evidence: `configs/prior_mixture.json`, `output/prior-mixture/report.html`,
+`results/prior-mixture/independent_verification.json`, and independent aggregate
+verification in `results/diagnostics/prior_mixture_analysis_verification.json`.
+All 151 tests pass with MPS access. 86/102 selected final-update checkpoints and
+two independent datasets limit inference. Original results and the proposal
+poster remain preserved; oral participation is still a human requirement.

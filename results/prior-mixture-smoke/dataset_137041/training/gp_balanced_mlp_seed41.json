@@ -1,0 +1,18 @@
+[
+  {
+    "step": 50,
+    "train_objective": 0.4245999753475189,
+    "validation_objective": 0.3882703185081482,
+    "validation_raw_mse": 6.379363536834717,
+    "learning_rate": 0.0005571396837256635,
+    "seconds": 0.29145291703753173
+  },
+  {
+    "step": 100,
+    "train_objective": 0.43240034580230713,
+    "validation_objective": 0.3777831196784973,
+    "validation_raw_mse": 6.378579616546631,
+    "learning_rate": 0.0001,
+    "seconds": 0.642373583978042
+  }
+]

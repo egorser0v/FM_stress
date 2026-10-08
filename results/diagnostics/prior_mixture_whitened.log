@@ -1,0 +1,420 @@
+START 137041 white_whitened_mlp_seed41 device mps params 65464
+PROGRESS 137041 white_whitened_mlp_seed41 500 val 0.128015
+PROGRESS 137041 white_whitened_mlp_seed41 1000 val 0.089999
+PROGRESS 137041 white_whitened_mlp_seed41 1500 val 0.079298
+PROGRESS 137041 white_whitened_mlp_seed41 2000 val 0.075505
+PROGRESS 137041 white_whitened_mlp_seed41 2500 val 0.072413
+PROGRESS 137041 white_whitened_mlp_seed41 3000 val 0.068089
+PROGRESS 137041 white_whitened_mlp_seed41 3500 val 0.068606
+PROGRESS 137041 white_whitened_mlp_seed41 4000 val 0.064362
+PROGRESS 137041 white_whitened_mlp_seed41 4500 val 0.062288
+PROGRESS 137041 white_whitened_mlp_seed41 5000 val 0.061982
+PROGRESS 137041 white_whitened_mlp_seed41 5500 val 0.060599
+PROGRESS 137041 white_whitened_mlp_seed41 6000 val 0.059853
+DONE 137041 white_whitened_mlp_seed41 seconds 37.2 CRPS 0.57629
+START 137041 white_whitened_mlp_seed42 device mps params 65464
+PROGRESS 137041 white_whitened_mlp_seed42 500 val 0.126389
+PROGRESS 137041 white_whitened_mlp_seed42 1000 val 0.087099
+PROGRESS 137041 white_whitened_mlp_seed42 1500 val 0.077412
+PROGRESS 137041 white_whitened_mlp_seed42 2000 val 0.074929
+PROGRESS 137041 white_whitened_mlp_seed42 2500 val 0.071492
+PROGRESS 137041 white_whitened_mlp_seed42 3000 val 0.068069
+PROGRESS 137041 white_whitened_mlp_seed42 3500 val 0.066109
+PROGRESS 137041 white_whitened_mlp_seed42 4000 val 0.063905
+PROGRESS 137041 white_whitened_mlp_seed42 4500 val 0.062924
+PROGRESS 137041 white_whitened_mlp_seed42 5000 val 0.061972
+PROGRESS 137041 white_whitened_mlp_seed42 5500 val 0.060995
+PROGRESS 137041 white_whitened_mlp_seed42 6000 val 0.060529
+DONE 137041 white_whitened_mlp_seed42 seconds 37.3 CRPS 0.605208
+START 137041 white_whitened_mlp_seed43 device mps params 65464
+PROGRESS 137041 white_whitened_mlp_seed43 500 val 0.107417
+PROGRESS 137041 white_whitened_mlp_seed43 1000 val 0.086694
+PROGRESS 137041 white_whitened_mlp_seed43 1500 val 0.078535
+PROGRESS 137041 white_whitened_mlp_seed43 2000 val 0.075611
+PROGRESS 137041 white_whitened_mlp_seed43 2500 val 0.070255
+PROGRESS 137041 white_whitened_mlp_seed43 3000 val 0.068841
+PROGRESS 137041 white_whitened_mlp_seed43 3500 val 0.066083
+PROGRESS 137041 white_whitened_mlp_seed43 4000 val 0.064812
+PROGRESS 137041 white_whitened_mlp_seed43 4500 val 0.063183
+PROGRESS 137041 white_whitened_mlp_seed43 5000 val 0.061688
+PROGRESS 137041 white_whitened_mlp_seed43 5500 val 0.06059
+PROGRESS 137041 white_whitened_mlp_seed43 6000 val 0.06038
+DONE 137041 white_whitened_mlp_seed43 seconds 37.6 CRPS 0.565583
+START 137041 mix050_whitened_mlp_seed41 device mps params 65464
+PROGRESS 137041 mix050_whitened_mlp_seed41 500 val 0.148429
+PROGRESS 137041 mix050_whitened_mlp_seed41 1000 val 0.111387
+PROGRESS 137041 mix050_whitened_mlp_seed41 1500 val 0.098906
+PROGRESS 137041 mix050_whitened_mlp_seed41 2000 val 0.094338
+PROGRESS 137041 mix050_whitened_mlp_seed41 2500 val 0.087903
+PROGRESS 137041 mix050_whitened_mlp_seed41 3000 val 0.084718
+PROGRESS 137041 mix050_whitened_mlp_seed41 3500 val 0.084721
+PROGRESS 137041 mix050_whitened_mlp_seed41 4000 val 0.080557
+PROGRESS 137041 mix050_whitened_mlp_seed41 4500 val 0.079168
+PROGRESS 137041 mix050_whitened_mlp_seed41 5000 val 0.078324
+PROGRESS 137041 mix050_whitened_mlp_seed41 5500 val 0.076902
+PROGRESS 137041 mix050_whitened_mlp_seed41 6000 val 0.076313
+DONE 137041 mix050_whitened_mlp_seed41 seconds 37.7 CRPS 0.538996
+START 137041 mix050_whitened_mlp_seed42 device mps params 65464
+PROGRESS 137041 mix050_whitened_mlp_seed42 500 val 0.146024
+PROGRESS 137041 mix050_whitened_mlp_seed42 1000 val 0.113647
+PROGRESS 137041 mix050_whitened_mlp_seed42 1500 val 0.097116
+PROGRESS 137041 mix050_whitened_mlp_seed42 2000 val 0.092686
+PROGRESS 137041 mix050_whitened_mlp_seed42 2500 val 0.0891
+PROGRESS 137041 mix050_whitened_mlp_seed42 3000 val 0.085679
+PROGRESS 137041 mix050_whitened_mlp_seed42 3500 val 0.083282
+PROGRESS 137041 mix050_whitened_mlp_seed42 4000 val 0.080954
+PROGRESS 137041 mix050_whitened_mlp_seed42 4500 val 0.079731
+PROGRESS 137041 mix050_whitened_mlp_seed42 5000 val 0.07836
+PROGRESS 137041 mix050_whitened_mlp_seed42 5500 val 0.077799
+PROGRESS 137041 mix050_whitened_mlp_seed42 6000 val 0.077332
+DONE 137041 mix050_whitened_mlp_seed42 seconds 39.4 CRPS 0.576175
+START 137041 mix050_whitened_mlp_seed43 device mps params 65464
+PROGRESS 137041 mix050_whitened_mlp_seed43 500 val 0.125542
+PROGRESS 137041 mix050_whitened_mlp_seed43 1000 val 0.108714
+PROGRESS 137041 mix050_whitened_mlp_seed43 1500 val 0.097113
+PROGRESS 137041 mix050_whitened_mlp_seed43 2000 val 0.093268
+PROGRESS 137041 mix050_whitened_mlp_seed43 2500 val 0.090381
+PROGRESS 137041 mix050_whitened_mlp_seed43 3000 val 0.085926
+PROGRESS 137041 mix050_whitened_mlp_seed43 3500 val 0.082551
+PROGRESS 137041 mix050_whitened_mlp_seed43 4000 val 0.079928
+PROGRESS 137041 mix050_whitened_mlp_seed43 4500 val 0.078708
+PROGRESS 137041 mix050_whitened_mlp_seed43 5000 val 0.076826
+PROGRESS 137041 mix050_whitened_mlp_seed43 5500 val 0.076202
+PROGRESS 137041 mix050_whitened_mlp_seed43 6000 val 0.075406
+DONE 137041 mix050_whitened_mlp_seed43 seconds 38.7 CRPS 0.523662
+START 137041 mix090_whitened_mlp_seed41 device mps params 65464
+PROGRESS 137041 mix090_whitened_mlp_seed41 500 val 0.169396
+PROGRESS 137041 mix090_whitened_mlp_seed41 1000 val 0.129019
+PROGRESS 137041 mix090_whitened_mlp_seed41 1500 val 0.11869
+PROGRESS 137041 mix090_whitened_mlp_seed41 2000 val 0.113931
+PROGRESS 137041 mix090_whitened_mlp_seed41 2500 val 0.10747
+PROGRESS 137041 mix090_whitened_mlp_seed41 3000 val 0.103811
+PROGRESS 137041 mix090_whitened_mlp_seed41 3500 val 0.101086
+PROGRESS 137041 mix090_whitened_mlp_seed41 4000 val 0.099784
+PROGRESS 137041 mix090_whitened_mlp_seed41 4500 val 0.097755
+PROGRESS 137041 mix090_whitened_mlp_seed41 5000 val 0.09623
+PROGRESS 137041 mix090_whitened_mlp_seed41 5500 val 0.095311
+PROGRESS 137041 mix090_whitened_mlp_seed41 6000 val 0.094991
+DONE 137041 mix090_whitened_mlp_seed41 seconds 39.7 CRPS 0.537597
+START 137041 mix090_whitened_mlp_seed42 device mps params 65464
+PROGRESS 137041 mix090_whitened_mlp_seed42 500 val 0.16707
+PROGRESS 137041 mix090_whitened_mlp_seed42 1000 val 0.131493
+PROGRESS 137041 mix090_whitened_mlp_seed42 1500 val 0.119366
+PROGRESS 137041 mix090_whitened_mlp_seed42 2000 val 0.113162
+PROGRESS 137041 mix090_whitened_mlp_seed42 2500 val 0.108687
+PROGRESS 137041 mix090_whitened_mlp_seed42 3000 val 0.104704
+PROGRESS 137041 mix090_whitened_mlp_seed42 3500 val 0.103157
+PROGRESS 137041 mix090_whitened_mlp_seed42 4000 val 0.098701
+PROGRESS 137041 mix090_whitened_mlp_seed42 4500 val 0.096927
+PROGRESS 137041 mix090_whitened_mlp_seed42 5000 val 0.096327
+PROGRESS 137041 mix090_whitened_mlp_seed42 5500 val 0.095338
+PROGRESS 137041 mix090_whitened_mlp_seed42 6000 val 0.094844
+DONE 137041 mix090_whitened_mlp_seed42 seconds 39.2 CRPS 0.547994
+START 137041 mix090_whitened_mlp_seed43 device mps params 65464
+PROGRESS 137041 mix090_whitened_mlp_seed43 500 val 0.154363
+PROGRESS 137041 mix090_whitened_mlp_seed43 1000 val 0.129453
+PROGRESS 137041 mix090_whitened_mlp_seed43 1500 val 0.1201
+PROGRESS 137041 mix090_whitened_mlp_seed43 2000 val 0.112945
+PROGRESS 137041 mix090_whitened_mlp_seed43 2500 val 0.107548
+PROGRESS 137041 mix090_whitened_mlp_seed43 3000 val 0.10416
+PROGRESS 137041 mix090_whitened_mlp_seed43 3500 val 0.101055
+PROGRESS 137041 mix090_whitened_mlp_seed43 4000 val 0.098093
+PROGRESS 137041 mix090_whitened_mlp_seed43 4500 val 0.097317
+PROGRESS 137041 mix090_whitened_mlp_seed43 5000 val 0.096252
+PROGRESS 137041 mix090_whitened_mlp_seed43 5500 val 0.095498
+PROGRESS 137041 mix090_whitened_mlp_seed43 6000 val 0.094949
+DONE 137041 mix090_whitened_mlp_seed43 seconds 41.4 CRPS 0.532743
+START 137041 mix099_whitened_mlp_seed41 device mps params 65464
+PROGRESS 137041 mix099_whitened_mlp_seed41 500 val 0.192381
+PROGRESS 137041 mix099_whitened_mlp_seed41 1000 val 0.159403
+PROGRESS 137041 mix099_whitened_mlp_seed41 1500 val 0.148381
+PROGRESS 137041 mix099_whitened_mlp_seed41 2000 val 0.14215
+PROGRESS 137041 mix099_whitened_mlp_seed41 2500 val 0.136302
+PROGRESS 137041 mix099_whitened_mlp_seed41 3000 val 0.131663
+PROGRESS 137041 mix099_whitened_mlp_seed41 3500 val 0.132679
+PROGRESS 137041 mix099_whitened_mlp_seed41 4000 val 0.129305
+PROGRESS 137041 mix099_whitened_mlp_seed41 4500 val 0.126839
+PROGRESS 137041 mix099_whitened_mlp_seed41 5000 val 0.125332
+PROGRESS 137041 mix099_whitened_mlp_seed41 5500 val 0.124131
+PROGRESS 137041 mix099_whitened_mlp_seed41 6000 val 0.12373
+DONE 137041 mix099_whitened_mlp_seed41 seconds 42.3 CRPS 0.545591
+START 137041 mix099_whitened_mlp_seed42 device mps params 65464
+PROGRESS 137041 mix099_whitened_mlp_seed42 500 val 0.190154
+PROGRESS 137041 mix099_whitened_mlp_seed42 1000 val 0.159584
+PROGRESS 137041 mix099_whitened_mlp_seed42 1500 val 0.146011
+PROGRESS 137041 mix099_whitened_mlp_seed42 2000 val 0.142064
+PROGRESS 137041 mix099_whitened_mlp_seed42 2500 val 0.136122
+PROGRESS 137041 mix099_whitened_mlp_seed42 3000 val 0.132582
+PROGRESS 137041 mix099_whitened_mlp_seed42 3500 val 0.129661
+PROGRESS 137041 mix099_whitened_mlp_seed42 4000 val 0.127497
+PROGRESS 137041 mix099_whitened_mlp_seed42 4500 val 0.125634
+PROGRESS 137041 mix099_whitened_mlp_seed42 5000 val 0.124536
+PROGRESS 137041 mix099_whitened_mlp_seed42 5500 val 0.123572
+PROGRESS 137041 mix099_whitened_mlp_seed42 6000 val 0.123149
+DONE 137041 mix099_whitened_mlp_seed42 seconds 44.5 CRPS 0.536573
+START 137041 mix099_whitened_mlp_seed43 device mps params 65464
+PROGRESS 137041 mix099_whitened_mlp_seed43 500 val 0.185556
+PROGRESS 137041 mix099_whitened_mlp_seed43 1000 val 0.15857
+PROGRESS 137041 mix099_whitened_mlp_seed43 1500 val 0.148731
+PROGRESS 137041 mix099_whitened_mlp_seed43 2000 val 0.139319
+PROGRESS 137041 mix099_whitened_mlp_seed43 2500 val 0.135091
+PROGRESS 137041 mix099_whitened_mlp_seed43 3000 val 0.132075
+PROGRESS 137041 mix099_whitened_mlp_seed43 3500 val 0.129093
+PROGRESS 137041 mix099_whitened_mlp_seed43 4000 val 0.126406
+PROGRESS 137041 mix099_whitened_mlp_seed43 4500 val 0.125494
+PROGRESS 137041 mix099_whitened_mlp_seed43 5000 val 0.123762
+PROGRESS 137041 mix099_whitened_mlp_seed43 5500 val 0.1229
+PROGRESS 137041 mix099_whitened_mlp_seed43 6000 val 0.122284
+DONE 137041 mix099_whitened_mlp_seed43 seconds 39.8 CRPS 0.517935
+START 137041 gp_whitened_mlp_seed41 device mps params 65464
+PROGRESS 137041 gp_whitened_mlp_seed41 500 val 0.157385
+PROGRESS 137041 gp_whitened_mlp_seed41 1000 val 0.14496
+PROGRESS 137041 gp_whitened_mlp_seed41 1500 val 0.139572
+PROGRESS 137041 gp_whitened_mlp_seed41 2000 val 0.136048
+PROGRESS 137041 gp_whitened_mlp_seed41 2500 val 0.134458
+PROGRESS 137041 gp_whitened_mlp_seed41 3000 val 0.130815
+PROGRESS 137041 gp_whitened_mlp_seed41 3500 val 0.130169
+PROGRESS 137041 gp_whitened_mlp_seed41 4000 val 0.129237
+PROGRESS 137041 gp_whitened_mlp_seed41 4500 val 0.128258
+PROGRESS 137041 gp_whitened_mlp_seed41 5000 val 0.127412
+PROGRESS 137041 gp_whitened_mlp_seed41 5500 val 0.126339
+PROGRESS 137041 gp_whitened_mlp_seed41 6000 val 0.126089
+DONE 137041 gp_whitened_mlp_seed41 seconds 39.4 CRPS 0.526634
+START 137041 gp_whitened_mlp_seed42 device mps params 65464
+PROGRESS 137041 gp_whitened_mlp_seed42 500 val 0.157074
+PROGRESS 137041 gp_whitened_mlp_seed42 1000 val 0.147557
+PROGRESS 137041 gp_whitened_mlp_seed42 1500 val 0.139241
+PROGRESS 137041 gp_whitened_mlp_seed42 2000 val 0.136495
+PROGRESS 137041 gp_whitened_mlp_seed42 2500 val 0.133195
+PROGRESS 137041 gp_whitened_mlp_seed42 3000 val 0.13207
+PROGRESS 137041 gp_whitened_mlp_seed42 3500 val 0.128834
+PROGRESS 137041 gp_whitened_mlp_seed42 4000 val 0.127526
+PROGRESS 137041 gp_whitened_mlp_seed42 4500 val 0.126552
+PROGRESS 137041 gp_whitened_mlp_seed42 5000 val 0.125493
+PROGRESS 137041 gp_whitened_mlp_seed42 5500 val 0.12497
+PROGRESS 137041 gp_whitened_mlp_seed42 6000 val 0.125458
+DONE 137041 gp_whitened_mlp_seed42 seconds 45.7 CRPS 0.517162
+START 137041 gp_whitened_mlp_seed43 device mps params 65464
+PROGRESS 137041 gp_whitened_mlp_seed43 500 val 0.154609
+PROGRESS 137041 gp_whitened_mlp_seed43 1000 val 0.145349
+PROGRESS 137041 gp_whitened_mlp_seed43 1500 val 0.141254
+PROGRESS 137041 gp_whitened_mlp_seed43 2000 val 0.136018
+PROGRESS 137041 gp_whitened_mlp_seed43 2500 val 0.134554
+PROGRESS 137041 gp_whitened_mlp_seed43 3000 val 0.132175
+PROGRESS 137041 gp_whitened_mlp_seed43 3500 val 0.129869
+PROGRESS 137041 gp_whitened_mlp_seed43 4000 val 0.128537
+PROGRESS 137041 gp_whitened_mlp_seed43 4500 val 0.128351
+PROGRESS 137041 gp_whitened_mlp_seed43 5000 val 0.126809
+PROGRESS 137041 gp_whitened_mlp_seed43 5500 val 0.126414
+PROGRESS 137041 gp_whitened_mlp_seed43 6000 val 0.12571
+DONE 137041 gp_whitened_mlp_seed43 seconds 43.8 CRPS 0.529527
+START 237041 white_whitened_mlp_seed41 device mps params 65464
+PROGRESS 237041 white_whitened_mlp_seed41 500 val 0.125613
+PROGRESS 237041 white_whitened_mlp_seed41 1000 val 0.088026
+PROGRESS 237041 white_whitened_mlp_seed41 1500 val 0.080601
+PROGRESS 237041 white_whitened_mlp_seed41 2000 val 0.075094
+PROGRESS 237041 white_whitened_mlp_seed41 2500 val 0.071358
+PROGRESS 237041 white_whitened_mlp_seed41 3000 val 0.069632
+PROGRESS 237041 white_whitened_mlp_seed41 3500 val 0.067387
+PROGRESS 237041 white_whitened_mlp_seed41 4000 val 0.066009
+PROGRESS 237041 white_whitened_mlp_seed41 4500 val 0.063549
+PROGRESS 237041 white_whitened_mlp_seed41 5000 val 0.062851
+PROGRESS 237041 white_whitened_mlp_seed41 5500 val 0.061762
+PROGRESS 237041 white_whitened_mlp_seed41 6000 val 0.061112
+DONE 237041 white_whitened_mlp_seed41 seconds 42.3 CRPS 0.548206
+START 237041 white_whitened_mlp_seed42 device mps params 65464
+PROGRESS 237041 white_whitened_mlp_seed42 500 val 0.120206
+PROGRESS 237041 white_whitened_mlp_seed42 1000 val 0.08673
+PROGRESS 237041 white_whitened_mlp_seed42 1500 val 0.079511
+PROGRESS 237041 white_whitened_mlp_seed42 2000 val 0.075384
+PROGRESS 237041 white_whitened_mlp_seed42 2500 val 0.072376
+PROGRESS 237041 white_whitened_mlp_seed42 3000 val 0.0699
+PROGRESS 237041 white_whitened_mlp_seed42 3500 val 0.0671
+PROGRESS 237041 white_whitened_mlp_seed42 4000 val 0.064075
+PROGRESS 237041 white_whitened_mlp_seed42 4500 val 0.063666
+PROGRESS 237041 white_whitened_mlp_seed42 5000 val 0.063667
+PROGRESS 237041 white_whitened_mlp_seed42 5500 val 0.062064
+PROGRESS 237041 white_whitened_mlp_seed42 6000 val 0.060677
+DONE 237041 white_whitened_mlp_seed42 seconds 41.2 CRPS 0.554361
+START 237041 white_whitened_mlp_seed43 device mps params 65464
+PROGRESS 237041 white_whitened_mlp_seed43 500 val 0.103724
+PROGRESS 237041 white_whitened_mlp_seed43 1000 val 0.08641
+PROGRESS 237041 white_whitened_mlp_seed43 1500 val 0.081963
+PROGRESS 237041 white_whitened_mlp_seed43 2000 val 0.074753
+PROGRESS 237041 white_whitened_mlp_seed43 2500 val 0.07287
+PROGRESS 237041 white_whitened_mlp_seed43 3000 val 0.069631
+PROGRESS 237041 white_whitened_mlp_seed43 3500 val 0.067301
+PROGRESS 237041 white_whitened_mlp_seed43 4000 val 0.065241
+PROGRESS 237041 white_whitened_mlp_seed43 4500 val 0.063251
+PROGRESS 237041 white_whitened_mlp_seed43 5000 val 0.062633
+PROGRESS 237041 white_whitened_mlp_seed43 5500 val 0.061638
+PROGRESS 237041 white_whitened_mlp_seed43 6000 val 0.06101
+DONE 237041 white_whitened_mlp_seed43 seconds 42.0 CRPS 0.533641
+START 237041 mix050_whitened_mlp_seed41 device mps params 65464
+PROGRESS 237041 mix050_whitened_mlp_seed41 500 val 0.145034
+PROGRESS 237041 mix050_whitened_mlp_seed41 1000 val 0.112904
+PROGRESS 237041 mix050_whitened_mlp_seed41 1500 val 0.100283
+PROGRESS 237041 mix050_whitened_mlp_seed41 2000 val 0.094728
+PROGRESS 237041 mix050_whitened_mlp_seed41 2500 val 0.089651
+PROGRESS 237041 mix050_whitened_mlp_seed41 3000 val 0.086062
+PROGRESS 237041 mix050_whitened_mlp_seed41 3500 val 0.084586
+PROGRESS 237041 mix050_whitened_mlp_seed41 4000 val 0.081916
+PROGRESS 237041 mix050_whitened_mlp_seed41 4500 val 0.080254
+PROGRESS 237041 mix050_whitened_mlp_seed41 5000 val 0.079277
+PROGRESS 237041 mix050_whitened_mlp_seed41 5500 val 0.077834
+PROGRESS 237041 mix050_whitened_mlp_seed41 6000 val 0.077649
+DONE 237041 mix050_whitened_mlp_seed41 seconds 44.7 CRPS 0.516321
+START 237041 mix050_whitened_mlp_seed42 device mps params 65464
+PROGRESS 237041 mix050_whitened_mlp_seed42 500 val 0.13953
+PROGRESS 237041 mix050_whitened_mlp_seed42 1000 val 0.106707
+PROGRESS 237041 mix050_whitened_mlp_seed42 1500 val 0.096888
+PROGRESS 237041 mix050_whitened_mlp_seed42 2000 val 0.092236
+PROGRESS 237041 mix050_whitened_mlp_seed42 2500 val 0.089113
+PROGRESS 237041 mix050_whitened_mlp_seed42 3000 val 0.085967
+PROGRESS 237041 mix050_whitened_mlp_seed42 3500 val 0.083861
+PROGRESS 237041 mix050_whitened_mlp_seed42 4000 val 0.080266
+PROGRESS 237041 mix050_whitened_mlp_seed42 4500 val 0.080202
+PROGRESS 237041 mix050_whitened_mlp_seed42 5000 val 0.079572
+PROGRESS 237041 mix050_whitened_mlp_seed42 5500 val 0.078319
+PROGRESS 237041 mix050_whitened_mlp_seed42 6000 val 0.077537
+DONE 237041 mix050_whitened_mlp_seed42 seconds 43.2 CRPS 0.534118
+START 237041 mix050_whitened_mlp_seed43 device mps params 65464
+PROGRESS 237041 mix050_whitened_mlp_seed43 500 val 0.124521
+PROGRESS 237041 mix050_whitened_mlp_seed43 1000 val 0.106216
+PROGRESS 237041 mix050_whitened_mlp_seed43 1500 val 0.099297
+PROGRESS 237041 mix050_whitened_mlp_seed43 2000 val 0.095388
+PROGRESS 237041 mix050_whitened_mlp_seed43 2500 val 0.089816
+PROGRESS 237041 mix050_whitened_mlp_seed43 3000 val 0.086252
+PROGRESS 237041 mix050_whitened_mlp_seed43 3500 val 0.084259
+PROGRESS 237041 mix050_whitened_mlp_seed43 4000 val 0.082156
+PROGRESS 237041 mix050_whitened_mlp_seed43 4500 val 0.079641
+PROGRESS 237041 mix050_whitened_mlp_seed43 5000 val 0.07909
+PROGRESS 237041 mix050_whitened_mlp_seed43 5500 val 0.078176
+PROGRESS 237041 mix050_whitened_mlp_seed43 6000 val 0.077781
+DONE 237041 mix050_whitened_mlp_seed43 seconds 41.4 CRPS 0.509211
+START 237041 mix090_whitened_mlp_seed41 device mps params 65464
+PROGRESS 237041 mix090_whitened_mlp_seed41 500 val 0.171138
+PROGRESS 237041 mix090_whitened_mlp_seed41 1000 val 0.134205
+PROGRESS 237041 mix090_whitened_mlp_seed41 1500 val 0.121849
+PROGRESS 237041 mix090_whitened_mlp_seed41 2000 val 0.114979
+PROGRESS 237041 mix090_whitened_mlp_seed41 2500 val 0.10906
+PROGRESS 237041 mix090_whitened_mlp_seed41 3000 val 0.105805
+PROGRESS 237041 mix090_whitened_mlp_seed41 3500 val 0.103936
+PROGRESS 237041 mix090_whitened_mlp_seed41 4000 val 0.101453
+PROGRESS 237041 mix090_whitened_mlp_seed41 4500 val 0.100215
+PROGRESS 237041 mix090_whitened_mlp_seed41 5000 val 0.09886
+PROGRESS 237041 mix090_whitened_mlp_seed41 5500 val 0.097741
+PROGRESS 237041 mix090_whitened_mlp_seed41 6000 val 0.09767
+DONE 237041 mix090_whitened_mlp_seed41 seconds 42.5 CRPS 0.531458
+START 237041 mix090_whitened_mlp_seed42 device mps params 65464
+PROGRESS 237041 mix090_whitened_mlp_seed42 500 val 0.164162
+PROGRESS 237041 mix090_whitened_mlp_seed42 1000 val 0.128991
+PROGRESS 237041 mix090_whitened_mlp_seed42 1500 val 0.11682
+PROGRESS 237041 mix090_whitened_mlp_seed42 2000 val 0.110876
+PROGRESS 237041 mix090_whitened_mlp_seed42 2500 val 0.109867
+PROGRESS 237041 mix090_whitened_mlp_seed42 3000 val 0.106454
+PROGRESS 237041 mix090_whitened_mlp_seed42 3500 val 0.103782
+PROGRESS 237041 mix090_whitened_mlp_seed42 4000 val 0.100461
+PROGRESS 237041 mix090_whitened_mlp_seed42 4500 val 0.099017
+PROGRESS 237041 mix090_whitened_mlp_seed42 5000 val 0.098689
+PROGRESS 237041 mix090_whitened_mlp_seed42 5500 val 0.09742
+PROGRESS 237041 mix090_whitened_mlp_seed42 6000 val 0.096907
+DONE 237041 mix090_whitened_mlp_seed42 seconds 41.5 CRPS 0.513512
+START 237041 mix090_whitened_mlp_seed43 device mps params 65464
+PROGRESS 237041 mix090_whitened_mlp_seed43 500 val 0.156585
+PROGRESS 237041 mix090_whitened_mlp_seed43 1000 val 0.12849
+PROGRESS 237041 mix090_whitened_mlp_seed43 1500 val 0.121071
+PROGRESS 237041 mix090_whitened_mlp_seed43 2000 val 0.116752
+PROGRESS 237041 mix090_whitened_mlp_seed43 2500 val 0.108859
+PROGRESS 237041 mix090_whitened_mlp_seed43 3000 val 0.10583
+PROGRESS 237041 mix090_whitened_mlp_seed43 3500 val 0.103066
+PROGRESS 237041 mix090_whitened_mlp_seed43 4000 val 0.102156
+PROGRESS 237041 mix090_whitened_mlp_seed43 4500 val 0.098301
+PROGRESS 237041 mix090_whitened_mlp_seed43 5000 val 0.098319
+PROGRESS 237041 mix090_whitened_mlp_seed43 5500 val 0.096457
+PROGRESS 237041 mix090_whitened_mlp_seed43 6000 val 0.096297
+DONE 237041 mix090_whitened_mlp_seed43 seconds 43.6 CRPS 0.502315
+START 237041 mix099_whitened_mlp_seed41 device mps params 65464
+PROGRESS 237041 mix099_whitened_mlp_seed41 500 val 0.193051
+PROGRESS 237041 mix099_whitened_mlp_seed41 1000 val 0.164559
+PROGRESS 237041 mix099_whitened_mlp_seed41 1500 val 0.151425
+PROGRESS 237041 mix099_whitened_mlp_seed41 2000 val 0.144341
+PROGRESS 237041 mix099_whitened_mlp_seed41 2500 val 0.138228
+PROGRESS 237041 mix099_whitened_mlp_seed41 3000 val 0.135701
+PROGRESS 237041 mix099_whitened_mlp_seed41 3500 val 0.132181
+PROGRESS 237041 mix099_whitened_mlp_seed41 4000 val 0.130602
+PROGRESS 237041 mix099_whitened_mlp_seed41 4500 val 0.127606
+PROGRESS 237041 mix099_whitened_mlp_seed41 5000 val 0.126589
+PROGRESS 237041 mix099_whitened_mlp_seed41 5500 val 0.125969
+PROGRESS 237041 mix099_whitened_mlp_seed41 6000 val 0.125797
+DONE 237041 mix099_whitened_mlp_seed41 seconds 42.5 CRPS 0.509369
+START 237041 mix099_whitened_mlp_seed42 device mps params 65464
+PROGRESS 237041 mix099_whitened_mlp_seed42 500 val 0.196916
+PROGRESS 237041 mix099_whitened_mlp_seed42 1000 val 0.163202
+PROGRESS 237041 mix099_whitened_mlp_seed42 1500 val 0.150499
+PROGRESS 237041 mix099_whitened_mlp_seed42 2000 val 0.143688
+PROGRESS 237041 mix099_whitened_mlp_seed42 2500 val 0.139392
+PROGRESS 237041 mix099_whitened_mlp_seed42 3000 val 0.13709
+PROGRESS 237041 mix099_whitened_mlp_seed42 3500 val 0.132849
+PROGRESS 237041 mix099_whitened_mlp_seed42 4000 val 0.130052
+PROGRESS 237041 mix099_whitened_mlp_seed42 4500 val 0.128484
+PROGRESS 237041 mix099_whitened_mlp_seed42 5000 val 0.127346
+PROGRESS 237041 mix099_whitened_mlp_seed42 5500 val 0.125845
+PROGRESS 237041 mix099_whitened_mlp_seed42 6000 val 0.125723
+DONE 237041 mix099_whitened_mlp_seed42 seconds 42.6 CRPS 0.501015
+START 237041 mix099_whitened_mlp_seed43 device mps params 65464
+PROGRESS 237041 mix099_whitened_mlp_seed43 500 val 0.191224
+PROGRESS 237041 mix099_whitened_mlp_seed43 1000 val 0.162448
+PROGRESS 237041 mix099_whitened_mlp_seed43 1500 val 0.153065
+PROGRESS 237041 mix099_whitened_mlp_seed43 2000 val 0.145927
+PROGRESS 237041 mix099_whitened_mlp_seed43 2500 val 0.140224
+PROGRESS 237041 mix099_whitened_mlp_seed43 3000 val 0.136049
+PROGRESS 237041 mix099_whitened_mlp_seed43 3500 val 0.132402
+PROGRESS 237041 mix099_whitened_mlp_seed43 4000 val 0.131394
+PROGRESS 237041 mix099_whitened_mlp_seed43 4500 val 0.128389
+PROGRESS 237041 mix099_whitened_mlp_seed43 5000 val 0.127045
+PROGRESS 237041 mix099_whitened_mlp_seed43 5500 val 0.125755
+PROGRESS 237041 mix099_whitened_mlp_seed43 6000 val 0.12533
+DONE 237041 mix099_whitened_mlp_seed43 seconds 41.2 CRPS 0.487377
+START 237041 gp_whitened_mlp_seed41 device mps params 65464
+PROGRESS 237041 gp_whitened_mlp_seed41 500 val 0.165225
+PROGRESS 237041 gp_whitened_mlp_seed41 1000 val 0.151609
+PROGRESS 237041 gp_whitened_mlp_seed41 1500 val 0.145829
+PROGRESS 237041 gp_whitened_mlp_seed41 2000 val 0.141232
+PROGRESS 237041 gp_whitened_mlp_seed41 2500 val 0.13874
+PROGRESS 237041 gp_whitened_mlp_seed41 3000 val 0.137044
+PROGRESS 237041 gp_whitened_mlp_seed41 3500 val 0.135779
+PROGRESS 237041 gp_whitened_mlp_seed41 4000 val 0.133892
+PROGRESS 237041 gp_whitened_mlp_seed41 4500 val 0.132905
+PROGRESS 237041 gp_whitened_mlp_seed41 5000 val 0.132011
+PROGRESS 237041 gp_whitened_mlp_seed41 5500 val 0.13134
+PROGRESS 237041 gp_whitened_mlp_seed41 6000 val 0.131401
+DONE 237041 gp_whitened_mlp_seed41 seconds 42.9 CRPS 0.494445
+START 237041 gp_whitened_mlp_seed42 device mps params 65464
+PROGRESS 237041 gp_whitened_mlp_seed42 500 val 0.164083
+PROGRESS 237041 gp_whitened_mlp_seed42 1000 val 0.152
+PROGRESS 237041 gp_whitened_mlp_seed42 1500 val 0.145259
+PROGRESS 237041 gp_whitened_mlp_seed42 2000 val 0.142302
+PROGRESS 237041 gp_whitened_mlp_seed42 2500 val 0.138626
+PROGRESS 237041 gp_whitened_mlp_seed42 3000 val 0.135388
+PROGRESS 237041 gp_whitened_mlp_seed42 3500 val 0.134458
+PROGRESS 237041 gp_whitened_mlp_seed42 4000 val 0.13357
+PROGRESS 237041 gp_whitened_mlp_seed42 4500 val 0.132411
+PROGRESS 237041 gp_whitened_mlp_seed42 5000 val 0.131458
+PROGRESS 237041 gp_whitened_mlp_seed42 5500 val 0.131043
+PROGRESS 237041 gp_whitened_mlp_seed42 6000 val 0.13088
+DONE 237041 gp_whitened_mlp_seed42 seconds 42.0 CRPS 0.484446
+START 237041 gp_whitened_mlp_seed43 device mps params 65464
+PROGRESS 237041 gp_whitened_mlp_seed43 500 val 0.163724
+PROGRESS 237041 gp_whitened_mlp_seed43 1000 val 0.151049
+PROGRESS 237041 gp_whitened_mlp_seed43 1500 val 0.143907
+PROGRESS 237041 gp_whitened_mlp_seed43 2000 val 0.140965
+PROGRESS 237041 gp_whitened_mlp_seed43 2500 val 0.138644
+PROGRESS 237041 gp_whitened_mlp_seed43 3000 val 0.13763
+PROGRESS 237041 gp_whitened_mlp_seed43 3500 val 0.136126
+PROGRESS 237041 gp_whitened_mlp_seed43 4000 val 0.134371
+PROGRESS 237041 gp_whitened_mlp_seed43 4500 val 0.133883
+PROGRESS 237041 gp_whitened_mlp_seed43 5000 val 0.132461
+PROGRESS 237041 gp_whitened_mlp_seed43 5500 val 0.132002
+PROGRESS 237041 gp_whitened_mlp_seed43 6000 val 0.131529
+DONE 237041 gp_whitened_mlp_seed43 seconds 40.4 CRPS 0.487435

@@ -12,6 +12,7 @@ benchmark reproduction.
 
 ## Start here
 
+- Latest original-setting follow-up: [GP / white-noise mixture report](output/prior-mixture/report.html). 102 audited MPS fits; source smoothness, MLP/S4 and separate coordinate/loss controls.
 - Poster: [PDF](output/poster/flow-matching-poster-LaTeX-A1.pdf) · [editable LaTeX](output/poster/flow-matching-poster.tex). This is the project proposal; completed results are in the reports below.
 - Reports: [main experiment](output/pdf/research-report.pdf) · [S4/MLP follow-up](output/pdf/s4-mlp-followup.pdf) · [related work](output/pdf/related-work.pdf).
 - `docs/README_RU.md`: a short Russian guide for the team.
@@ -267,3 +268,61 @@ The S4 state-space construction follows the official
 and a finite-horizon realization for MPS. The three-block temporal backbone is
 inspired by [TSFlow](https://github.com/marcelkollovieh/TSFlow).
 See `vendor/manifest.json` and the preserved licenses before redistribution.
+
+## Original-setting GP / white covariance mixtures
+
+This follow-up returns to the original univariate GP (lookback 32, horizon 16,
+RBF lengthscale 8), with Sundial history-instance normalization and the original
+tiny learned lookback encoder. It sweeps **Gaussian source covariance**
+`C_alpha = (1-alpha) I + alpha C_GP` at alpha **0, .5, .9, .99, 1**. All sources
+have unit marginal variance; this is not random selection between a white and GP
+trajectory. The normalized GP endpoint differs from the original nugget-bearing
+kernel by the disclosed factor 1/1.000001.
+
+The complete design contains **102 MPS fits**: three main heads (MLP, S4,
+whitened MLP), five sources, two independent datasets, and three optimization
+seeds, plus twelve GP-only fits completing the raw/whitened coordinates by
+raw/balanced loss factorial. All receive 6,000 updates under the same declared
+cosine learning-rate schedule. The configuration and numerical source hashes
+were frozen before the scored runs. The smoke test overlapped a prefix of one
+test draw, but no hyperparameter or numerical changes were selected from its
+outcomes; the full disclosure is in the execution notes.
+
+Measured results, with the two dataset means weighted equally:
+
+- MLP with the 50/50 covariance mixture has CRPS **0.49196**, versus **0.50440**
+  for white noise and **0.50150** for pure GP. The improvement has the same
+  direction on both datasets. This is an exploratory comparison, not a validated
+  claim that alpha .5 is optimal.
+- On pure GP, S4 has lower CRPS (**0.48680**) than MLP (**0.50150**) on both
+  datasets, but higher residual velocity MSE (**0.05828** vs **0.04893**).
+  Thus forecast quality and the assignment's residual-error hypothesis disagree.
+- Full whitening reduces GP MLP residual MSE by **18.7%**, but does not improve
+  its CRPS. Whitening with raw loss gives CRPS **0.49286**; balancing loss alone
+  gives **1.27301**. Coordinate changes and objective weighting are not equivalent.
+- Adding 1% white covariance removes all variance-floor activations while
+  preserving about 98% velocity energy in the first two PCs. That numerical
+  change does not itself establish a forecast benefit.
+
+Only two independent datasets are available. Seed variation is shown within
+rather than substituted for dataset replication. **86/102** checkpoints select
+the last update, so convergence is not established. The unchanged literal 20%
+rule passes **0/102** runs. Raw and actual-training-objective gradient diagnostics,
+a privileged raw-history GP reference, and bounded Euler 64/128 checks help
+interpret these limitations; none is treated as proof of a causal mechanism.
+The exact source sweeps, independent checks and all forecasts remain available.
+
+- Results: [HTML report](output/prior-mixture/report.html),
+  [per-run metrics](output/prior-mixture/runs.csv),
+  [paired contrasts](output/prior-mixture/contrasts.csv).
+- Frozen protocol: `configs/prior_mixture.json` and
+  `results/prior-mixture/manifest.json`.
+- Independent verification: `results/prior-mixture/independent_verification.json`
+  and `results/diagnostics/prior_mixture_analysis_verification.json`.
+- Operational disclosure: `results/diagnostics/prior_mixture_execution_notes.txt`.
+
+Reproduce from the repository root with `bash scripts/run_prior_mixture.sh`.
+The checked full archive is `output/fm-stress-prior-mixture.zip`; previous
+archives and all original results are preserved. The HTML report uses images
+in the same directory: send the archive or the whole report folder, not only
+its HTML file. All **151 tests** passed with MPS access.

@@ -1,0 +1,41 @@
+Original-setting prior covariance-mixture study, 8 October 2026.
+
+The 102-fit main configuration was written before the smoke runs. It fixes two
+independent synthetic datasets, three optimization seeds, five GP covariance
+weights, three main heads, and two additional coordinate/objective controls only
+at the GP endpoint. The original numerical files and earlier results are retained.
+
+A 100-update smoke suite exercised 11 head/source combinations on MPS. It reused
+data_seed 137041, so its 128 test windows overlap the prefix of the first main
+study's test draw. No model/hyperparameter/schedule/source-weight selection or
+numerical implementation changes were made from those smoke outcomes. The smoke
+is a software check, not an independent performance replication. Main checkpoint
+selection uses validation only; the predeclared grid remains unchanged.
+
+Both complete main validation geometries were inspected before main training;
+both passed the original nonconstant target / near-rank-two GP / contrasting white
+velocity conditions. The independent audit verified the entire smoke suite and
+an interim subset of main results before final execution continued.
+
+The main MPS training was dispatched by head to disjoint processes. Allocation,
+updates, optimizer schedule, random inputs and validation selection are controlled;
+wall-clock timings reflect concurrent execution and are not architecture speed
+benchmarks. Remaining two GP-only controls are dispatched as capacity frees.
+
+The source at alpha=1 divides the original raw RBF kernel by 1.000001 to keep
+marginal variance exactly one across the covariance sweep. This tiny endpoint
+change is disclosed in the frozen protocol. Source draws remain independent of
+paired target/history normalization statistics.
+
+The initial S4 worker (PID 82380) was deliberately interrupted with SIGINT after
+five complete fits to split remaining work by the two disjoint dataset seeds.
+Its exit 130 is orchestration, not a failed numerical result. A partly trained
+fit without a final run record restarts from its original initialization; every
+completed record is reused only after manifest/checkpoint/sample hash checks.
+
+After the other heads and first S4 dataset completed, the second-dataset S4
+worker (PID 92903) was deliberately interrupted once more and its remaining fits
+were partitioned by optimization seeds 41/42/43. That worker had
+completed ten second-dataset fits; five remained. These final workers address
+disjoint run identities. This reduces idle-device time without changing the
+frozen experiment or treating partially trained checkpoints as final results.

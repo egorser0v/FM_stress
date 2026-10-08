@@ -1,0 +1,520 @@
+{
+  "run": "gp_whitened_raw_mlp_seed41",
+  "data_seed": 137041,
+  "source": "gp",
+  "alpha": 1.0,
+  "head": "whitened_raw_mlp",
+  "seed": 41,
+  "config_sha256": "d8ce20f05d9b03bc1287aa03913baed0318ec2465a2ce94931ebeb7c1811d847",
+  "fingerprint": "e398e18cf628b65cf525dc733db3e4ad052c7f9b1e25f59465bb4bcc50e6c8c4",
+  "status": "complete",
+  "steps": 100,
+  "parameters": 65464,
+  "device": "mps",
+  "best_step": 100,
+  "best_validation_objective": 2.8071341514587402,
+  "encoder_initial_sha256": "231bf228391d5b5fa2ae63cbe756b0a9a975137d19133026e4adcbe66ba51b49",
+  "batch_hashes": {
+    "1": {
+      "indices": "75c2f481a36eda0a785e710c18ce22c09a51d7b2f4fa0b63f39d593fcf9a7802",
+      "normals": "9b6befb840e34d4c0d3e92b404118e6fad38129763fcbb122611a92d21d4d685",
+      "time": "0342de4358d96457f8003e3cc9c8bb25ca9c09ceea96717f77888dcc5c249a54"
+    },
+    "100": {
+      "indices": "145e3ad24a2c9b39296d4d963dc1d841d630a98ae5d00ec0f3eeb3cfcd8881be",
+      "normals": "6a179d6ee7d15f7f2231c0b72744f428ee05ef5f89306f58231b1c9b91190609",
+      "time": "58b52a735d948db64a8a31e96db126a6e31d15e4b3efb1672650208fb05bc5ee"
+    }
+  },
+  "curve": [
+    {
+      "step": 50,
+      "train_objective": 4.224549293518066,
+      "validation_objective": 3.284170627593994,
+      "validation_raw_mse": 3.284170627593994,
+      "learning_rate": 0.0005571396837256635,
+      "seconds": 0.3118974999524653
+    },
+    {
+      "step": 100,
+      "train_objective": 3.6919379234313965,
+      "validation_objective": 2.8071341514587402,
+      "validation_raw_mse": 2.8071341514587402,
+      "learning_rate": 0.0001,
+      "seconds": 0.5986813339404762
+    }
+  ],
+  "gradient_diagnostics": [
+    {
+      "step": 0,
+      "coordinate_system": "raw_observed_velocity",
+      "parameter_scope": "trainable parameters excluding names containing encoder",
+      "loss_denominator": "batch_size * horizon for every group",
+      "batch_size": 16,
+      "horizon": 16,
+      "head_parameter_count": 63352,
+      "excluded_encoder_parameter_names": [
+        "base.encoder.net.0.weight",
+        "base.encoder.net.0.bias",
+        "base.encoder.net.2.weight",
+        "base.encoder.net.2.bias"
+      ],
+      "raw_total_mse": 5.215049743652344,
+      "groups": {
+        "pc1": {
+          "components": 1,
+          "raw_mse_contribution": 3.6104164123535156,
+          "gradient_norm": 13.2454252243042,
+          "gradient_norm_per_component": 13.2454252243042
+        },
+        "pc2": {
+          "components": 1,
+          "raw_mse_contribution": 1.364903450012207,
+          "gradient_norm": 4.872055530548096,
+          "gradient_norm_per_component": 4.872055530548096
+        },
+        "residual": {
+          "components": 14,
+          "raw_mse_contribution": 0.23972994089126587,
+          "gradient_norm": 0.8561339378356934,
+          "gradient_norm_per_component": 0.06115242413112095
+        }
+      },
+      "gradient_cosines": {
+        "pc1_vs_pc2": -6.2765755952491825e-09,
+        "pc1_vs_residual": 6.942802481491047e-09,
+        "pc2_vs_residual": -1.1838453588317783e-08
+      },
+      "raw_total_gradient_norm": 14.138994216918945,
+      "summed_group_gradient_norm": 14.138995170593262,
+      "gradient_reconstruction_absolute_error": 1.986756387850619e-06,
+      "gradient_reconstruction_relative_error": 1.4051610442511071e-07,
+      "loss_reconstruction_absolute_error": 5.960464477539063e-08
+    },
+    {
+      "step": 50,
+      "coordinate_system": "raw_observed_velocity",
+      "parameter_scope": "trainable parameters excluding names containing encoder",
+      "loss_denominator": "batch_size * horizon for every group",
+      "batch_size": 16,
+      "horizon": 16,
+      "head_parameter_count": 63352,
+      "excluded_encoder_parameter_names": [
+        "base.encoder.net.0.weight",
+        "base.encoder.net.0.bias",
+        "base.encoder.net.2.weight",
+        "base.encoder.net.2.bias"
+      ],
+      "raw_total_mse": 3.161494255065918,
+      "groups": {
+        "pc1": {
+          "components": 1,
+          "raw_mse_contribution": 2.420076370239258,
+          "gradient_norm": 21.534461975097656,
+          "gradient_norm_per_component": 21.534461975097656
+        },
+        "pc2": {
+          "components": 1,
+          "raw_mse_contribution": 0.5682098269462585,
+          "gradient_norm": 5.125722885131836,
+          "gradient_norm_per_component": 5.125722885131836
+        },
+        "residual": {
+          "components": 14,
+          "raw_mse_contribution": 0.17320816218852997,
+          "gradient_norm": 0.6631909608840942,
+          "gradient_norm_per_component": 0.04737078292029245
+        }
+      },
+      "gradient_cosines": {
+        "pc1_vs_pc2": -0.011497733194818094,
+        "pc1_vs_residual": 0.001003947772746362,
+        "pc2_vs_residual": -0.001246960242237668
+      },
+      "raw_total_gradient_norm": 22.089092254638672,
+      "summed_group_gradient_norm": 22.08909034729004,
+      "gradient_reconstruction_absolute_error": 2.8971339816052932e-06,
+      "gradient_reconstruction_relative_error": 1.3115676951355483e-07,
+      "loss_reconstruction_absolute_error": 1.043081283569336e-07
+    },
+    {
+      "step": 100,
+      "coordinate_system": "raw_observed_velocity",
+      "parameter_scope": "trainable parameters excluding names containing encoder",
+      "loss_denominator": "batch_size * horizon for every group",
+      "batch_size": 16,
+      "horizon": 16,
+      "head_parameter_count": 63352,
+      "excluded_encoder_parameter_names": [
+        "base.encoder.net.0.weight",
+        "base.encoder.net.0.bias",
+        "base.encoder.net.2.weight",
+        "base.encoder.net.2.bias"
+      ],
+      "raw_total_mse": 3.0850841999053955,
+      "groups": {
+        "pc1": {
+          "components": 1,
+          "raw_mse_contribution": 2.518742561340332,
+          "gradient_norm": 29.620193481445312,
+          "gradient_norm_per_component": 29.620193481445312
+        },
+        "pc2": {
+          "components": 1,
+          "raw_mse_contribution": 0.404628723859787,
+          "gradient_norm": 4.961562156677246,
+          "gradient_norm_per_component": 4.961562156677246
+        },
+        "residual": {
+          "components": 14,
+          "raw_mse_contribution": 0.16171257197856903,
+          "gradient_norm": 0.7248554229736328,
+          "gradient_norm_per_component": 0.05177538735525949
+        }
+      },
+      "gradient_cosines": {
+        "pc1_vs_pc2": -0.012936207600328889,
+        "pc1_vs_residual": 0.007505074118407715,
+        "pc2_vs_residual": -0.004167184740244798
+      },
+      "raw_total_gradient_norm": 29.983135223388672,
+      "summed_group_gradient_norm": 29.983135223388672,
+      "gradient_reconstruction_absolute_error": 2.2760532374377362e-06,
+      "gradient_reconstruction_relative_error": 7.591111538136533e-08,
+      "loss_reconstruction_absolute_error": 3.427267074584961e-07
+    },
+    {
+      "step": 100,
+      "selected_checkpoint": true,
+      "coordinate_system": "raw_observed_velocity",
+      "parameter_scope": "trainable parameters excluding names containing encoder",
+      "loss_denominator": "batch_size * horizon for every group",
+      "batch_size": 16,
+      "horizon": 16,
+      "head_parameter_count": 63352,
+      "excluded_encoder_parameter_names": [
+        "base.encoder.net.0.weight",
+        "base.encoder.net.0.bias",
+        "base.encoder.net.2.weight",
+        "base.encoder.net.2.bias"
+      ],
+      "raw_total_mse": 3.0850841999053955,
+      "groups": {
+        "pc1": {
+          "components": 1,
+          "raw_mse_contribution": 2.518742561340332,
+          "gradient_norm": 29.620193481445312,
+          "gradient_norm_per_component": 29.620193481445312
+        },
+        "pc2": {
+          "components": 1,
+          "raw_mse_contribution": 0.404628723859787,
+          "gradient_norm": 4.961562156677246,
+          "gradient_norm_per_component": 4.961562156677246
+        },
+        "residual": {
+          "components": 14,
+          "raw_mse_contribution": 0.16171257197856903,
+          "gradient_norm": 0.7248554229736328,
+          "gradient_norm_per_component": 0.05177538735525949
+        }
+      },
+      "gradient_cosines": {
+        "pc1_vs_pc2": -0.012936207600328889,
+        "pc1_vs_residual": 0.007505074118407715,
+        "pc2_vs_residual": -0.004167184740244798
+      },
+      "raw_total_gradient_norm": 29.983135223388672,
+      "summed_group_gradient_norm": 29.983135223388672,
+      "gradient_reconstruction_absolute_error": 2.2760532374377362e-06,
+      "gradient_reconstruction_relative_error": 7.591111538136533e-08,
+      "loss_reconstruction_absolute_error": 3.427267074584961e-07
+    }
+  ],
+  "metrics": {
+    "velocity_mse": 2.2717612764720965,
+    "pc1_mse": 27.957994178547107,
+    "pc2_mse": 6.348015308245444,
+    "residual_mse": 0.14586935262578304,
+    "pc_mse": [
+      27.957994178547107,
+      6.348015308245444,
+      1.7912806176958147,
+      0.24116106195579265,
+      0.009197540200198457,
+      0.00044070584177333236,
+      3.3138076449556965e-05,
+      9.66193160146316e-06,
+      6.4036005004563285e-06,
+      5.561806305309515e-06,
+      5.273773895462306e-06,
+      7.148144222796918e-06,
+      5.9667078770785924e-06,
+      6.195022493294996e-06,
+      5.062173386603284e-06,
+      6.5998306511727196e-06
+    ],
+    "pc1_normalized_mse": 0.3135004388729021,
+    "pc2_normalized_mse": 0.4179998045300086,
+    "residual_normalized_mse": 0.33019167811320843,
+    "pc_normalized_mse": [
+      0.3135004388729021,
+      0.4179998045300086,
+      0.8231589119182551,
+      1.2121008625857468,
+      0.7997821984990167,
+      0.7671101697020805,
+      0.3715860817480063,
+      0.10834181372506715,
+      0.07180527882076124,
+      0.062366016192196595,
+      0.05913623202670707,
+      0.08015404598278261,
+      0.066906285413203,
+      0.06946643804532078,
+      0.0567634991343047,
+      0.07400565979147082
+    ],
+    "variance_floor": 8.918007987185533e-05,
+    "generated_roughness": 0.18694103724556044,
+    "target_roughness": 0.22985488512215468,
+    "success": {
+      "residual_to_pc1": 0.005217446991877278,
+      "roughness_ratio": 0.8133002574481374,
+      "velocity_rule_pass": false,
+      "roughness_rule_pass": true,
+      "works": false
+    },
+    "normalized_success_diagnostic": {
+      "residual_to_pc1": 1.0532415179395433,
+      "roughness_ratio": 0.8133002574481374,
+      "velocity_rule_pass": true,
+      "roughness_rule_pass": true,
+      "works": true
+    }
+  },
+  "fixed_target_basis_metrics": {
+    "velocity_mse": 2.2717612764720965,
+    "pc1_mse": 28.38021247083531,
+    "pc2_mse": 5.984473902239562,
+    "residual_mse": 0.14167814646276305,
+    "pc_mse": [
+      28.38021247083531,
+      5.984473902239562,
+      1.7439938172652452,
+      0.22952734496808624,
+      0.009410522434534684,
+      0.00047113059301861473,
+      3.312259771973051e-05,
+      9.317674728894488e-06,
+      6.4041166426525375e-06,
+      5.718230681817648e-06,
+      5.36009425562978e-06,
+      5.90136130210621e-06,
+      6.231949181951519e-06,
+      7.417179387680184e-06,
+      5.462841288495014e-06,
+      6.29917260928935e-06
+    ],
+    "pc1_normalized_mse": 0.3585552219247686,
+    "pc2_normalized_mse": 0.5219530170253374,
+    "residual_normalized_mse": 0.41706793877680515,
+    "pc_normalized_mse": [
+      0.3585552219247686,
+      0.5219530170253374,
+      1.0492047792141688,
+      1.502154653457063,
+      1.0818627411717348,
+      1.0530644567908194,
+      0.4184704532542654,
+      0.1177193769664276,
+      0.08090952336590453,
+      0.07224404937923291,
+      0.06771935859676975,
+      0.07455771916821928,
+      0.07873436198741536,
+      0.09370854443526343,
+      0.06901746322544243,
+      0.07958366186254594
+    ],
+    "variance_floor": 7.915158038554517e-05
+  },
+  "forecast_means": {
+    "fair_crps": 0.8948229903484904,
+    "fair_energy_score": 4.22405737336792,
+    "mean_forecast_mse": 4.850897222533875,
+    "ensemble_variance": 3.32844602868043,
+    "generated_roughness": 0.1986013463155056,
+    "target_roughness": 0.29308966950129767,
+    "coverage_80": 0.4140625,
+    "width_80": 2.62024124127056,
+    "coverage_90": 0.4375,
+    "width_90": 2.9539208426227557
+  },
+  "per_context": {
+    "fair_crps": [
+      0.7844827549240396,
+      0.4817047874237053,
+      0.8516007198978494,
+      0.9059289507860564,
+      0.1472621370347388,
+      3.058979127463452,
+      0.6791280657443192,
+      0.24949737951376272
+    ],
+    "fair_energy_score": [
+      3.4538190822631583,
+      2.794092148797855,
+      3.706263280351173,
+      4.157151558551251,
+      0.8186677443000001,
+      13.78858211281068,
+      3.7416047114734647,
+      1.3322783483957723
+    ],
+    "mean_forecast_mse": [
+      3.7140445975672787,
+      1.6094964737533832,
+      3.1291161826361718,
+      2.094314635314481,
+      0.12701611293920884,
+      25.07713837360982,
+      2.655668951524122,
+      0.4003824529265307
+    ],
+    "ensemble_variance": [
+      3.0413458667448228,
+      1.3589697969267043,
+      1.906896536969294,
+      0.5482456685598894,
+      0.31852363518035104,
+      6.222328940216443,
+      4.563922485534972,
+      8.667335299310965
+    ],
+    "generated_roughness": [
+      0.20302485724290212,
+      0.17335824469725292,
+      0.15758590499560038,
+      0.18358537604411443,
+      0.09058514100809892,
+      0.3088292997951309,
+      0.1893224467833837,
+      0.2825194999575615
+    ],
+    "target_roughness": [
+      0.2629496369215626,
+      0.3076840082451426,
+      0.22234195173329843,
+      0.32641071346557027,
+      0.11765520639353635,
+      0.5235335630088069,
+      0.5089781511611208,
+      0.07516412508134365
+    ],
+    "coverage_80": [
+      0.125,
+      0.5,
+      0.125,
+      0.125,
+      0.875,
+      0.125,
+      0.4375,
+      1.0
+    ],
+    "width_80": [
+      2.607832152489573,
+      1.8343023688299582,
+      2.4155305024236444,
+      1.3241657504811883,
+      0.9336818520794623,
+      3.9982475238619375,
+      3.474050427228213,
+      4.374119352770504
+    ],
+    "coverage_90": [
+      0.1875,
+      0.5625,
+      0.125,
+      0.125,
+      0.875,
+      0.125,
+      0.5,
+      1.0
+    ],
+    "width_90": [
+      2.9481188096571707,
+      1.9998521424829958,
+      2.712103614397347,
+      1.4534370272653176,
+      1.0433837174845393,
+      4.570894412731286,
+      3.7551662821322678,
+      5.148410734831122
+    ]
+  },
+  "solver_sensitivity": {
+    "n_contexts": 8,
+    "euler_steps": 128,
+    "endpoint_rmse": 0.007012258141630707,
+    "score_changes": {
+      "fair_crps": -0.0022303477931012727,
+      "fair_energy_score": -0.008691899110925938,
+      "mean_forecast_mse": -0.0006774635704811516,
+      "ensemble_variance": 0.022909280303762714,
+      "generated_roughness": 0.0004047381381193649,
+      "target_roughness": 0.0,
+      "coverage_80": 0.0,
+      "width_80": 0.008600225163536646,
+      "coverage_90": 0.0078125,
+      "width_90": 0.009692741558319007
+    }
+  },
+  "test_spectrum": {
+    "pc_variance": [
+      79.49246224664147,
+      16.053408680284043,
+      2.402983712079746,
+      0.284549528637465,
+      0.011854713024901093,
+      0.0005170834846495439,
+      3.830986634208069e-05,
+      1.1548991205292378e-05,
+      8.401031049816775e-06,
+      6.8126539661836335e-06,
+      6.453608869727471e-06,
+      8.659945028413091e-06,
+      6.981286665879081e-06,
+      7.651967010713405e-06,
+      5.778079779775682e-06,
+      6.902936225637963e-06
+    ],
+    "energy": [
+      0.8091174860812386,
+      0.16340031881418976,
+      0.02445887427891659,
+      0.0028962997593708884,
+      0.00012066371238019792,
+      5.26315674932364e-06,
+      3.8993864161154736e-07,
+      1.1755190953586677e-07,
+      8.551026011029577e-08,
+      6.934289484652076e-08,
+      6.568833870844265e-08,
+      8.814562730804531e-08,
+      7.105933011840011e-08,
+      7.788587919286125e-08,
+      5.881243647081091e-08,
+      7.026183675299703e-08
+    ],
+    "top1_energy": 0.8091174860812386,
+    "top2_energy": 0.9725178048954284,
+    "total_variance": 98.24588346451841,
+    "effective_rank": 1.7793465662252081,
+    "roughness": 0.24156606078014478,
+    "mean_within_patch_std": 0.9723501641734172
+  },
+  "checkpoint_sha256": "bfdafb1860363db289f56d7af8155e8e9332f91de9a7190e5e1aea319df38ed8",
+  "samples_sha256": "6f68bf0dfae6986ade5364331bf37cfe7f41aa0750e9345450d15c22e843a453",
+  "seconds": 0.9179627920966595
+}

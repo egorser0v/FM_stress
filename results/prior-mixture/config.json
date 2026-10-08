@@ -1,0 +1,80 @@
+{
+  "name": "original_setting_prior_mixture",
+  "data": {
+    "lookback": 32,
+    "horizon": 16,
+    "lengthscale": 8.0,
+    "variance": 1.0,
+    "nugget": 1e-06
+  },
+  "data_seeds": [
+    137041,
+    237041
+  ],
+  "seeds": [
+    41,
+    42,
+    43
+  ],
+  "alphas": [
+    0.0,
+    0.5,
+    0.9,
+    0.99,
+    1.0
+  ],
+  "heads": [
+    "mlp",
+    "s4",
+    "whitened_mlp"
+  ],
+  "gp_control_heads": [
+    "balanced_mlp",
+    "whitened_raw_mlp"
+  ],
+  "n_train": 32768,
+  "n_val": 4096,
+  "n_test": 8192,
+  "n_paths": 1024,
+  "n_ensemble_contexts": 128,
+  "ensemble_size": 32,
+  "steps": 6000,
+  "batch_size": 256,
+  "eval_every": 500,
+  "learning_rate": 0.001,
+  "final_learning_rate": 0.0001,
+  "schedule": "cosine",
+  "weight_decay": 0.0001,
+  "clip_grad": 1.0,
+  "euler_steps": 64,
+  "generation_batch_size": 1024,
+  "gradient_steps": [
+    0,
+    500,
+    2000,
+    6000
+  ],
+  "gradient_probe_size": 64,
+  "model": {
+    "width": 56,
+    "encoder_dim": 32,
+    "depth": 3,
+    "state_size": 16,
+    "time_dim": 32
+  },
+  "protocol": {
+    "frozen_before": "Any scored training or test-set inspection for this follow-up",
+    "question": "Does continuously replacing white covariance by smooth GP covariance change the MLP/S4 comparison under the original univariate instance-normalized geometry?",
+    "mixture": "A single Gaussian with K_alpha=(1-alpha)I+alpha K_RBF/(variance+nugget); equivalent to sqrt(1-alpha)*independent white + sqrt(alpha)*independent GP. Not a categorical mixture or a linear amplitude blend. Unit marginal source variance at all alpha.",
+    "endpoint_caveat": "GP endpoint differs from original raw-kernel source by division by 1.000001, keeping marginal variance exactly equal across the sweep. Raw target generator is unchanged.",
+    "independence": "Source and target independent; normalized source does not use paired history statistics. Independent train/val/test draws per data_seed.",
+    "geometry": "Before training: both data draws must pass matched-GP velocity validation E2>0.90, white velocity E2<0.90, target within-patch std>0.02 and roughness>0.002. Intermediate sources are reported, not required to pass the GP gate.",
+    "architecture": "Original small trainable lookback encoder; same initialization across heads, then trained independently. Same width56 and depth3 as original. Not a literal frozen shared encoder.",
+    "objective_control": "At alpha1 cross original versus whitened input/output coordinates with raw versus PCA-balanced velocity loss. No PCA mean subtraction from velocity. Whitening retains all dimensions and uses original floor.",
+    "optimization": "Equal fixed6000-update cosine LR schedule .001 to .0001; validation checkpoints chosen by each cell's own training objective. No hyperparameter selection from tests. Different objectives not compared numerically to select a winner. No convergence claim.",
+    "metrics": "Original raw PC1/residual MSE, roughness and literal two-sided20% rule retained. Fixed train-target PCA errors support cross-source comparisons. Fair CRPS/energy on128 independent test contexts with32 draws; marginal coverage. Report source-specific label-noise/task differences.",
+    "gradients": "Fixed validation probes, raw-MSE PC1/PC2/residual parameter-gradient contributions for head parameters, at initialization and later steps. Within-model ratios/cosines; not parameterization-invariant or proof of causation. Diagnostics do not select models.",
+    "inference": "Within each of two independently drawn datasets, average3 paired optimization seeds. Show both dataset effects separately. No claim that6 runs are6 independent datasets. Alpha analyses exploratory; no test-selected best-alpha recommendation.",
+    "solver": "Euler64 primary; seed41 each cell checked at128 on the first8 ensemble contexts using identical sources. Limited sensitivity check, not convergence proof."
+  }
+}

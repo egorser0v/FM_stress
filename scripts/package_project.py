@@ -15,7 +15,7 @@ EXCLUDE_PARTS = {"__pycache__", ".pytest_cache", ".DS_Store"}
 def eligible(path):
     return (path.is_file() and not any(p in EXCLUDE_PARTS or p.endswith('-preview') for p in path.parts)
             # This describes the archive being written; including it would be self-referential.
-            and path.name != 'sparse_package_verification.json'
+            and not path.name.endswith('_package_verification.json')
             and not path.name.endswith('-preview.png'))
 
 
@@ -24,10 +24,14 @@ def main():
     parser.add_argument('--extended', action='store_true', help='Include the audited S4/MLP follow-up in a separate archive')
     parser.add_argument('--multivariate', action='store_true', help='Include the audited multivariate/real-data extension in a new archive')
     parser.add_argument('--sparse', action='store_true', help='Include the audited sparse/whitening follow-up in a new archive')
+    parser.add_argument('--prior-mixture', action='store_true', help='Include the original-setting covariance-mixture study')
     args = parser.parse_args()
+    if args.prior_mixture:
+        args.sparse = True
     if args.sparse:
         args.multivariate = True
-    archive_path = (ROOT / 'output/fm-stress-sparse-whitening.zip' if args.sparse else
+    archive_path = (ROOT / 'output/fm-stress-prior-mixture.zip' if args.prior_mixture else
+                    ROOT / 'output/fm-stress-sparse-whitening.zip' if args.sparse else
                     ROOT / 'output/fm-stress-multivariate.zip' if args.multivariate else
                     ROOT / 'output/fm-stress-extended.zip' if args.extended else ARCHIVE)
     for required in ("output/pdf/research-report.pdf", "docs/conclusions.md",
@@ -83,6 +87,23 @@ def main():
         if da.get('status') != 'passed' or da.get('summary_sha256') != hashlib.sha256(ds_path.read_bytes()).hexdigest():
             raise RuntimeError('Dictionary supplement analysis lacks matching verification')
         paths.update(p for p in (ROOT/'output/dictionary-supplement').rglob('*') if eligible(p))
+    if args.prior_mixture:
+        base = ROOT/'results/prior-mixture'
+        audit = json.loads((base/'independent_verification.json').read_text())
+        summary = json.loads((ROOT/'output/prior-mixture/summary.json').read_text())
+        if not audit.get('complete') or not summary.get('complete') or audit.get('verified_runs') != 102:
+            raise RuntimeError('Prior-mixture packaging requires all 102 fits and a complete independent audit')
+        if summary.get('manifest_fingerprint') != audit.get('manifest_fingerprint') or summary.get('record_sha256') != audit.get('record_sha256'):
+            raise RuntimeError('Prior-mixture report must cover the exact audited records')
+        for relative, digest in audit['record_sha256'].items():
+            if hashlib.sha256((base/relative).read_bytes()).hexdigest() != digest:
+                raise RuntimeError('Audited prior-mixture record changed: '+relative)
+        if not (ROOT/'output/prior-mixture/report.html').is_file():
+            raise RuntimeError('Missing prior-mixture report')
+        av = json.loads((ROOT/'results/diagnostics/prior_mixture_analysis_verification.json').read_text())
+        if av.get('status') != 'passed' or av.get('summary_sha256') != hashlib.sha256((ROOT/'output/prior-mixture/summary.json').read_bytes()).hexdigest():
+            raise RuntimeError('Prior-mixture summary lacks matching independent arithmetic verification')
+        paths.update(p for p in (ROOT/'output/prior-mixture').rglob('*') if eligible(p))
     # Preserve the editable proposal as context, without outdated PowerPoint exports.
     for name in ("flow-matching-poster.tex", "flow-matching-poster-LaTeX-A1.pdf"):
         p = ROOT / "output/poster" / name

@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "summary_sha256": "208db9d7f878ae2f7cbfb47a7f07d71a57b7e15743309db98c180d038f2ef763",
+  "analysis_summary": "/tmp/prior-mixture-smoke-analysis/summary.json",
+  "manifest_fingerprint": "e398e18cf628b65cf525dc733db3e4ad052c7f9b1e25f59465bb4bcc50e6c8c4",
+  "config_sha256": "d8ce20f05d9b03bc1287aa03913baed0318ec2465a2ce94931ebeb7c1811d847",
+  "rows_verified": 11,
+  "cells_verified": 11,
+  "dataset_metric_summaries_verified": 121,
+  "contrasts_verified": 231,
+  "individual_seed_contrasts_verified": 231,
+  "record_sha256": {
+    "dataset_137041/runs/gp_balanced_mlp_seed41.json": "7cc80734dc45ecc9f7457e3065ebb2beb58d0d34a8217ab1762756c513882bc2",
+    "dataset_137041/runs/gp_mlp_seed41.json": "dbc164dbe0294bd35d9ac54b829e01f319d55c4fd5680bc22d24687543b90878",
+    "dataset_137041/runs/gp_s4_seed41.json": "93d09ea594d738222e7cedb0a005ab4e9f26859afdb958a50e134d7d83b76e7f",
+    "dataset_137041/runs/gp_whitened_mlp_seed41.json": "5c5a591996030bb9d7da5ba6b5eac2bb8dbf671ae6c35b0835fa92d3ccc3f689",
+    "dataset_137041/runs/gp_whitened_raw_mlp_seed41.json": "4cec6708915bf6a69b3b291d3222ba8216bddfd6462864244d312f23e8b19d4a",
+    "dataset_137041/runs/mix050_mlp_seed41.json": "45050178a63301d948c487e37e4fba0c70ef700c80abf3cef831be863fb5b607",
+    "dataset_137041/runs/mix050_s4_seed41.json": "2f21decad2b5fa702fc3a8a25d16248859e97e75ce4dcdac3606bf42d08e1ee8",
+    "dataset_137041/runs/mix050_whitened_mlp_seed41.json": "f138ecd0277f133798cf7bdcd246ee3ff54d5996afdf06ab80c56378d605274f",
+    "dataset_137041/runs/white_mlp_seed41.json": "94aaa012b7a4688c35ef029780e1ca1adc0df3f6e58ff948db324a8daea2b7c5",
+    "dataset_137041/runs/white_s4_seed41.json": "7d5800c7a39518b08c243305e38851e7db27c3b05cdcf9add9d8f62c9b84539a",
+    "dataset_137041/runs/white_whitened_mlp_seed41.json": "72b6f6b2e9345d844394e850d7d06ff6cc1736b0cad4c77baf3f096930221cdd"
+  },
+  "geometry_sha256": {
+    "dataset_137041/geometry.json": "edf3d1d46c08154aedca571d57c429874c992220d49c5e5237ade7785b6d6063"
+  },
+  "scope": "Independent saved-array rows, within-dataset seed mean/SD, equal-weight dataset means, all paired head/source and coordinate/loss equations; no analyzer helpers imported."
+}

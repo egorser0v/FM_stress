@@ -1,0 +1,21 @@
+VERIFIED 137041 gp_balanced_mlp_seed41
+VERIFIED 137041 gp_mlp_seed41
+VERIFIED 137041 gp_s4_seed41
+VERIFIED 137041 gp_whitened_mlp_seed41
+VERIFIED 137041 gp_whitened_raw_mlp_seed41
+VERIFIED 137041 mix050_mlp_seed41
+VERIFIED 137041 mix050_s4_seed41
+VERIFIED 137041 mix050_whitened_mlp_seed41
+VERIFIED 137041 white_mlp_seed41
+VERIFIED 137041 white_s4_seed41
+VERIFIED 137041 white_whitened_mlp_seed41
+{
+  "complete": true,
+  "expected_runs": 11,
+  "verified_runs": 11,
+  "manifest_fingerprint": "e398e18cf628b65cf525dc733db3e4ad052c7f9b1e25f59465bb4bcc50e6c8c4",
+  "config_sha256": "d8ce20f05d9b03bc1287aa03913baed0318ec2465a2ce94931ebeb7c1811d847",
+  "required_device": "mps",
+  "bounded_euler_replay": true,
+  "scope": "Independent data/PCA/metric reconstruction; full CPU validation and test velocity replay; bounded CPU Euler replay. Training trajectories not independently rerun."
+}

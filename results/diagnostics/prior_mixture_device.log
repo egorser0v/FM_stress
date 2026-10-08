@@ -1,0 +1,15 @@
+0.0 mlp PASS
+0.0 s4 PASS
+0.0 whitened_mlp PASS
+0.0 balanced_mlp PASS
+0.0 whitened_raw_mlp PASS
+0.5 mlp PASS
+0.5 s4 PASS
+0.5 whitened_mlp PASS
+0.5 balanced_mlp PASS
+0.5 whitened_raw_mlp PASS
+1.0 mlp PASS
+1.0 s4 PASS
+1.0 whitened_mlp PASS
+1.0 balanced_mlp PASS
+1.0 whitened_raw_mlp PASS
