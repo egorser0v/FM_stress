@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 1.1888238191604614,
+    "train_cfm": 1.1888238191604614,
+    "train_aux": 0.0,
+    "validation_objective": 1.6001049280166626,
+    "validation_mse": 1.6001049280166626,
+    "seconds": 2.1034805418457836
+  },
+  {
+    "step": 500,
+    "train_loss": 1.0926034450531006,
+    "train_cfm": 1.0926034450531006,
+    "train_aux": 0.0,
+    "validation_objective": 1.4758484363555908,
+    "validation_mse": 1.4758484363555908,
+    "seconds": 3.4922254998236895
+  },
+  {
+    "step": 750,
+    "train_loss": 1.039400339126587,
+    "train_cfm": 1.039400339126587,
+    "train_aux": 0.0,
+    "validation_objective": 1.42507803440094,
+    "validation_mse": 1.42507803440094,
+    "seconds": 4.914877249859273
+  },
+  {
+    "step": 1000,
+    "train_loss": 1.0315603017807007,
+    "train_cfm": 1.0315603017807007,
+    "train_aux": 0.0,
+    "validation_objective": 1.3986741304397583,
+    "validation_mse": 1.3986741304397583,
+    "seconds": 6.479887374909595
+  },
+  {
+    "step": 1250,
+    "train_loss": 1.0144579410552979,
+    "train_cfm": 1.0144579410552979,
+    "train_aux": 0.0,
+    "validation_objective": 1.3876416683197021,
+    "validation_mse": 1.3876416683197021,
+    "seconds": 7.997969083953649
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.9493499994277954,
+    "train_cfm": 0.9493499994277954,
+    "train_aux": 0.0,
+    "validation_objective": 1.4243650436401367,
+    "validation_mse": 1.4243650436401367,
+    "seconds": 9.472701499937102
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.9443331360816956,
+    "train_cfm": 0.9443331360816956,
+    "train_aux": 0.0,
+    "validation_objective": 1.433606505393982,
+    "validation_mse": 1.433606505393982,
+    "seconds": 11.036020749947056
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.9247468113899231,
+    "train_cfm": 0.9247468113899231,
+    "train_aux": 0.0,
+    "validation_objective": 1.437038779258728,
+    "validation_mse": 1.437038779258728,
+    "seconds": 12.602620374877006
+  }
+]

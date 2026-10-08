@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 0.8939654231071472,
+    "train_cfm": 0.8939654231071472,
+    "train_aux": 0.0,
+    "validation_objective": 1.135908842086792,
+    "validation_mse": 2.175136089324951,
+    "seconds": 1.8139381248038262
+  },
+  {
+    "step": 500,
+    "train_loss": 0.8785298466682434,
+    "train_cfm": 0.8785298466682434,
+    "train_aux": 0.0,
+    "validation_objective": 1.120984435081482,
+    "validation_mse": 2.1543948650360107,
+    "seconds": 3.540869415970519
+  },
+  {
+    "step": 750,
+    "train_loss": 0.8506664037704468,
+    "train_cfm": 0.8506664037704468,
+    "train_aux": 0.0,
+    "validation_objective": 1.1132103204727173,
+    "validation_mse": 2.1553409099578857,
+    "seconds": 5.330835540778935
+  },
+  {
+    "step": 1000,
+    "train_loss": 0.8597764372825623,
+    "train_cfm": 0.8597764372825623,
+    "train_aux": 0.0,
+    "validation_objective": 1.115010380744934,
+    "validation_mse": 2.1301913261413574,
+    "seconds": 7.019805665826425
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.8238161206245422,
+    "train_cfm": 0.8238161206245422,
+    "train_aux": 0.0,
+    "validation_objective": 1.1034547090530396,
+    "validation_mse": 2.1132705211639404,
+    "seconds": 8.860927665838972
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.8582369685173035,
+    "train_cfm": 0.8582369685173035,
+    "train_aux": 0.0,
+    "validation_objective": 1.1092246770858765,
+    "validation_mse": 2.11746883392334,
+    "seconds": 10.639338915934786
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.8429539799690247,
+    "train_cfm": 0.8429539799690247,
+    "train_aux": 0.0,
+    "validation_objective": 1.1108813285827637,
+    "validation_mse": 2.106228828430176,
+    "seconds": 12.347886124858633
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.8339605927467346,
+    "train_cfm": 0.8339605927467346,
+    "train_aux": 0.0,
+    "validation_objective": 1.1184602975845337,
+    "validation_mse": 2.1130330562591553,
+    "seconds": 13.693278665887192
+  }
+]

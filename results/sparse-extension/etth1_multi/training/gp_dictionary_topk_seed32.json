@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 1.542484998703003,
+    "train_cfm": 1.542484998703003,
+    "train_aux": 0.0,
+    "validation_objective": 2.2064616680145264,
+    "validation_mse": 2.2064616680145264,
+    "seconds": 1.3185917919036
+  },
+  {
+    "step": 500,
+    "train_loss": 1.2376453876495361,
+    "train_cfm": 1.2376453876495361,
+    "train_aux": 0.0,
+    "validation_objective": 2.0229480266571045,
+    "validation_mse": 2.0229480266571045,
+    "seconds": 2.608871166827157
+  },
+  {
+    "step": 750,
+    "train_loss": 1.0852338075637817,
+    "train_cfm": 1.0852338075637817,
+    "train_aux": 0.0,
+    "validation_objective": 1.9066051244735718,
+    "validation_mse": 1.9066051244735718,
+    "seconds": 3.8900151250418276
+  },
+  {
+    "step": 1000,
+    "train_loss": 1.0125360488891602,
+    "train_cfm": 1.0125360488891602,
+    "train_aux": 0.0,
+    "validation_objective": 1.9815062284469604,
+    "validation_mse": 1.9815062284469604,
+    "seconds": 5.174339459044859
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.8891668915748596,
+    "train_cfm": 0.8891668915748596,
+    "train_aux": 0.0,
+    "validation_objective": 1.8400185108184814,
+    "validation_mse": 1.8400185108184814,
+    "seconds": 6.42971529182978
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.8427484631538391,
+    "train_cfm": 0.8427484631538391,
+    "train_aux": 0.0,
+    "validation_objective": 1.8884927034378052,
+    "validation_mse": 1.8884927034378052,
+    "seconds": 7.856429624836892
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.7968207001686096,
+    "train_cfm": 0.7968207001686096,
+    "train_aux": 0.0,
+    "validation_objective": 1.8572636842727661,
+    "validation_mse": 1.8572636842727661,
+    "seconds": 9.443172791972756
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.7724196314811707,
+    "train_cfm": 0.7724196314811707,
+    "train_aux": 0.0,
+    "validation_objective": 1.8384431600570679,
+    "validation_mse": 1.8384431600570679,
+    "seconds": 11.007424166891724
+  }
+]

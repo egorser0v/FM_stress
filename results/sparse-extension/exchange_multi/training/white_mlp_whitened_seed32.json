@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 0.6910949945449829,
+    "train_cfm": 0.6910949945449829,
+    "train_aux": 0.0,
+    "validation_objective": 0.786803126335144,
+    "validation_mse": 2.079315423965454,
+    "seconds": 1.3707956250291318
+  },
+  {
+    "step": 500,
+    "train_loss": 0.6485705971717834,
+    "train_cfm": 0.6485705971717834,
+    "train_aux": 0.0,
+    "validation_objective": 0.7539522647857666,
+    "validation_mse": 2.442006826400757,
+    "seconds": 2.6693080838304013
+  },
+  {
+    "step": 750,
+    "train_loss": 0.6429424285888672,
+    "train_cfm": 0.6429424285888672,
+    "train_aux": 0.0,
+    "validation_objective": 0.7468513250350952,
+    "validation_mse": 2.816236972808838,
+    "seconds": 3.9427142089698464
+  },
+  {
+    "step": 1000,
+    "train_loss": 0.6622511148452759,
+    "train_cfm": 0.6622511148452759,
+    "train_aux": 0.0,
+    "validation_objective": 0.746868908405304,
+    "validation_mse": 3.1643967628479004,
+    "seconds": 5.216930374968797
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.6240056753158569,
+    "train_cfm": 0.6240056753158569,
+    "train_aux": 0.0,
+    "validation_objective": 0.7422680258750916,
+    "validation_mse": 3.2627971172332764,
+    "seconds": 6.543441666988656
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.653370201587677,
+    "train_cfm": 0.653370201587677,
+    "train_aux": 0.0,
+    "validation_objective": 0.7394300103187561,
+    "validation_mse": 3.295877456665039,
+    "seconds": 7.865360792027786
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.6459938883781433,
+    "train_cfm": 0.6459938883781433,
+    "train_aux": 0.0,
+    "validation_objective": 0.7360649704933167,
+    "validation_mse": 3.0337750911712646,
+    "seconds": 9.162520417012274
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.6592060327529907,
+    "train_cfm": 0.6592060327529907,
+    "train_aux": 0.0,
+    "validation_objective": 0.739621639251709,
+    "validation_mse": 3.0629286766052246,
+    "seconds": 10.450370125006884
+  }
+]

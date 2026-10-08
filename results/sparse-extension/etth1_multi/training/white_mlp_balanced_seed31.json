@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 0.8939857482910156,
+    "train_cfm": 0.8939857482910156,
+    "train_aux": 0.0,
+    "validation_objective": 1.1257243156433105,
+    "validation_mse": 2.1582870483398438,
+    "seconds": 2.1086319158785045
+  },
+  {
+    "step": 500,
+    "train_loss": 0.8818120360374451,
+    "train_cfm": 0.8818120360374451,
+    "train_aux": 0.0,
+    "validation_objective": 1.112014889717102,
+    "validation_mse": 2.146144390106201,
+    "seconds": 3.6945556248538196
+  },
+  {
+    "step": 750,
+    "train_loss": 0.8589280247688293,
+    "train_cfm": 0.8589280247688293,
+    "train_aux": 0.0,
+    "validation_objective": 1.1007676124572754,
+    "validation_mse": 2.120668888092041,
+    "seconds": 5.163468624930829
+  },
+  {
+    "step": 1000,
+    "train_loss": 0.845366895198822,
+    "train_cfm": 0.845366895198822,
+    "train_aux": 0.0,
+    "validation_objective": 1.103092908859253,
+    "validation_mse": 2.101804733276367,
+    "seconds": 6.460890207905322
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.8773741126060486,
+    "train_cfm": 0.8773741126060486,
+    "train_aux": 0.0,
+    "validation_objective": 1.1035536527633667,
+    "validation_mse": 2.094432830810547,
+    "seconds": 7.6490923329256475
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.8454593420028687,
+    "train_cfm": 0.8454593420028687,
+    "train_aux": 0.0,
+    "validation_objective": 1.1105643510818481,
+    "validation_mse": 2.1054298877716064,
+    "seconds": 8.814829374896362
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.8478660583496094,
+    "train_cfm": 0.8478660583496094,
+    "train_aux": 0.0,
+    "validation_objective": 1.1018273830413818,
+    "validation_mse": 2.095123052597046,
+    "seconds": 10.010464540915564
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.8422978520393372,
+    "train_cfm": 0.8422978520393372,
+    "train_aux": 0.0,
+    "validation_objective": 1.102464199066162,
+    "validation_mse": 2.099260091781616,
+    "seconds": 11.257639665855095
+  }
+]

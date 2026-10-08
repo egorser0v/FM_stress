@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 0.852597713470459,
+    "train_cfm": 0.852597713470459,
+    "train_aux": 0.0,
+    "validation_objective": 1.1366157531738281,
+    "validation_mse": 1.8272160291671753,
+    "seconds": 1.6926478329114616
+  },
+  {
+    "step": 500,
+    "train_loss": 0.8354219794273376,
+    "train_cfm": 0.8354219794273376,
+    "train_aux": 0.0,
+    "validation_objective": 1.1277145147323608,
+    "validation_mse": 1.8070971965789795,
+    "seconds": 3.5710677918978035
+  },
+  {
+    "step": 750,
+    "train_loss": 0.8177700042724609,
+    "train_cfm": 0.8177700042724609,
+    "train_aux": 0.0,
+    "validation_objective": 1.116834044456482,
+    "validation_mse": 1.8620517253875732,
+    "seconds": 5.438255541957915
+  },
+  {
+    "step": 1000,
+    "train_loss": 0.8330020904541016,
+    "train_cfm": 0.8330020904541016,
+    "train_aux": 0.0,
+    "validation_objective": 1.124721884727478,
+    "validation_mse": 1.8707396984100342,
+    "seconds": 7.1479793328326195
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.7962781190872192,
+    "train_cfm": 0.7962781190872192,
+    "train_aux": 0.0,
+    "validation_objective": 1.1245869398117065,
+    "validation_mse": 1.924666166305542,
+    "seconds": 9.182029417017475
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.8250672221183777,
+    "train_cfm": 0.8250672221183777,
+    "train_aux": 0.0,
+    "validation_objective": 1.1201304197311401,
+    "validation_mse": 1.8894864320755005,
+    "seconds": 10.940468541812152
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.8155549168586731,
+    "train_cfm": 0.8155549168586731,
+    "train_aux": 0.0,
+    "validation_objective": 1.131778359413147,
+    "validation_mse": 1.8977454900741577,
+    "seconds": 13.499655999941751
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.8064900636672974,
+    "train_cfm": 0.8064900636672974,
+    "train_aux": 0.0,
+    "validation_objective": 1.125612497329712,
+    "validation_mse": 1.887341856956482,
+    "seconds": 15.255536832846701
+  }
+]

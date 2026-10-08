@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 0.6797757148742676,
+    "train_cfm": 0.6797757148742676,
+    "train_aux": 0.0,
+    "validation_objective": 0.6562694907188416,
+    "validation_mse": 0.6562694907188416,
+    "seconds": 1.3196584170218557
+  },
+  {
+    "step": 500,
+    "train_loss": 0.5557460784912109,
+    "train_cfm": 0.5557460784912109,
+    "train_aux": 0.0,
+    "validation_objective": 0.5417465567588806,
+    "validation_mse": 0.5417465567588806,
+    "seconds": 2.5435255421325564
+  },
+  {
+    "step": 750,
+    "train_loss": 0.5075013041496277,
+    "train_cfm": 0.5075013041496277,
+    "train_aux": 0.0,
+    "validation_objective": 0.49187004566192627,
+    "validation_mse": 0.49187004566192627,
+    "seconds": 3.7703166250139475
+  },
+  {
+    "step": 1000,
+    "train_loss": 0.5206930041313171,
+    "train_cfm": 0.5206930041313171,
+    "train_aux": 0.0,
+    "validation_objective": 0.4623871147632599,
+    "validation_mse": 0.4623871147632599,
+    "seconds": 4.9537768750451505
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.3990047872066498,
+    "train_cfm": 0.3990047872066498,
+    "train_aux": 0.0,
+    "validation_objective": 0.4298149049282074,
+    "validation_mse": 0.4298149049282074,
+    "seconds": 6.210268334019929
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.4114135801792145,
+    "train_cfm": 0.4114135801792145,
+    "train_aux": 0.0,
+    "validation_objective": 0.41463080048561096,
+    "validation_mse": 0.41463080048561096,
+    "seconds": 7.504024917026982
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.4252677261829376,
+    "train_cfm": 0.4252677261829376,
+    "train_aux": 0.0,
+    "validation_objective": 0.3947652280330658,
+    "validation_mse": 0.3947652280330658,
+    "seconds": 8.79031208413653
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.41414663195610046,
+    "train_cfm": 0.41414663195610046,
+    "train_aux": 0.0,
+    "validation_objective": 0.39780572056770325,
+    "validation_mse": 0.39780572056770325,
+    "seconds": 9.998160500079393
+  }
+]

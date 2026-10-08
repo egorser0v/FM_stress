@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 0.6865842342376709,
+    "train_cfm": 0.6865842342376709,
+    "train_aux": 0.0,
+    "validation_objective": 0.6685987710952759,
+    "validation_mse": 0.6685987710952759,
+    "seconds": 1.7859192909672856
+  },
+  {
+    "step": 500,
+    "train_loss": 0.6081096529960632,
+    "train_cfm": 0.6081096529960632,
+    "train_aux": 0.0,
+    "validation_objective": 0.584527313709259,
+    "validation_mse": 0.584527313709259,
+    "seconds": 3.3385648750700057
+  },
+  {
+    "step": 750,
+    "train_loss": 0.602715253829956,
+    "train_cfm": 0.602715253829956,
+    "train_aux": 0.0,
+    "validation_objective": 0.5203366875648499,
+    "validation_mse": 0.5203366875648499,
+    "seconds": 5.030156249878928
+  },
+  {
+    "step": 1000,
+    "train_loss": 0.5397279858589172,
+    "train_cfm": 0.5397279858589172,
+    "train_aux": 0.0,
+    "validation_objective": 0.5032404065132141,
+    "validation_mse": 0.5032404065132141,
+    "seconds": 6.646980290999636
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.5510395765304565,
+    "train_cfm": 0.5510395765304565,
+    "train_aux": 0.0,
+    "validation_objective": 0.4812767207622528,
+    "validation_mse": 0.4812767207622528,
+    "seconds": 8.269447874976322
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.49499401450157166,
+    "train_cfm": 0.49499401450157166,
+    "train_aux": 0.0,
+    "validation_objective": 0.49093765020370483,
+    "validation_mse": 0.49093765020370483,
+    "seconds": 10.107321082847193
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.5044324398040771,
+    "train_cfm": 0.5044324398040771,
+    "train_aux": 0.0,
+    "validation_objective": 0.48130762577056885,
+    "validation_mse": 0.48130762577056885,
+    "seconds": 12.022982124937698
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.48028087615966797,
+    "train_cfm": 0.48028087615966797,
+    "train_aux": 0.0,
+    "validation_objective": 0.48053985834121704,
+    "validation_mse": 0.48053985834121704,
+    "seconds": 13.902308749966323
+  }
+]

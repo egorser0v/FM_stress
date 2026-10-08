@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 0.6878990530967712,
+    "train_cfm": 0.6878990530967712,
+    "train_aux": 0.0,
+    "validation_objective": 0.7281436324119568,
+    "validation_mse": 1.4890906810760498,
+    "seconds": 1.5401850000489503
+  },
+  {
+    "step": 500,
+    "train_loss": 0.679717481136322,
+    "train_cfm": 0.679717481136322,
+    "train_aux": 0.0,
+    "validation_objective": 0.7375848293304443,
+    "validation_mse": 1.7393591403961182,
+    "seconds": 2.977803375106305
+  },
+  {
+    "step": 750,
+    "train_loss": 0.6616472005844116,
+    "train_cfm": 0.6616472005844116,
+    "train_aux": 0.0,
+    "validation_objective": 0.7331225872039795,
+    "validation_mse": 2.0463881492614746,
+    "seconds": 4.392427165992558
+  },
+  {
+    "step": 1000,
+    "train_loss": 0.6640578508377075,
+    "train_cfm": 0.6640578508377075,
+    "train_aux": 0.0,
+    "validation_objective": 0.7376149296760559,
+    "validation_mse": 2.2707135677337646,
+    "seconds": 5.618129499955103
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.6507649421691895,
+    "train_cfm": 0.6507649421691895,
+    "train_aux": 0.0,
+    "validation_objective": 0.7442055344581604,
+    "validation_mse": 2.1558735370635986,
+    "seconds": 6.823062416166067
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.6368421316146851,
+    "train_cfm": 0.6368421316146851,
+    "train_aux": 0.0,
+    "validation_objective": 0.7384511232376099,
+    "validation_mse": 2.299379587173462,
+    "seconds": 8.387112166034058
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.6282500624656677,
+    "train_cfm": 0.6282500624656677,
+    "train_aux": 0.0,
+    "validation_objective": 0.7303861975669861,
+    "validation_mse": 1.8626006841659546,
+    "seconds": 9.625389666063711
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.6311612725257874,
+    "train_cfm": 0.6311612725257874,
+    "train_aux": 0.0,
+    "validation_objective": 0.735654890537262,
+    "validation_mse": 2.021341562271118,
+    "seconds": 10.840880250092596
+  }
+]

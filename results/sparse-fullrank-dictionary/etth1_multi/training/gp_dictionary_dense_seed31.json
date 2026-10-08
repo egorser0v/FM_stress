@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 0.9068188667297363,
+    "train_cfm": 0.9068188667297363,
+    "train_aux": 0.0,
+    "validation_objective": 1.8912861347198486,
+    "validation_mse": 1.8912861347198486,
+    "seconds": 1.3639098750427365
+  },
+  {
+    "step": 500,
+    "train_loss": 0.8681753277778625,
+    "train_cfm": 0.8681753277778625,
+    "train_aux": 0.0,
+    "validation_objective": 1.7833225727081299,
+    "validation_mse": 1.7833225727081299,
+    "seconds": 2.655576250050217
+  },
+  {
+    "step": 750,
+    "train_loss": 0.6454681158065796,
+    "train_cfm": 0.6454681158065796,
+    "train_aux": 0.0,
+    "validation_objective": 1.7451140880584717,
+    "validation_mse": 1.7451140880584717,
+    "seconds": 3.947202041046694
+  },
+  {
+    "step": 1000,
+    "train_loss": 0.6683341264724731,
+    "train_cfm": 0.6683341264724731,
+    "train_aux": 0.0,
+    "validation_objective": 1.8957176208496094,
+    "validation_mse": 1.8957176208496094,
+    "seconds": 5.252057500183582
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.6712252497673035,
+    "train_cfm": 0.6712252497673035,
+    "train_aux": 0.0,
+    "validation_objective": 1.8035008907318115,
+    "validation_mse": 1.8035008907318115,
+    "seconds": 6.5383128330577165
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.5974833965301514,
+    "train_cfm": 0.5974833965301514,
+    "train_aux": 0.0,
+    "validation_objective": 1.8437038660049438,
+    "validation_mse": 1.8437038660049438,
+    "seconds": 7.831216333201155
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.6085639595985413,
+    "train_cfm": 0.6085639595985413,
+    "train_aux": 0.0,
+    "validation_objective": 1.779413104057312,
+    "validation_mse": 1.779413104057312,
+    "seconds": 9.119678165996447
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.619405210018158,
+    "train_cfm": 0.619405210018158,
+    "train_aux": 0.0,
+    "validation_objective": 1.7471237182617188,
+    "validation_mse": 1.7471237182617188,
+    "seconds": 10.428392416099086
+  }
+]

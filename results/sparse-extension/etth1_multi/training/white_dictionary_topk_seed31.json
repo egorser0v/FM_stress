@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 1.6082719564437866,
+    "train_cfm": 1.6082719564437866,
+    "train_aux": 0.0,
+    "validation_objective": 2.1373772621154785,
+    "validation_mse": 2.1373772621154785,
+    "seconds": 1.8308961249422282
+  },
+  {
+    "step": 500,
+    "train_loss": 1.4356733560562134,
+    "train_cfm": 1.4356733560562134,
+    "train_aux": 0.0,
+    "validation_objective": 1.9996252059936523,
+    "validation_mse": 1.9996252059936523,
+    "seconds": 3.6132339159958065
+  },
+  {
+    "step": 750,
+    "train_loss": 1.344054937362671,
+    "train_cfm": 1.344054937362671,
+    "train_aux": 0.0,
+    "validation_objective": 1.947316288948059,
+    "validation_mse": 1.947316288948059,
+    "seconds": 5.959746083011851
+  },
+  {
+    "step": 1000,
+    "train_loss": 1.3474093675613403,
+    "train_cfm": 1.3474093675613403,
+    "train_aux": 0.0,
+    "validation_objective": 1.9257341623306274,
+    "validation_mse": 1.9257341623306274,
+    "seconds": 7.416060332907364
+  },
+  {
+    "step": 1250,
+    "train_loss": 1.2982264757156372,
+    "train_cfm": 1.2982264757156372,
+    "train_aux": 0.0,
+    "validation_objective": 1.8874746561050415,
+    "validation_mse": 1.8874746561050415,
+    "seconds": 8.730126499896869
+  },
+  {
+    "step": 1500,
+    "train_loss": 1.238685965538025,
+    "train_cfm": 1.238685965538025,
+    "train_aux": 0.0,
+    "validation_objective": 1.8497494459152222,
+    "validation_mse": 1.8497494459152222,
+    "seconds": 10.03094641584903
+  },
+  {
+    "step": 1750,
+    "train_loss": 1.211561918258667,
+    "train_cfm": 1.211561918258667,
+    "train_aux": 0.0,
+    "validation_objective": 1.853661060333252,
+    "validation_mse": 1.853661060333252,
+    "seconds": 11.336521208053455
+  },
+  {
+    "step": 2000,
+    "train_loss": 1.2091833353042603,
+    "train_cfm": 1.2091833353042603,
+    "train_aux": 0.0,
+    "validation_objective": 1.8035537004470825,
+    "validation_mse": 1.8035537004470825,
+    "seconds": 12.63559095794335
+  }
+]

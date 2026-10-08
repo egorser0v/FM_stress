@@ -1,0 +1,32 @@
+{
+  "best_validation_objective": 1.5171879529953003,
+  "best_step": 50,
+  "training": [
+    {
+      "step": 25,
+      "train_loss": 1.596102237701416,
+      "train_cfm": 1.5955018997192383,
+      "train_aux": 0.000600278377532959,
+      "validation_objective": 1.639231562614441,
+      "validation_mse": 1.639231562614441,
+      "seconds": 0.48796291602775455
+    },
+    {
+      "step": 50,
+      "train_loss": 1.4388664960861206,
+      "train_cfm": 1.4386281967163086,
+      "train_aux": 0.00023828863049857318,
+      "validation_objective": 1.5171879529953003,
+      "validation_mse": 1.5171879529953003,
+      "seconds": 0.5804589160252362
+    }
+  ],
+  "seconds": 0.5930518750101328,
+  "options": {
+    "head": "moe_dense",
+    "lookback": 32,
+    "horizon": 16,
+    "channels": 3,
+    "width": 81
+  }
+}

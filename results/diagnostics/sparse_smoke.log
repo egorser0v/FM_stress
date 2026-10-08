@@ -1,0 +1,265 @@
+START gp_multi white_mlp_whitened_seed31 {'allocated': 63913, 'active': 63913, 'allocated_trainable': 63913, 'effective_trainable': 63913, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+gp_multi white_mlp_whitened_seed31 25 val 0.707134 raw 1.367547
+gp_multi white_mlp_whitened_seed31 50 val 0.445127 raw 1.006002
+START gp_multi white_mlp_balanced_seed31 {'allocated': 63913, 'active': 63913, 'allocated_trainable': 63913, 'effective_trainable': 63913, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+gp_multi white_mlp_balanced_seed31 25 val 0.804651 raw 1.717445
+gp_multi white_mlp_balanced_seed31 50 val 0.521216 raw 1.318212
+START gp_multi white_history_dense_ae_seed31 {'allocated': 64480, 'active': 64480, 'allocated_trainable': 64480, 'effective_trainable': 64480, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+gp_multi white_history_dense_ae_seed31 25 val 1.449724 raw 1.449724
+gp_multi white_history_dense_ae_seed31 50 val 1.117537 raw 1.117537
+START gp_multi white_history_topk_ae_seed31 {'allocated': 64480, 'active': 64480, 'allocated_trainable': 64480, 'effective_trainable': 64480, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+gp_multi white_history_topk_ae_seed31 25 val 1.49892 raw 1.49892
+gp_multi white_history_topk_ae_seed31 50 val 1.159109 raw 1.159109
+START gp_multi white_history_conv_dense_seed31 {'allocated': 64371, 'active': 64371, 'allocated_trainable': 64371, 'effective_trainable': 64371, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+gp_multi white_history_conv_dense_seed31 25 val 1.529456 raw 1.529456
+gp_multi white_history_conv_dense_seed31 50 val 1.187432 raw 1.187432
+START gp_multi white_history_conv_sparse_seed31 {'allocated': 64435, 'active': 64435, 'allocated_trainable': 64435, 'effective_trainable': 64435, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+gp_multi white_history_conv_sparse_seed31 25 val 1.530885 raw 1.530885
+gp_multi white_history_conv_sparse_seed31 50 val 1.193371 raw 1.193371
+START gp_multi white_dictionary_dense_seed31 {'allocated': 63571, 'active': 63571, 'allocated_trainable': 63571, 'effective_trainable': 63571, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+gp_multi white_dictionary_dense_seed31 25 val 1.430549 raw 1.430549
+gp_multi white_dictionary_dense_seed31 50 val 1.152203 raw 1.152203
+START gp_multi white_dictionary_topk_seed31 {'allocated': 63571, 'active': 63571, 'allocated_trainable': 63571, 'effective_trainable': 63571, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+gp_multi white_dictionary_topk_seed31 25 val 1.818361 raw 1.818361
+gp_multi white_dictionary_topk_seed31 50 val 1.68466 raw 1.68466
+START gp_multi white_unet_l0_seed31 {'allocated': 62553, 'active': 62553, 'allocated_trainable': 62553, 'effective_trainable': 62553, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+gp_multi white_unet_l0_seed31 25 val 1.894648 raw 1.894648
+gp_multi white_unet_l0_seed31 50 val 1.657989 raw 1.657989
+START gp_multi white_moe_dense_seed31 {'allocated': 63781, 'active': 63781, 'allocated_trainable': 63781, 'effective_trainable': 63781, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+gp_multi white_moe_dense_seed31 25 val 1.639232 raw 1.639232
+gp_multi white_moe_dense_seed31 50 val 1.517188 raw 1.517188
+START gp_multi white_moe_topk_seed31 {'allocated': 63781, 'active': 63781, 'allocated_trainable': 63781, 'effective_trainable': 63781, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+gp_multi white_moe_topk_seed31 25 val 1.639241 raw 1.639241
+gp_multi white_moe_topk_seed31 50 val 1.511789 raw 1.511789
+START gp_multi gp_mlp_whitened_seed31 {'allocated': 63913, 'active': 63913, 'allocated_trainable': 63913, 'effective_trainable': 63913, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+gp_multi gp_mlp_whitened_seed31 25 val 0.392793 raw 1.849507
+gp_multi gp_mlp_whitened_seed31 50 val 0.368384 raw 1.656044
+START gp_multi gp_mlp_balanced_seed31 {'allocated': 63913, 'active': 63913, 'allocated_trainable': 63913, 'effective_trainable': 63913, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+gp_multi gp_mlp_balanced_seed31 25 val 0.441339 raw 1.968974
+gp_multi gp_mlp_balanced_seed31 50 val 0.405107 raw 1.968886
+START gp_multi gp_history_dense_ae_seed31 {'allocated': 64480, 'active': 64480, 'allocated_trainable': 64480, 'effective_trainable': 64480, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+gp_multi gp_history_dense_ae_seed31 25 val 1.835866 raw 1.835866
+gp_multi gp_history_dense_ae_seed31 50 val 1.575258 raw 1.575258
+START gp_multi gp_history_topk_ae_seed31 {'allocated': 64480, 'active': 64480, 'allocated_trainable': 64480, 'effective_trainable': 64480, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+gp_multi gp_history_topk_ae_seed31 25 val 1.909885 raw 1.909885
+gp_multi gp_history_topk_ae_seed31 50 val 1.657464 raw 1.657464
+START gp_multi gp_history_conv_dense_seed31 {'allocated': 64371, 'active': 64371, 'allocated_trainable': 64371, 'effective_trainable': 64371, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+gp_multi gp_history_conv_dense_seed31 25 val 1.944988 raw 1.944988
+gp_multi gp_history_conv_dense_seed31 50 val 1.792135 raw 1.792135
+START gp_multi gp_history_conv_sparse_seed31 {'allocated': 64435, 'active': 64435, 'allocated_trainable': 64435, 'effective_trainable': 64435, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+gp_multi gp_history_conv_sparse_seed31 25 val 1.950098 raw 1.950098
+gp_multi gp_history_conv_sparse_seed31 50 val 1.800015 raw 1.800015
+START gp_multi gp_dictionary_dense_seed31 {'allocated': 63571, 'active': 63571, 'allocated_trainable': 63571, 'effective_trainable': 63571, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+gp_multi gp_dictionary_dense_seed31 25 val 1.841525 raw 1.841525
+gp_multi gp_dictionary_dense_seed31 50 val 1.626091 raw 1.626091
+START gp_multi gp_dictionary_topk_seed31 {'allocated': 63571, 'active': 63571, 'allocated_trainable': 63571, 'effective_trainable': 63571, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+gp_multi gp_dictionary_topk_seed31 25 val 1.929561 raw 1.929561
+gp_multi gp_dictionary_topk_seed31 50 val 1.814926 raw 1.814926
+START gp_multi gp_unet_l0_seed31 {'allocated': 62553, 'active': 62553, 'allocated_trainable': 62553, 'effective_trainable': 62553, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+gp_multi gp_unet_l0_seed31 25 val 1.937086 raw 1.937086
+gp_multi gp_unet_l0_seed31 50 val 1.758246 raw 1.758246
+START gp_multi gp_moe_dense_seed31 {'allocated': 63781, 'active': 63781, 'allocated_trainable': 63781, 'effective_trainable': 63781, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+gp_multi gp_moe_dense_seed31 25 val 1.817317 raw 1.817317
+gp_multi gp_moe_dense_seed31 50 val 1.596841 raw 1.596841
+START gp_multi gp_moe_topk_seed31 {'allocated': 63781, 'active': 63781, 'allocated_trainable': 63781, 'effective_trainable': 63781, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+gp_multi gp_moe_topk_seed31 25 val 1.817966 raw 1.817966
+gp_multi gp_moe_topk_seed31 50 val 1.591151 raw 1.591151
+START etth1_uni white_mlp_whitened_seed31 {'allocated': 62999, 'active': 62999, 'allocated_trainable': 62999, 'effective_trainable': 62999, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_uni white_mlp_whitened_seed31 25 val 0.596778 raw 0.778691
+etth1_uni white_mlp_whitened_seed31 50 val 0.297226 raw 0.480628
+START etth1_uni white_mlp_balanced_seed31 {'allocated': 62999, 'active': 62999, 'allocated_trainable': 62999, 'effective_trainable': 62999, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_uni white_mlp_balanced_seed31 25 val 0.629129 raw 1.005954
+etth1_uni white_mlp_balanced_seed31 50 val 0.304091 raw 0.520814
+START etth1_uni white_history_dense_ae_seed31 {'allocated': 63844, 'active': 63844, 'allocated_trainable': 63844, 'effective_trainable': 63844, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_uni white_history_dense_ae_seed31 25 val 1.136564 raw 1.136564
+etth1_uni white_history_dense_ae_seed31 50 val 0.885677 raw 0.885677
+START etth1_uni white_history_topk_ae_seed31 {'allocated': 63844, 'active': 63844, 'allocated_trainable': 63844, 'effective_trainable': 63844, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_uni white_history_topk_ae_seed31 25 val 1.223144 raw 1.223144
+etth1_uni white_history_topk_ae_seed31 50 val 0.905717 raw 0.905717
+START etth1_uni white_history_conv_dense_seed31 {'allocated': 63498, 'active': 63498, 'allocated_trainable': 63498, 'effective_trainable': 63498, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_uni white_history_conv_dense_seed31 25 val 1.255173 raw 1.255173
+etth1_uni white_history_conv_dense_seed31 50 val 0.966453 raw 0.966453
+START etth1_uni white_history_conv_sparse_seed31 {'allocated': 63562, 'active': 63562, 'allocated_trainable': 63562, 'effective_trainable': 63562, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_uni white_history_conv_sparse_seed31 25 val 1.24285 raw 1.24285
+etth1_uni white_history_conv_sparse_seed31 50 val 0.973067 raw 0.973067
+START etth1_uni white_dictionary_dense_seed31 {'allocated': 64618, 'active': 64618, 'allocated_trainable': 64618, 'effective_trainable': 64618, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_uni white_dictionary_dense_seed31 25 val 0.890181 raw 0.890181
+etth1_uni white_dictionary_dense_seed31 50 val 0.572712 raw 0.572712
+START etth1_uni white_dictionary_topk_seed31 {'allocated': 64618, 'active': 64618, 'allocated_trainable': 64618, 'effective_trainable': 64618, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_uni white_dictionary_topk_seed31 25 val 1.175861 raw 1.175861
+etth1_uni white_dictionary_topk_seed31 50 val 1.054658 raw 1.054658
+START etth1_uni white_unet_l0_seed31 {'allocated': 61771, 'active': 61771, 'allocated_trainable': 61771, 'effective_trainable': 61771, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_uni white_unet_l0_seed31 25 val 1.221611 raw 1.221611
+etth1_uni white_unet_l0_seed31 50 val 1.009971 raw 1.009971
+START etth1_uni white_moe_dense_seed31 {'allocated': 64208, 'active': 64208, 'allocated_trainable': 64208, 'effective_trainable': 64208, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_uni white_moe_dense_seed31 25 val 1.124171 raw 1.124171
+etth1_uni white_moe_dense_seed31 50 val 1.105544 raw 1.105544
+START etth1_uni white_moe_topk_seed31 {'allocated': 64208, 'active': 64208, 'allocated_trainable': 64208, 'effective_trainable': 64208, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_uni white_moe_topk_seed31 25 val 1.126012 raw 1.126012
+etth1_uni white_moe_topk_seed31 50 val 1.100416 raw 1.100416
+START etth1_uni gp_mlp_whitened_seed31 {'allocated': 62999, 'active': 62999, 'allocated_trainable': 62999, 'effective_trainable': 62999, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_uni gp_mlp_whitened_seed31 25 val 0.579812 raw 1.053741
+etth1_uni gp_mlp_whitened_seed31 50 val 0.342279 raw 0.765084
+START etth1_uni gp_mlp_balanced_seed31 {'allocated': 62999, 'active': 62999, 'allocated_trainable': 62999, 'effective_trainable': 62999, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_uni gp_mlp_balanced_seed31 25 val 0.796474 raw 1.567703
+etth1_uni gp_mlp_balanced_seed31 50 val 0.650353 raw 1.547021
+START etth1_uni gp_history_dense_ae_seed31 {'allocated': 63844, 'active': 63844, 'allocated_trainable': 63844, 'effective_trainable': 63844, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_uni gp_history_dense_ae_seed31 25 val 1.009925 raw 1.009925
+etth1_uni gp_history_dense_ae_seed31 50 val 0.661701 raw 0.661701
+START etth1_uni gp_history_topk_ae_seed31 {'allocated': 63844, 'active': 63844, 'allocated_trainable': 63844, 'effective_trainable': 63844, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_uni gp_history_topk_ae_seed31 25 val 1.100479 raw 1.100479
+etth1_uni gp_history_topk_ae_seed31 50 val 0.682988 raw 0.682988
+START etth1_uni gp_history_conv_dense_seed31 {'allocated': 63498, 'active': 63498, 'allocated_trainable': 63498, 'effective_trainable': 63498, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_uni gp_history_conv_dense_seed31 25 val 1.155301 raw 1.155301
+etth1_uni gp_history_conv_dense_seed31 50 val 0.713343 raw 0.713343
+START etth1_uni gp_history_conv_sparse_seed31 {'allocated': 63562, 'active': 63562, 'allocated_trainable': 63562, 'effective_trainable': 63562, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_uni gp_history_conv_sparse_seed31 25 val 1.15238 raw 1.15238
+etth1_uni gp_history_conv_sparse_seed31 50 val 0.721328 raw 0.721328
+START etth1_uni gp_dictionary_dense_seed31 {'allocated': 64618, 'active': 64618, 'allocated_trainable': 64618, 'effective_trainable': 64618, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_uni gp_dictionary_dense_seed31 25 val 0.805645 raw 0.805645
+etth1_uni gp_dictionary_dense_seed31 50 val 0.603777 raw 0.603777
+START etth1_uni gp_dictionary_topk_seed31 {'allocated': 64618, 'active': 64618, 'allocated_trainable': 64618, 'effective_trainable': 64618, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_uni gp_dictionary_topk_seed31 25 val 1.375255 raw 1.375255
+etth1_uni gp_dictionary_topk_seed31 50 val 1.107711 raw 1.107711
+START etth1_uni gp_unet_l0_seed31 {'allocated': 61771, 'active': 61771, 'allocated_trainable': 61771, 'effective_trainable': 61771, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_uni gp_unet_l0_seed31 25 val 1.378014 raw 1.378014
+etth1_uni gp_unet_l0_seed31 50 val 0.794759 raw 0.794759
+START etth1_uni gp_moe_dense_seed31 {'allocated': 64208, 'active': 64208, 'allocated_trainable': 64208, 'effective_trainable': 64208, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_uni gp_moe_dense_seed31 25 val 1.163855 raw 1.163855
+etth1_uni gp_moe_dense_seed31 50 val 0.779699 raw 0.779699
+START etth1_uni gp_moe_topk_seed31 {'allocated': 64208, 'active': 64208, 'allocated_trainable': 64208, 'effective_trainable': 64208, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_uni gp_moe_topk_seed31 25 val 1.056352 raw 1.056352
+etth1_uni gp_moe_topk_seed31 50 val 0.784574 raw 0.784574
+START etth1_multi white_mlp_whitened_seed31 {'allocated': 64883, 'active': 64883, 'allocated_trainable': 64883, 'effective_trainable': 64883, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_multi white_mlp_whitened_seed31 25 val 1.222461 raw 2.055381
+etth1_multi white_mlp_whitened_seed31 50 val 1.177846 raw 1.955561
+START etth1_multi white_mlp_balanced_seed31 {'allocated': 64883, 'active': 64883, 'allocated_trainable': 64883, 'effective_trainable': 64883, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_multi white_mlp_balanced_seed31 25 val 1.286951 raw 2.436707
+etth1_multi white_mlp_balanced_seed31 50 val 1.257146 raw 2.383544
+START etth1_multi white_history_dense_ae_seed31 {'allocated': 63655, 'active': 63655, 'allocated_trainable': 63655, 'effective_trainable': 63655, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_multi white_history_dense_ae_seed31 25 val 2.284341 raw 2.284341
+etth1_multi white_history_dense_ae_seed31 50 val 1.981771 raw 1.981771
+START etth1_multi white_history_topk_ae_seed31 {'allocated': 63655, 'active': 63655, 'allocated_trainable': 63655, 'effective_trainable': 63655, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_multi white_history_topk_ae_seed31 25 val 2.219785 raw 2.219785
+etth1_multi white_history_topk_ae_seed31 50 val 2.035098 raw 2.035098
+START etth1_multi white_history_conv_dense_seed31 {'allocated': 63693, 'active': 63693, 'allocated_trainable': 63693, 'effective_trainable': 63693, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_multi white_history_conv_dense_seed31 25 val 2.175636 raw 2.175636
+etth1_multi white_history_conv_dense_seed31 50 val 1.982411 raw 1.982411
+START etth1_multi white_history_conv_sparse_seed31 {'allocated': 63757, 'active': 63757, 'allocated_trainable': 63757, 'effective_trainable': 63757, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_multi white_history_conv_sparse_seed31 25 val 2.173208 raw 2.173208
+etth1_multi white_history_conv_sparse_seed31 50 val 1.987835 raw 1.987835
+START etth1_multi white_dictionary_dense_seed31 {'allocated': 64696, 'active': 64696, 'allocated_trainable': 64696, 'effective_trainable': 64696, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_multi white_dictionary_dense_seed31 25 val 2.309073 raw 2.309073
+etth1_multi white_dictionary_dense_seed31 50 val 2.162495 raw 2.162495
+START etth1_multi white_dictionary_topk_seed31 {'allocated': 64696, 'active': 64696, 'allocated_trainable': 64696, 'effective_trainable': 64696, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_multi white_dictionary_topk_seed31 25 val 2.412636 raw 2.412636
+etth1_multi white_dictionary_topk_seed31 50 val 2.380105 raw 2.380105
+START etth1_multi white_unet_l0_seed31 {'allocated': 66277, 'active': 66277, 'allocated_trainable': 66277, 'effective_trainable': 66277, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_multi white_unet_l0_seed31 25 val 2.398652 raw 2.398652
+etth1_multi white_unet_l0_seed31 50 val 2.30408 raw 2.30408
+START etth1_multi white_moe_dense_seed31 {'allocated': 64036, 'active': 64036, 'allocated_trainable': 64036, 'effective_trainable': 64036, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_multi white_moe_dense_seed31 25 val 2.209064 raw 2.209064
+etth1_multi white_moe_dense_seed31 50 val 1.937075 raw 1.937075
+START etth1_multi white_moe_topk_seed31 {'allocated': 64036, 'active': 64036, 'allocated_trainable': 64036, 'effective_trainable': 64036, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_multi white_moe_topk_seed31 25 val 2.189861 raw 2.189861
+etth1_multi white_moe_topk_seed31 50 val 1.913913 raw 1.913913
+START etth1_multi gp_mlp_whitened_seed31 {'allocated': 64883, 'active': 64883, 'allocated_trainable': 64883, 'effective_trainable': 64883, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_multi gp_mlp_whitened_seed31 25 val 1.394109 raw 2.349795
+etth1_multi gp_mlp_whitened_seed31 50 val 1.321939 raw 2.348387
+START etth1_multi gp_mlp_balanced_seed31 {'allocated': 64883, 'active': 64883, 'allocated_trainable': 64883, 'effective_trainable': 64883, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_multi gp_mlp_balanced_seed31 25 val 1.5265 raw 2.550695
+etth1_multi gp_mlp_balanced_seed31 50 val 1.523457 raw 2.549808
+START etth1_multi gp_history_dense_ae_seed31 {'allocated': 63655, 'active': 63655, 'allocated_trainable': 63655, 'effective_trainable': 63655, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_multi gp_history_dense_ae_seed31 25 val 2.315196 raw 2.315196
+etth1_multi gp_history_dense_ae_seed31 50 val 1.946923 raw 1.946923
+START etth1_multi gp_history_topk_ae_seed31 {'allocated': 63655, 'active': 63655, 'allocated_trainable': 63655, 'effective_trainable': 63655, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_multi gp_history_topk_ae_seed31 25 val 2.386082 raw 2.386082
+etth1_multi gp_history_topk_ae_seed31 50 val 2.046509 raw 2.046509
+START etth1_multi gp_history_conv_dense_seed31 {'allocated': 63693, 'active': 63693, 'allocated_trainable': 63693, 'effective_trainable': 63693, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_multi gp_history_conv_dense_seed31 25 val 2.337588 raw 2.337588
+etth1_multi gp_history_conv_dense_seed31 50 val 2.070877 raw 2.070877
+START etth1_multi gp_history_conv_sparse_seed31 {'allocated': 63757, 'active': 63757, 'allocated_trainable': 63757, 'effective_trainable': 63757, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_multi gp_history_conv_sparse_seed31 25 val 2.350691 raw 2.350691
+etth1_multi gp_history_conv_sparse_seed31 50 val 2.080694 raw 2.080694
+START etth1_multi gp_dictionary_dense_seed31 {'allocated': 64696, 'active': 64696, 'allocated_trainable': 64696, 'effective_trainable': 64696, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_multi gp_dictionary_dense_seed31 25 val 2.385503 raw 2.385503
+etth1_multi gp_dictionary_dense_seed31 50 val 2.2361 raw 2.2361
+START etth1_multi gp_dictionary_topk_seed31 {'allocated': 64696, 'active': 64696, 'allocated_trainable': 64696, 'effective_trainable': 64696, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_multi gp_dictionary_topk_seed31 25 val 2.514298 raw 2.514298
+etth1_multi gp_dictionary_topk_seed31 50 val 2.467002 raw 2.467002
+START etth1_multi gp_unet_l0_seed31 {'allocated': 66277, 'active': 66277, 'allocated_trainable': 66277, 'effective_trainable': 66277, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_multi gp_unet_l0_seed31 25 val 2.479296 raw 2.479296
+etth1_multi gp_unet_l0_seed31 50 val 2.289282 raw 2.289282
+START etth1_multi gp_moe_dense_seed31 {'allocated': 64036, 'active': 64036, 'allocated_trainable': 64036, 'effective_trainable': 64036, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_multi gp_moe_dense_seed31 25 val 2.244392 raw 2.244392
+etth1_multi gp_moe_dense_seed31 50 val 2.017208 raw 2.017208
+START etth1_multi gp_moe_topk_seed31 {'allocated': 64036, 'active': 64036, 'allocated_trainable': 64036, 'effective_trainable': 64036, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+etth1_multi gp_moe_topk_seed31 25 val 2.233538 raw 2.233538
+etth1_multi gp_moe_topk_seed31 50 val 1.971462 raw 1.971462
+START exchange_multi white_mlp_whitened_seed31 {'allocated': 64482, 'active': 64482, 'allocated_trainable': 64482, 'effective_trainable': 64482, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+exchange_multi white_mlp_whitened_seed31 25 val 0.958948 raw 3.53887
+exchange_multi white_mlp_whitened_seed31 50 val 0.902292 raw 2.15213
+START exchange_multi white_mlp_balanced_seed31 {'allocated': 64482, 'active': 64482, 'allocated_trainable': 64482, 'effective_trainable': 64482, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+exchange_multi white_mlp_balanced_seed31 25 val 1.110747 raw 6.563104
+exchange_multi white_mlp_balanced_seed31 50 val 1.024409 raw 6.21433
+START exchange_multi white_history_dense_ae_seed31 {'allocated': 63776, 'active': 63776, 'allocated_trainable': 63776, 'effective_trainable': 63776, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+exchange_multi white_history_dense_ae_seed31 25 val 1.733146 raw 1.733146
+exchange_multi white_history_dense_ae_seed31 50 val 1.32284 raw 1.32284
+START exchange_multi white_history_topk_ae_seed31 {'allocated': 63776, 'active': 63776, 'allocated_trainable': 63776, 'effective_trainable': 63776, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+exchange_multi white_history_topk_ae_seed31 25 val 1.643084 raw 1.643084
+exchange_multi white_history_topk_ae_seed31 50 val 1.256173 raw 1.256173
+START exchange_multi white_history_conv_dense_seed31 {'allocated': 64844, 'active': 64844, 'allocated_trainable': 64844, 'effective_trainable': 64844, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+exchange_multi white_history_conv_dense_seed31 25 val 1.875488 raw 1.875488
+exchange_multi white_history_conv_dense_seed31 50 val 1.14204 raw 1.14204
+START exchange_multi white_history_conv_sparse_seed31 {'allocated': 64908, 'active': 64908, 'allocated_trainable': 64908, 'effective_trainable': 64908, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+exchange_multi white_history_conv_sparse_seed31 25 val 1.876435 raw 1.876435
+exchange_multi white_history_conv_sparse_seed31 50 val 1.140923 raw 1.140923
+START exchange_multi white_dictionary_dense_seed31 {'allocated': 63339, 'active': 63339, 'allocated_trainable': 63339, 'effective_trainable': 63339, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+exchange_multi white_dictionary_dense_seed31 25 val 3.948347 raw 3.948347
+exchange_multi white_dictionary_dense_seed31 50 val 2.843645 raw 2.843645
+START exchange_multi white_dictionary_topk_seed31 {'allocated': 63339, 'active': 63339, 'allocated_trainable': 63339, 'effective_trainable': 63339, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+exchange_multi white_dictionary_topk_seed31 25 val 5.891789 raw 5.891789
+exchange_multi white_dictionary_topk_seed31 50 val 5.58808 raw 5.58808
+START exchange_multi white_unet_l0_seed31 {'allocated': 65108, 'active': 65108, 'allocated_trainable': 65108, 'effective_trainable': 65108, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+exchange_multi white_unet_l0_seed31 25 val 5.738591 raw 5.738591
+exchange_multi white_unet_l0_seed31 50 val 3.786088 raw 3.786088
+START exchange_multi white_moe_dense_seed31 {'allocated': 64381, 'active': 64381, 'allocated_trainable': 64381, 'effective_trainable': 64381, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+exchange_multi white_moe_dense_seed31 25 val 1.513424 raw 1.513424
+exchange_multi white_moe_dense_seed31 50 val 1.152998 raw 1.152998
+START exchange_multi white_moe_topk_seed31 {'allocated': 64381, 'active': 64381, 'allocated_trainable': 64381, 'effective_trainable': 64381, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+exchange_multi white_moe_topk_seed31 25 val 1.251401 raw 1.251401
+exchange_multi white_moe_topk_seed31 50 val 1.275212 raw 1.275212
+START exchange_multi gp_mlp_whitened_seed31 {'allocated': 64482, 'active': 64482, 'allocated_trainable': 64482, 'effective_trainable': 64482, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+exchange_multi gp_mlp_whitened_seed31 25 val 1.17437 raw 2.84297
+exchange_multi gp_mlp_whitened_seed31 50 val 1.15677 raw 1.987643
+START exchange_multi gp_mlp_balanced_seed31 {'allocated': 64482, 'active': 64482, 'allocated_trainable': 64482, 'effective_trainable': 64482, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+exchange_multi gp_mlp_balanced_seed31 25 val 1.349787 raw 6.581494
+exchange_multi gp_mlp_balanced_seed31 50 val 1.405108 raw 6.583499
+START exchange_multi gp_history_dense_ae_seed31 {'allocated': 63776, 'active': 63776, 'allocated_trainable': 63776, 'effective_trainable': 63776, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+exchange_multi gp_history_dense_ae_seed31 25 val 1.561889 raw 1.561889
+exchange_multi gp_history_dense_ae_seed31 50 val 1.006764 raw 1.006764
+START exchange_multi gp_history_topk_ae_seed31 {'allocated': 63776, 'active': 63776, 'allocated_trainable': 63776, 'effective_trainable': 63776, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+exchange_multi gp_history_topk_ae_seed31 25 val 2.480903 raw 2.480903
+exchange_multi gp_history_topk_ae_seed31 50 val 1.122069 raw 1.122069
+START exchange_multi gp_history_conv_dense_seed31 {'allocated': 64844, 'active': 64844, 'allocated_trainable': 64844, 'effective_trainable': 64844, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+exchange_multi gp_history_conv_dense_seed31 25 val 2.338159 raw 2.338159
+exchange_multi gp_history_conv_dense_seed31 50 val 1.125902 raw 1.125902
+START exchange_multi gp_history_conv_sparse_seed31 {'allocated': 64908, 'active': 64908, 'allocated_trainable': 64908, 'effective_trainable': 64908, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+exchange_multi gp_history_conv_sparse_seed31 25 val 2.42006 raw 2.42006
+exchange_multi gp_history_conv_sparse_seed31 50 val 1.118711 raw 1.118711
+START exchange_multi gp_dictionary_dense_seed31 {'allocated': 63339, 'active': 63339, 'allocated_trainable': 63339, 'effective_trainable': 63339, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+exchange_multi gp_dictionary_dense_seed31 25 val 3.932481 raw 3.932481
+exchange_multi gp_dictionary_dense_seed31 50 val 2.677856 raw 2.677856
+START exchange_multi gp_dictionary_topk_seed31 {'allocated': 63339, 'active': 63339, 'allocated_trainable': 63339, 'effective_trainable': 63339, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+exchange_multi gp_dictionary_topk_seed31 25 val 6.016121 raw 6.016121
+exchange_multi gp_dictionary_topk_seed31 50 val 5.627026 raw 5.627026
+START exchange_multi gp_unet_l0_seed31 {'allocated': 65108, 'active': 65108, 'allocated_trainable': 65108, 'effective_trainable': 65108, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+exchange_multi gp_unet_l0_seed31 25 val 5.818216 raw 5.818216
+exchange_multi gp_unet_l0_seed31 50 val 3.281496 raw 3.281496
+START exchange_multi gp_moe_dense_seed31 {'allocated': 64381, 'active': 64381, 'allocated_trainable': 64381, 'effective_trainable': 64381, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+exchange_multi gp_moe_dense_seed31 25 val 1.311353 raw 1.311353
+exchange_multi gp_moe_dense_seed31 50 val 1.169379 raw 1.169379
+START exchange_multi gp_moe_topk_seed31 {'allocated': 64381, 'active': 64381, 'allocated_trainable': 64381, 'effective_trainable': 64381, 'masked_weight_allocated': 0, 'masked_weight_active': 0, 'realized_weight_density': None}
+exchange_multi gp_moe_topk_seed31 25 val 1.149792 raw 1.149792
+exchange_multi gp_moe_topk_seed31 50 val 2.080528 raw 2.080528
+SUITE FINISHED results/sparse-smoke

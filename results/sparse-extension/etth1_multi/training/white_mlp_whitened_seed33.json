@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 0.8737144470214844,
+    "train_cfm": 0.8737144470214844,
+    "train_aux": 0.0,
+    "validation_objective": 1.1283738613128662,
+    "validation_mse": 1.8020273447036743,
+    "seconds": 1.3016535418573767
+  },
+  {
+    "step": 500,
+    "train_loss": 0.8267640471458435,
+    "train_cfm": 0.8267640471458435,
+    "train_aux": 0.0,
+    "validation_objective": 1.1137210130691528,
+    "validation_mse": 1.8188703060150146,
+    "seconds": 2.5249809168744832
+  },
+  {
+    "step": 750,
+    "train_loss": 0.8105258941650391,
+    "train_cfm": 0.8105258941650391,
+    "train_aux": 0.0,
+    "validation_objective": 1.1106984615325928,
+    "validation_mse": 1.8554376363754272,
+    "seconds": 3.7727281670086086
+  },
+  {
+    "step": 1000,
+    "train_loss": 0.8048471808433533,
+    "train_cfm": 0.8048471808433533,
+    "train_aux": 0.0,
+    "validation_objective": 1.1066999435424805,
+    "validation_mse": 1.8723880052566528,
+    "seconds": 5.0390317919664085
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.8094151616096497,
+    "train_cfm": 0.8094151616096497,
+    "train_aux": 0.0,
+    "validation_objective": 1.1009035110473633,
+    "validation_mse": 1.8665238618850708,
+    "seconds": 6.269809832796454
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.8390336036682129,
+    "train_cfm": 0.8390336036682129,
+    "train_aux": 0.0,
+    "validation_objective": 1.1036118268966675,
+    "validation_mse": 1.9017585515975952,
+    "seconds": 7.530230082804337
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.8140602111816406,
+    "train_cfm": 0.8140602111816406,
+    "train_aux": 0.0,
+    "validation_objective": 1.1040313243865967,
+    "validation_mse": 1.9006924629211426,
+    "seconds": 8.776457791915163
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.8151891827583313,
+    "train_cfm": 0.8151891827583313,
+    "train_aux": 0.0,
+    "validation_objective": 1.1012020111083984,
+    "validation_mse": 1.9093046188354492,
+    "seconds": 10.024651166982949
+  }
+]

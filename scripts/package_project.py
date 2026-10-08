@@ -14,6 +14,8 @@ EXCLUDE_PARTS = {"__pycache__", ".pytest_cache", ".DS_Store"}
 
 def eligible(path):
     return (path.is_file() and not any(p in EXCLUDE_PARTS or p.endswith('-preview') for p in path.parts)
+            # This describes the archive being written; including it would be self-referential.
+            and path.name != 'sparse_package_verification.json'
             and not path.name.endswith('-preview.png'))
 
 
@@ -21,8 +23,12 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--extended', action='store_true', help='Include the audited S4/MLP follow-up in a separate archive')
     parser.add_argument('--multivariate', action='store_true', help='Include the audited multivariate/real-data extension in a new archive')
+    parser.add_argument('--sparse', action='store_true', help='Include the audited sparse/whitening follow-up in a new archive')
     args = parser.parse_args()
-    archive_path = (ROOT / 'output/fm-stress-multivariate.zip' if args.multivariate else
+    if args.sparse:
+        args.multivariate = True
+    archive_path = (ROOT / 'output/fm-stress-sparse-whitening.zip' if args.sparse else
+                    ROOT / 'output/fm-stress-multivariate.zip' if args.multivariate else
                     ROOT / 'output/fm-stress-extended.zip' if args.extended else ARCHIVE)
     for required in ("output/pdf/research-report.pdf", "docs/conclusions.md",
                      "output/analysis/analysis_status.json", "output/analysis-lengthscale6/analysis_status.json"):
@@ -56,6 +62,27 @@ def main():
             if not p.is_file(): raise RuntimeError(f'Missing extension deliverable: {required}')
             paths.add(p)
         paths.update(p for p in (ROOT/'output/extension-analysis').rglob('*') if eligible(p))
+    if args.sparse:
+        sparse_root = ROOT/'results/sparse-extension'
+        summary_path = ROOT/'output/sparse-analysis/summary.json'
+        audit = json.loads((sparse_root/'independent_verification.json').read_text())
+        summary = json.loads(summary_path.read_text())
+        verification = json.loads((ROOT/'results/diagnostics/sparse_analysis_verification.json').read_text())
+        if not audit.get('complete') or audit.get('verified_runs') != 264 or summary.get('status') != 'complete':
+            raise RuntimeError('Sparse packaging requires all 264 fits and a complete independent audit')
+        if verification.get('status') != 'passed' or verification.get('summary_sha256') != hashlib.sha256(summary_path.read_bytes()).hexdigest():
+            raise RuntimeError('Sparse analysis lacks matching independent verification')
+        for required in ('output/pdf/sparse-whitening-extension.pdf','docs/sparse_findings.md'):
+            if not (ROOT/required).is_file():raise RuntimeError('Missing sparse artifact '+required)
+        paths.update(p for p in (ROOT/'output/sparse-analysis').rglob('*') if eligible(p))
+        supplement = json.loads((ROOT/'results/sparse-fullrank-dictionary/independent_verification.json').read_text())
+        if not supplement.get('complete') or supplement.get('verified_runs') != 24:
+            raise RuntimeError('The 24-fit dictionary supplement must also pass independent verification')
+        ds_path = ROOT/'output/dictionary-supplement/summary.json'
+        da = json.loads((ROOT/'results/diagnostics/dictionary_analysis_verification.json').read_text())
+        if da.get('status') != 'passed' or da.get('summary_sha256') != hashlib.sha256(ds_path.read_bytes()).hexdigest():
+            raise RuntimeError('Dictionary supplement analysis lacks matching verification')
+        paths.update(p for p in (ROOT/'output/dictionary-supplement').rglob('*') if eligible(p))
     # Preserve the editable proposal as context, without outdated PowerPoint exports.
     for name in ("flow-matching-poster.tex", "flow-matching-poster-LaTeX-A1.pdf"):
         p = ROOT / "output/poster" / name

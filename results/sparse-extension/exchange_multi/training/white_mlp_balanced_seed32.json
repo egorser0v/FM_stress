@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 0.7498270273208618,
+    "train_cfm": 0.7498270273208618,
+    "train_aux": 0.0,
+    "validation_objective": 0.877781331539154,
+    "validation_mse": 6.179030418395996,
+    "seconds": 1.392472584033385
+  },
+  {
+    "step": 500,
+    "train_loss": 0.7086048126220703,
+    "train_cfm": 0.7086048126220703,
+    "train_aux": 0.0,
+    "validation_objective": 0.8395222425460815,
+    "validation_mse": 6.114009380340576,
+    "seconds": 2.6759895000141114
+  },
+  {
+    "step": 750,
+    "train_loss": 0.6880958676338196,
+    "train_cfm": 0.6880958676338196,
+    "train_aux": 0.0,
+    "validation_objective": 0.8413993120193481,
+    "validation_mse": 6.120345592498779,
+    "seconds": 3.952773333992809
+  },
+  {
+    "step": 1000,
+    "train_loss": 0.6981521844863892,
+    "train_cfm": 0.6981521844863892,
+    "train_aux": 0.0,
+    "validation_objective": 0.8491818904876709,
+    "validation_mse": 6.076910495758057,
+    "seconds": 5.223892499925569
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.6614530086517334,
+    "train_cfm": 0.6614530086517334,
+    "train_aux": 0.0,
+    "validation_objective": 0.8274269104003906,
+    "validation_mse": 6.055387496948242,
+    "seconds": 6.519448333885521
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.6965924501419067,
+    "train_cfm": 0.6965924501419067,
+    "train_aux": 0.0,
+    "validation_objective": 0.8311886191368103,
+    "validation_mse": 6.030491828918457,
+    "seconds": 7.778907791944221
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.6818109154701233,
+    "train_cfm": 0.6818109154701233,
+    "train_aux": 0.0,
+    "validation_objective": 0.8219060301780701,
+    "validation_mse": 6.016287803649902,
+    "seconds": 9.041933041997254
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.6917723417282104,
+    "train_cfm": 0.6917723417282104,
+    "train_aux": 0.0,
+    "validation_objective": 0.8188877701759338,
+    "validation_mse": 6.009139060974121,
+    "seconds": 10.359943749848753
+  }
+]

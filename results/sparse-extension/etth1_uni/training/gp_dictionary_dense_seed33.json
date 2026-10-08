@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 0.38781604170799255,
+    "train_cfm": 0.38781604170799255,
+    "train_aux": 0.0,
+    "validation_objective": 0.44235771894454956,
+    "validation_mse": 0.44235771894454956,
+    "seconds": 1.343836624873802
+  },
+  {
+    "step": 500,
+    "train_loss": 0.4040103852748871,
+    "train_cfm": 0.4040103852748871,
+    "train_aux": 0.0,
+    "validation_objective": 0.4217519462108612,
+    "validation_mse": 0.4217519462108612,
+    "seconds": 2.612254915991798
+  },
+  {
+    "step": 750,
+    "train_loss": 0.3965340554714203,
+    "train_cfm": 0.3965340554714203,
+    "train_aux": 0.0,
+    "validation_objective": 0.42179757356643677,
+    "validation_mse": 0.42179757356643677,
+    "seconds": 3.8803322908934206
+  },
+  {
+    "step": 1000,
+    "train_loss": 0.35837242007255554,
+    "train_cfm": 0.35837242007255554,
+    "train_aux": 0.0,
+    "validation_objective": 0.40466344356536865,
+    "validation_mse": 0.40466344356536865,
+    "seconds": 5.138765374897048
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.36410805583000183,
+    "train_cfm": 0.36410805583000183,
+    "train_aux": 0.0,
+    "validation_objective": 0.41567346453666687,
+    "validation_mse": 0.41567346453666687,
+    "seconds": 6.394462041091174
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.359213262796402,
+    "train_cfm": 0.359213262796402,
+    "train_aux": 0.0,
+    "validation_objective": 0.4009855389595032,
+    "validation_mse": 0.4009855389595032,
+    "seconds": 7.662813249975443
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.3574748933315277,
+    "train_cfm": 0.3574748933315277,
+    "train_aux": 0.0,
+    "validation_objective": 0.3943627178668976,
+    "validation_mse": 0.3943627178668976,
+    "seconds": 8.95621766592376
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.3305298089981079,
+    "train_cfm": 0.3305298089981079,
+    "train_aux": 0.0,
+    "validation_objective": 0.39556100964546204,
+    "validation_mse": 0.39556100964546204,
+    "seconds": 10.220764291007072
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 1.4957574605941772,
+    "train_cfm": 1.4957574605941772,
+    "train_aux": 0.0,
+    "validation_objective": 2.2445261478424072,
+    "validation_mse": 2.2445261478424072,
+    "seconds": 2.09029099997133
+  },
+  {
+    "step": 500,
+    "train_loss": 1.2439734935760498,
+    "train_cfm": 1.2439734935760498,
+    "train_aux": 0.0,
+    "validation_objective": 2.051111936569214,
+    "validation_mse": 2.051111936569214,
+    "seconds": 4.2478547499049455
+  },
+  {
+    "step": 750,
+    "train_loss": 1.0768672227859497,
+    "train_cfm": 1.0768672227859497,
+    "train_aux": 0.0,
+    "validation_objective": 1.9485599994659424,
+    "validation_mse": 1.9485599994659424,
+    "seconds": 6.41953816707246
+  },
+  {
+    "step": 1000,
+    "train_loss": 1.0049513578414917,
+    "train_cfm": 1.0049513578414917,
+    "train_aux": 0.0,
+    "validation_objective": 1.896490454673767,
+    "validation_mse": 1.896490454673767,
+    "seconds": 8.505941542098299
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.9444138407707214,
+    "train_cfm": 0.9444138407707214,
+    "train_aux": 0.0,
+    "validation_objective": 1.8162257671356201,
+    "validation_mse": 1.8162257671356201,
+    "seconds": 10.233040374936536
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.9551780223846436,
+    "train_cfm": 0.9551780223846436,
+    "train_aux": 0.0,
+    "validation_objective": 1.7441128492355347,
+    "validation_mse": 1.7441128492355347,
+    "seconds": 11.878312083892524
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.8618325591087341,
+    "train_cfm": 0.8618325591087341,
+    "train_aux": 0.0,
+    "validation_objective": 1.8320919275283813,
+    "validation_mse": 1.8320919275283813,
+    "seconds": 13.713567500002682
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.7795532941818237,
+    "train_cfm": 0.7795532941818237,
+    "train_aux": 0.0,
+    "validation_objective": 1.7200881242752075,
+    "validation_mse": 1.7200881242752075,
+    "seconds": 15.134789499919862
+  }
+]

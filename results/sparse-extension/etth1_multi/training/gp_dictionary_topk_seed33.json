@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 1.458584189414978,
+    "train_cfm": 1.458584189414978,
+    "train_aux": 0.0,
+    "validation_objective": 2.2359113693237305,
+    "validation_mse": 2.2359113693237305,
+    "seconds": 1.1322682918980718
+  },
+  {
+    "step": 500,
+    "train_loss": 1.2111479043960571,
+    "train_cfm": 1.2111479043960571,
+    "train_aux": 0.0,
+    "validation_objective": 2.1736209392547607,
+    "validation_mse": 2.1736209392547607,
+    "seconds": 2.1855722500476986
+  },
+  {
+    "step": 750,
+    "train_loss": 1.0367578268051147,
+    "train_cfm": 1.0367578268051147,
+    "train_aux": 0.0,
+    "validation_objective": 1.9813168048858643,
+    "validation_mse": 1.9813168048858643,
+    "seconds": 3.2763439579866827
+  },
+  {
+    "step": 1000,
+    "train_loss": 0.9756525158882141,
+    "train_cfm": 0.9756525158882141,
+    "train_aux": 0.0,
+    "validation_objective": 1.9861032962799072,
+    "validation_mse": 1.9861032962799072,
+    "seconds": 4.389470333000645
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.915355384349823,
+    "train_cfm": 0.915355384349823,
+    "train_aux": 0.0,
+    "validation_objective": 1.9357084035873413,
+    "validation_mse": 1.9357084035873413,
+    "seconds": 5.429322582902387
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.9022901654243469,
+    "train_cfm": 0.9022901654243469,
+    "train_aux": 0.0,
+    "validation_objective": 1.9037446975708008,
+    "validation_mse": 1.9037446975708008,
+    "seconds": 6.512979292077944
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.7968692779541016,
+    "train_cfm": 0.7968692779541016,
+    "train_aux": 0.0,
+    "validation_objective": 2.086150646209717,
+    "validation_mse": 2.086150646209717,
+    "seconds": 7.567960707936436
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.762297511100769,
+    "train_cfm": 0.762297511100769,
+    "train_aux": 0.0,
+    "validation_objective": 2.101053476333618,
+    "validation_mse": 2.101053476333618,
+    "seconds": 8.620856082998216
+  }
+]

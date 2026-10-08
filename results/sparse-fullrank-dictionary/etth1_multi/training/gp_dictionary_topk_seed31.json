@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 1.5603731870651245,
+    "train_cfm": 1.5603731870651245,
+    "train_aux": 0.0,
+    "validation_objective": 2.2119202613830566,
+    "validation_mse": 2.2119202613830566,
+    "seconds": 1.4226849579717964
+  },
+  {
+    "step": 500,
+    "train_loss": 1.362830638885498,
+    "train_cfm": 1.362830638885498,
+    "train_aux": 0.0,
+    "validation_objective": 2.088715076446533,
+    "validation_mse": 2.088715076446533,
+    "seconds": 2.7300704170484096
+  },
+  {
+    "step": 750,
+    "train_loss": 1.0835838317871094,
+    "train_cfm": 1.0835838317871094,
+    "train_aux": 0.0,
+    "validation_objective": 2.0004537105560303,
+    "validation_mse": 2.0004537105560303,
+    "seconds": 4.527610667049885
+  },
+  {
+    "step": 1000,
+    "train_loss": 1.0362639427185059,
+    "train_cfm": 1.0362639427185059,
+    "train_aux": 0.0,
+    "validation_objective": 2.004417896270752,
+    "validation_mse": 2.004417896270752,
+    "seconds": 6.650705375010148
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.979630172252655,
+    "train_cfm": 0.979630172252655,
+    "train_aux": 0.0,
+    "validation_objective": 1.8833662271499634,
+    "validation_mse": 1.8833662271499634,
+    "seconds": 8.329923582961783
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.9003229737281799,
+    "train_cfm": 0.9003229737281799,
+    "train_aux": 0.0,
+    "validation_objective": 1.8619468212127686,
+    "validation_mse": 1.8619468212127686,
+    "seconds": 10.772877583047375
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.8817726969718933,
+    "train_cfm": 0.8817726969718933,
+    "train_aux": 0.0,
+    "validation_objective": 1.7233258485794067,
+    "validation_mse": 1.7233258485794067,
+    "seconds": 12.231448875041679
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.8606295585632324,
+    "train_cfm": 0.8606295585632324,
+    "train_aux": 0.0,
+    "validation_objective": 1.7673062086105347,
+    "validation_mse": 1.7673062086105347,
+    "seconds": 13.767690000124276
+  }
+]

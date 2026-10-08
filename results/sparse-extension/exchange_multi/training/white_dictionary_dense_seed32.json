@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 0.7978338003158569,
+    "train_cfm": 0.7978338003158569,
+    "train_aux": 0.0,
+    "validation_objective": 1.025772213935852,
+    "validation_mse": 1.025772213935852,
+    "seconds": 1.6391432909294963
+  },
+  {
+    "step": 500,
+    "train_loss": 0.5939128398895264,
+    "train_cfm": 0.5939128398895264,
+    "train_aux": 0.0,
+    "validation_objective": 0.7910286784172058,
+    "validation_mse": 0.7910286784172058,
+    "seconds": 2.9706117077730596
+  },
+  {
+    "step": 750,
+    "train_loss": 0.5026661157608032,
+    "train_cfm": 0.5026661157608032,
+    "train_aux": 0.0,
+    "validation_objective": 0.7004751563072205,
+    "validation_mse": 0.7004751563072205,
+    "seconds": 4.308933457825333
+  },
+  {
+    "step": 1000,
+    "train_loss": 0.48310136795043945,
+    "train_cfm": 0.48310136795043945,
+    "train_aux": 0.0,
+    "validation_objective": 0.6418406963348389,
+    "validation_mse": 0.6418406963348389,
+    "seconds": 5.640922082820907
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.4075411558151245,
+    "train_cfm": 0.4075411558151245,
+    "train_aux": 0.0,
+    "validation_objective": 0.7724687457084656,
+    "validation_mse": 0.7724687457084656,
+    "seconds": 7.105358290951699
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.4262990653514862,
+    "train_cfm": 0.4262990653514862,
+    "train_aux": 0.0,
+    "validation_objective": 0.6709380149841309,
+    "validation_mse": 0.6709380149841309,
+    "seconds": 9.0066207498312
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.3881062865257263,
+    "train_cfm": 0.3881062865257263,
+    "train_aux": 0.0,
+    "validation_objective": 0.6165093183517456,
+    "validation_mse": 0.6165093183517456,
+    "seconds": 10.559046082897112
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.39558854699134827,
+    "train_cfm": 0.39558854699134827,
+    "train_aux": 0.0,
+    "validation_objective": 0.6869094967842102,
+    "validation_mse": 0.6869094967842102,
+    "seconds": 12.125203999923542
+  }
+]

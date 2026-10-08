@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 1.1339426040649414,
+    "train_cfm": 1.1339426040649414,
+    "train_aux": 0.0,
+    "validation_objective": 2.884772777557373,
+    "validation_mse": 2.884772777557373,
+    "seconds": 2.236122834030539
+  },
+  {
+    "step": 500,
+    "train_loss": 0.7966694831848145,
+    "train_cfm": 0.7966694831848145,
+    "train_aux": 0.0,
+    "validation_objective": 1.6008671522140503,
+    "validation_mse": 1.6008671522140503,
+    "seconds": 4.023766583995894
+  },
+  {
+    "step": 750,
+    "train_loss": 0.599509596824646,
+    "train_cfm": 0.599509596824646,
+    "train_aux": 0.0,
+    "validation_objective": 1.0746819972991943,
+    "validation_mse": 1.0746819972991943,
+    "seconds": 5.9049548341427
+  },
+  {
+    "step": 1000,
+    "train_loss": 0.5084883570671082,
+    "train_cfm": 0.5084883570671082,
+    "train_aux": 0.0,
+    "validation_objective": 0.8214040398597717,
+    "validation_mse": 0.8214040398597717,
+    "seconds": 7.806992375059053
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.46667829155921936,
+    "train_cfm": 0.46667829155921936,
+    "train_aux": 0.0,
+    "validation_objective": 0.7170699834823608,
+    "validation_mse": 0.7170699834823608,
+    "seconds": 9.354319417150691
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.4458687901496887,
+    "train_cfm": 0.4458687901496887,
+    "train_aux": 0.0,
+    "validation_objective": 0.910369336605072,
+    "validation_mse": 0.910369336605072,
+    "seconds": 10.864217959111556
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.3805302083492279,
+    "train_cfm": 0.3805302083492279,
+    "train_aux": 0.0,
+    "validation_objective": 0.6449927687644958,
+    "validation_mse": 0.6449927687644958,
+    "seconds": 12.362037500133738
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.3881622850894928,
+    "train_cfm": 0.3881622850894928,
+    "train_aux": 0.0,
+    "validation_objective": 0.5643404722213745,
+    "validation_mse": 0.5643404722213745,
+    "seconds": 13.898796000052243
+  }
+]

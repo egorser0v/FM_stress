@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "summary_sha256": "601e6f3c1dee7f0c66dcfe1ed09511a726b744d2531a20bce342675f05c186e9",
+  "runs": 48,
+  "aggregate_cells": 16,
+  "metric_mean_sd_pairs": 96,
+  "seed_contrasts": 120,
+  "context_contrasts": 80
+}

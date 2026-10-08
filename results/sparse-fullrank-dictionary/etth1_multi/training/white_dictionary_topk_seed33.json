@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 1.6338386535644531,
+    "train_cfm": 1.6338386535644531,
+    "train_aux": 0.0,
+    "validation_objective": 2.2086167335510254,
+    "validation_mse": 2.2086167335510254,
+    "seconds": 1.7023731670342386
+  },
+  {
+    "step": 500,
+    "train_loss": 1.4321562051773071,
+    "train_cfm": 1.4321562051773071,
+    "train_aux": 0.0,
+    "validation_objective": 2.0020649433135986,
+    "validation_mse": 2.0020649433135986,
+    "seconds": 3.5099092500749975
+  },
+  {
+    "step": 750,
+    "train_loss": 1.3716551065444946,
+    "train_cfm": 1.3716551065444946,
+    "train_aux": 0.0,
+    "validation_objective": 1.8947495222091675,
+    "validation_mse": 1.8947495222091675,
+    "seconds": 5.020429625175893
+  },
+  {
+    "step": 1000,
+    "train_loss": 1.2983496189117432,
+    "train_cfm": 1.2983496189117432,
+    "train_aux": 0.0,
+    "validation_objective": 1.864380121231079,
+    "validation_mse": 1.864380121231079,
+    "seconds": 6.592430000193417
+  },
+  {
+    "step": 1250,
+    "train_loss": 1.2863378524780273,
+    "train_cfm": 1.2863378524780273,
+    "train_aux": 0.0,
+    "validation_objective": 1.7923506498336792,
+    "validation_mse": 1.7923506498336792,
+    "seconds": 8.18907770817168
+  },
+  {
+    "step": 1500,
+    "train_loss": 1.2808955907821655,
+    "train_cfm": 1.2808955907821655,
+    "train_aux": 0.0,
+    "validation_objective": 1.7902158498764038,
+    "validation_mse": 1.7902158498764038,
+    "seconds": 9.700052000116557
+  },
+  {
+    "step": 1750,
+    "train_loss": 1.2770646810531616,
+    "train_cfm": 1.2770646810531616,
+    "train_aux": 0.0,
+    "validation_objective": 1.7545424699783325,
+    "validation_mse": 1.7545424699783325,
+    "seconds": 11.216682041995227
+  },
+  {
+    "step": 2000,
+    "train_loss": 1.2441219091415405,
+    "train_cfm": 1.2441219091415405,
+    "train_aux": 0.0,
+    "validation_objective": 1.7281574010849,
+    "validation_mse": 1.7281574010849,
+    "seconds": 12.533551292028278
+  }
+]

@@ -83,3 +83,27 @@ with changed normalization, horizons and budgets, not a substitute for Tasks 1â€
 ETTh1 OT happens to have GP-velocity validation E2=0.9076; the other extensions
 must not be described as automatic additional passes of the original stress test.
 See `docs/extension_findings.md` and `output/pdf/multivariate-real-extension.pdf`.
+
+## Further extension completed - sparse representations and joint whitening
+
+The original assignment and its results above remain unchanged. The follow-up
+contains 264 new MPS fits on the same four extension datasets, plus 24 separately
+declared full-rank dictionary controls. Every new neural method is inside
+conditional flow matching and is crossed with both temporally white and GP
+sources and three seeds. Joint PCA whitening is now checked on synthetic and
+real multivariate targets, with a same-width raw-coordinate balanced-loss control.
+
+Dense/TopK history autoencoders, convolutional sparse history representations,
+velocity dictionaries, learned U-Net gates and routed experts have explicit
+controls. MultiTask Elastic Net is a separate direct forecasting baseline. The
+192-template supplement addresses a discovered linear-span restriction without
+replacing the 64-template results. Method names do not substitute for evidence:
+L0 evaluation gates remained entirely nonzero and are reported as such.
+
+Evidence: `docs/sparse_extension_protocol.md`, `docs/sparse_findings.md`,
+`output/pdf/sparse-whitening-extension.pdf`, the complete main and supplement
+analysis directories, both per-run independent audits, both arithmetic audits,
+and dictionary-span diagnostics. All 122 tests pass with actual MPS access.
+Results remain fixed-budget and exploratory; 125/264 main checkpoints select the
+last step. This follow-up does not redefine the original geometry gate or its
+literal success rule, and does not establish oral presentation participation.

@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 0.37856325507164,
+    "train_cfm": 0.37856325507164,
+    "train_aux": 0.0,
+    "validation_objective": 0.32361000776290894,
+    "validation_mse": 0.32361000776290894,
+    "seconds": 1.3783427500166
+  },
+  {
+    "step": 500,
+    "train_loss": 0.33364641666412354,
+    "train_cfm": 0.33364641666412354,
+    "train_aux": 0.0,
+    "validation_objective": 0.28545358777046204,
+    "validation_mse": 0.28545358777046204,
+    "seconds": 2.6125945830717683
+  },
+  {
+    "step": 750,
+    "train_loss": 0.3018229007720947,
+    "train_cfm": 0.3018229007720947,
+    "train_aux": 0.0,
+    "validation_objective": 0.27345216274261475,
+    "validation_mse": 0.27345216274261475,
+    "seconds": 3.842021708143875
+  },
+  {
+    "step": 1000,
+    "train_loss": 0.22855837643146515,
+    "train_cfm": 0.22855837643146515,
+    "train_aux": 0.0,
+    "validation_objective": 0.26725733280181885,
+    "validation_mse": 0.26725733280181885,
+    "seconds": 5.201419749995694
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.2947709560394287,
+    "train_cfm": 0.2947709560394287,
+    "train_aux": 0.0,
+    "validation_objective": 0.2603890001773834,
+    "validation_mse": 0.2603890001773834,
+    "seconds": 6.53821091610007
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.29581978917121887,
+    "train_cfm": 0.29581978917121887,
+    "train_aux": 0.0,
+    "validation_objective": 0.26074978709220886,
+    "validation_mse": 0.26074978709220886,
+    "seconds": 7.884776416001841
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.32326024770736694,
+    "train_cfm": 0.32326024770736694,
+    "train_aux": 0.0,
+    "validation_objective": 0.2517136037349701,
+    "validation_mse": 0.2517136037349701,
+    "seconds": 9.172997083049268
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.279861181974411,
+    "train_cfm": 0.279861181974411,
+    "train_aux": 0.0,
+    "validation_objective": 0.25355544686317444,
+    "validation_mse": 0.25355544686317444,
+    "seconds": 10.494048750028014
+  }
+]

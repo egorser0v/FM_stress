@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 0.1843479722738266,
+    "train_cfm": 0.1843479722738266,
+    "train_aux": 0.0,
+    "validation_objective": 0.18453563749790192,
+    "validation_mse": 0.6434137225151062,
+    "seconds": 1.3619012921117246
+  },
+  {
+    "step": 500,
+    "train_loss": 0.19624106585979462,
+    "train_cfm": 0.19624106585979462,
+    "train_aux": 0.0,
+    "validation_objective": 0.1652393639087677,
+    "validation_mse": 0.5903193354606628,
+    "seconds": 2.6794831671286374
+  },
+  {
+    "step": 750,
+    "train_loss": 0.204786479473114,
+    "train_cfm": 0.204786479473114,
+    "train_aux": 0.0,
+    "validation_objective": 0.1441342681646347,
+    "validation_mse": 0.5610073804855347,
+    "seconds": 4.155490792123601
+  },
+  {
+    "step": 1000,
+    "train_loss": 0.1425262987613678,
+    "train_cfm": 0.1425262987613678,
+    "train_aux": 0.0,
+    "validation_objective": 0.13701987266540527,
+    "validation_mse": 0.5526814460754395,
+    "seconds": 5.371476625092328
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.154283344745636,
+    "train_cfm": 0.154283344745636,
+    "train_aux": 0.0,
+    "validation_objective": 0.1359013319015503,
+    "validation_mse": 0.4750945568084717,
+    "seconds": 6.525580791989341
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.134165421128273,
+    "train_cfm": 0.134165421128273,
+    "train_aux": 0.0,
+    "validation_objective": 0.13433952629566193,
+    "validation_mse": 0.47902917861938477,
+    "seconds": 7.72281716694124
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.16916824877262115,
+    "train_cfm": 0.16916824877262115,
+    "train_aux": 0.0,
+    "validation_objective": 0.12481286376714706,
+    "validation_mse": 0.4385724663734436,
+    "seconds": 8.914653999963775
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.12521742284297943,
+    "train_cfm": 0.12521742284297943,
+    "train_aux": 0.0,
+    "validation_objective": 0.12249122560024261,
+    "validation_mse": 0.4571774899959564,
+    "seconds": 10.118817375041544
+  }
+]

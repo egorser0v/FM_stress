@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 0.9192886352539062,
+    "train_cfm": 0.9192886352539062,
+    "train_aux": 0.0,
+    "validation_objective": 1.1302037239074707,
+    "validation_mse": 2.1307103633880615,
+    "seconds": 1.291509959148243
+  },
+  {
+    "step": 500,
+    "train_loss": 0.8697115778923035,
+    "train_cfm": 0.8697115778923035,
+    "train_aux": 0.0,
+    "validation_objective": 1.1038373708724976,
+    "validation_mse": 2.1100902557373047,
+    "seconds": 2.5108959171921015
+  },
+  {
+    "step": 750,
+    "train_loss": 0.8486253023147583,
+    "train_cfm": 0.8486253023147583,
+    "train_aux": 0.0,
+    "validation_objective": 1.0957320928573608,
+    "validation_mse": 2.071399450302124,
+    "seconds": 3.7435259171761572
+  },
+  {
+    "step": 1000,
+    "train_loss": 0.8384560346603394,
+    "train_cfm": 0.8384560346603394,
+    "train_aux": 0.0,
+    "validation_objective": 1.1013020277023315,
+    "validation_mse": 2.068235397338867,
+    "seconds": 4.971719749970362
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.8396651744842529,
+    "train_cfm": 0.8396651744842529,
+    "train_aux": 0.0,
+    "validation_objective": 1.0966697931289673,
+    "validation_mse": 2.066892623901367,
+    "seconds": 6.17604725016281
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.869404137134552,
+    "train_cfm": 0.869404137134552,
+    "train_aux": 0.0,
+    "validation_objective": 1.0947915315628052,
+    "validation_mse": 2.0640125274658203,
+    "seconds": 7.3676408340688795
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.8385661840438843,
+    "train_cfm": 0.8385661840438843,
+    "train_aux": 0.0,
+    "validation_objective": 1.0969295501708984,
+    "validation_mse": 2.0704731941223145,
+    "seconds": 8.595719834091142
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.8382319211959839,
+    "train_cfm": 0.8382319211959839,
+    "train_aux": 0.0,
+    "validation_objective": 1.089027762413025,
+    "validation_mse": 2.0712392330169678,
+    "seconds": 9.815414125099778
+  }
+]

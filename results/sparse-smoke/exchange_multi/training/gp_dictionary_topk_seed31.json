@@ -1,0 +1,20 @@
+[
+  {
+    "step": 25,
+    "train_loss": 1.9064390659332275,
+    "train_cfm": 1.9064390659332275,
+    "train_aux": 0.0,
+    "validation_objective": 6.0161213874816895,
+    "validation_mse": 6.0161213874816895,
+    "seconds": 0.13623362500220537
+  },
+  {
+    "step": 50,
+    "train_loss": 1.7895570993423462,
+    "train_cfm": 1.7895570993423462,
+    "train_aux": 0.0,
+    "validation_objective": 5.627025604248047,
+    "validation_mse": 5.627025604248047,
+    "seconds": 0.2756063749548048
+  }
+]

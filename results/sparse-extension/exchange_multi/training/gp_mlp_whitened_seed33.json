@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 0.6023188233375549,
+    "train_cfm": 0.6023188233375549,
+    "train_aux": 0.0,
+    "validation_objective": 0.896476686000824,
+    "validation_mse": 1.945258617401123,
+    "seconds": 1.5986412500496954
+  },
+  {
+    "step": 500,
+    "train_loss": 0.7853761315345764,
+    "train_cfm": 0.7853761315345764,
+    "train_aux": 0.0,
+    "validation_objective": 0.8266304731369019,
+    "validation_mse": 1.5229467153549194,
+    "seconds": 3.119542417116463
+  },
+  {
+    "step": 750,
+    "train_loss": 0.6051656007766724,
+    "train_cfm": 0.6051656007766724,
+    "train_aux": 0.0,
+    "validation_objective": 0.7765354514122009,
+    "validation_mse": 1.4512362480163574,
+    "seconds": 4.504470708081499
+  },
+  {
+    "step": 1000,
+    "train_loss": 0.7788634300231934,
+    "train_cfm": 0.7788634300231934,
+    "train_aux": 0.0,
+    "validation_objective": 0.7469677329063416,
+    "validation_mse": 2.0293734073638916,
+    "seconds": 5.894474749919027
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.922457218170166,
+    "train_cfm": 0.922457218170166,
+    "train_aux": 0.0,
+    "validation_objective": 0.7479352355003357,
+    "validation_mse": 2.1046905517578125,
+    "seconds": 7.296094957971945
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.5914003849029541,
+    "train_cfm": 0.5914003849029541,
+    "train_aux": 0.0,
+    "validation_objective": 0.7331629395484924,
+    "validation_mse": 2.1239876747131348,
+    "seconds": 8.695982541888952
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.5195296406745911,
+    "train_cfm": 0.5195296406745911,
+    "train_aux": 0.0,
+    "validation_objective": 0.7366943359375,
+    "validation_mse": 2.1448974609375,
+    "seconds": 10.09515166701749
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.5754902362823486,
+    "train_cfm": 0.5754902362823486,
+    "train_aux": 0.0,
+    "validation_objective": 0.7307364344596863,
+    "validation_mse": 1.9405841827392578,
+    "seconds": 11.455952750053257
+  }
+]

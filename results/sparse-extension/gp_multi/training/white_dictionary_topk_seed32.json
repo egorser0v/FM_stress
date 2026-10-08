@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 1.2978192567825317,
+    "train_cfm": 1.2978192567825317,
+    "train_aux": 0.0,
+    "validation_objective": 1.2679173946380615,
+    "validation_mse": 1.2679173946380615,
+    "seconds": 1.1265880828723311
+  },
+  {
+    "step": 500,
+    "train_loss": 1.0692061185836792,
+    "train_cfm": 1.0692061185836792,
+    "train_aux": 0.0,
+    "validation_objective": 1.1239814758300781,
+    "validation_mse": 1.1239814758300781,
+    "seconds": 2.1625477499328554
+  },
+  {
+    "step": 750,
+    "train_loss": 1.0276535749435425,
+    "train_cfm": 1.0276535749435425,
+    "train_aux": 0.0,
+    "validation_objective": 1.0431017875671387,
+    "validation_mse": 1.0431017875671387,
+    "seconds": 3.213766166009009
+  },
+  {
+    "step": 1000,
+    "train_loss": 0.9444227814674377,
+    "train_cfm": 0.9444227814674377,
+    "train_aux": 0.0,
+    "validation_objective": 0.9755323529243469,
+    "validation_mse": 0.9755323529243469,
+    "seconds": 4.257940958021209
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.8949670791625977,
+    "train_cfm": 0.8949670791625977,
+    "train_aux": 0.0,
+    "validation_objective": 0.9299395680427551,
+    "validation_mse": 0.9299395680427551,
+    "seconds": 5.302034040912986
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.9088367819786072,
+    "train_cfm": 0.9088367819786072,
+    "train_aux": 0.0,
+    "validation_objective": 0.8943843841552734,
+    "validation_mse": 0.8943843841552734,
+    "seconds": 6.351047083036974
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.9181327223777771,
+    "train_cfm": 0.9181327223777771,
+    "train_aux": 0.0,
+    "validation_objective": 0.8719070553779602,
+    "validation_mse": 0.8719070553779602,
+    "seconds": 7.40329216606915
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.855757474899292,
+    "train_cfm": 0.855757474899292,
+    "train_aux": 0.0,
+    "validation_objective": 0.8499525189399719,
+    "validation_mse": 0.8499525189399719,
+    "seconds": 8.45558000006713
+  }
+]

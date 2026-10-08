@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 1.2028799057006836,
+    "train_cfm": 1.2028799057006836,
+    "train_aux": 0.0,
+    "validation_objective": 2.6599223613739014,
+    "validation_mse": 2.6599223613739014,
+    "seconds": 1.4404818338807672
+  },
+  {
+    "step": 500,
+    "train_loss": 0.7763058543205261,
+    "train_cfm": 0.7763058543205261,
+    "train_aux": 0.0,
+    "validation_objective": 1.4750558137893677,
+    "validation_mse": 1.4750558137893677,
+    "seconds": 2.7784109169151634
+  },
+  {
+    "step": 750,
+    "train_loss": 0.5752207636833191,
+    "train_cfm": 0.5752207636833191,
+    "train_aux": 0.0,
+    "validation_objective": 1.1500885486602783,
+    "validation_mse": 1.1500885486602783,
+    "seconds": 4.160689458949491
+  },
+  {
+    "step": 1000,
+    "train_loss": 0.5960887670516968,
+    "train_cfm": 0.5960887670516968,
+    "train_aux": 0.0,
+    "validation_objective": 0.8079445958137512,
+    "validation_mse": 0.8079445958137512,
+    "seconds": 5.543903458863497
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.4526849389076233,
+    "train_cfm": 0.4526849389076233,
+    "train_aux": 0.0,
+    "validation_objective": 0.8730572462081909,
+    "validation_mse": 0.8730572462081909,
+    "seconds": 6.918408624827862
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.39845389127731323,
+    "train_cfm": 0.39845389127731323,
+    "train_aux": 0.0,
+    "validation_objective": 0.7073423862457275,
+    "validation_mse": 0.7073423862457275,
+    "seconds": 8.268023374956101
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.39777281880378723,
+    "train_cfm": 0.39777281880378723,
+    "train_aux": 0.0,
+    "validation_objective": 0.6366563439369202,
+    "validation_mse": 0.6366563439369202,
+    "seconds": 9.742782041896135
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.4268747568130493,
+    "train_cfm": 0.4268747568130493,
+    "train_aux": 0.0,
+    "validation_objective": 0.6194010972976685,
+    "validation_mse": 0.6194010972976685,
+    "seconds": 11.998916999902576
+  }
+]

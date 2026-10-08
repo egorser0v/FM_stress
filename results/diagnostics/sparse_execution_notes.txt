@@ -1,0 +1,11 @@
+Execution notes for the sparse/whitening follow-up
+
+All scored runs use the unchanged frozen numerical files and configuration recorded in their manifests. MPS was required; there was no silent CPU training fallback.
+
+The initial all-dataset MPS process completed GP and part of ETTh1 OT, then was deliberately interrupted to partition the remaining work into disjoint ETTh1 OT, ETTh1 joint and Exchange processes. Completed cells were hash-checked and skipped; the one unfinished fit was restarted from the declared initialization. The main sparse_training.log therefore ends with KeyboardInterrupt; later dataset-specific logs contain the resumed completed suite. No failed or unfinished fit is used as a reported result.
+
+The direct CPU Elastic Net implementation was stopped before any final dataset record was produced because it was slow on collinear GP windows. A separate, explicitly fingerprinted exact centered-QR implementation solves the same convex problem faster. Direct/QR equivalence tests and original-coordinate convex certificates validate it. The original sparse_baselines.py remains unchanged and still matches the neural manifest. The QR baseline has its own full provenance.
+
+The 50-update smoke uses no final test forecasts. Its runner snapshot preserves the recorded source hash before the CPU baseline stage was separated from neural orchestration. Scored experiments use the final runner.
+
+The 192-atom dictionary supplement was declared during the main run after a structural rank limitation was identified by code review. It preserves all original 64-atom results and is labelled an exploratory follow-up. Multiple concurrent jobs make saved run wall times unsuitable as a controlled model-speed benchmark.

@@ -1,0 +1,112 @@
+{
+  "mlp_whitened": {
+    "width": 55,
+    "allocated": 62999,
+    "active": 62999,
+    "allocated_trainable": 62999,
+    "effective_trainable": 62999,
+    "masked_weight_allocated": 0,
+    "masked_weight_active": 0,
+    "realized_weight_density": null
+  },
+  "mlp_balanced": {
+    "width": 55,
+    "allocated": 62999,
+    "active": 62999,
+    "allocated_trainable": 62999,
+    "effective_trainable": 62999,
+    "masked_weight_allocated": 0,
+    "masked_weight_active": 0,
+    "realized_weight_density": null
+  },
+  "history_dense_ae": {
+    "width": 52,
+    "allocated": 63844,
+    "active": 63844,
+    "allocated_trainable": 63844,
+    "effective_trainable": 63844,
+    "masked_weight_allocated": 0,
+    "masked_weight_active": 0,
+    "realized_weight_density": null
+  },
+  "history_topk_ae": {
+    "width": 52,
+    "allocated": 63844,
+    "active": 63844,
+    "allocated_trainable": 63844,
+    "effective_trainable": 63844,
+    "masked_weight_allocated": 0,
+    "masked_weight_active": 0,
+    "realized_weight_density": null
+  },
+  "history_conv_dense": {
+    "width": 50,
+    "allocated": 63498,
+    "active": 63498,
+    "allocated_trainable": 63498,
+    "effective_trainable": 63498,
+    "masked_weight_allocated": 0,
+    "masked_weight_active": 0,
+    "realized_weight_density": null
+  },
+  "history_conv_sparse": {
+    "width": 50,
+    "allocated": 63562,
+    "active": 63562,
+    "allocated_trainable": 63562,
+    "effective_trainable": 63562,
+    "masked_weight_allocated": 0,
+    "masked_weight_active": 0,
+    "realized_weight_density": null
+  },
+  "dictionary_dense": {
+    "width": 54,
+    "allocated": 64618,
+    "active": 64618,
+    "allocated_trainable": 64618,
+    "effective_trainable": 64618,
+    "masked_weight_allocated": 0,
+    "masked_weight_active": 0,
+    "realized_weight_density": null
+  },
+  "dictionary_topk": {
+    "width": 54,
+    "allocated": 64618,
+    "active": 64618,
+    "allocated_trainable": 64618,
+    "effective_trainable": 64618,
+    "masked_weight_allocated": 0,
+    "masked_weight_active": 0,
+    "realized_weight_density": null
+  },
+  "unet_l0": {
+    "width": 15,
+    "allocated": 61771,
+    "active": 61771,
+    "allocated_trainable": 61771,
+    "effective_trainable": 61771,
+    "masked_weight_allocated": 0,
+    "masked_weight_active": 0,
+    "realized_weight_density": null
+  },
+  "moe_dense": {
+    "width": 94,
+    "allocated": 64208,
+    "active": 64208,
+    "allocated_trainable": 64208,
+    "effective_trainable": 64208,
+    "masked_weight_allocated": 0,
+    "masked_weight_active": 0,
+    "realized_weight_density": null
+  },
+  "moe_topk": {
+    "width": 94,
+    "allocated": 64208,
+    "active": 64208,
+    "allocated_trainable": 64208,
+    "effective_trainable": 64208,
+    "masked_weight_allocated": 0,
+    "masked_weight_active": 0,
+    "realized_weight_density": null
+  }
+}

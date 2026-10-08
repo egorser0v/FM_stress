@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 0.7673952579498291,
+    "train_cfm": 0.7673952579498291,
+    "train_aux": 0.0,
+    "validation_objective": 0.8581135869026184,
+    "validation_mse": 1.5894298553466797,
+    "seconds": 1.2596968750003725
+  },
+  {
+    "step": 500,
+    "train_loss": 0.7241052389144897,
+    "train_cfm": 0.7241052389144897,
+    "train_aux": 0.0,
+    "validation_objective": 0.8252007365226746,
+    "validation_mse": 1.4217184782028198,
+    "seconds": 2.4177338329609483
+  },
+  {
+    "step": 750,
+    "train_loss": 0.7523947954177856,
+    "train_cfm": 0.7523947954177856,
+    "train_aux": 0.0,
+    "validation_objective": 0.7688326239585876,
+    "validation_mse": 1.8866702318191528,
+    "seconds": 3.5952289579436183
+  },
+  {
+    "step": 1000,
+    "train_loss": 0.6993684768676758,
+    "train_cfm": 0.6993684768676758,
+    "train_aux": 0.0,
+    "validation_objective": 0.7790648341178894,
+    "validation_mse": 1.6553601026535034,
+    "seconds": 4.797623999882489
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.7389297485351562,
+    "train_cfm": 0.7389297485351562,
+    "train_aux": 0.0,
+    "validation_objective": 0.7693049907684326,
+    "validation_mse": 1.8010494709014893,
+    "seconds": 5.920084499986842
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.7259464263916016,
+    "train_cfm": 0.7259464263916016,
+    "train_aux": 0.0,
+    "validation_objective": 0.7590735554695129,
+    "validation_mse": 1.9854905605316162,
+    "seconds": 7.062579041812569
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.8021910190582275,
+    "train_cfm": 0.8021910190582275,
+    "train_aux": 0.0,
+    "validation_objective": 0.7590416669845581,
+    "validation_mse": 1.758425235748291,
+    "seconds": 8.192672666860744
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.6324892640113831,
+    "train_cfm": 0.6324892640113831,
+    "train_aux": 0.0,
+    "validation_objective": 0.7587209939956665,
+    "validation_mse": 2.114107131958008,
+    "seconds": 9.348579249810427
+  }
+]

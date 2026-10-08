@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 1.3059496879577637,
+    "train_cfm": 1.3059496879577637,
+    "train_aux": 0.0,
+    "validation_objective": 2.3132822513580322,
+    "validation_mse": 2.3132822513580322,
+    "seconds": 1.503505292115733
+  },
+  {
+    "step": 500,
+    "train_loss": 1.1128427982330322,
+    "train_cfm": 1.1128427982330322,
+    "train_aux": 0.0,
+    "validation_objective": 1.6554721593856812,
+    "validation_mse": 1.6554721593856812,
+    "seconds": 2.892657417105511
+  },
+  {
+    "step": 750,
+    "train_loss": 1.039702296257019,
+    "train_cfm": 1.039702296257019,
+    "train_aux": 0.0,
+    "validation_objective": 1.3976985216140747,
+    "validation_mse": 1.3976985216140747,
+    "seconds": 4.242333667119965
+  },
+  {
+    "step": 1000,
+    "train_loss": 1.0061211585998535,
+    "train_cfm": 1.0061211585998535,
+    "train_aux": 0.0,
+    "validation_objective": 1.2806642055511475,
+    "validation_mse": 1.2806642055511475,
+    "seconds": 5.51443325006403
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.9641910195350647,
+    "train_cfm": 0.9641910195350647,
+    "train_aux": 0.0,
+    "validation_objective": 1.191414713859558,
+    "validation_mse": 1.191414713859558,
+    "seconds": 6.7518362500704825
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.9165971875190735,
+    "train_cfm": 0.9165971875190735,
+    "train_aux": 0.0,
+    "validation_objective": 1.1904574632644653,
+    "validation_mse": 1.1904574632644653,
+    "seconds": 8.059831459075212
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.9033023118972778,
+    "train_cfm": 0.9033023118972778,
+    "train_aux": 0.0,
+    "validation_objective": 1.1078678369522095,
+    "validation_mse": 1.1078678369522095,
+    "seconds": 9.407952084206045
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.8621559739112854,
+    "train_cfm": 0.8621559739112854,
+    "train_aux": 0.0,
+    "validation_objective": 1.018099308013916,
+    "validation_mse": 1.018099308013916,
+    "seconds": 10.693094584159553
+  }
+]

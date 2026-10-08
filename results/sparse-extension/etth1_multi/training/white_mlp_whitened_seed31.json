@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 0.8599187731742859,
+    "train_cfm": 0.8599187731742859,
+    "train_aux": 0.0,
+    "validation_objective": 1.1178110837936401,
+    "validation_mse": 1.779430866241455,
+    "seconds": 3.9240866659674793
+  },
+  {
+    "step": 500,
+    "train_loss": 0.8444432020187378,
+    "train_cfm": 0.8444432020187378,
+    "train_aux": 0.0,
+    "validation_objective": 1.1053401231765747,
+    "validation_mse": 1.8234283924102783,
+    "seconds": 5.59104716591537
+  },
+  {
+    "step": 750,
+    "train_loss": 0.830297589302063,
+    "train_cfm": 0.830297589302063,
+    "train_aux": 0.0,
+    "validation_objective": 1.097237467765808,
+    "validation_mse": 1.8560082912445068,
+    "seconds": 7.029051332967356
+  },
+  {
+    "step": 1000,
+    "train_loss": 0.8266994953155518,
+    "train_cfm": 0.8266994953155518,
+    "train_aux": 0.0,
+    "validation_objective": 1.1001547574996948,
+    "validation_mse": 1.887148141860962,
+    "seconds": 9.140729749808088
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.8462075591087341,
+    "train_cfm": 0.8462075591087341,
+    "train_aux": 0.0,
+    "validation_objective": 1.1071255207061768,
+    "validation_mse": 1.9142640829086304,
+    "seconds": 10.905986124882475
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.8104630708694458,
+    "train_cfm": 0.8104630708694458,
+    "train_aux": 0.0,
+    "validation_objective": 1.1115854978561401,
+    "validation_mse": 1.9526798725128174,
+    "seconds": 12.289504332933575
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.8218713402748108,
+    "train_cfm": 0.8218713402748108,
+    "train_aux": 0.0,
+    "validation_objective": 1.1064239740371704,
+    "validation_mse": 1.8571743965148926,
+    "seconds": 13.801088707987219
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.8166306018829346,
+    "train_cfm": 0.8166306018829346,
+    "train_aux": 0.0,
+    "validation_objective": 1.1161746978759766,
+    "validation_mse": 1.933822512626648,
+    "seconds": 15.852134582819417
+  }
+]

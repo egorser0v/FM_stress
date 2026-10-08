@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 0.9978176355361938,
+    "train_cfm": 0.9978176355361938,
+    "train_aux": 0.0,
+    "validation_objective": 1.8975517749786377,
+    "validation_mse": 1.8975517749786377,
+    "seconds": 1.1289810840971768
+  },
+  {
+    "step": 500,
+    "train_loss": 0.7908332347869873,
+    "train_cfm": 0.7908332347869873,
+    "train_aux": 0.0,
+    "validation_objective": 1.6232850551605225,
+    "validation_mse": 1.6232850551605225,
+    "seconds": 2.1780570840928704
+  },
+  {
+    "step": 750,
+    "train_loss": 0.6343209147453308,
+    "train_cfm": 0.6343209147453308,
+    "train_aux": 0.0,
+    "validation_objective": 1.5809602737426758,
+    "validation_mse": 1.5809602737426758,
+    "seconds": 3.220525834010914
+  },
+  {
+    "step": 1000,
+    "train_loss": 0.6487039923667908,
+    "train_cfm": 0.6487039923667908,
+    "train_aux": 0.0,
+    "validation_objective": 1.557888150215149,
+    "validation_mse": 1.557888150215149,
+    "seconds": 4.278368833940476
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.5959768891334534,
+    "train_cfm": 0.5959768891334534,
+    "train_aux": 0.0,
+    "validation_objective": 1.5025498867034912,
+    "validation_mse": 1.5025498867034912,
+    "seconds": 5.315361292101443
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.6435853838920593,
+    "train_cfm": 0.6435853838920593,
+    "train_aux": 0.0,
+    "validation_objective": 1.4994657039642334,
+    "validation_mse": 1.4994657039642334,
+    "seconds": 6.380692624952644
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.5296708345413208,
+    "train_cfm": 0.5296708345413208,
+    "train_aux": 0.0,
+    "validation_objective": 1.5988531112670898,
+    "validation_mse": 1.5988531112670898,
+    "seconds": 7.451225792057812
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.5000123381614685,
+    "train_cfm": 0.5000123381614685,
+    "train_aux": 0.0,
+    "validation_objective": 1.4606752395629883,
+    "validation_mse": 1.4606752395629883,
+    "seconds": 8.491204125108197
+  }
+]

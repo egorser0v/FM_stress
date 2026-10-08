@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 0.2118842452764511,
+    "train_cfm": 0.2118842452764511,
+    "train_aux": 0.0,
+    "validation_objective": 0.1829834133386612,
+    "validation_mse": 0.6192993521690369,
+    "seconds": 1.914306583115831
+  },
+  {
+    "step": 500,
+    "train_loss": 0.14247559010982513,
+    "train_cfm": 0.14247559010982513,
+    "train_aux": 0.0,
+    "validation_objective": 0.15504491329193115,
+    "validation_mse": 0.5371215343475342,
+    "seconds": 3.024777957936749
+  },
+  {
+    "step": 750,
+    "train_loss": 0.1450643688440323,
+    "train_cfm": 0.1450643688440323,
+    "train_aux": 0.0,
+    "validation_objective": 0.1423957496881485,
+    "validation_mse": 0.48954176902770996,
+    "seconds": 4.128760874969885
+  },
+  {
+    "step": 1000,
+    "train_loss": 0.146693155169487,
+    "train_cfm": 0.146693155169487,
+    "train_aux": 0.0,
+    "validation_objective": 0.13422352075576782,
+    "validation_mse": 0.4701146185398102,
+    "seconds": 5.303291165968403
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.11128488928079605,
+    "train_cfm": 0.11128488928079605,
+    "train_aux": 0.0,
+    "validation_objective": 0.12710578739643097,
+    "validation_mse": 0.4467657804489136,
+    "seconds": 6.457721125101671
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.12303698807954788,
+    "train_cfm": 0.12303698807954788,
+    "train_aux": 0.0,
+    "validation_objective": 0.12339218705892563,
+    "validation_mse": 0.43925753235816956,
+    "seconds": 7.615926458034664
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.12011579424142838,
+    "train_cfm": 0.12011579424142838,
+    "train_aux": 0.0,
+    "validation_objective": 0.11763712763786316,
+    "validation_mse": 0.41083824634552,
+    "seconds": 8.75035816594027
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.11729776859283447,
+    "train_cfm": 0.11729776859283447,
+    "train_aux": 0.0,
+    "validation_objective": 0.1139645054936409,
+    "validation_mse": 0.41902288794517517,
+    "seconds": 9.888873165939003
+  }
+]

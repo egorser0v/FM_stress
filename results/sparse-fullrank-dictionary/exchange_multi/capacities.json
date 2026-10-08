@@ -1,0 +1,22 @@
+{
+  "dictionary_dense": {
+    "width": 32,
+    "allocated": 63520,
+    "active": 63520,
+    "allocated_trainable": 63520,
+    "effective_trainable": 63520,
+    "masked_weight_allocated": 0,
+    "masked_weight_active": 0,
+    "realized_weight_density": null
+  },
+  "dictionary_topk": {
+    "width": 32,
+    "allocated": 63520,
+    "active": 63520,
+    "allocated_trainable": 63520,
+    "effective_trainable": 63520,
+    "masked_weight_allocated": 0,
+    "masked_weight_active": 0,
+    "realized_weight_density": null
+  }
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 1.1426165103912354,
+    "train_cfm": 1.1426165103912354,
+    "train_aux": 0.0,
+    "validation_objective": 1.481908917427063,
+    "validation_mse": 1.481908917427063,
+    "seconds": 2.2095942499581724
+  },
+  {
+    "step": 500,
+    "train_loss": 1.074026346206665,
+    "train_cfm": 1.074026346206665,
+    "train_aux": 0.0,
+    "validation_objective": 1.3713113069534302,
+    "validation_mse": 1.3713113069534302,
+    "seconds": 4.07162049994804
+  },
+  {
+    "step": 750,
+    "train_loss": 1.0282543897628784,
+    "train_cfm": 1.0282543897628784,
+    "train_aux": 0.0,
+    "validation_objective": 1.3396919965744019,
+    "validation_mse": 1.3396919965744019,
+    "seconds": 5.6707346248440444
+  },
+  {
+    "step": 1000,
+    "train_loss": 1.0383646488189697,
+    "train_cfm": 1.0383646488189697,
+    "train_aux": 0.0,
+    "validation_objective": 1.352971076965332,
+    "validation_mse": 1.352971076965332,
+    "seconds": 7.151342333992943
+  },
+  {
+    "step": 1250,
+    "train_loss": 1.0149800777435303,
+    "train_cfm": 1.0149800777435303,
+    "train_aux": 0.0,
+    "validation_objective": 1.3647900819778442,
+    "validation_mse": 1.3647900819778442,
+    "seconds": 8.651533708907664
+  },
+  {
+    "step": 1500,
+    "train_loss": 1.021125078201294,
+    "train_cfm": 1.021125078201294,
+    "train_aux": 0.0,
+    "validation_objective": 1.3944543600082397,
+    "validation_mse": 1.3944543600082397,
+    "seconds": 10.194182459032163
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.9968495965003967,
+    "train_cfm": 0.9968495965003967,
+    "train_aux": 0.0,
+    "validation_objective": 1.4016940593719482,
+    "validation_mse": 1.4016940593719482,
+    "seconds": 11.698164041852579
+  },
+  {
+    "step": 2000,
+    "train_loss": 1.0119754076004028,
+    "train_cfm": 1.0119754076004028,
+    "train_aux": 0.0,
+    "validation_objective": 1.373522400856018,
+    "validation_mse": 1.373522400856018,
+    "seconds": 13.27177174994722
+  }
+]

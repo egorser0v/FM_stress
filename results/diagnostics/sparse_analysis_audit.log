@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "summary_sha256": "2a5923d7e0962a2494a63ea8bdd2f72951290a5160d931ed31b98235edbf6670",
+  "fingerprint": "51b8f8b6dc66a8badbf0098e25f3baf89ab142ab82d097cb1a8e0a529af97bf8",
+  "checked_runs": 360,
+  "aggregate_cells": 120,
+  "metric_mean_sd_pairs": 2040,
+  "activity_mean_sd_pairs": 200,
+  "seed_contrasts": 1164,
+  "context_contrasts": 882,
+  "scope": "Independent means/SD, saved run identity, PC vector aggregation, paired seed and context effects, circular-block percentile arithmetic. Statistical coverage assumptions are not established by this check."
+}

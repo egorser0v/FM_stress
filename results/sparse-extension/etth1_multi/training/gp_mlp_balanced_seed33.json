@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 0.9405012726783752,
+    "train_cfm": 0.9405012726783752,
+    "train_aux": 0.0,
+    "validation_objective": 1.468026041984558,
+    "validation_mse": 2.5368635654449463,
+    "seconds": 1.081618458032608
+  },
+  {
+    "step": 500,
+    "train_loss": 0.8339656591415405,
+    "train_cfm": 0.8339656591415405,
+    "train_aux": 0.0,
+    "validation_objective": 1.3650789260864258,
+    "validation_mse": 2.5265204906463623,
+    "seconds": 2.088034958112985
+  },
+  {
+    "step": 750,
+    "train_loss": 0.847387433052063,
+    "train_cfm": 0.847387433052063,
+    "train_aux": 0.0,
+    "validation_objective": 1.3213083744049072,
+    "validation_mse": 2.523660898208618,
+    "seconds": 3.351593250175938
+  },
+  {
+    "step": 1000,
+    "train_loss": 0.7993353605270386,
+    "train_cfm": 0.7993353605270386,
+    "train_aux": 0.0,
+    "validation_objective": 1.2978322505950928,
+    "validation_mse": 2.5229108333587646,
+    "seconds": 4.554609375074506
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.7713482975959778,
+    "train_cfm": 0.7713482975959778,
+    "train_aux": 0.0,
+    "validation_objective": 1.2778517007827759,
+    "validation_mse": 2.520714521408081,
+    "seconds": 5.7215454580727965
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.8646685481071472,
+    "train_cfm": 0.8646685481071472,
+    "train_aux": 0.0,
+    "validation_objective": 1.2720022201538086,
+    "validation_mse": 2.5226261615753174,
+    "seconds": 6.909328958019614
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.8425270915031433,
+    "train_cfm": 0.8425270915031433,
+    "train_aux": 0.0,
+    "validation_objective": 1.265033483505249,
+    "validation_mse": 2.5182902812957764,
+    "seconds": 8.049433625070378
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.7979447245597839,
+    "train_cfm": 0.7979447245597839,
+    "train_aux": 0.0,
+    "validation_objective": 1.258935809135437,
+    "validation_mse": 2.5152597427368164,
+    "seconds": 9.233258791035041
+  }
+]

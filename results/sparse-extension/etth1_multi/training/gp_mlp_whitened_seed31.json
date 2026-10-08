@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 0.7669850587844849,
+    "train_cfm": 0.7669850587844849,
+    "train_aux": 0.0,
+    "validation_objective": 1.2096830606460571,
+    "validation_mse": 2.2019309997558594,
+    "seconds": 1.4922330828849226
+  },
+  {
+    "step": 500,
+    "train_loss": 0.7716355323791504,
+    "train_cfm": 0.7716355323791504,
+    "train_aux": 0.0,
+    "validation_objective": 1.1903191804885864,
+    "validation_mse": 2.389211893081665,
+    "seconds": 3.058154874946922
+  },
+  {
+    "step": 750,
+    "train_loss": 0.8166925311088562,
+    "train_cfm": 0.8166925311088562,
+    "train_aux": 0.0,
+    "validation_objective": 1.1727910041809082,
+    "validation_mse": 2.403923273086548,
+    "seconds": 4.675604291958734
+  },
+  {
+    "step": 1000,
+    "train_loss": 0.7644309997558594,
+    "train_cfm": 0.7644309997558594,
+    "train_aux": 0.0,
+    "validation_objective": 1.1688154935836792,
+    "validation_mse": 2.3925607204437256,
+    "seconds": 6.128288749838248
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.838765025138855,
+    "train_cfm": 0.838765025138855,
+    "train_aux": 0.0,
+    "validation_objective": 1.1754076480865479,
+    "validation_mse": 2.3971035480499268,
+    "seconds": 7.455806917045265
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.775667667388916,
+    "train_cfm": 0.775667667388916,
+    "train_aux": 0.0,
+    "validation_objective": 1.1734086275100708,
+    "validation_mse": 2.397277593612671,
+    "seconds": 8.778896249830723
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.7700132727622986,
+    "train_cfm": 0.7700132727622986,
+    "train_aux": 0.0,
+    "validation_objective": 1.1750131845474243,
+    "validation_mse": 2.400456428527832,
+    "seconds": 10.088149041868746
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.7958449125289917,
+    "train_cfm": 0.7958449125289917,
+    "train_aux": 0.0,
+    "validation_objective": 1.1778429746627808,
+    "validation_mse": 2.381828546524048,
+    "seconds": 11.42916433303617
+  }
+]

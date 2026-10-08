@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 1.0040041208267212,
+    "train_cfm": 1.0040041208267212,
+    "train_aux": 0.0,
+    "validation_objective": 1.7293379306793213,
+    "validation_mse": 1.7293379306793213,
+    "seconds": 1.357169291935861
+  },
+  {
+    "step": 500,
+    "train_loss": 0.8337544202804565,
+    "train_cfm": 0.8337544202804565,
+    "train_aux": 0.0,
+    "validation_objective": 1.6402918100357056,
+    "validation_mse": 1.6402918100357056,
+    "seconds": 2.5652805829886347
+  },
+  {
+    "step": 750,
+    "train_loss": 0.6869179606437683,
+    "train_cfm": 0.6869179606437683,
+    "train_aux": 0.0,
+    "validation_objective": 1.6413146257400513,
+    "validation_mse": 1.6413146257400513,
+    "seconds": 3.7687297919765115
+  },
+  {
+    "step": 1000,
+    "train_loss": 0.6779717206954956,
+    "train_cfm": 0.6779717206954956,
+    "train_aux": 0.0,
+    "validation_objective": 1.7175884246826172,
+    "validation_mse": 1.7175884246826172,
+    "seconds": 5.293588041793555
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.6026381254196167,
+    "train_cfm": 0.6026381254196167,
+    "train_aux": 0.0,
+    "validation_objective": 1.6349457502365112,
+    "validation_mse": 1.6349457502365112,
+    "seconds": 6.655666291946545
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.5858246684074402,
+    "train_cfm": 0.5858246684074402,
+    "train_aux": 0.0,
+    "validation_objective": 1.6655915975570679,
+    "validation_mse": 1.6655915975570679,
+    "seconds": 7.9328827077988535
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.5835121273994446,
+    "train_cfm": 0.5835121273994446,
+    "train_aux": 0.0,
+    "validation_objective": 1.5675653219223022,
+    "validation_mse": 1.5675653219223022,
+    "seconds": 9.189964499790221
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.5105258226394653,
+    "train_cfm": 0.5105258226394653,
+    "train_aux": 0.0,
+    "validation_objective": 1.632759690284729,
+    "validation_mse": 1.632759690284729,
+    "seconds": 10.4190877918154
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 0.9737973809242249,
+    "train_cfm": 0.9737973809242249,
+    "train_aux": 0.0,
+    "validation_objective": 1.4796783924102783,
+    "validation_mse": 2.537510633468628,
+    "seconds": 1.654748999979347
+  },
+  {
+    "step": 500,
+    "train_loss": 0.8285666704177856,
+    "train_cfm": 0.8285666704177856,
+    "train_aux": 0.0,
+    "validation_objective": 1.3752632141113281,
+    "validation_mse": 2.5259759426116943,
+    "seconds": 3.0835858748760074
+  },
+  {
+    "step": 750,
+    "train_loss": 0.8666481971740723,
+    "train_cfm": 0.8666481971740723,
+    "train_aux": 0.0,
+    "validation_objective": 1.3181257247924805,
+    "validation_mse": 2.520895481109619,
+    "seconds": 4.5988865830004215
+  },
+  {
+    "step": 1000,
+    "train_loss": 0.8387007713317871,
+    "train_cfm": 0.8387007713317871,
+    "train_aux": 0.0,
+    "validation_objective": 1.3099638223648071,
+    "validation_mse": 2.522111654281616,
+    "seconds": 6.080940457992256
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.8165202140808105,
+    "train_cfm": 0.8165202140808105,
+    "train_aux": 0.0,
+    "validation_objective": 1.2865405082702637,
+    "validation_mse": 2.5199453830718994,
+    "seconds": 7.505045457975939
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.8243997693061829,
+    "train_cfm": 0.8243997693061829,
+    "train_aux": 0.0,
+    "validation_objective": 1.2836672067642212,
+    "validation_mse": 2.5202324390411377,
+    "seconds": 8.888797582825646
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.8168622851371765,
+    "train_cfm": 0.8168622851371765,
+    "train_aux": 0.0,
+    "validation_objective": 1.2814573049545288,
+    "validation_mse": 2.521770715713501,
+    "seconds": 10.257469415897503
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.7953460216522217,
+    "train_cfm": 0.7953460216522217,
+    "train_aux": 0.0,
+    "validation_objective": 1.2588717937469482,
+    "validation_mse": 2.5184295177459717,
+    "seconds": 11.642082332866266
+  }
+]

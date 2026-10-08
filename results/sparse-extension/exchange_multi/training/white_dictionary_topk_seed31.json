@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 1.359717845916748,
+    "train_cfm": 1.359717845916748,
+    "train_aux": 0.0,
+    "validation_objective": 3.2484304904937744,
+    "validation_mse": 3.2484304904937744,
+    "seconds": 1.3673344999551773
+  },
+  {
+    "step": 500,
+    "train_loss": 1.1310738325119019,
+    "train_cfm": 1.1310738325119019,
+    "train_aux": 0.0,
+    "validation_objective": 1.7622575759887695,
+    "validation_mse": 1.7622575759887695,
+    "seconds": 2.614857249893248
+  },
+  {
+    "step": 750,
+    "train_loss": 1.036322832107544,
+    "train_cfm": 1.036322832107544,
+    "train_aux": 0.0,
+    "validation_objective": 1.2885997295379639,
+    "validation_mse": 1.2885997295379639,
+    "seconds": 3.9106451659463346
+  },
+  {
+    "step": 1000,
+    "train_loss": 1.0081486701965332,
+    "train_cfm": 1.0081486701965332,
+    "train_aux": 0.0,
+    "validation_objective": 1.1595395803451538,
+    "validation_mse": 1.1595395803451538,
+    "seconds": 5.25219616596587
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.9538183808326721,
+    "train_cfm": 0.9538183808326721,
+    "train_aux": 0.0,
+    "validation_objective": 1.144340991973877,
+    "validation_mse": 1.144340991973877,
+    "seconds": 6.658228958025575
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.866651713848114,
+    "train_cfm": 0.866651713848114,
+    "train_aux": 0.0,
+    "validation_objective": 1.0934648513793945,
+    "validation_mse": 1.0934648513793945,
+    "seconds": 7.963920541107655
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.8409690856933594,
+    "train_cfm": 0.8409690856933594,
+    "train_aux": 0.0,
+    "validation_objective": 1.0507731437683105,
+    "validation_mse": 1.0507731437683105,
+    "seconds": 9.278313416056335
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.8320754766464233,
+    "train_cfm": 0.8320754766464233,
+    "train_aux": 0.0,
+    "validation_objective": 1.0285334587097168,
+    "validation_mse": 1.0285334587097168,
+    "seconds": 10.586954250000417
+  }
+]

@@ -1,0 +1,5 @@
+VERIFIED dictionary span gp_multi 12 runs
+VERIFIED dictionary span etth1_uni 12 runs
+VERIFIED dictionary span etth1_multi 12 runs
+VERIFIED dictionary span exchange_multi 12 runs
+COMPLETE 48 / 48 results/diagnostics/dictionary_span.json

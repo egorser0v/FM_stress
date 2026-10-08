@@ -1,0 +1,149 @@
+{
+  "name": "sparse_representations_and_joint_whitening",
+  "heads": [
+    "mlp_whitened",
+    "mlp_balanced",
+    "history_dense_ae",
+    "history_topk_ae",
+    "history_conv_dense",
+    "history_conv_sparse",
+    "dictionary_dense",
+    "dictionary_topk",
+    "unet_l0",
+    "moe_dense",
+    "moe_topk"
+  ],
+  "sources": [
+    "white",
+    "gp"
+  ],
+  "seeds": [
+    31,
+    32,
+    33
+  ],
+  "density": 0.5,
+  "parameter_target": 64000,
+  "steps": 2000,
+  "batch_size": 128,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "clip_grad": 1.0,
+  "eval_every": 250,
+  "evaluation_seed": 110041,
+  "n_ensemble_contexts": 64,
+  "ensemble_size": 32,
+  "euler_steps": 64,
+  "generation_batch_size": 1024,
+  "ridge_alphas": [
+    0.1,
+    1.0,
+    10.0,
+    100.0
+  ],
+  "datasets": {
+    "gp_multi": {
+      "kind": "synthetic",
+      "lookback": 32,
+      "horizon": 16,
+      "channels": 3,
+      "channel_correlation": 0.6,
+      "lengthscale": 8.0,
+      "source_lengthscale": 8.0,
+      "seed": 100041,
+      "n_train": 8192,
+      "n_val": 1024,
+      "n_test": 1024
+    },
+    "etth1_uni": {
+      "kind": "real",
+      "path": "data/real/ETTh1.csv",
+      "format": "csv",
+      "columns": [
+        "OT"
+      ],
+      "lookback": 48,
+      "horizon": 24,
+      "split_ends": [
+        8640,
+        11520,
+        14400
+      ],
+      "strides": {
+        "train": 4,
+        "val": 24,
+        "test": 24
+      },
+      "source_lengthscale": 8.0,
+      "seasonal_period": 24
+    },
+    "etth1_multi": {
+      "kind": "real",
+      "path": "data/real/ETTh1.csv",
+      "format": "csv",
+      "columns": [
+        "HUFL",
+        "HULL",
+        "MUFL",
+        "MULL",
+        "LUFL",
+        "LULL",
+        "OT"
+      ],
+      "lookback": 48,
+      "horizon": 24,
+      "split_ends": [
+        8640,
+        11520,
+        14400
+      ],
+      "strides": {
+        "train": 4,
+        "val": 24,
+        "test": 24
+      },
+      "source_lengthscale": 8.0,
+      "seasonal_period": 24
+    },
+    "exchange_multi": {
+      "kind": "real",
+      "path": "data/real/exchange_rate.txt",
+      "format": "text",
+      "delimiter": ",",
+      "lookback": 32,
+      "horizon": 16,
+      "split_fractions": [
+        0.7,
+        0.1,
+        0.2
+      ],
+      "strides": {
+        "train": 1,
+        "val": 16,
+        "test": 16
+      },
+      "source_lengthscale": 8.0
+    }
+  },
+  "reference_results": "results/extension",
+  "sparse_model": {
+    "latent_dim": 64,
+    "topk": 8,
+    "conv_steps": 3,
+    "conv_kernel": 5,
+    "reconstruction_weight": 0.05,
+    "sparsity_weight": 0.001,
+    "l0_weight": 0.001
+  },
+  "elastic_alphas": [
+    0.001,
+    0.01,
+    0.1,
+    1.0
+  ],
+  "elastic_l1_ratios": [
+    0.5,
+    0.9,
+    1.0
+  ]
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 1.0921217203140259,
+    "train_cfm": 1.0921217203140259,
+    "train_aux": 0.0,
+    "validation_objective": 2.4138426780700684,
+    "validation_mse": 2.4138426780700684,
+    "seconds": 1.3620309161487967
+  },
+  {
+    "step": 500,
+    "train_loss": 0.769370973110199,
+    "train_cfm": 0.769370973110199,
+    "train_aux": 0.0,
+    "validation_objective": 1.4307054281234741,
+    "validation_mse": 1.4307054281234741,
+    "seconds": 2.674642583122477
+  },
+  {
+    "step": 750,
+    "train_loss": 0.6455804109573364,
+    "train_cfm": 0.6455804109573364,
+    "train_aux": 0.0,
+    "validation_objective": 0.9147308468818665,
+    "validation_mse": 0.9147308468818665,
+    "seconds": 4.020640958100557
+  },
+  {
+    "step": 1000,
+    "train_loss": 0.4928334355354309,
+    "train_cfm": 0.4928334355354309,
+    "train_aux": 0.0,
+    "validation_objective": 0.7280339598655701,
+    "validation_mse": 0.7280339598655701,
+    "seconds": 5.405169000150636
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.410856157541275,
+    "train_cfm": 0.410856157541275,
+    "train_aux": 0.0,
+    "validation_objective": 0.694507360458374,
+    "validation_mse": 0.694507360458374,
+    "seconds": 6.715275416150689
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.3951568901538849,
+    "train_cfm": 0.3951568901538849,
+    "train_aux": 0.0,
+    "validation_objective": 0.5711639523506165,
+    "validation_mse": 0.5711639523506165,
+    "seconds": 8.04462816612795
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.3386440873146057,
+    "train_cfm": 0.3386440873146057,
+    "train_aux": 0.0,
+    "validation_objective": 0.5743927359580994,
+    "validation_mse": 0.5743927359580994,
+    "seconds": 9.636585999978706
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.3369375765323639,
+    "train_cfm": 0.3369375765323639,
+    "train_aux": 0.0,
+    "validation_objective": 0.5201008319854736,
+    "validation_mse": 0.5201008319854736,
+    "seconds": 11.265438582981005
+  }
+]

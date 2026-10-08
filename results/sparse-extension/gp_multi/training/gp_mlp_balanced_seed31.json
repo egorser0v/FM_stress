@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 0.40440404415130615,
+    "train_cfm": 0.40440404415130615,
+    "train_aux": 0.0,
+    "validation_objective": 0.39029619097709656,
+    "validation_mse": 1.9685044288635254,
+    "seconds": 1.204584291903302
+  },
+  {
+    "step": 500,
+    "train_loss": 0.3972684442996979,
+    "train_cfm": 0.3972684442996979,
+    "train_aux": 0.0,
+    "validation_objective": 0.3850440979003906,
+    "validation_mse": 1.9678179025650024,
+    "seconds": 2.3593010420445353
+  },
+  {
+    "step": 750,
+    "train_loss": 0.3921404778957367,
+    "train_cfm": 0.3921404778957367,
+    "train_aux": 0.0,
+    "validation_objective": 0.3834393322467804,
+    "validation_mse": 1.967150092124939,
+    "seconds": 3.518727208022028
+  },
+  {
+    "step": 1000,
+    "train_loss": 0.37159955501556396,
+    "train_cfm": 0.37159955501556396,
+    "train_aux": 0.0,
+    "validation_objective": 0.37842586636543274,
+    "validation_mse": 1.9656559228897095,
+    "seconds": 4.65006404183805
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.3923743963241577,
+    "train_cfm": 0.3923743963241577,
+    "train_aux": 0.0,
+    "validation_objective": 0.3711266815662384,
+    "validation_mse": 1.9638886451721191,
+    "seconds": 5.784158041933551
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.3588244915008545,
+    "train_cfm": 0.3588244915008545,
+    "train_aux": 0.0,
+    "validation_objective": 0.36742761731147766,
+    "validation_mse": 1.9615775346755981,
+    "seconds": 6.9067192079965025
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.3720249831676483,
+    "train_cfm": 0.3720249831676483,
+    "train_aux": 0.0,
+    "validation_objective": 0.3646560609340668,
+    "validation_mse": 1.959057331085205,
+    "seconds": 8.059401166858152
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.34709832072257996,
+    "train_cfm": 0.34709832072257996,
+    "train_aux": 0.0,
+    "validation_objective": 0.3572355806827545,
+    "validation_mse": 1.9551582336425781,
+    "seconds": 9.170978917041793
+  }
+]

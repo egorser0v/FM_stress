@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 1.602611780166626,
+    "train_cfm": 1.602611780166626,
+    "train_aux": 0.0,
+    "validation_objective": 2.182157039642334,
+    "validation_mse": 2.182157039642334,
+    "seconds": 1.7516605840064585
+  },
+  {
+    "step": 500,
+    "train_loss": 1.4530566930770874,
+    "train_cfm": 1.4530566930770874,
+    "train_aux": 0.0,
+    "validation_objective": 2.051053285598755,
+    "validation_mse": 2.051053285598755,
+    "seconds": 3.5330809999722987
+  },
+  {
+    "step": 750,
+    "train_loss": 1.3292104005813599,
+    "train_cfm": 1.3292104005813599,
+    "train_aux": 0.0,
+    "validation_objective": 1.958133578300476,
+    "validation_mse": 1.958133578300476,
+    "seconds": 5.700366541976109
+  },
+  {
+    "step": 1000,
+    "train_loss": 1.3065816164016724,
+    "train_cfm": 1.3065816164016724,
+    "train_aux": 0.0,
+    "validation_objective": 1.9606293439865112,
+    "validation_mse": 1.9606293439865112,
+    "seconds": 7.41422574990429
+  },
+  {
+    "step": 1250,
+    "train_loss": 1.2773271799087524,
+    "train_cfm": 1.2773271799087524,
+    "train_aux": 0.0,
+    "validation_objective": 1.943040132522583,
+    "validation_mse": 1.943040132522583,
+    "seconds": 8.99146212497726
+  },
+  {
+    "step": 1500,
+    "train_loss": 1.2784055471420288,
+    "train_cfm": 1.2784055471420288,
+    "train_aux": 0.0,
+    "validation_objective": 1.9060797691345215,
+    "validation_mse": 1.9060797691345215,
+    "seconds": 10.529426666907966
+  },
+  {
+    "step": 1750,
+    "train_loss": 1.2473695278167725,
+    "train_cfm": 1.2473695278167725,
+    "train_aux": 0.0,
+    "validation_objective": 1.8617991209030151,
+    "validation_mse": 1.8617991209030151,
+    "seconds": 11.996171333827078
+  },
+  {
+    "step": 2000,
+    "train_loss": 1.2605392932891846,
+    "train_cfm": 1.2605392932891846,
+    "train_aux": 0.0,
+    "validation_objective": 1.8325774669647217,
+    "validation_mse": 1.8325774669647217,
+    "seconds": 13.424171291990206
+  }
+]

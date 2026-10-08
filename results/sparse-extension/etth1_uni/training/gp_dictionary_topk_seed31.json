@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 0.5798466801643372,
+    "train_cfm": 0.5798466801643372,
+    "train_aux": 0.0,
+    "validation_objective": 0.5680766701698303,
+    "validation_mse": 0.5680766701698303,
+    "seconds": 1.3802354170475155
+  },
+  {
+    "step": 500,
+    "train_loss": 0.613544225692749,
+    "train_cfm": 0.613544225692749,
+    "train_aux": 0.0,
+    "validation_objective": 0.485059529542923,
+    "validation_mse": 0.485059529542923,
+    "seconds": 2.6266292498912662
+  },
+  {
+    "step": 750,
+    "train_loss": 0.5332641005516052,
+    "train_cfm": 0.5332641005516052,
+    "train_aux": 0.0,
+    "validation_objective": 0.4566125273704529,
+    "validation_mse": 0.4566125273704529,
+    "seconds": 3.8844590419903398
+  },
+  {
+    "step": 1000,
+    "train_loss": 0.33326196670532227,
+    "train_cfm": 0.33326196670532227,
+    "train_aux": 0.0,
+    "validation_objective": 0.4642133414745331,
+    "validation_mse": 0.4642133414745331,
+    "seconds": 5.167035917052999
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.5348875522613525,
+    "train_cfm": 0.5348875522613525,
+    "train_aux": 0.0,
+    "validation_objective": 0.42780235409736633,
+    "validation_mse": 0.42780235409736633,
+    "seconds": 6.483295249985531
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.43378743529319763,
+    "train_cfm": 0.43378743529319763,
+    "train_aux": 0.0,
+    "validation_objective": 0.4082418382167816,
+    "validation_mse": 0.4082418382167816,
+    "seconds": 7.78746824990958
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.4595573842525482,
+    "train_cfm": 0.4595573842525482,
+    "train_aux": 0.0,
+    "validation_objective": 0.40131139755249023,
+    "validation_mse": 0.40131139755249023,
+    "seconds": 9.002175208879635
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.3505551815032959,
+    "train_cfm": 0.3505551815032959,
+    "train_aux": 0.0,
+    "validation_objective": 0.39022788405418396,
+    "validation_mse": 0.39022788405418396,
+    "seconds": 10.23287016688846
+  }
+]

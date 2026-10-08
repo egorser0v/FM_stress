@@ -1,0 +1,40 @@
+{
+  "best_validation_objective": 2.0806941986083984,
+  "best_step": 50,
+  "training": [
+    {
+      "step": 25,
+      "train_loss": 1.6193808317184448,
+      "train_cfm": 1.5796016454696655,
+      "train_aux": 0.03977919742465019,
+      "validation_objective": 2.350691080093384,
+      "validation_mse": 2.350691080093384,
+      "seconds": 0.2773615410551429
+    },
+    {
+      "step": 50,
+      "train_loss": 1.479676365852356,
+      "train_cfm": 1.439976692199707,
+      "train_aux": 0.03969969600439072,
+      "validation_objective": 2.0806941986083984,
+      "validation_mse": 2.0806941986083984,
+      "seconds": 0.47428537509404123
+    }
+  ],
+  "seconds": 0.4956578330602497,
+  "options": {
+    "head": "history_conv_sparse",
+    "lookback": 48,
+    "horizon": 24,
+    "channels": 7,
+    "width": 43,
+    "latent_dim": 64,
+    "topk": 8,
+    "conv_steps": 3,
+    "conv_kernel": 5,
+    "reconstruction_weight": 0.05,
+    "sparsity_weight": 0.001,
+    "l0_weight": 0.001,
+    "gate_seed": 71031
+  }
+}

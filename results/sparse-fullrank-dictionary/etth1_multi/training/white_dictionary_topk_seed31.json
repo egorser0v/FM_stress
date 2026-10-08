@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 1.5986768007278442,
+    "train_cfm": 1.5986768007278442,
+    "train_aux": 0.0,
+    "validation_objective": 2.1704673767089844,
+    "validation_mse": 2.1704673767089844,
+    "seconds": 1.6503115410450846
+  },
+  {
+    "step": 500,
+    "train_loss": 1.4391711950302124,
+    "train_cfm": 1.4391711950302124,
+    "train_aux": 0.0,
+    "validation_objective": 2.020158529281616,
+    "validation_mse": 2.020158529281616,
+    "seconds": 2.9202370001003146
+  },
+  {
+    "step": 750,
+    "train_loss": 1.3524065017700195,
+    "train_cfm": 1.3524065017700195,
+    "train_aux": 0.0,
+    "validation_objective": 1.92441725730896,
+    "validation_mse": 1.92441725730896,
+    "seconds": 4.209368666168302
+  },
+  {
+    "step": 1000,
+    "train_loss": 1.3374016284942627,
+    "train_cfm": 1.3374016284942627,
+    "train_aux": 0.0,
+    "validation_objective": 1.8918441534042358,
+    "validation_mse": 1.8918441534042358,
+    "seconds": 5.508631958160549
+  },
+  {
+    "step": 1250,
+    "train_loss": 1.3252025842666626,
+    "train_cfm": 1.3252025842666626,
+    "train_aux": 0.0,
+    "validation_objective": 1.858804702758789,
+    "validation_mse": 1.858804702758789,
+    "seconds": 6.811093125026673
+  },
+  {
+    "step": 1500,
+    "train_loss": 1.2705273628234863,
+    "train_cfm": 1.2705273628234863,
+    "train_aux": 0.0,
+    "validation_objective": 1.8431726694107056,
+    "validation_mse": 1.8431726694107056,
+    "seconds": 8.094293375033885
+  },
+  {
+    "step": 1750,
+    "train_loss": 1.237107753753662,
+    "train_cfm": 1.237107753753662,
+    "train_aux": 0.0,
+    "validation_objective": 1.8320605754852295,
+    "validation_mse": 1.8320605754852295,
+    "seconds": 9.371516541112214
+  },
+  {
+    "step": 2000,
+    "train_loss": 1.2399579286575317,
+    "train_cfm": 1.2399579286575317,
+    "train_aux": 0.0,
+    "validation_objective": 1.8387237787246704,
+    "validation_mse": 1.8387237787246704,
+    "seconds": 10.692214041016996
+  }
+]

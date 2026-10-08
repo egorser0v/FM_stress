@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 1.1500836610794067,
+    "train_cfm": 1.1500836610794067,
+    "train_aux": 0.0,
+    "validation_objective": 1.4830952882766724,
+    "validation_mse": 1.4830952882766724,
+    "seconds": 4.929266459075734
+  },
+  {
+    "step": 500,
+    "train_loss": 1.0722944736480713,
+    "train_cfm": 1.0722944736480713,
+    "train_aux": 0.0,
+    "validation_objective": 1.421414852142334,
+    "validation_mse": 1.421414852142334,
+    "seconds": 6.433810334187001
+  },
+  {
+    "step": 750,
+    "train_loss": 1.0512199401855469,
+    "train_cfm": 1.0512199401855469,
+    "train_aux": 0.0,
+    "validation_objective": 1.3588749170303345,
+    "validation_mse": 1.3588749170303345,
+    "seconds": 7.964687167201191
+  },
+  {
+    "step": 1000,
+    "train_loss": 1.0671342611312866,
+    "train_cfm": 1.0671342611312866,
+    "train_aux": 0.0,
+    "validation_objective": 1.3567920923233032,
+    "validation_mse": 1.3567920923233032,
+    "seconds": 9.648594167083502
+  },
+  {
+    "step": 1250,
+    "train_loss": 1.0509742498397827,
+    "train_cfm": 1.0509742498397827,
+    "train_aux": 0.0,
+    "validation_objective": 1.3497158288955688,
+    "validation_mse": 1.3497158288955688,
+    "seconds": 11.86100266710855
+  },
+  {
+    "step": 1500,
+    "train_loss": 1.0067274570465088,
+    "train_cfm": 1.0067274570465088,
+    "train_aux": 0.0,
+    "validation_objective": 1.366886854171753,
+    "validation_mse": 1.366886854171753,
+    "seconds": 13.440503583988175
+  },
+  {
+    "step": 1750,
+    "train_loss": 1.0141315460205078,
+    "train_cfm": 1.0141315460205078,
+    "train_aux": 0.0,
+    "validation_objective": 1.326609492301941,
+    "validation_mse": 1.326609492301941,
+    "seconds": 14.696925709024072
+  },
+  {
+    "step": 2000,
+    "train_loss": 1.0005972385406494,
+    "train_cfm": 1.0005972385406494,
+    "train_aux": 0.0,
+    "validation_objective": 1.3309767246246338,
+    "validation_mse": 1.3309767246246338,
+    "seconds": 15.954271750058979
+  }
+]

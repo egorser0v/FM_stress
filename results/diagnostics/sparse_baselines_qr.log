@@ -1,0 +1,56 @@
+START Elastic Net gp_multi
+Elastic Net candidate 0.001 0.5 iterations 50000 converged False validation 0.2772763973387995
+Elastic Net candidate 0.001 0.9 iterations 50000 converged False validation 0.24447859080949785
+Elastic Net candidate 0.001 1.0 iterations 50000 converged False validation 0.2204904750767878
+Elastic Net candidate 0.01 0.5 iterations 12266 converged True validation 0.35989411421807754
+Elastic Net candidate 0.01 0.9 iterations 13554 converged True validation 0.32995462850384355
+Elastic Net candidate 0.01 1.0 iterations 35315 converged True validation 0.30059383522554217
+Elastic Net candidate 0.1 0.5 iterations 644 converged True validation 0.4792220209471649
+Elastic Net candidate 0.1 0.9 iterations 713 converged True validation 0.46487894380217537
+Elastic Net candidate 0.1 1.0 iterations 3538 converged True validation 0.4570763963308961
+Elastic Net candidate 1.0 0.5 iterations 34 converged True validation 0.6478679703524387
+Elastic Net candidate 1.0 0.9 iterations 20 converged True validation 0.6471571555946741
+Elastic Net candidate 1.0 1.0 iterations 19 converged True validation 0.6444786500045375
+DONE Elastic Net gp_multi alpha 0.01 l1_ratio 1.0 active 25 CRPS 0.2845661984997413
+START Elastic Net etth1_uni
+Elastic Net candidate 0.001 0.5 iterations 1086 converged True validation 0.05349190300040819
+Elastic Net candidate 0.001 0.9 iterations 1044 converged True validation 0.053241409018870964
+Elastic Net candidate 0.001 1.0 iterations 974 converged True validation 0.05318352457317843
+Elastic Net candidate 0.01 0.5 iterations 597 converged True validation 0.05246852477441134
+Elastic Net candidate 0.01 0.9 iterations 706 converged True validation 0.05246799553597033
+Elastic Net candidate 0.01 1.0 iterations 753 converged True validation 0.052442443928587545
+Elastic Net candidate 0.1 0.5 iterations 419 converged True validation 0.05584278946468314
+Elastic Net candidate 0.1 0.9 iterations 526 converged True validation 0.05560724955694434
+Elastic Net candidate 0.1 1.0 iterations 592 converged True validation 0.055277812891240445
+Elastic Net candidate 1.0 0.5 iterations 373 converged True validation 0.06622547551209096
+Elastic Net candidate 1.0 0.9 iterations 334 converged True validation 0.06796383852994813
+Elastic Net candidate 1.0 1.0 iterations 497 converged True validation 0.06719864948344827
+DONE Elastic Net etth1_uni alpha 0.01 l1_ratio 1.0 active 29 CRPS 0.09193921675824691
+START Elastic Net etth1_multi
+Elastic Net candidate 0.001 0.5 iterations 2438 converged True validation 1.1829834495177496
+Elastic Net candidate 0.001 0.9 iterations 3247 converged True validation 1.331207440752871
+Elastic Net candidate 0.001 1.0 iterations 3549 converged True validation 1.3835897051776394
+Elastic Net candidate 0.01 0.5 iterations 1340 converged True validation 0.5041976485683015
+Elastic Net candidate 0.01 0.9 iterations 1227 converged True validation 0.48889502301885146
+Elastic Net candidate 0.01 1.0 iterations 1138 converged True validation 0.48613979758742865
+Elastic Net candidate 0.1 0.5 iterations 666 converged True validation 0.4358967421722562
+Elastic Net candidate 0.1 0.9 iterations 498 converged True validation 0.43673120652858144
+Elastic Net candidate 0.1 1.0 iterations 873 converged True validation 0.43554087147098247
+Elastic Net candidate 1.0 0.5 iterations 390 converged True validation 0.5757814072155134
+Elastic Net candidate 1.0 0.9 iterations 378 converged True validation 0.7035668801135951
+Elastic Net candidate 1.0 1.0 iterations 420 converged True validation 0.741637697418104
+DONE Elastic Net etth1_multi alpha 0.1 l1_ratio 1.0 active 191 CRPS 0.2977078627058289
+START Elastic Net exchange_multi
+Elastic Net candidate 0.001 0.5 iterations 9818 converged True validation 0.023007374973905478
+Elastic Net candidate 0.001 0.9 iterations 8326 converged True validation 0.022719122010615756
+Elastic Net candidate 0.001 1.0 iterations 7741 converged True validation 0.022647871811943995
+Elastic Net candidate 0.01 0.5 iterations 5404 converged True validation 0.024900040278519754
+Elastic Net candidate 0.01 0.9 iterations 2915 converged True validation 0.023257776144382857
+Elastic Net candidate 0.01 1.0 iterations 3642 converged True validation 0.022456704741195946
+Elastic Net candidate 0.1 0.5 iterations 2952 converged True validation 0.034664837178896755
+Elastic Net candidate 0.1 0.9 iterations 2808 converged True validation 0.034656703172648476
+Elastic Net candidate 0.1 1.0 iterations 3747 converged True validation 0.03186183936767481
+Elastic Net candidate 1.0 0.5 iterations 1643 converged True validation 0.12722064283864407
+Elastic Net candidate 1.0 0.9 iterations 2286 converged True validation 0.2223781507901281
+Elastic Net candidate 1.0 1.0 iterations 3971 converged True validation 0.24195836892271189
+DONE Elastic Net exchange_multi alpha 0.01 l1_ratio 1.0 active 70 CRPS 0.0676435684172994

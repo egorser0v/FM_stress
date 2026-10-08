@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 1.2535597085952759,
+    "train_cfm": 1.2535597085952759,
+    "train_aux": 0.0,
+    "validation_objective": 1.2720450162887573,
+    "validation_mse": 1.2720450162887573,
+    "seconds": 1.3389824589248747
+  },
+  {
+    "step": 500,
+    "train_loss": 1.0324865579605103,
+    "train_cfm": 1.0324865579605103,
+    "train_aux": 0.0,
+    "validation_objective": 1.0480893850326538,
+    "validation_mse": 1.0480893850326538,
+    "seconds": 2.538708250038326
+  },
+  {
+    "step": 750,
+    "train_loss": 0.9519968032836914,
+    "train_cfm": 0.9519968032836914,
+    "train_aux": 0.0,
+    "validation_objective": 0.9269702434539795,
+    "validation_mse": 0.9269702434539795,
+    "seconds": 3.744139875052497
+  },
+  {
+    "step": 1000,
+    "train_loss": 0.8400618433952332,
+    "train_cfm": 0.8400618433952332,
+    "train_aux": 0.0,
+    "validation_objective": 0.859661340713501,
+    "validation_mse": 0.859661340713501,
+    "seconds": 4.943572083953768
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.9127165675163269,
+    "train_cfm": 0.9127165675163269,
+    "train_aux": 0.0,
+    "validation_objective": 0.8145249485969543,
+    "validation_mse": 0.8145249485969543,
+    "seconds": 6.174729000078514
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.797799289226532,
+    "train_cfm": 0.797799289226532,
+    "train_aux": 0.0,
+    "validation_objective": 0.8096440434455872,
+    "validation_mse": 0.8096440434455872,
+    "seconds": 7.3616120419465005
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.7942124009132385,
+    "train_cfm": 0.7942124009132385,
+    "train_aux": 0.0,
+    "validation_objective": 0.7700814604759216,
+    "validation_mse": 0.7700814604759216,
+    "seconds": 8.643083709059283
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.780766487121582,
+    "train_cfm": 0.780766487121582,
+    "train_aux": 0.0,
+    "validation_objective": 0.7472570538520813,
+    "validation_mse": 0.7472570538520813,
+    "seconds": 9.879740125034004
+  }
+]

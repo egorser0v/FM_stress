@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 0.4244880676269531,
+    "train_cfm": 0.4244880676269531,
+    "train_aux": 0.0,
+    "validation_objective": 0.440824955701828,
+    "validation_mse": 0.440824955701828,
+    "seconds": 2.0120456248987466
+  },
+  {
+    "step": 500,
+    "train_loss": 0.5462847948074341,
+    "train_cfm": 0.5462847948074341,
+    "train_aux": 0.0,
+    "validation_objective": 0.4165298640727997,
+    "validation_mse": 0.4165298640727997,
+    "seconds": 3.572700334014371
+  },
+  {
+    "step": 750,
+    "train_loss": 0.4538671672344208,
+    "train_cfm": 0.4538671672344208,
+    "train_aux": 0.0,
+    "validation_objective": 0.4183182418346405,
+    "validation_mse": 0.4183182418346405,
+    "seconds": 5.066300875041634
+  },
+  {
+    "step": 1000,
+    "train_loss": 0.3020455539226532,
+    "train_cfm": 0.3020455539226532,
+    "train_aux": 0.0,
+    "validation_objective": 0.44269484281539917,
+    "validation_mse": 0.44269484281539917,
+    "seconds": 6.330200749915093
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.48385193943977356,
+    "train_cfm": 0.48385193943977356,
+    "train_aux": 0.0,
+    "validation_objective": 0.41442379355430603,
+    "validation_mse": 0.41442379355430603,
+    "seconds": 7.566585666965693
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.39031997323036194,
+    "train_cfm": 0.39031997323036194,
+    "train_aux": 0.0,
+    "validation_objective": 0.3862971365451813,
+    "validation_mse": 0.3862971365451813,
+    "seconds": 8.807525333948433
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.4096003472805023,
+    "train_cfm": 0.4096003472805023,
+    "train_aux": 0.0,
+    "validation_objective": 0.3914354741573334,
+    "validation_mse": 0.3914354741573334,
+    "seconds": 10.110510291997343
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.34057188034057617,
+    "train_cfm": 0.34057188034057617,
+    "train_aux": 0.0,
+    "validation_objective": 0.3846083879470825,
+    "validation_mse": 0.3846083879470825,
+    "seconds": 11.401677374960855
+  }
+]

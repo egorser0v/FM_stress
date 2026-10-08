@@ -1,0 +1,12 @@
+START Elastic Net gp_multi
+SKIP Elastic Net gp_multi verified cache
+DONE Elastic Net gp_multi alpha 0.01 l1_ratio 1.0 active 25 CRPS 0.2845661984997413
+START Elastic Net etth1_uni
+SKIP Elastic Net etth1_uni verified cache
+DONE Elastic Net etth1_uni alpha 0.01 l1_ratio 1.0 active 29 CRPS 0.09193921675824691
+START Elastic Net etth1_multi
+SKIP Elastic Net etth1_multi verified cache
+DONE Elastic Net etth1_multi alpha 0.1 l1_ratio 1.0 active 191 CRPS 0.2977078627058289
+START Elastic Net exchange_multi
+SKIP Elastic Net exchange_multi verified cache
+DONE Elastic Net exchange_multi alpha 0.01 l1_ratio 1.0 active 70 CRPS 0.0676435684172994

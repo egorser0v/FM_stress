@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 0.42823171615600586,
+    "train_cfm": 0.42823171615600586,
+    "train_aux": 0.0,
+    "validation_objective": 0.4324934780597687,
+    "validation_mse": 0.4324934780597687,
+    "seconds": 1.6647264999337494
+  },
+  {
+    "step": 500,
+    "train_loss": 0.4238932132720947,
+    "train_cfm": 0.4238932132720947,
+    "train_aux": 0.0,
+    "validation_objective": 0.4028589427471161,
+    "validation_mse": 0.4028589427471161,
+    "seconds": 3.5400678340811282
+  },
+  {
+    "step": 750,
+    "train_loss": 0.49494338035583496,
+    "train_cfm": 0.49494338035583496,
+    "train_aux": 0.0,
+    "validation_objective": 0.4011630117893219,
+    "validation_mse": 0.4011630117893219,
+    "seconds": 5.573468708898872
+  },
+  {
+    "step": 1000,
+    "train_loss": 0.4172948896884918,
+    "train_cfm": 0.4172948896884918,
+    "train_aux": 0.0,
+    "validation_objective": 0.4227125942707062,
+    "validation_mse": 0.4227125942707062,
+    "seconds": 7.178875749930739
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.49929535388946533,
+    "train_cfm": 0.49929535388946533,
+    "train_aux": 0.0,
+    "validation_objective": 0.40784645080566406,
+    "validation_mse": 0.40784645080566406,
+    "seconds": 9.30235483404249
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.3476737439632416,
+    "train_cfm": 0.3476737439632416,
+    "train_aux": 0.0,
+    "validation_objective": 0.3919222950935364,
+    "validation_mse": 0.3919222950935364,
+    "seconds": 11.137251833919436
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.3726442754268646,
+    "train_cfm": 0.3726442754268646,
+    "train_aux": 0.0,
+    "validation_objective": 0.3706735670566559,
+    "validation_mse": 0.3706735670566559,
+    "seconds": 13.676891000010073
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.3066873848438263,
+    "train_cfm": 0.3066873848438263,
+    "train_aux": 0.0,
+    "validation_objective": 0.3827340006828308,
+    "validation_mse": 0.3827340006828308,
+    "seconds": 15.53145195893012
+  }
+]

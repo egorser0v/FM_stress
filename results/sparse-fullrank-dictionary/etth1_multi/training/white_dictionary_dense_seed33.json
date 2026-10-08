@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 1.1480698585510254,
+    "train_cfm": 1.1480698585510254,
+    "train_aux": 0.0,
+    "validation_objective": 1.4611666202545166,
+    "validation_mse": 1.4611666202545166,
+    "seconds": 1.7396432920359075
+  },
+  {
+    "step": 500,
+    "train_loss": 1.094792127609253,
+    "train_cfm": 1.094792127609253,
+    "train_aux": 0.0,
+    "validation_objective": 1.4030730724334717,
+    "validation_mse": 1.4030730724334717,
+    "seconds": 3.5753670420963317
+  },
+  {
+    "step": 750,
+    "train_loss": 1.0492583513259888,
+    "train_cfm": 1.0492583513259888,
+    "train_aux": 0.0,
+    "validation_objective": 1.3731294870376587,
+    "validation_mse": 1.3731294870376587,
+    "seconds": 5.370253750123084
+  },
+  {
+    "step": 1000,
+    "train_loss": 1.0454767942428589,
+    "train_cfm": 1.0454767942428589,
+    "train_aux": 0.0,
+    "validation_objective": 1.3531179428100586,
+    "validation_mse": 1.3531179428100586,
+    "seconds": 7.244406084064394
+  },
+  {
+    "step": 1250,
+    "train_loss": 1.027109146118164,
+    "train_cfm": 1.027109146118164,
+    "train_aux": 0.0,
+    "validation_objective": 1.3737937211990356,
+    "validation_mse": 1.3737937211990356,
+    "seconds": 8.637223459081724
+  },
+  {
+    "step": 1500,
+    "train_loss": 1.0504673719406128,
+    "train_cfm": 1.0504673719406128,
+    "train_aux": 0.0,
+    "validation_objective": 1.3504761457443237,
+    "validation_mse": 1.3504761457443237,
+    "seconds": 9.932189375162125
+  },
+  {
+    "step": 1750,
+    "train_loss": 1.0309100151062012,
+    "train_cfm": 1.0309100151062012,
+    "train_aux": 0.0,
+    "validation_objective": 1.3778514862060547,
+    "validation_mse": 1.3778514862060547,
+    "seconds": 11.248849041992798
+  },
+  {
+    "step": 2000,
+    "train_loss": 1.0135799646377563,
+    "train_cfm": 1.0135799646377563,
+    "train_aux": 0.0,
+    "validation_objective": 1.3566886186599731,
+    "validation_mse": 1.3566886186599731,
+    "seconds": 12.551221375120804
+  }
+]

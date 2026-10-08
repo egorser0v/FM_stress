@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 0.39936965703964233,
+    "train_cfm": 0.39936965703964233,
+    "train_aux": 0.0,
+    "validation_objective": 0.6364247798919678,
+    "validation_mse": 0.6364247798919678,
+    "seconds": 1.4640303750056773
+  },
+  {
+    "step": 500,
+    "train_loss": 0.29853764176368713,
+    "train_cfm": 0.29853764176368713,
+    "train_aux": 0.0,
+    "validation_objective": 0.6608515977859497,
+    "validation_mse": 0.6608515977859497,
+    "seconds": 2.791928790975362
+  },
+  {
+    "step": 750,
+    "train_loss": 0.3022085726261139,
+    "train_cfm": 0.3022085726261139,
+    "train_aux": 0.0,
+    "validation_objective": 0.6152704954147339,
+    "validation_mse": 0.6152704954147339,
+    "seconds": 4.108693208079785
+  },
+  {
+    "step": 1000,
+    "train_loss": 0.2312500774860382,
+    "train_cfm": 0.2312500774860382,
+    "train_aux": 0.0,
+    "validation_objective": 0.5881885290145874,
+    "validation_mse": 0.5881885290145874,
+    "seconds": 5.421384165994823
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.20316126942634583,
+    "train_cfm": 0.20316126942634583,
+    "train_aux": 0.0,
+    "validation_objective": 1.0476202964782715,
+    "validation_mse": 1.0476202964782715,
+    "seconds": 6.716395250055939
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.20700258016586304,
+    "train_cfm": 0.20700258016586304,
+    "train_aux": 0.0,
+    "validation_objective": 0.4628770649433136,
+    "validation_mse": 0.4628770649433136,
+    "seconds": 8.017463291063905
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.18812933564186096,
+    "train_cfm": 0.18812933564186096,
+    "train_aux": 0.0,
+    "validation_objective": 0.531694769859314,
+    "validation_mse": 0.531694769859314,
+    "seconds": 9.326759458053857
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.17301644384860992,
+    "train_cfm": 0.17301644384860992,
+    "train_aux": 0.0,
+    "validation_objective": 0.6389320492744446,
+    "validation_mse": 0.6389320492744446,
+    "seconds": 10.609174374956638
+  }
+]

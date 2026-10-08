@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 0.8951526880264282,
+    "train_cfm": 0.8951526880264282,
+    "train_aux": 0.0,
+    "validation_objective": 1.6394225358963013,
+    "validation_mse": 1.6394225358963013,
+    "seconds": 1.5536471251398325
+  },
+  {
+    "step": 500,
+    "train_loss": 0.789831817150116,
+    "train_cfm": 0.789831817150116,
+    "train_aux": 0.0,
+    "validation_objective": 1.5370291471481323,
+    "validation_mse": 1.5370291471481323,
+    "seconds": 2.9572889171540737
+  },
+  {
+    "step": 750,
+    "train_loss": 0.6803140044212341,
+    "train_cfm": 0.6803140044212341,
+    "train_aux": 0.0,
+    "validation_objective": 1.5177850723266602,
+    "validation_mse": 1.5177850723266602,
+    "seconds": 4.438879042165354
+  },
+  {
+    "step": 1000,
+    "train_loss": 0.678739070892334,
+    "train_cfm": 0.678739070892334,
+    "train_aux": 0.0,
+    "validation_objective": 1.52727472782135,
+    "validation_mse": 1.52727472782135,
+    "seconds": 6.1344697079621255
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.6246867179870605,
+    "train_cfm": 0.6246867179870605,
+    "train_aux": 0.0,
+    "validation_objective": 1.5747982263565063,
+    "validation_mse": 1.5747982263565063,
+    "seconds": 7.509510708041489
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.5957411527633667,
+    "train_cfm": 0.5957411527633667,
+    "train_aux": 0.0,
+    "validation_objective": 1.545101523399353,
+    "validation_mse": 1.545101523399353,
+    "seconds": 8.915159833151847
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.593954861164093,
+    "train_cfm": 0.593954861164093,
+    "train_aux": 0.0,
+    "validation_objective": 1.5270771980285645,
+    "validation_mse": 1.5270771980285645,
+    "seconds": 10.216498875059187
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.5548085570335388,
+    "train_cfm": 0.5548085570335388,
+    "train_aux": 0.0,
+    "validation_objective": 1.4811222553253174,
+    "validation_mse": 1.4811222553253174,
+    "seconds": 11.522896707989275
+  }
+]

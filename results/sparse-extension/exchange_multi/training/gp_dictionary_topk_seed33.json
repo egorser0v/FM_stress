@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 1.053645372390747,
+    "train_cfm": 1.053645372390747,
+    "train_aux": 0.0,
+    "validation_objective": 2.576181650161743,
+    "validation_mse": 2.576181650161743,
+    "seconds": 1.3903536251746118
+  },
+  {
+    "step": 500,
+    "train_loss": 0.7395520210266113,
+    "train_cfm": 0.7395520210266113,
+    "train_aux": 0.0,
+    "validation_objective": 1.5021718740463257,
+    "validation_mse": 1.5021718740463257,
+    "seconds": 2.6553331250324845
+  },
+  {
+    "step": 750,
+    "train_loss": 0.6263296008110046,
+    "train_cfm": 0.6263296008110046,
+    "train_aux": 0.0,
+    "validation_objective": 0.9837566018104553,
+    "validation_mse": 0.9837566018104553,
+    "seconds": 3.909181042108685
+  },
+  {
+    "step": 1000,
+    "train_loss": 0.48541074991226196,
+    "train_cfm": 0.48541074991226196,
+    "train_aux": 0.0,
+    "validation_objective": 0.7893733382225037,
+    "validation_mse": 0.7893733382225037,
+    "seconds": 5.1817882501054555
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.4462328255176544,
+    "train_cfm": 0.4462328255176544,
+    "train_aux": 0.0,
+    "validation_objective": 0.7636339664459229,
+    "validation_mse": 0.7636339664459229,
+    "seconds": 6.4395414581522346
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.4378218948841095,
+    "train_cfm": 0.4378218948841095,
+    "train_aux": 0.0,
+    "validation_objective": 0.7030179500579834,
+    "validation_mse": 0.7030179500579834,
+    "seconds": 7.717758417129517
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.36706656217575073,
+    "train_cfm": 0.36706656217575073,
+    "train_aux": 0.0,
+    "validation_objective": 0.7249864935874939,
+    "validation_mse": 0.7249864935874939,
+    "seconds": 8.97528800019063
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.37168675661087036,
+    "train_cfm": 0.37168675661087036,
+    "train_aux": 0.0,
+    "validation_objective": 0.6511505842208862,
+    "validation_mse": 0.6511505842208862,
+    "seconds": 10.269990125205368
+  }
+]

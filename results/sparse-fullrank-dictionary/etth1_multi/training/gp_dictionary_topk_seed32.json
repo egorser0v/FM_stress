@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 1.5185083150863647,
+    "train_cfm": 1.5185083150863647,
+    "train_aux": 0.0,
+    "validation_objective": 2.1702210903167725,
+    "validation_mse": 2.1702210903167725,
+    "seconds": 1.452072124928236
+  },
+  {
+    "step": 500,
+    "train_loss": 1.244391679763794,
+    "train_cfm": 1.244391679763794,
+    "train_aux": 0.0,
+    "validation_objective": 2.0611824989318848,
+    "validation_mse": 2.0611824989318848,
+    "seconds": 2.8127223749179393
+  },
+  {
+    "step": 750,
+    "train_loss": 1.1275138854980469,
+    "train_cfm": 1.1275138854980469,
+    "train_aux": 0.0,
+    "validation_objective": 1.8891583681106567,
+    "validation_mse": 1.8891583681106567,
+    "seconds": 4.138348791981116
+  },
+  {
+    "step": 1000,
+    "train_loss": 1.0584996938705444,
+    "train_cfm": 1.0584996938705444,
+    "train_aux": 0.0,
+    "validation_objective": 1.8343071937561035,
+    "validation_mse": 1.8343071937561035,
+    "seconds": 5.753532292088494
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.9538246393203735,
+    "train_cfm": 0.9538246393203735,
+    "train_aux": 0.0,
+    "validation_objective": 1.8385108709335327,
+    "validation_mse": 1.8385108709335327,
+    "seconds": 7.308603666955605
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.8885643482208252,
+    "train_cfm": 0.8885643482208252,
+    "train_aux": 0.0,
+    "validation_objective": 1.9008824825286865,
+    "validation_mse": 1.9008824825286865,
+    "seconds": 8.86195999989286
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.8594821691513062,
+    "train_cfm": 0.8594821691513062,
+    "train_aux": 0.0,
+    "validation_objective": 1.8078185319900513,
+    "validation_mse": 1.8078185319900513,
+    "seconds": 10.43309525004588
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.8207579255104065,
+    "train_cfm": 0.8207579255104065,
+    "train_aux": 0.0,
+    "validation_objective": 1.7618672847747803,
+    "validation_mse": 1.7618672847747803,
+    "seconds": 12.114149332977831
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 1.214927315711975,
+    "train_cfm": 1.1743630170822144,
+    "train_aux": 0.04056432098150253,
+    "validation_objective": 1.6047261953353882,
+    "validation_mse": 1.6047261953353882,
+    "seconds": 1.5676182920578867
+  },
+  {
+    "step": 500,
+    "train_loss": 1.1449717283248901,
+    "train_cfm": 1.1112371683120728,
+    "train_aux": 0.0337345264852047,
+    "validation_objective": 1.5905417203903198,
+    "validation_mse": 1.5905417203903198,
+    "seconds": 3.0445499171037227
+  },
+  {
+    "step": 750,
+    "train_loss": 1.1054044961929321,
+    "train_cfm": 1.0786234140396118,
+    "train_aux": 0.026781080290675163,
+    "validation_objective": 1.5656143426895142,
+    "validation_mse": 1.5656143426895142,
+    "seconds": 4.629949792055413
+  },
+  {
+    "step": 1000,
+    "train_loss": 1.1015981435775757,
+    "train_cfm": 1.078875184059143,
+    "train_aux": 0.022722944617271423,
+    "validation_objective": 1.5488272905349731,
+    "validation_mse": 1.5488272905349731,
+    "seconds": 6.099920500069857
+  },
+  {
+    "step": 1250,
+    "train_loss": 1.071831226348877,
+    "train_cfm": 1.0526666641235352,
+    "train_aux": 0.019164549186825752,
+    "validation_objective": 1.527430534362793,
+    "validation_mse": 1.527430534362793,
+    "seconds": 7.602786583127454
+  },
+  {
+    "step": 1500,
+    "train_loss": 1.0736240148544312,
+    "train_cfm": 1.0564016103744507,
+    "train_aux": 0.017222346737980843,
+    "validation_objective": 1.5106379985809326,
+    "validation_mse": 1.5106379985809326,
+    "seconds": 9.36790220811963
+  },
+  {
+    "step": 1750,
+    "train_loss": 1.0415016412734985,
+    "train_cfm": 1.024985671043396,
+    "train_aux": 0.016516009345650673,
+    "validation_objective": 1.595309853553772,
+    "validation_mse": 1.595309853553772,
+    "seconds": 11.166425083065405
+  },
+  {
+    "step": 2000,
+    "train_loss": 1.0596680641174316,
+    "train_cfm": 1.0450208187103271,
+    "train_aux": 0.014647207222878933,
+    "validation_objective": 1.600041151046753,
+    "validation_mse": 1.600041151046753,
+    "seconds": 12.615085582947358
+  }
+]

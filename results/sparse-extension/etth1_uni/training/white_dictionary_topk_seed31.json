@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 0.7466614842414856,
+    "train_cfm": 0.7466614842414856,
+    "train_aux": 0.0,
+    "validation_objective": 0.6590678095817566,
+    "validation_mse": 0.6590678095817566,
+    "seconds": 1.4649955828208476
+  },
+  {
+    "step": 500,
+    "train_loss": 0.6614248156547546,
+    "train_cfm": 0.6614248156547546,
+    "train_aux": 0.0,
+    "validation_objective": 0.5850179195404053,
+    "validation_mse": 0.5850179195404053,
+    "seconds": 2.8122787498869
+  },
+  {
+    "step": 750,
+    "train_loss": 0.5932653546333313,
+    "train_cfm": 0.5932653546333313,
+    "train_aux": 0.0,
+    "validation_objective": 0.5434389114379883,
+    "validation_mse": 0.5434389114379883,
+    "seconds": 4.266548207961023
+  },
+  {
+    "step": 1000,
+    "train_loss": 0.5164406895637512,
+    "train_cfm": 0.5164406895637512,
+    "train_aux": 0.0,
+    "validation_objective": 0.5098796486854553,
+    "validation_mse": 0.5098796486854553,
+    "seconds": 5.649088457925245
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.5323787927627563,
+    "train_cfm": 0.5323787927627563,
+    "train_aux": 0.0,
+    "validation_objective": 0.49353182315826416,
+    "validation_mse": 0.49353182315826416,
+    "seconds": 7.009400291834027
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.5380409359931946,
+    "train_cfm": 0.5380409359931946,
+    "train_aux": 0.0,
+    "validation_objective": 0.48528358340263367,
+    "validation_mse": 0.48528358340263367,
+    "seconds": 8.355357416905463
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.5338380336761475,
+    "train_cfm": 0.5338380336761475,
+    "train_aux": 0.0,
+    "validation_objective": 0.4698096811771393,
+    "validation_mse": 0.4698096811771393,
+    "seconds": 9.715669750003144
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.5030760765075684,
+    "train_cfm": 0.5030760765075684,
+    "train_aux": 0.0,
+    "validation_objective": 0.47137945890426636,
+    "validation_mse": 0.47137945890426636,
+    "seconds": 11.07521849987097
+  }
+]

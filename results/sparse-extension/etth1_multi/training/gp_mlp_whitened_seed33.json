@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 0.7700803875923157,
+    "train_cfm": 0.7700803875923157,
+    "train_aux": 0.0,
+    "validation_objective": 1.2168577909469604,
+    "validation_mse": 2.3145763874053955,
+    "seconds": 1.1240587090142071
+  },
+  {
+    "step": 500,
+    "train_loss": 0.7474759221076965,
+    "train_cfm": 0.7474759221076965,
+    "train_aux": 0.0,
+    "validation_objective": 1.2026647329330444,
+    "validation_mse": 2.4772398471832275,
+    "seconds": 2.1558388341218233
+  },
+  {
+    "step": 750,
+    "train_loss": 0.7795701026916504,
+    "train_cfm": 0.7795701026916504,
+    "train_aux": 0.0,
+    "validation_objective": 1.1919147968292236,
+    "validation_mse": 2.44323992729187,
+    "seconds": 3.2102824591565877
+  },
+  {
+    "step": 1000,
+    "train_loss": 0.74601811170578,
+    "train_cfm": 0.74601811170578,
+    "train_aux": 0.0,
+    "validation_objective": 1.1927881240844727,
+    "validation_mse": 2.3310189247131348,
+    "seconds": 4.2543432919774204
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.7268294095993042,
+    "train_cfm": 0.7268294095993042,
+    "train_aux": 0.0,
+    "validation_objective": 1.1900337934494019,
+    "validation_mse": 2.313967227935791,
+    "seconds": 5.274771875003353
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.8217114210128784,
+    "train_cfm": 0.8217114210128784,
+    "train_aux": 0.0,
+    "validation_objective": 1.188858985900879,
+    "validation_mse": 2.2933666706085205,
+    "seconds": 6.340617374982685
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.8046157360076904,
+    "train_cfm": 0.8046157360076904,
+    "train_aux": 0.0,
+    "validation_objective": 1.1911156177520752,
+    "validation_mse": 2.3560659885406494,
+    "seconds": 7.550192042021081
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.766289472579956,
+    "train_cfm": 0.766289472579956,
+    "train_aux": 0.0,
+    "validation_objective": 1.1904147863388062,
+    "validation_mse": 2.3417632579803467,
+    "seconds": 8.833354000002146
+  }
+]

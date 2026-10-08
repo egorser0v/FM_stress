@@ -128,6 +128,46 @@ are excluded from Git/the archive. Training/test arrays reconstruct from that
 cache. The new package is `output/fm-stress-multivariate.zip`; previous packages
 are preserved. Completed reports must be built only after the full audit passes.
 
+## Sparse representations and joint PCA whitening
+
+The next suite applies **every neural method to both GP and temporally white
+sources** on all four extension datasets. TopK history autoencoders condition the
+FM model; TopK velocity dictionaries directly parameterize its vector field.
+Here dictionary atoms mean learned velocity templates; TopK selects at most eight
+for each input. Dense counterparts control representation size. Other comparisons include
+convolutional sparse history encoders, learned L0 U-Net gates, small routed
+experts, full-rank PCA whitening and a raw-coordinate balanced-loss MLP control.
+MultiTask Elastic Net is an external forecasting baseline, without an FM source.
+
+- Design and limits: [protocol](docs/sparse_extension_protocol.md),
+  [method sources](docs/sparse_research_sources.md), [model definitions](docs/sparse_model_design.md).
+- Main suite: `configs/sparse_extension.json`, 264 new fits, reusing the 96
+  frozen extension fits as reference controls. Original numerical files remain unchanged.
+- Rank supplement: `configs/sparse_fullrank_dictionary.json`, 24 additional
+  fits with 192-atom velocity dictionaries on ETTh1-7 and Exchange-8. This tests
+  a structural restriction discovered by review; original 64-atom fits are retained.
+- Results: `results/sparse-extension/`, `results/sparse-fullrank-dictionary/`.
+- Tables and figures: `output/sparse-analysis/`, `output/dictionary-supplement/`.
+- [Report](output/pdf/sparse-whitening-extension.pdf), [findings](docs/sparse_findings.md):
+  288 completed MPS fits, 122 passing tests, independent per-run and arithmetic audits.
+  Whitening helps GP-source GP3 and both ETTh1-OT sources, but hurts both real
+  multivariate targets. Top-2 expert routing improves Exchange over dense experts;
+  history TopK SAE loses its dense control in all eight cells. Simple linear
+  residual-bootstrap baselines retain lower mean CRPS than the neural variants.
+- Full handoff archive: `output/fm-stress-sparse-whitening.zip` (not committed).
+
+Run `bash scripts/run_sparse.sh` from the repository root to reproduce the new
+pipeline against the saved reference runs. Actual execution may partition MPS
+jobs by `--dataset`; each process must own a disjoint dataset to avoid writing
+the same cell concurrently. CPU Elastic Net uses an exact centered-QR reduction
+of the same convex problem, with independent original-coordinate certificates.
+No sparse-kernel acceleration is claimed for the neural implementations.
+
+All final reports require complete per-run audits. Changing a configuration or
+numerical source requires a fresh results directory; completed cells are not
+silently overwritten or mixed. A 50-step validation-only smoke record includes
+its exact pre-final runner snapshot under `results/sparse-smoke/source_snapshot/`.
+
 ## Environment
 
 Python 3.12 on macOS/Apple Silicon is the tested environment. Create an isolated

@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 0.9823384284973145,
+    "train_cfm": 0.9823384284973145,
+    "train_aux": 0.0,
+    "validation_objective": 0.9959341883659363,
+    "validation_mse": 0.9959341883659363,
+    "seconds": 1.38149283407256
+  },
+  {
+    "step": 500,
+    "train_loss": 0.8575923442840576,
+    "train_cfm": 0.8575923442840576,
+    "train_aux": 0.0,
+    "validation_objective": 0.8574902415275574,
+    "validation_mse": 0.8574902415275574,
+    "seconds": 2.6473845839500427
+  },
+  {
+    "step": 750,
+    "train_loss": 0.8236537575721741,
+    "train_cfm": 0.8236537575721741,
+    "train_aux": 0.0,
+    "validation_objective": 0.7885997891426086,
+    "validation_mse": 0.7885997891426086,
+    "seconds": 3.882674833992496
+  },
+  {
+    "step": 1000,
+    "train_loss": 0.7155051827430725,
+    "train_cfm": 0.7155051827430725,
+    "train_aux": 0.0,
+    "validation_objective": 0.7473757863044739,
+    "validation_mse": 0.7473757863044739,
+    "seconds": 5.139322374947369
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.8143824934959412,
+    "train_cfm": 0.8143824934959412,
+    "train_aux": 0.0,
+    "validation_objective": 0.7171841263771057,
+    "validation_mse": 0.7171841263771057,
+    "seconds": 6.369305209023878
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.7128443121910095,
+    "train_cfm": 0.7128443121910095,
+    "train_aux": 0.0,
+    "validation_objective": 0.7207395434379578,
+    "validation_mse": 0.7207395434379578,
+    "seconds": 7.589406333863735
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.7255757451057434,
+    "train_cfm": 0.7255757451057434,
+    "train_aux": 0.0,
+    "validation_objective": 0.6983342170715332,
+    "validation_mse": 0.6983342170715332,
+    "seconds": 8.781186416978016
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.690047562122345,
+    "train_cfm": 0.690047562122345,
+    "train_aux": 0.0,
+    "validation_objective": 0.693686306476593,
+    "validation_mse": 0.693686306476593,
+    "seconds": 9.97921158396639
+  }
+]

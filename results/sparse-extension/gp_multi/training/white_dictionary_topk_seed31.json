@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 1.2841182947158813,
+    "train_cfm": 1.2841182947158813,
+    "train_aux": 0.0,
+    "validation_objective": 1.2575271129608154,
+    "validation_mse": 1.2575271129608154,
+    "seconds": 1.3188426250126213
+  },
+  {
+    "step": 500,
+    "train_loss": 1.1381756067276,
+    "train_cfm": 1.1381756067276,
+    "train_aux": 0.0,
+    "validation_objective": 1.1103016138076782,
+    "validation_mse": 1.1103016138076782,
+    "seconds": 2.568594583077356
+  },
+  {
+    "step": 750,
+    "train_loss": 1.0501257181167603,
+    "train_cfm": 1.0501257181167603,
+    "train_aux": 0.0,
+    "validation_objective": 1.0256974697113037,
+    "validation_mse": 1.0256974697113037,
+    "seconds": 3.8631087909452617
+  },
+  {
+    "step": 1000,
+    "train_loss": 0.9953920245170593,
+    "train_cfm": 0.9953920245170593,
+    "train_aux": 0.0,
+    "validation_objective": 0.9618323445320129,
+    "validation_mse": 0.9618323445320129,
+    "seconds": 5.403650749940425
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.8794228434562683,
+    "train_cfm": 0.8794228434562683,
+    "train_aux": 0.0,
+    "validation_objective": 0.9185295104980469,
+    "validation_mse": 0.9185295104980469,
+    "seconds": 6.816226666094735
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.8700503706932068,
+    "train_cfm": 0.8700503706932068,
+    "train_aux": 0.0,
+    "validation_objective": 0.886395275592804,
+    "validation_mse": 0.886395275592804,
+    "seconds": 8.225576665950939
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.8560850024223328,
+    "train_cfm": 0.8560850024223328,
+    "train_aux": 0.0,
+    "validation_objective": 0.848375141620636,
+    "validation_mse": 0.848375141620636,
+    "seconds": 9.558105832897127
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.8520951271057129,
+    "train_cfm": 0.8520951271057129,
+    "train_aux": 0.0,
+    "validation_objective": 0.8369366526603699,
+    "validation_mse": 0.8369366526603699,
+    "seconds": 10.985411165980622
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 1.4287720918655396,
+    "train_cfm": 1.4287720918655396,
+    "train_aux": 0.0,
+    "validation_objective": 1.3219751119613647,
+    "validation_mse": 1.3219751119613647,
+    "seconds": 1.1430167080834508
+  },
+  {
+    "step": 500,
+    "train_loss": 1.1958566904067993,
+    "train_cfm": 1.1958566904067993,
+    "train_aux": 0.0,
+    "validation_objective": 1.0914515256881714,
+    "validation_mse": 1.0914515256881714,
+    "seconds": 2.1688718751538545
+  },
+  {
+    "step": 750,
+    "train_loss": 1.0254124402999878,
+    "train_cfm": 1.0254124402999878,
+    "train_aux": 0.0,
+    "validation_objective": 0.9683961868286133,
+    "validation_mse": 0.9683961868286133,
+    "seconds": 3.2315894160419703
+  },
+  {
+    "step": 1000,
+    "train_loss": 0.7974588871002197,
+    "train_cfm": 0.7974588871002197,
+    "train_aux": 0.0,
+    "validation_objective": 0.8819524645805359,
+    "validation_mse": 0.8819524645805359,
+    "seconds": 4.281445791013539
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.8059099316596985,
+    "train_cfm": 0.8059099316596985,
+    "train_aux": 0.0,
+    "validation_objective": 0.8266971111297607,
+    "validation_mse": 0.8266971111297607,
+    "seconds": 5.33073312509805
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.8495963215827942,
+    "train_cfm": 0.8495963215827942,
+    "train_aux": 0.0,
+    "validation_objective": 0.7860501408576965,
+    "validation_mse": 0.7860501408576965,
+    "seconds": 6.376090916106477
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.8669581413269043,
+    "train_cfm": 0.8669581413269043,
+    "train_aux": 0.0,
+    "validation_objective": 0.7778120040893555,
+    "validation_mse": 0.7778120040893555,
+    "seconds": 7.4181364581454545
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.8510612845420837,
+    "train_cfm": 0.8510612845420837,
+    "train_aux": 0.0,
+    "validation_objective": 0.765646755695343,
+    "validation_mse": 0.765646755695343,
+    "seconds": 8.482730541145429
+  }
+]

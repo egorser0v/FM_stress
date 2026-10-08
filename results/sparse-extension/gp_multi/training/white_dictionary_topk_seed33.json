@@ -1,0 +1,74 @@
+[
+  {
+    "step": 250,
+    "train_loss": 1.2227365970611572,
+    "train_cfm": 1.2227365970611572,
+    "train_aux": 0.0,
+    "validation_objective": 1.2399944067001343,
+    "validation_mse": 1.2399944067001343,
+    "seconds": 1.3155114999972284
+  },
+  {
+    "step": 500,
+    "train_loss": 1.1413331031799316,
+    "train_cfm": 1.1413331031799316,
+    "train_aux": 0.0,
+    "validation_objective": 1.0987162590026855,
+    "validation_mse": 1.0987162590026855,
+    "seconds": 2.49290862493217
+  },
+  {
+    "step": 750,
+    "train_loss": 1.0108453035354614,
+    "train_cfm": 1.0108453035354614,
+    "train_aux": 0.0,
+    "validation_objective": 1.0134943723678589,
+    "validation_mse": 1.0134943723678589,
+    "seconds": 3.664595792070031
+  },
+  {
+    "step": 1000,
+    "train_loss": 1.0253832340240479,
+    "train_cfm": 1.0253832340240479,
+    "train_aux": 0.0,
+    "validation_objective": 0.9572473168373108,
+    "validation_mse": 0.9572473168373108,
+    "seconds": 4.83655483298935
+  },
+  {
+    "step": 1250,
+    "train_loss": 0.9322440028190613,
+    "train_cfm": 0.9322440028190613,
+    "train_aux": 0.0,
+    "validation_objective": 0.9124401211738586,
+    "validation_mse": 0.9124401211738586,
+    "seconds": 6.029040500055999
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.915916919708252,
+    "train_cfm": 0.915916919708252,
+    "train_aux": 0.0,
+    "validation_objective": 0.8753983378410339,
+    "validation_mse": 0.8753983378410339,
+    "seconds": 7.234859958058223
+  },
+  {
+    "step": 1750,
+    "train_loss": 0.8843318819999695,
+    "train_cfm": 0.8843318819999695,
+    "train_aux": 0.0,
+    "validation_objective": 0.8433749675750732,
+    "validation_mse": 0.8433749675750732,
+    "seconds": 8.404677707934752
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.829425036907196,
+    "train_cfm": 0.829425036907196,
+    "train_aux": 0.0,
+    "validation_objective": 0.8120474219322205,
+    "validation_mse": 0.8120474219322205,
+    "seconds": 9.580387708032504
+  }
+]
