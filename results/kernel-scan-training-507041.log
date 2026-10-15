@@ -1,0 +1,1701 @@
+SELECTED 120 runs
+GEOMETRY rbf F16_l8 draw507041 gp_top2 0.9782 white_top2 0.8538 signal_pcs 7 contrast_exists
+START rbf/F16_l8/draw507041/white_mlp params 65464 device cuda steps 6000
+PROGRESS rbf/F16_l8/draw507041/white_mlp 500 val 1.128847
+PROGRESS rbf/F16_l8/draw507041/white_mlp 1000 val 0.970849
+PROGRESS rbf/F16_l8/draw507041/white_mlp 1500 val 0.916206
+PROGRESS rbf/F16_l8/draw507041/white_mlp 2000 val 0.871743
+PROGRESS rbf/F16_l8/draw507041/white_mlp 2500 val 0.801625
+PROGRESS rbf/F16_l8/draw507041/white_mlp 3000 val 0.799966
+PROGRESS rbf/F16_l8/draw507041/white_mlp 3500 val 0.781174
+PROGRESS rbf/F16_l8/draw507041/white_mlp 4000 val 0.770618
+PROGRESS rbf/F16_l8/draw507041/white_mlp 4500 val 0.770544
+PROGRESS rbf/F16_l8/draw507041/white_mlp 5000 val 0.725058
+PROGRESS rbf/F16_l8/draw507041/white_mlp 5500 val 0.760011
+PROGRESS rbf/F16_l8/draw507041/white_mlp 6000 val 0.725586
+DONE rbf/F16_l8/draw507041/white_mlp seconds 52.2 residual 0.134866 CRPS 0.635078
+START rbf/F16_l8/draw507041/white_s4 params 65281 device cuda steps 6000
+PROGRESS rbf/F16_l8/draw507041/white_s4 500 val 1.239035
+PROGRESS rbf/F16_l8/draw507041/white_s4 1000 val 1.136715
+PROGRESS rbf/F16_l8/draw507041/white_s4 1500 val 0.948657
+PROGRESS rbf/F16_l8/draw507041/white_s4 2000 val 0.934755
+PROGRESS rbf/F16_l8/draw507041/white_s4 2500 val 0.830593
+PROGRESS rbf/F16_l8/draw507041/white_s4 3000 val 0.833733
+PROGRESS rbf/F16_l8/draw507041/white_s4 3500 val 0.784373
+PROGRESS rbf/F16_l8/draw507041/white_s4 4000 val 0.74817
+PROGRESS rbf/F16_l8/draw507041/white_s4 4500 val 0.752399
+PROGRESS rbf/F16_l8/draw507041/white_s4 5000 val 0.747999
+PROGRESS rbf/F16_l8/draw507041/white_s4 5500 val 0.78492
+PROGRESS rbf/F16_l8/draw507041/white_s4 6000 val 0.710385
+DONE rbf/F16_l8/draw507041/white_s4 seconds 175.2 residual 0.130329 CRPS 0.603909
+START rbf/F16_l8/draw507041/white_whitened_mlp params 65464 device cuda steps 6000
+PROGRESS rbf/F16_l8/draw507041/white_whitened_mlp 500 val 0.12526
+PROGRESS rbf/F16_l8/draw507041/white_whitened_mlp 1000 val 0.088164
+PROGRESS rbf/F16_l8/draw507041/white_whitened_mlp 1500 val 0.083327
+PROGRESS rbf/F16_l8/draw507041/white_whitened_mlp 2000 val 0.078835
+PROGRESS rbf/F16_l8/draw507041/white_whitened_mlp 2500 val 0.076194
+PROGRESS rbf/F16_l8/draw507041/white_whitened_mlp 3000 val 0.07248
+PROGRESS rbf/F16_l8/draw507041/white_whitened_mlp 3500 val 0.070975
+PROGRESS rbf/F16_l8/draw507041/white_whitened_mlp 4000 val 0.070932
+PROGRESS rbf/F16_l8/draw507041/white_whitened_mlp 4500 val 0.069285
+PROGRESS rbf/F16_l8/draw507041/white_whitened_mlp 5000 val 0.067729
+PROGRESS rbf/F16_l8/draw507041/white_whitened_mlp 5500 val 0.067002
+PROGRESS rbf/F16_l8/draw507041/white_whitened_mlp 6000 val 0.068078
+DONE rbf/F16_l8/draw507041/white_whitened_mlp seconds 47.9 residual 0.095148 CRPS 0.645709
+START rbf/F16_l8/draw507041/gp_mlp params 65464 device cuda steps 6000
+PROGRESS rbf/F16_l8/draw507041/gp_mlp 500 val 1.968303
+PROGRESS rbf/F16_l8/draw507041/gp_mlp 1000 val 1.616035
+PROGRESS rbf/F16_l8/draw507041/gp_mlp 1500 val 1.603735
+PROGRESS rbf/F16_l8/draw507041/gp_mlp 2000 val 1.573918
+PROGRESS rbf/F16_l8/draw507041/gp_mlp 2500 val 1.429673
+PROGRESS rbf/F16_l8/draw507041/gp_mlp 3000 val 1.32297
+PROGRESS rbf/F16_l8/draw507041/gp_mlp 3500 val 1.335707
+PROGRESS rbf/F16_l8/draw507041/gp_mlp 4000 val 1.34681
+PROGRESS rbf/F16_l8/draw507041/gp_mlp 4500 val 1.299094
+PROGRESS rbf/F16_l8/draw507041/gp_mlp 5000 val 1.312246
+PROGRESS rbf/F16_l8/draw507041/gp_mlp 5500 val 1.391748
+PROGRESS rbf/F16_l8/draw507041/gp_mlp 6000 val 1.239263
+DONE rbf/F16_l8/draw507041/gp_mlp seconds 40.3 residual 0.049176 CRPS 0.58719
+START rbf/F16_l8/draw507041/gp_s4 params 65281 device cuda steps 6000
+PROGRESS rbf/F16_l8/draw507041/gp_s4 500 val 1.935723
+PROGRESS rbf/F16_l8/draw507041/gp_s4 1000 val 1.825997
+PROGRESS rbf/F16_l8/draw507041/gp_s4 1500 val 1.618083
+PROGRESS rbf/F16_l8/draw507041/gp_s4 2000 val 1.475088
+PROGRESS rbf/F16_l8/draw507041/gp_s4 2500 val 1.492467
+PROGRESS rbf/F16_l8/draw507041/gp_s4 3000 val 1.376158
+PROGRESS rbf/F16_l8/draw507041/gp_s4 3500 val 1.441701
+PROGRESS rbf/F16_l8/draw507041/gp_s4 4000 val 1.360792
+PROGRESS rbf/F16_l8/draw507041/gp_s4 4500 val 1.403707
+PROGRESS rbf/F16_l8/draw507041/gp_s4 5000 val 1.335191
+PROGRESS rbf/F16_l8/draw507041/gp_s4 5500 val 1.36222
+PROGRESS rbf/F16_l8/draw507041/gp_s4 6000 val 1.300987
+DONE rbf/F16_l8/draw507041/gp_s4 seconds 187.8 residual 0.057581 CRPS 0.574912
+START rbf/F16_l8/draw507041/gp_whitened_mlp params 65464 device cuda steps 6000
+PROGRESS rbf/F16_l8/draw507041/gp_whitened_mlp 500 val 0.172535
+PROGRESS rbf/F16_l8/draw507041/gp_whitened_mlp 1000 val 0.155164
+PROGRESS rbf/F16_l8/draw507041/gp_whitened_mlp 1500 val 0.151338
+PROGRESS rbf/F16_l8/draw507041/gp_whitened_mlp 2000 val 0.147963
+PROGRESS rbf/F16_l8/draw507041/gp_whitened_mlp 2500 val 0.144515
+PROGRESS rbf/F16_l8/draw507041/gp_whitened_mlp 3000 val 0.142372
+PROGRESS rbf/F16_l8/draw507041/gp_whitened_mlp 3500 val 0.140991
+PROGRESS rbf/F16_l8/draw507041/gp_whitened_mlp 4000 val 0.140696
+PROGRESS rbf/F16_l8/draw507041/gp_whitened_mlp 4500 val 0.138858
+PROGRESS rbf/F16_l8/draw507041/gp_whitened_mlp 5000 val 0.139173
+PROGRESS rbf/F16_l8/draw507041/gp_whitened_mlp 5500 val 0.138746
+PROGRESS rbf/F16_l8/draw507041/gp_whitened_mlp 6000 val 0.136861
+DONE rbf/F16_l8/draw507041/gp_whitened_mlp seconds 58.3 residual 0.039997 CRPS 0.592591
+GEOMETRY matern52 F16_l8 draw507041 gp_top2 0.9486 white_top2 0.7983 signal_pcs 16 contrast_exists
+START matern52/F16_l8/draw507041/white_mlp params 65464 device cuda steps 6000
+PROGRESS matern52/F16_l8/draw507041/white_mlp 500 val 1.347579
+PROGRESS matern52/F16_l8/draw507041/white_mlp 1000 val 1.246423
+PROGRESS matern52/F16_l8/draw507041/white_mlp 1500 val 1.210243
+PROGRESS matern52/F16_l8/draw507041/white_mlp 2000 val 1.17747
+PROGRESS matern52/F16_l8/draw507041/white_mlp 2500 val 1.183045
+PROGRESS matern52/F16_l8/draw507041/white_mlp 3000 val 1.162382
+PROGRESS matern52/F16_l8/draw507041/white_mlp 3500 val 1.136104
+PROGRESS matern52/F16_l8/draw507041/white_mlp 4000 val 1.127693
+PROGRESS matern52/F16_l8/draw507041/white_mlp 4500 val 1.12128
+PROGRESS matern52/F16_l8/draw507041/white_mlp 5000 val 1.128354
+PROGRESS matern52/F16_l8/draw507041/white_mlp 5500 val 1.115195
+PROGRESS matern52/F16_l8/draw507041/white_mlp 6000 val 1.115023
+DONE matern52/F16_l8/draw507041/white_mlp seconds 60.4 residual 0.300808 CRPS 0.776646
+START matern52/F16_l8/draw507041/white_s4 params 65281 device cuda steps 6000
+PROGRESS matern52/F16_l8/draw507041/white_s4 500 val 1.49172
+PROGRESS matern52/F16_l8/draw507041/white_s4 1000 val 1.264175
+PROGRESS matern52/F16_l8/draw507041/white_s4 1500 val 1.273313
+PROGRESS matern52/F16_l8/draw507041/white_s4 2000 val 1.194219
+PROGRESS matern52/F16_l8/draw507041/white_s4 2500 val 1.177518
+PROGRESS matern52/F16_l8/draw507041/white_s4 3000 val 1.145393
+PROGRESS matern52/F16_l8/draw507041/white_s4 3500 val 1.150277
+PROGRESS matern52/F16_l8/draw507041/white_s4 4000 val 1.136518
+PROGRESS matern52/F16_l8/draw507041/white_s4 4500 val 1.12853
+PROGRESS matern52/F16_l8/draw507041/white_s4 5000 val 1.128406
+PROGRESS matern52/F16_l8/draw507041/white_s4 5500 val 1.115303
+PROGRESS matern52/F16_l8/draw507041/white_s4 6000 val 1.11258
+DONE matern52/F16_l8/draw507041/white_s4 seconds 182.6 residual 0.297624 CRPS 0.78668
+START matern52/F16_l8/draw507041/white_whitened_mlp params 65464 device cuda steps 6000
+PROGRESS matern52/F16_l8/draw507041/white_whitened_mlp 500 val 0.210535
+PROGRESS matern52/F16_l8/draw507041/white_whitened_mlp 1000 val 0.196641
+PROGRESS matern52/F16_l8/draw507041/white_whitened_mlp 1500 val 0.189956
+PROGRESS matern52/F16_l8/draw507041/white_whitened_mlp 2000 val 0.185912
+PROGRESS matern52/F16_l8/draw507041/white_whitened_mlp 2500 val 0.183823
+PROGRESS matern52/F16_l8/draw507041/white_whitened_mlp 3000 val 0.182164
+PROGRESS matern52/F16_l8/draw507041/white_whitened_mlp 3500 val 0.179696
+PROGRESS matern52/F16_l8/draw507041/white_whitened_mlp 4000 val 0.180682
+PROGRESS matern52/F16_l8/draw507041/white_whitened_mlp 4500 val 0.177701
+PROGRESS matern52/F16_l8/draw507041/white_whitened_mlp 5000 val 0.179855
+PROGRESS matern52/F16_l8/draw507041/white_whitened_mlp 5500 val 0.177289
+PROGRESS matern52/F16_l8/draw507041/white_whitened_mlp 6000 val 0.175571
+DONE matern52/F16_l8/draw507041/white_whitened_mlp seconds 45.0 residual 0.280715 CRPS 0.75689
+START matern52/F16_l8/draw507041/gp_mlp params 65464 device cuda steps 6000
+PROGRESS matern52/F16_l8/draw507041/gp_mlp 500 val 2.352768
+PROGRESS matern52/F16_l8/draw507041/gp_mlp 1000 val 2.267927
+PROGRESS matern52/F16_l8/draw507041/gp_mlp 1500 val 2.158804
+PROGRESS matern52/F16_l8/draw507041/gp_mlp 2000 val 2.1702
+PROGRESS matern52/F16_l8/draw507041/gp_mlp 2500 val 2.152622
+PROGRESS matern52/F16_l8/draw507041/gp_mlp 3000 val 2.136595
+PROGRESS matern52/F16_l8/draw507041/gp_mlp 3500 val 2.107188
+PROGRESS matern52/F16_l8/draw507041/gp_mlp 4000 val 2.091329
+PROGRESS matern52/F16_l8/draw507041/gp_mlp 4500 val 2.098019
+PROGRESS matern52/F16_l8/draw507041/gp_mlp 5000 val 2.115384
+PROGRESS matern52/F16_l8/draw507041/gp_mlp 5500 val 2.074955
+PROGRESS matern52/F16_l8/draw507041/gp_mlp 6000 val 2.066116
+DONE matern52/F16_l8/draw507041/gp_mlp seconds 46.4 residual 0.156004 CRPS 0.756613
+START matern52/F16_l8/draw507041/gp_s4 params 65281 device cuda steps 6000
+PROGRESS matern52/F16_l8/draw507041/gp_s4 500 val 2.474968
+PROGRESS matern52/F16_l8/draw507041/gp_s4 1000 val 2.273088
+PROGRESS matern52/F16_l8/draw507041/gp_s4 1500 val 2.177749
+PROGRESS matern52/F16_l8/draw507041/gp_s4 2000 val 2.145241
+PROGRESS matern52/F16_l8/draw507041/gp_s4 2500 val 2.169392
+PROGRESS matern52/F16_l8/draw507041/gp_s4 3000 val 2.131409
+PROGRESS matern52/F16_l8/draw507041/gp_s4 3500 val 2.106261
+PROGRESS matern52/F16_l8/draw507041/gp_s4 4000 val 2.111844
+PROGRESS matern52/F16_l8/draw507041/gp_s4 4500 val 2.114208
+PROGRESS matern52/F16_l8/draw507041/gp_s4 5000 val 2.13526
+PROGRESS matern52/F16_l8/draw507041/gp_s4 5500 val 2.1101
+PROGRESS matern52/F16_l8/draw507041/gp_s4 6000 val 2.069173
+DONE matern52/F16_l8/draw507041/gp_s4 seconds 175.7 residual 0.159177 CRPS 0.752275
+START matern52/F16_l8/draw507041/gp_whitened_mlp params 65464 device cuda steps 6000
+PROGRESS matern52/F16_l8/draw507041/gp_whitened_mlp 500 val 0.575946
+PROGRESS matern52/F16_l8/draw507041/gp_whitened_mlp 1000 val 0.559039
+PROGRESS matern52/F16_l8/draw507041/gp_whitened_mlp 1500 val 0.552024
+PROGRESS matern52/F16_l8/draw507041/gp_whitened_mlp 2000 val 0.550312
+PROGRESS matern52/F16_l8/draw507041/gp_whitened_mlp 2500 val 0.550294
+PROGRESS matern52/F16_l8/draw507041/gp_whitened_mlp 3000 val 0.549929
+PROGRESS matern52/F16_l8/draw507041/gp_whitened_mlp 3500 val 0.548993
+PROGRESS matern52/F16_l8/draw507041/gp_whitened_mlp 4000 val 0.546611
+PROGRESS matern52/F16_l8/draw507041/gp_whitened_mlp 4500 val 0.546445
+PROGRESS matern52/F16_l8/draw507041/gp_whitened_mlp 5000 val 0.544519
+PROGRESS matern52/F16_l8/draw507041/gp_whitened_mlp 5500 val 0.544341
+PROGRESS matern52/F16_l8/draw507041/gp_whitened_mlp 6000 val 0.544034
+DONE matern52/F16_l8/draw507041/gp_whitened_mlp seconds 42.2 residual 0.146329 CRPS 0.750672
+GEOMETRY matern32 F16_l8 draw507041 gp_top2 0.924 white_top2 0.7612 signal_pcs 16 contrast_exists
+START matern32/F16_l8/draw507041/white_mlp params 65464 device cuda steps 6000
+PROGRESS matern32/F16_l8/draw507041/white_mlp 500 val 1.40752
+PROGRESS matern32/F16_l8/draw507041/white_mlp 1000 val 1.319361
+PROGRESS matern32/F16_l8/draw507041/white_mlp 1500 val 1.288927
+PROGRESS matern32/F16_l8/draw507041/white_mlp 2000 val 1.273325
+PROGRESS matern32/F16_l8/draw507041/white_mlp 2500 val 1.27722
+PROGRESS matern32/F16_l8/draw507041/white_mlp 3000 val 1.26133
+PROGRESS matern32/F16_l8/draw507041/white_mlp 3500 val 1.250899
+PROGRESS matern32/F16_l8/draw507041/white_mlp 4000 val 1.24768
+PROGRESS matern32/F16_l8/draw507041/white_mlp 4500 val 1.242158
+PROGRESS matern32/F16_l8/draw507041/white_mlp 5000 val 1.247557
+PROGRESS matern32/F16_l8/draw507041/white_mlp 5500 val 1.232453
+PROGRESS matern32/F16_l8/draw507041/white_mlp 6000 val 1.238855
+DONE matern32/F16_l8/draw507041/white_mlp seconds 42.9 residual 0.461263 CRPS 0.788458
+START matern32/F16_l8/draw507041/white_s4 params 65281 device cuda steps 6000
+PROGRESS matern32/F16_l8/draw507041/white_s4 500 val 1.438415
+PROGRESS matern32/F16_l8/draw507041/white_s4 1000 val 1.379328
+PROGRESS matern32/F16_l8/draw507041/white_s4 1500 val 1.353211
+PROGRESS matern32/F16_l8/draw507041/white_s4 2000 val 1.276091
+PROGRESS matern32/F16_l8/draw507041/white_s4 2500 val 1.273609
+PROGRESS matern32/F16_l8/draw507041/white_s4 3000 val 1.261102
+PROGRESS matern32/F16_l8/draw507041/white_s4 3500 val 1.299101
+PROGRESS matern32/F16_l8/draw507041/white_s4 4000 val 1.254895
+PROGRESS matern32/F16_l8/draw507041/white_s4 4500 val 1.247965
+PROGRESS matern32/F16_l8/draw507041/white_s4 5000 val 1.25297
+PROGRESS matern32/F16_l8/draw507041/white_s4 5500 val 1.253823
+PROGRESS matern32/F16_l8/draw507041/white_s4 6000 val 1.241894
+DONE matern32/F16_l8/draw507041/white_s4 seconds 190.6 residual 0.454339 CRPS 0.811444
+START matern32/F16_l8/draw507041/white_whitened_mlp params 65464 device cuda steps 6000
+PROGRESS matern32/F16_l8/draw507041/white_whitened_mlp 500 val 0.305835
+PROGRESS matern32/F16_l8/draw507041/white_whitened_mlp 1000 val 0.29342
+PROGRESS matern32/F16_l8/draw507041/white_whitened_mlp 1500 val 0.288688
+PROGRESS matern32/F16_l8/draw507041/white_whitened_mlp 2000 val 0.286869
+PROGRESS matern32/F16_l8/draw507041/white_whitened_mlp 2500 val 0.284141
+PROGRESS matern32/F16_l8/draw507041/white_whitened_mlp 3000 val 0.284688
+PROGRESS matern32/F16_l8/draw507041/white_whitened_mlp 3500 val 0.283167
+PROGRESS matern32/F16_l8/draw507041/white_whitened_mlp 4000 val 0.283501
+PROGRESS matern32/F16_l8/draw507041/white_whitened_mlp 4500 val 0.281957
+PROGRESS matern32/F16_l8/draw507041/white_whitened_mlp 5000 val 0.281637
+PROGRESS matern32/F16_l8/draw507041/white_whitened_mlp 5500 val 0.281161
+PROGRESS matern32/F16_l8/draw507041/white_whitened_mlp 6000 val 0.280483
+DONE matern32/F16_l8/draw507041/white_whitened_mlp seconds 46.5 residual 0.448681 CRPS 0.798132
+START matern32/F16_l8/draw507041/gp_mlp params 65464 device cuda steps 6000
+PROGRESS matern32/F16_l8/draw507041/gp_mlp 500 val 2.370979
+PROGRESS matern32/F16_l8/draw507041/gp_mlp 1000 val 2.270118
+PROGRESS matern32/F16_l8/draw507041/gp_mlp 1500 val 2.24265
+PROGRESS matern32/F16_l8/draw507041/gp_mlp 2000 val 2.231344
+PROGRESS matern32/F16_l8/draw507041/gp_mlp 2500 val 2.199486
+PROGRESS matern32/F16_l8/draw507041/gp_mlp 3000 val 2.197298
+PROGRESS matern32/F16_l8/draw507041/gp_mlp 3500 val 2.181952
+PROGRESS matern32/F16_l8/draw507041/gp_mlp 4000 val 2.192661
+PROGRESS matern32/F16_l8/draw507041/gp_mlp 4500 val 2.208354
+PROGRESS matern32/F16_l8/draw507041/gp_mlp 5000 val 2.209354
+PROGRESS matern32/F16_l8/draw507041/gp_mlp 5500 val 2.171491
+PROGRESS matern32/F16_l8/draw507041/gp_mlp 6000 val 2.181933
+DONE matern32/F16_l8/draw507041/gp_mlp seconds 52.5 residual 0.230087 CRPS 0.786291
+START matern32/F16_l8/draw507041/gp_s4 params 65281 device cuda steps 6000
+PROGRESS matern32/F16_l8/draw507041/gp_s4 500 val 2.486722
+PROGRESS matern32/F16_l8/draw507041/gp_s4 1000 val 2.311089
+PROGRESS matern32/F16_l8/draw507041/gp_s4 1500 val 2.241827
+PROGRESS matern32/F16_l8/draw507041/gp_s4 2000 val 2.240957
+PROGRESS matern32/F16_l8/draw507041/gp_s4 2500 val 2.224224
+PROGRESS matern32/F16_l8/draw507041/gp_s4 3000 val 2.225747
+PROGRESS matern32/F16_l8/draw507041/gp_s4 3500 val 2.203041
+PROGRESS matern32/F16_l8/draw507041/gp_s4 4000 val 2.227176
+PROGRESS matern32/F16_l8/draw507041/gp_s4 4500 val 2.205381
+PROGRESS matern32/F16_l8/draw507041/gp_s4 5000 val 2.201637
+PROGRESS matern32/F16_l8/draw507041/gp_s4 5500 val 2.17278
+PROGRESS matern32/F16_l8/draw507041/gp_s4 6000 val 2.190474
+DONE matern32/F16_l8/draw507041/gp_s4 seconds 172.2 residual 0.230093 CRPS 0.792772
+START matern32/F16_l8/draw507041/gp_whitened_mlp params 65464 device cuda steps 6000
+PROGRESS matern32/F16_l8/draw507041/gp_whitened_mlp 500 val 0.616908
+PROGRESS matern32/F16_l8/draw507041/gp_whitened_mlp 1000 val 0.605679
+PROGRESS matern32/F16_l8/draw507041/gp_whitened_mlp 1500 val 0.600529
+PROGRESS matern32/F16_l8/draw507041/gp_whitened_mlp 2000 val 0.599621
+PROGRESS matern32/F16_l8/draw507041/gp_whitened_mlp 2500 val 0.598041
+PROGRESS matern32/F16_l8/draw507041/gp_whitened_mlp 3000 val 0.598273
+PROGRESS matern32/F16_l8/draw507041/gp_whitened_mlp 3500 val 0.597466
+PROGRESS matern32/F16_l8/draw507041/gp_whitened_mlp 4000 val 0.595913
+PROGRESS matern32/F16_l8/draw507041/gp_whitened_mlp 4500 val 0.596337
+PROGRESS matern32/F16_l8/draw507041/gp_whitened_mlp 5000 val 0.595657
+PROGRESS matern32/F16_l8/draw507041/gp_whitened_mlp 5500 val 0.594863
+PROGRESS matern32/F16_l8/draw507041/gp_whitened_mlp 6000 val 0.59534
+DONE matern32/F16_l8/draw507041/gp_whitened_mlp seconds 46.9 residual 0.223684 CRPS 0.786175
+GEOMETRY ou F16_l8 draw507041 gp_top2 0.794 white_top2 0.6093 signal_pcs 16 both_full_rank
+START ou/F16_l8/draw507041/white_mlp params 65464 device cuda steps 6000
+PROGRESS ou/F16_l8/draw507041/white_mlp 500 val 1.648261
+PROGRESS ou/F16_l8/draw507041/white_mlp 1000 val 1.587071
+PROGRESS ou/F16_l8/draw507041/white_mlp 1500 val 1.582164
+PROGRESS ou/F16_l8/draw507041/white_mlp 2000 val 1.581385
+PROGRESS ou/F16_l8/draw507041/white_mlp 2500 val 1.565068
+PROGRESS ou/F16_l8/draw507041/white_mlp 3000 val 1.56217
+PROGRESS ou/F16_l8/draw507041/white_mlp 3500 val 1.554565
+PROGRESS ou/F16_l8/draw507041/white_mlp 4000 val 1.554907
+PROGRESS ou/F16_l8/draw507041/white_mlp 4500 val 1.549896
+PROGRESS ou/F16_l8/draw507041/white_mlp 5000 val 1.553501
+PROGRESS ou/F16_l8/draw507041/white_mlp 5500 val 1.546486
+PROGRESS ou/F16_l8/draw507041/white_mlp 6000 val 1.550771
+DONE ou/F16_l8/draw507041/white_mlp seconds 53.4 residual 0.983848 CRPS 0.775754
+START ou/F16_l8/draw507041/white_s4 params 65281 device cuda steps 6000
+PROGRESS ou/F16_l8/draw507041/white_s4 500 val 1.66238
+PROGRESS ou/F16_l8/draw507041/white_s4 1000 val 1.583128
+PROGRESS ou/F16_l8/draw507041/white_s4 1500 val 1.578046
+PROGRESS ou/F16_l8/draw507041/white_s4 2000 val 1.554535
+PROGRESS ou/F16_l8/draw507041/white_s4 2500 val 1.556986
+PROGRESS ou/F16_l8/draw507041/white_s4 3000 val 1.552597
+PROGRESS ou/F16_l8/draw507041/white_s4 3500 val 1.556659
+PROGRESS ou/F16_l8/draw507041/white_s4 4000 val 1.5454
+PROGRESS ou/F16_l8/draw507041/white_s4 4500 val 1.542635
+PROGRESS ou/F16_l8/draw507041/white_s4 5000 val 1.541283
+PROGRESS ou/F16_l8/draw507041/white_s4 5500 val 1.544257
+PROGRESS ou/F16_l8/draw507041/white_s4 6000 val 1.540656
+DONE ou/F16_l8/draw507041/white_s4 seconds 185.6 residual 0.977914 CRPS 0.788503
+START ou/F16_l8/draw507041/white_whitened_mlp params 65464 device cuda steps 6000
+PROGRESS ou/F16_l8/draw507041/white_whitened_mlp 500 val 0.598581
+PROGRESS ou/F16_l8/draw507041/white_whitened_mlp 1000 val 0.591135
+PROGRESS ou/F16_l8/draw507041/white_whitened_mlp 1500 val 0.587443
+PROGRESS ou/F16_l8/draw507041/white_whitened_mlp 2000 val 0.586391
+PROGRESS ou/F16_l8/draw507041/white_whitened_mlp 2500 val 0.586131
+PROGRESS ou/F16_l8/draw507041/white_whitened_mlp 3000 val 0.584605
+PROGRESS ou/F16_l8/draw507041/white_whitened_mlp 3500 val 0.583827
+PROGRESS ou/F16_l8/draw507041/white_whitened_mlp 4000 val 0.583844
+PROGRESS ou/F16_l8/draw507041/white_whitened_mlp 4500 val 0.583946
+PROGRESS ou/F16_l8/draw507041/white_whitened_mlp 5000 val 0.584544
+PROGRESS ou/F16_l8/draw507041/white_whitened_mlp 5500 val 0.58288
+PROGRESS ou/F16_l8/draw507041/white_whitened_mlp 6000 val 0.582552
+DONE ou/F16_l8/draw507041/white_whitened_mlp seconds 52.9 residual 0.978034 CRPS 0.783081
+START ou/F16_l8/draw507041/gp_mlp params 65464 device cuda steps 6000
+PROGRESS ou/F16_l8/draw507041/gp_mlp 500 val 2.244723
+PROGRESS ou/F16_l8/draw507041/gp_mlp 1000 val 2.21332
+PROGRESS ou/F16_l8/draw507041/gp_mlp 1500 val 2.20901
+PROGRESS ou/F16_l8/draw507041/gp_mlp 2000 val 2.190869
+PROGRESS ou/F16_l8/draw507041/gp_mlp 2500 val 2.192098
+PROGRESS ou/F16_l8/draw507041/gp_mlp 3000 val 2.195835
+PROGRESS ou/F16_l8/draw507041/gp_mlp 3500 val 2.18101
+PROGRESS ou/F16_l8/draw507041/gp_mlp 4000 val 2.184274
+PROGRESS ou/F16_l8/draw507041/gp_mlp 4500 val 2.187195
+PROGRESS ou/F16_l8/draw507041/gp_mlp 5000 val 2.187848
+PROGRESS ou/F16_l8/draw507041/gp_mlp 5500 val 2.181176
+PROGRESS ou/F16_l8/draw507041/gp_mlp 6000 val 2.184295
+DONE ou/F16_l8/draw507041/gp_mlp seconds 52.4 residual 0.566664 CRPS 0.776045
+START ou/F16_l8/draw507041/gp_s4 params 65281 device cuda steps 6000
+PROGRESS ou/F16_l8/draw507041/gp_s4 500 val 2.272702
+PROGRESS ou/F16_l8/draw507041/gp_s4 1000 val 2.247113
+PROGRESS ou/F16_l8/draw507041/gp_s4 1500 val 2.223351
+PROGRESS ou/F16_l8/draw507041/gp_s4 2000 val 2.209811
+PROGRESS ou/F16_l8/draw507041/gp_s4 2500 val 2.188942
+PROGRESS ou/F16_l8/draw507041/gp_s4 3000 val 2.212608
+PROGRESS ou/F16_l8/draw507041/gp_s4 3500 val 2.187366
+PROGRESS ou/F16_l8/draw507041/gp_s4 4000 val 2.18379
+PROGRESS ou/F16_l8/draw507041/gp_s4 4500 val 2.196184
+PROGRESS ou/F16_l8/draw507041/gp_s4 5000 val 2.201377
+PROGRESS ou/F16_l8/draw507041/gp_s4 5500 val 2.188127
+PROGRESS ou/F16_l8/draw507041/gp_s4 6000 val 2.197744
+DONE ou/F16_l8/draw507041/gp_s4 seconds 172.8 residual 0.564377 CRPS 0.78086
+START ou/F16_l8/draw507041/gp_whitened_mlp params 65464 device cuda steps 6000
+PROGRESS ou/F16_l8/draw507041/gp_whitened_mlp 500 val 0.708152
+PROGRESS ou/F16_l8/draw507041/gp_whitened_mlp 1000 val 0.704462
+PROGRESS ou/F16_l8/draw507041/gp_whitened_mlp 1500 val 0.702075
+PROGRESS ou/F16_l8/draw507041/gp_whitened_mlp 2000 val 0.703328
+PROGRESS ou/F16_l8/draw507041/gp_whitened_mlp 2500 val 0.701591
+PROGRESS ou/F16_l8/draw507041/gp_whitened_mlp 3000 val 0.700803
+PROGRESS ou/F16_l8/draw507041/gp_whitened_mlp 3500 val 0.702035
+PROGRESS ou/F16_l8/draw507041/gp_whitened_mlp 4000 val 0.700029
+PROGRESS ou/F16_l8/draw507041/gp_whitened_mlp 4500 val 0.700436
+PROGRESS ou/F16_l8/draw507041/gp_whitened_mlp 5000 val 0.700185
+PROGRESS ou/F16_l8/draw507041/gp_whitened_mlp 5500 val 0.699736
+PROGRESS ou/F16_l8/draw507041/gp_whitened_mlp 6000 val 0.700163
+DONE ou/F16_l8/draw507041/gp_whitened_mlp seconds 42.8 residual 0.558936 CRPS 0.775697
+GEOMETRY rbf F32_l8 draw507041 gp_top2 0.8499 white_top2 0.6495 signal_pcs 11 both_full_rank
+START rbf/F32_l8/draw507041/white_mlp params 68296 device cuda steps 6000
+PROGRESS rbf/F32_l8/draw507041/white_mlp 500 val 0.867641
+PROGRESS rbf/F32_l8/draw507041/white_mlp 1000 val 0.788195
+PROGRESS rbf/F32_l8/draw507041/white_mlp 1500 val 0.745616
+PROGRESS rbf/F32_l8/draw507041/white_mlp 2000 val 0.724279
+PROGRESS rbf/F32_l8/draw507041/white_mlp 2500 val 0.700554
+PROGRESS rbf/F32_l8/draw507041/white_mlp 3000 val 0.690404
+PROGRESS rbf/F32_l8/draw507041/white_mlp 3500 val 0.68296
+PROGRESS rbf/F32_l8/draw507041/white_mlp 4000 val 0.671193
+PROGRESS rbf/F32_l8/draw507041/white_mlp 4500 val 0.67239
+PROGRESS rbf/F32_l8/draw507041/white_mlp 5000 val 0.676212
+PROGRESS rbf/F32_l8/draw507041/white_mlp 5500 val 0.662859
+PROGRESS rbf/F32_l8/draw507041/white_mlp 6000 val 0.6544
+DONE rbf/F32_l8/draw507041/white_mlp seconds 57.0 residual 0.229232 CRPS 0.584159
+START rbf/F32_l8/draw507041/white_s4 params 68174 device cuda steps 6000
+PROGRESS rbf/F32_l8/draw507041/white_s4 500 val 0.997917
+PROGRESS rbf/F32_l8/draw507041/white_s4 1000 val 0.767333
+PROGRESS rbf/F32_l8/draw507041/white_s4 1500 val 0.73128
+PROGRESS rbf/F32_l8/draw507041/white_s4 2000 val 0.699319
+PROGRESS rbf/F32_l8/draw507041/white_s4 2500 val 0.678722
+PROGRESS rbf/F32_l8/draw507041/white_s4 3000 val 0.668178
+PROGRESS rbf/F32_l8/draw507041/white_s4 3500 val 0.667645
+PROGRESS rbf/F32_l8/draw507041/white_s4 4000 val 0.655735
+PROGRESS rbf/F32_l8/draw507041/white_s4 4500 val 0.665873
+PROGRESS rbf/F32_l8/draw507041/white_s4 5000 val 0.657297
+PROGRESS rbf/F32_l8/draw507041/white_s4 5500 val 0.664522
+PROGRESS rbf/F32_l8/draw507041/white_s4 6000 val 0.644445
+DONE rbf/F32_l8/draw507041/white_s4 seconds 185.1 residual 0.22035 CRPS 0.586315
+START rbf/F32_l8/draw507041/white_whitened_mlp params 68296 device cuda steps 6000
+PROGRESS rbf/F32_l8/draw507041/white_whitened_mlp 500 val 0.118147
+PROGRESS rbf/F32_l8/draw507041/white_whitened_mlp 1000 val 0.099618
+PROGRESS rbf/F32_l8/draw507041/white_whitened_mlp 1500 val 0.090034
+PROGRESS rbf/F32_l8/draw507041/white_whitened_mlp 2000 val 0.087523
+PROGRESS rbf/F32_l8/draw507041/white_whitened_mlp 2500 val 0.085079
+PROGRESS rbf/F32_l8/draw507041/white_whitened_mlp 3000 val 0.083124
+PROGRESS rbf/F32_l8/draw507041/white_whitened_mlp 3500 val 0.081106
+PROGRESS rbf/F32_l8/draw507041/white_whitened_mlp 4000 val 0.080414
+PROGRESS rbf/F32_l8/draw507041/white_whitened_mlp 4500 val 0.079532
+PROGRESS rbf/F32_l8/draw507041/white_whitened_mlp 5000 val 0.078312
+PROGRESS rbf/F32_l8/draw507041/white_whitened_mlp 5500 val 0.077326
+PROGRESS rbf/F32_l8/draw507041/white_whitened_mlp 6000 val 0.076364
+DONE rbf/F32_l8/draw507041/white_whitened_mlp seconds 42.2 residual 0.218695 CRPS 0.593182
+START rbf/F32_l8/draw507041/gp_mlp params 68296 device cuda steps 6000
+PROGRESS rbf/F32_l8/draw507041/gp_mlp 500 val 1.957061
+PROGRESS rbf/F32_l8/draw507041/gp_mlp 1000 val 1.837878
+PROGRESS rbf/F32_l8/draw507041/gp_mlp 1500 val 1.802192
+PROGRESS rbf/F32_l8/draw507041/gp_mlp 2000 val 1.771493
+PROGRESS rbf/F32_l8/draw507041/gp_mlp 2500 val 1.784102
+PROGRESS rbf/F32_l8/draw507041/gp_mlp 3000 val 1.755722
+PROGRESS rbf/F32_l8/draw507041/gp_mlp 3500 val 1.764956
+PROGRESS rbf/F32_l8/draw507041/gp_mlp 4000 val 1.721456
+PROGRESS rbf/F32_l8/draw507041/gp_mlp 4500 val 1.698805
+PROGRESS rbf/F32_l8/draw507041/gp_mlp 5000 val 1.728317
+PROGRESS rbf/F32_l8/draw507041/gp_mlp 5500 val 1.703312
+PROGRESS rbf/F32_l8/draw507041/gp_mlp 6000 val 1.683029
+DONE rbf/F32_l8/draw507041/gp_mlp seconds 44.5 residual 0.298405 CRPS 0.578817
+START rbf/F32_l8/draw507041/gp_s4 params 68174 device cuda steps 6000
+PROGRESS rbf/F32_l8/draw507041/gp_s4 500 val 1.997008
+PROGRESS rbf/F32_l8/draw507041/gp_s4 1000 val 1.846738
+PROGRESS rbf/F32_l8/draw507041/gp_s4 1500 val 1.831801
+PROGRESS rbf/F32_l8/draw507041/gp_s4 2000 val 1.788942
+PROGRESS rbf/F32_l8/draw507041/gp_s4 2500 val 1.797216
+PROGRESS rbf/F32_l8/draw507041/gp_s4 3000 val 1.745607
+PROGRESS rbf/F32_l8/draw507041/gp_s4 3500 val 1.774897
+PROGRESS rbf/F32_l8/draw507041/gp_s4 4000 val 1.720826
+PROGRESS rbf/F32_l8/draw507041/gp_s4 4500 val 1.706015
+PROGRESS rbf/F32_l8/draw507041/gp_s4 5000 val 1.726437
+PROGRESS rbf/F32_l8/draw507041/gp_s4 5500 val 1.699256
+PROGRESS rbf/F32_l8/draw507041/gp_s4 6000 val 1.694332
+DONE rbf/F32_l8/draw507041/gp_s4 seconds 181.8 residual 0.304061 CRPS 0.576231
+START rbf/F32_l8/draw507041/gp_whitened_mlp params 68296 device cuda steps 6000
+PROGRESS rbf/F32_l8/draw507041/gp_whitened_mlp 500 val 0.197086
+PROGRESS rbf/F32_l8/draw507041/gp_whitened_mlp 1000 val 0.189577
+PROGRESS rbf/F32_l8/draw507041/gp_whitened_mlp 1500 val 0.184809
+PROGRESS rbf/F32_l8/draw507041/gp_whitened_mlp 2000 val 0.183205
+PROGRESS rbf/F32_l8/draw507041/gp_whitened_mlp 2500 val 0.180962
+PROGRESS rbf/F32_l8/draw507041/gp_whitened_mlp 3000 val 0.180325
+PROGRESS rbf/F32_l8/draw507041/gp_whitened_mlp 3500 val 0.178904
+PROGRESS rbf/F32_l8/draw507041/gp_whitened_mlp 4000 val 0.177816
+PROGRESS rbf/F32_l8/draw507041/gp_whitened_mlp 4500 val 0.178013
+PROGRESS rbf/F32_l8/draw507041/gp_whitened_mlp 5000 val 0.176693
+PROGRESS rbf/F32_l8/draw507041/gp_whitened_mlp 5500 val 0.177082
+PROGRESS rbf/F32_l8/draw507041/gp_whitened_mlp 6000 val 0.176278
+DONE rbf/F32_l8/draw507041/gp_whitened_mlp seconds 40.8 residual 0.287187 CRPS 0.564146
+GEOMETRY matern52 F32_l8 draw507041 gp_top2 0.8026 white_top2 0.5961 signal_pcs 32 both_full_rank
+START matern52/F32_l8/draw507041/white_mlp params 68296 device cuda steps 6000
+PROGRESS matern52/F32_l8/draw507041/white_mlp 500 val 0.999426
+PROGRESS matern52/F32_l8/draw507041/white_mlp 1000 val 0.945312
+PROGRESS matern52/F32_l8/draw507041/white_mlp 1500 val 0.911385
+PROGRESS matern52/F32_l8/draw507041/white_mlp 2000 val 0.890158
+PROGRESS matern52/F32_l8/draw507041/white_mlp 2500 val 0.872197
+PROGRESS matern52/F32_l8/draw507041/white_mlp 3000 val 0.868544
+PROGRESS matern52/F32_l8/draw507041/white_mlp 3500 val 0.859404
+PROGRESS matern52/F32_l8/draw507041/white_mlp 4000 val 0.854684
+PROGRESS matern52/F32_l8/draw507041/white_mlp 4500 val 0.848964
+PROGRESS matern52/F32_l8/draw507041/white_mlp 5000 val 0.847659
+PROGRESS matern52/F32_l8/draw507041/white_mlp 5500 val 0.846194
+PROGRESS matern52/F32_l8/draw507041/white_mlp 6000 val 0.841961
+DONE matern52/F32_l8/draw507041/white_mlp seconds 43.4 residual 0.40638 CRPS 0.654423
+START matern52/F32_l8/draw507041/white_s4 params 68174 device cuda steps 6000
+PROGRESS matern52/F32_l8/draw507041/white_s4 500 val 1.015978
+PROGRESS matern52/F32_l8/draw507041/white_s4 1000 val 0.914395
+PROGRESS matern52/F32_l8/draw507041/white_s4 1500 val 0.896298
+PROGRESS matern52/F32_l8/draw507041/white_s4 2000 val 0.862129
+PROGRESS matern52/F32_l8/draw507041/white_s4 2500 val 0.855201
+PROGRESS matern52/F32_l8/draw507041/white_s4 3000 val 0.863073
+PROGRESS matern52/F32_l8/draw507041/white_s4 3500 val 0.847794
+PROGRESS matern52/F32_l8/draw507041/white_s4 4000 val 0.840441
+PROGRESS matern52/F32_l8/draw507041/white_s4 4500 val 0.876568
+PROGRESS matern52/F32_l8/draw507041/white_s4 5000 val 0.842013
+PROGRESS matern52/F32_l8/draw507041/white_s4 5500 val 0.844494
+PROGRESS matern52/F32_l8/draw507041/white_s4 6000 val 0.834748
+DONE matern52/F32_l8/draw507041/white_s4 seconds 206.8 residual 0.391218 CRPS 0.658421
+START matern52/F32_l8/draw507041/white_whitened_mlp params 68296 device cuda steps 6000
+PROGRESS matern52/F32_l8/draw507041/white_whitened_mlp 500 val 0.209552
+PROGRESS matern52/F32_l8/draw507041/white_whitened_mlp 1000 val 0.197571
+PROGRESS matern52/F32_l8/draw507041/white_whitened_mlp 1500 val 0.191451
+PROGRESS matern52/F32_l8/draw507041/white_whitened_mlp 2000 val 0.189084
+PROGRESS matern52/F32_l8/draw507041/white_whitened_mlp 2500 val 0.185244
+PROGRESS matern52/F32_l8/draw507041/white_whitened_mlp 3000 val 0.183865
+PROGRESS matern52/F32_l8/draw507041/white_whitened_mlp 3500 val 0.182662
+PROGRESS matern52/F32_l8/draw507041/white_whitened_mlp 4000 val 0.182198
+PROGRESS matern52/F32_l8/draw507041/white_whitened_mlp 4500 val 0.179936
+PROGRESS matern52/F32_l8/draw507041/white_whitened_mlp 5000 val 0.17918
+PROGRESS matern52/F32_l8/draw507041/white_whitened_mlp 5500 val 0.178722
+PROGRESS matern52/F32_l8/draw507041/white_whitened_mlp 6000 val 0.177114
+DONE matern52/F32_l8/draw507041/white_whitened_mlp seconds 52.4 residual 0.395254 CRPS 0.66023
+START matern52/F32_l8/draw507041/gp_mlp params 68296 device cuda steps 6000
+PROGRESS matern52/F32_l8/draw507041/gp_mlp 500 val 2.019894
+PROGRESS matern52/F32_l8/draw507041/gp_mlp 1000 val 1.964127
+PROGRESS matern52/F32_l8/draw507041/gp_mlp 1500 val 1.951586
+PROGRESS matern52/F32_l8/draw507041/gp_mlp 2000 val 1.927846
+PROGRESS matern52/F32_l8/draw507041/gp_mlp 2500 val 1.917732
+PROGRESS matern52/F32_l8/draw507041/gp_mlp 3000 val 1.920253
+PROGRESS matern52/F32_l8/draw507041/gp_mlp 3500 val 1.90363
+PROGRESS matern52/F32_l8/draw507041/gp_mlp 4000 val 1.908582
+PROGRESS matern52/F32_l8/draw507041/gp_mlp 4500 val 1.884637
+PROGRESS matern52/F32_l8/draw507041/gp_mlp 5000 val 1.898406
+PROGRESS matern52/F32_l8/draw507041/gp_mlp 5500 val 1.89658
+PROGRESS matern52/F32_l8/draw507041/gp_mlp 6000 val 1.87993
+DONE matern52/F32_l8/draw507041/gp_mlp seconds 49.4 residual 0.431712 CRPS 0.645272
+START matern52/F32_l8/draw507041/gp_s4 params 68174 device cuda steps 6000
+PROGRESS matern52/F32_l8/draw507041/gp_s4 500 val 2.087838
+PROGRESS matern52/F32_l8/draw507041/gp_s4 1000 val 1.995367
+PROGRESS matern52/F32_l8/draw507041/gp_s4 1500 val 1.956234
+PROGRESS matern52/F32_l8/draw507041/gp_s4 2000 val 1.930476
+PROGRESS matern52/F32_l8/draw507041/gp_s4 2500 val 1.917951
+PROGRESS matern52/F32_l8/draw507041/gp_s4 3000 val 1.925869
+PROGRESS matern52/F32_l8/draw507041/gp_s4 3500 val 1.905449
+PROGRESS matern52/F32_l8/draw507041/gp_s4 4000 val 1.894059
+PROGRESS matern52/F32_l8/draw507041/gp_s4 4500 val 1.888774
+PROGRESS matern52/F32_l8/draw507041/gp_s4 5000 val 1.892513
+PROGRESS matern52/F32_l8/draw507041/gp_s4 5500 val 1.899864
+PROGRESS matern52/F32_l8/draw507041/gp_s4 6000 val 1.892901
+DONE matern52/F32_l8/draw507041/gp_s4 seconds 197.4 residual 0.429935 CRPS 0.653067
+START matern52/F32_l8/draw507041/gp_whitened_mlp params 68296 device cuda steps 6000
+PROGRESS matern52/F32_l8/draw507041/gp_whitened_mlp 500 val 0.712067
+PROGRESS matern52/F32_l8/draw507041/gp_whitened_mlp 1000 val 0.706365
+PROGRESS matern52/F32_l8/draw507041/gp_whitened_mlp 1500 val 0.702278
+PROGRESS matern52/F32_l8/draw507041/gp_whitened_mlp 2000 val 0.700605
+PROGRESS matern52/F32_l8/draw507041/gp_whitened_mlp 2500 val 0.698668
+PROGRESS matern52/F32_l8/draw507041/gp_whitened_mlp 3000 val 0.696712
+PROGRESS matern52/F32_l8/draw507041/gp_whitened_mlp 3500 val 0.696363
+PROGRESS matern52/F32_l8/draw507041/gp_whitened_mlp 4000 val 0.695855
+PROGRESS matern52/F32_l8/draw507041/gp_whitened_mlp 4500 val 0.694447
+PROGRESS matern52/F32_l8/draw507041/gp_whitened_mlp 5000 val 0.69428
+PROGRESS matern52/F32_l8/draw507041/gp_whitened_mlp 5500 val 0.692747
+PROGRESS matern52/F32_l8/draw507041/gp_whitened_mlp 6000 val 0.692594
+DONE matern52/F32_l8/draw507041/gp_whitened_mlp seconds 47.0 residual 0.419714 CRPS 0.646513
+GEOMETRY matern32 F32_l8 draw507041 gp_top2 0.7705 white_top2 0.5644 signal_pcs 32 both_full_rank
+START matern32/F32_l8/draw507041/white_mlp params 68296 device cuda steps 6000
+PROGRESS matern32/F32_l8/draw507041/white_mlp 500 val 1.097639
+PROGRESS matern32/F32_l8/draw507041/white_mlp 1000 val 1.041751
+PROGRESS matern32/F32_l8/draw507041/white_mlp 1500 val 1.016912
+PROGRESS matern32/F32_l8/draw507041/white_mlp 2000 val 0.997803
+PROGRESS matern32/F32_l8/draw507041/white_mlp 2500 val 0.986339
+PROGRESS matern32/F32_l8/draw507041/white_mlp 3000 val 0.985185
+PROGRESS matern32/F32_l8/draw507041/white_mlp 3500 val 0.975215
+PROGRESS matern32/F32_l8/draw507041/white_mlp 4000 val 0.973316
+PROGRESS matern32/F32_l8/draw507041/white_mlp 4500 val 0.969026
+PROGRESS matern32/F32_l8/draw507041/white_mlp 5000 val 0.972716
+PROGRESS matern32/F32_l8/draw507041/white_mlp 5500 val 0.968771
+PROGRESS matern32/F32_l8/draw507041/white_mlp 6000 val 0.966858
+DONE matern32/F32_l8/draw507041/white_mlp seconds 40.1 residual 0.541455 CRPS 0.675085
+START matern32/F32_l8/draw507041/white_s4 params 68174 device cuda steps 6000
+PROGRESS matern32/F32_l8/draw507041/white_s4 500 val 1.123835
+PROGRESS matern32/F32_l8/draw507041/white_s4 1000 val 1.014691
+PROGRESS matern32/F32_l8/draw507041/white_s4 1500 val 0.995964
+PROGRESS matern32/F32_l8/draw507041/white_s4 2000 val 0.977026
+PROGRESS matern32/F32_l8/draw507041/white_s4 2500 val 0.968935
+PROGRESS matern32/F32_l8/draw507041/white_s4 3000 val 0.967402
+PROGRESS matern32/F32_l8/draw507041/white_s4 3500 val 0.966922
+PROGRESS matern32/F32_l8/draw507041/white_s4 4000 val 0.962948
+PROGRESS matern32/F32_l8/draw507041/white_s4 4500 val 0.985734
+PROGRESS matern32/F32_l8/draw507041/white_s4 5000 val 0.96338
+PROGRESS matern32/F32_l8/draw507041/white_s4 5500 val 0.964247
+PROGRESS matern32/F32_l8/draw507041/white_s4 6000 val 0.947648
+DONE matern32/F32_l8/draw507041/white_s4 seconds 202.0 residual 0.526342 CRPS 0.671691
+START matern32/F32_l8/draw507041/white_whitened_mlp params 68296 device cuda steps 6000
+PROGRESS matern32/F32_l8/draw507041/white_whitened_mlp 500 val 0.295351
+PROGRESS matern32/F32_l8/draw507041/white_whitened_mlp 1000 val 0.283767
+PROGRESS matern32/F32_l8/draw507041/white_whitened_mlp 1500 val 0.279751
+PROGRESS matern32/F32_l8/draw507041/white_whitened_mlp 2000 val 0.277715
+PROGRESS matern32/F32_l8/draw507041/white_whitened_mlp 2500 val 0.274396
+PROGRESS matern32/F32_l8/draw507041/white_whitened_mlp 3000 val 0.273121
+PROGRESS matern32/F32_l8/draw507041/white_whitened_mlp 3500 val 0.272566
+PROGRESS matern32/F32_l8/draw507041/white_whitened_mlp 4000 val 0.27156
+PROGRESS matern32/F32_l8/draw507041/white_whitened_mlp 4500 val 0.270156
+PROGRESS matern32/F32_l8/draw507041/white_whitened_mlp 5000 val 0.270481
+PROGRESS matern32/F32_l8/draw507041/white_whitened_mlp 5500 val 0.26978
+PROGRESS matern32/F32_l8/draw507041/white_whitened_mlp 6000 val 0.269414
+DONE matern32/F32_l8/draw507041/white_whitened_mlp seconds 44.4 residual 0.536104 CRPS 0.677018
+START matern32/F32_l8/draw507041/gp_mlp params 68296 device cuda steps 6000
+PROGRESS matern32/F32_l8/draw507041/gp_mlp 500 val 2.026402
+PROGRESS matern32/F32_l8/draw507041/gp_mlp 1000 val 1.989195
+PROGRESS matern32/F32_l8/draw507041/gp_mlp 1500 val 1.966937
+PROGRESS matern32/F32_l8/draw507041/gp_mlp 2000 val 1.952441
+PROGRESS matern32/F32_l8/draw507041/gp_mlp 2500 val 1.94063
+PROGRESS matern32/F32_l8/draw507041/gp_mlp 3000 val 1.940352
+PROGRESS matern32/F32_l8/draw507041/gp_mlp 3500 val 1.937727
+PROGRESS matern32/F32_l8/draw507041/gp_mlp 4000 val 1.934175
+PROGRESS matern32/F32_l8/draw507041/gp_mlp 4500 val 1.927495
+PROGRESS matern32/F32_l8/draw507041/gp_mlp 5000 val 1.935806
+PROGRESS matern32/F32_l8/draw507041/gp_mlp 5500 val 1.927482
+PROGRESS matern32/F32_l8/draw507041/gp_mlp 6000 val 1.923978
+DONE matern32/F32_l8/draw507041/gp_mlp seconds 45.3 residual 0.505914 CRPS 0.66335
+START matern32/F32_l8/draw507041/gp_s4 params 68174 device cuda steps 6000
+PROGRESS matern32/F32_l8/draw507041/gp_s4 500 val 2.119012
+PROGRESS matern32/F32_l8/draw507041/gp_s4 1000 val 2.028679
+PROGRESS matern32/F32_l8/draw507041/gp_s4 1500 val 1.988218
+PROGRESS matern32/F32_l8/draw507041/gp_s4 2000 val 1.959823
+PROGRESS matern32/F32_l8/draw507041/gp_s4 2500 val 1.946111
+PROGRESS matern32/F32_l8/draw507041/gp_s4 3000 val 1.939727
+PROGRESS matern32/F32_l8/draw507041/gp_s4 3500 val 1.94189
+PROGRESS matern32/F32_l8/draw507041/gp_s4 4000 val 1.927624
+PROGRESS matern32/F32_l8/draw507041/gp_s4 4500 val 1.929767
+PROGRESS matern32/F32_l8/draw507041/gp_s4 5000 val 1.924016
+PROGRESS matern32/F32_l8/draw507041/gp_s4 5500 val 1.930903
+PROGRESS matern32/F32_l8/draw507041/gp_s4 6000 val 1.920892
+DONE matern32/F32_l8/draw507041/gp_s4 seconds 200.4 residual 0.502853 CRPS 0.665516
+START matern32/F32_l8/draw507041/gp_whitened_mlp params 68296 device cuda steps 6000
+PROGRESS matern32/F32_l8/draw507041/gp_whitened_mlp 500 val 0.727379
+PROGRESS matern32/F32_l8/draw507041/gp_whitened_mlp 1000 val 0.722781
+PROGRESS matern32/F32_l8/draw507041/gp_whitened_mlp 1500 val 0.719648
+PROGRESS matern32/F32_l8/draw507041/gp_whitened_mlp 2000 val 0.718594
+PROGRESS matern32/F32_l8/draw507041/gp_whitened_mlp 2500 val 0.716701
+PROGRESS matern32/F32_l8/draw507041/gp_whitened_mlp 3000 val 0.717288
+PROGRESS matern32/F32_l8/draw507041/gp_whitened_mlp 3500 val 0.71574
+PROGRESS matern32/F32_l8/draw507041/gp_whitened_mlp 4000 val 0.7165
+PROGRESS matern32/F32_l8/draw507041/gp_whitened_mlp 4500 val 0.715872
+PROGRESS matern32/F32_l8/draw507041/gp_whitened_mlp 5000 val 0.714963
+PROGRESS matern32/F32_l8/draw507041/gp_whitened_mlp 5500 val 0.714028
+PROGRESS matern32/F32_l8/draw507041/gp_whitened_mlp 6000 val 0.71447
+DONE matern32/F32_l8/draw507041/gp_whitened_mlp seconds 53.1 residual 0.49776 CRPS 0.66773
+GEOMETRY ou F32_l8 draw507041 gp_top2 0.6397 white_top2 0.448 signal_pcs 32 both_full_rank
+START ou/F32_l8/draw507041/white_mlp params 68296 device cuda steps 6000
+PROGRESS ou/F32_l8/draw507041/white_mlp 500 val 1.421226
+PROGRESS ou/F32_l8/draw507041/white_mlp 1000 val 1.372405
+PROGRESS ou/F32_l8/draw507041/white_mlp 1500 val 1.348329
+PROGRESS ou/F32_l8/draw507041/white_mlp 2000 val 1.343064
+PROGRESS ou/F32_l8/draw507041/white_mlp 2500 val 1.336146
+PROGRESS ou/F32_l8/draw507041/white_mlp 3000 val 1.333688
+PROGRESS ou/F32_l8/draw507041/white_mlp 3500 val 1.332095
+PROGRESS ou/F32_l8/draw507041/white_mlp 4000 val 1.32569
+PROGRESS ou/F32_l8/draw507041/white_mlp 4500 val 1.325646
+PROGRESS ou/F32_l8/draw507041/white_mlp 5000 val 1.325512
+PROGRESS ou/F32_l8/draw507041/white_mlp 5500 val 1.325042
+PROGRESS ou/F32_l8/draw507041/white_mlp 6000 val 1.322581
+DONE ou/F32_l8/draw507041/white_mlp seconds 43.2 residual 0.984281 CRPS 0.672748
+START ou/F32_l8/draw507041/white_s4 params 68174 device cuda steps 6000
+PROGRESS ou/F32_l8/draw507041/white_s4 500 val 1.369363
+PROGRESS ou/F32_l8/draw507041/white_s4 1000 val 1.336619
+PROGRESS ou/F32_l8/draw507041/white_s4 1500 val 1.328487
+PROGRESS ou/F32_l8/draw507041/white_s4 2000 val 1.322265
+PROGRESS ou/F32_l8/draw507041/white_s4 2500 val 1.318207
+PROGRESS ou/F32_l8/draw507041/white_s4 3000 val 1.317818
+PROGRESS ou/F32_l8/draw507041/white_s4 3500 val 1.314433
+PROGRESS ou/F32_l8/draw507041/white_s4 4000 val 1.315987
+PROGRESS ou/F32_l8/draw507041/white_s4 4500 val 1.312641
+PROGRESS ou/F32_l8/draw507041/white_s4 5000 val 1.313149
+PROGRESS ou/F32_l8/draw507041/white_s4 5500 val 1.315834
+PROGRESS ou/F32_l8/draw507041/white_s4 6000 val 1.313138
+DONE ou/F32_l8/draw507041/white_s4 seconds 203.7 residual 0.973399 CRPS 0.676364
+START ou/F32_l8/draw507041/white_whitened_mlp params 68296 device cuda steps 6000
+PROGRESS ou/F32_l8/draw507041/white_whitened_mlp 500 val 0.582212
+PROGRESS ou/F32_l8/draw507041/white_whitened_mlp 1000 val 0.570522
+PROGRESS ou/F32_l8/draw507041/white_whitened_mlp 1500 val 0.566733
+PROGRESS ou/F32_l8/draw507041/white_whitened_mlp 2000 val 0.565272
+PROGRESS ou/F32_l8/draw507041/white_whitened_mlp 2500 val 0.563837
+PROGRESS ou/F32_l8/draw507041/white_whitened_mlp 3000 val 0.56282
+PROGRESS ou/F32_l8/draw507041/white_whitened_mlp 3500 val 0.56251
+PROGRESS ou/F32_l8/draw507041/white_whitened_mlp 4000 val 0.562336
+PROGRESS ou/F32_l8/draw507041/white_whitened_mlp 4500 val 0.561345
+PROGRESS ou/F32_l8/draw507041/white_whitened_mlp 5000 val 0.561708
+PROGRESS ou/F32_l8/draw507041/white_whitened_mlp 5500 val 0.561844
+PROGRESS ou/F32_l8/draw507041/white_whitened_mlp 6000 val 0.561357
+DONE ou/F32_l8/draw507041/white_whitened_mlp seconds 49.4 residual 0.978358 CRPS 0.677697
+START ou/F32_l8/draw507041/gp_mlp params 68296 device cuda steps 6000
+PROGRESS ou/F32_l8/draw507041/gp_mlp 500 val 1.969612
+PROGRESS ou/F32_l8/draw507041/gp_mlp 1000 val 1.95454
+PROGRESS ou/F32_l8/draw507041/gp_mlp 1500 val 1.937627
+PROGRESS ou/F32_l8/draw507041/gp_mlp 2000 val 1.932843
+PROGRESS ou/F32_l8/draw507041/gp_mlp 2500 val 1.934623
+PROGRESS ou/F32_l8/draw507041/gp_mlp 3000 val 1.930202
+PROGRESS ou/F32_l8/draw507041/gp_mlp 3500 val 1.927934
+PROGRESS ou/F32_l8/draw507041/gp_mlp 4000 val 1.929701
+PROGRESS ou/F32_l8/draw507041/gp_mlp 4500 val 1.927553
+PROGRESS ou/F32_l8/draw507041/gp_mlp 5000 val 1.927647
+PROGRESS ou/F32_l8/draw507041/gp_mlp 5500 val 1.928197
+PROGRESS ou/F32_l8/draw507041/gp_mlp 6000 val 1.933298
+DONE ou/F32_l8/draw507041/gp_mlp seconds 48.8 residual 0.776665 CRPS 0.670823
+START ou/F32_l8/draw507041/gp_s4 params 68174 device cuda steps 6000
+PROGRESS ou/F32_l8/draw507041/gp_s4 500 val 1.994768
+PROGRESS ou/F32_l8/draw507041/gp_s4 1000 val 1.973442
+PROGRESS ou/F32_l8/draw507041/gp_s4 1500 val 1.956361
+PROGRESS ou/F32_l8/draw507041/gp_s4 2000 val 1.94172
+PROGRESS ou/F32_l8/draw507041/gp_s4 2500 val 1.945315
+PROGRESS ou/F32_l8/draw507041/gp_s4 3000 val 1.950623
+PROGRESS ou/F32_l8/draw507041/gp_s4 3500 val 1.934914
+PROGRESS ou/F32_l8/draw507041/gp_s4 4000 val 1.93118
+PROGRESS ou/F32_l8/draw507041/gp_s4 4500 val 1.931351
+PROGRESS ou/F32_l8/draw507041/gp_s4 5000 val 1.928272
+PROGRESS ou/F32_l8/draw507041/gp_s4 5500 val 1.933412
+PROGRESS ou/F32_l8/draw507041/gp_s4 6000 val 1.934546
+DONE ou/F32_l8/draw507041/gp_s4 seconds 179.6 residual 0.777135 CRPS 0.67272
+START ou/F32_l8/draw507041/gp_whitened_mlp params 68296 device cuda steps 6000
+PROGRESS ou/F32_l8/draw507041/gp_whitened_mlp 500 val 0.76208
+PROGRESS ou/F32_l8/draw507041/gp_whitened_mlp 1000 val 0.757677
+PROGRESS ou/F32_l8/draw507041/gp_whitened_mlp 1500 val 0.756011
+PROGRESS ou/F32_l8/draw507041/gp_whitened_mlp 2000 val 0.75554
+PROGRESS ou/F32_l8/draw507041/gp_whitened_mlp 2500 val 0.75504
+PROGRESS ou/F32_l8/draw507041/gp_whitened_mlp 3000 val 0.755435
+PROGRESS ou/F32_l8/draw507041/gp_whitened_mlp 3500 val 0.754634
+PROGRESS ou/F32_l8/draw507041/gp_whitened_mlp 4000 val 0.754684
+PROGRESS ou/F32_l8/draw507041/gp_whitened_mlp 4500 val 0.754708
+PROGRESS ou/F32_l8/draw507041/gp_whitened_mlp 5000 val 0.754149
+PROGRESS ou/F32_l8/draw507041/gp_whitened_mlp 5500 val 0.754321
+PROGRESS ou/F32_l8/draw507041/gp_whitened_mlp 6000 val 0.75399
+DONE ou/F32_l8/draw507041/gp_whitened_mlp seconds 49.5 residual 0.773493 CRPS 0.667468
+GEOMETRY rbf F64_l8 draw507041 gp_top2 0.5776 white_top2 0.3861 signal_pcs 18 both_full_rank
+START rbf/F64_l8/draw507041/white_mlp params 73960 device cuda steps 6000
+PROGRESS rbf/F64_l8/draw507041/white_mlp 500 val 0.885981
+PROGRESS rbf/F64_l8/draw507041/white_mlp 1000 val 0.814537
+PROGRESS rbf/F64_l8/draw507041/white_mlp 1500 val 0.784849
+PROGRESS rbf/F64_l8/draw507041/white_mlp 2000 val 0.76485
+PROGRESS rbf/F64_l8/draw507041/white_mlp 2500 val 0.757746
+PROGRESS rbf/F64_l8/draw507041/white_mlp 3000 val 0.755828
+PROGRESS rbf/F64_l8/draw507041/white_mlp 3500 val 0.748023
+PROGRESS rbf/F64_l8/draw507041/white_mlp 4000 val 0.741659
+PROGRESS rbf/F64_l8/draw507041/white_mlp 4500 val 0.734462
+PROGRESS rbf/F64_l8/draw507041/white_mlp 5000 val 0.734832
+PROGRESS rbf/F64_l8/draw507041/white_mlp 5500 val 0.731852
+PROGRESS rbf/F64_l8/draw507041/white_mlp 6000 val 0.72941
+DONE rbf/F64_l8/draw507041/white_mlp seconds 49.3 residual 0.474522 CRPS 0.652777
+START rbf/F64_l8/draw507041/white_s4 params 74038 device cuda steps 6000
+PROGRESS rbf/F64_l8/draw507041/white_s4 500 val 0.760407
+PROGRESS rbf/F64_l8/draw507041/white_s4 1000 val 0.696933
+PROGRESS rbf/F64_l8/draw507041/white_s4 1500 val 0.636607
+PROGRESS rbf/F64_l8/draw507041/white_s4 2000 val 0.62099
+PROGRESS rbf/F64_l8/draw507041/white_s4 2500 val 0.615145
+PROGRESS rbf/F64_l8/draw507041/white_s4 3000 val 0.608342
+PROGRESS rbf/F64_l8/draw507041/white_s4 3500 val 0.603677
+PROGRESS rbf/F64_l8/draw507041/white_s4 4000 val 0.597502
+PROGRESS rbf/F64_l8/draw507041/white_s4 4500 val 0.593099
+PROGRESS rbf/F64_l8/draw507041/white_s4 5000 val 0.598137
+PROGRESS rbf/F64_l8/draw507041/white_s4 5500 val 0.590179
+PROGRESS rbf/F64_l8/draw507041/white_s4 6000 val 0.591044
+DONE rbf/F64_l8/draw507041/white_s4 seconds 272.1 residual 0.331829 CRPS 0.657276
+START rbf/F64_l8/draw507041/white_whitened_mlp params 73960 device cuda steps 6000
+PROGRESS rbf/F64_l8/draw507041/white_whitened_mlp 500 val 0.179143
+PROGRESS rbf/F64_l8/draw507041/white_whitened_mlp 1000 val 0.163667
+PROGRESS rbf/F64_l8/draw507041/white_whitened_mlp 1500 val 0.158511
+PROGRESS rbf/F64_l8/draw507041/white_whitened_mlp 2000 val 0.156558
+PROGRESS rbf/F64_l8/draw507041/white_whitened_mlp 2500 val 0.155642
+PROGRESS rbf/F64_l8/draw507041/white_whitened_mlp 3000 val 0.154984
+PROGRESS rbf/F64_l8/draw507041/white_whitened_mlp 3500 val 0.154057
+PROGRESS rbf/F64_l8/draw507041/white_whitened_mlp 4000 val 0.154009
+PROGRESS rbf/F64_l8/draw507041/white_whitened_mlp 4500 val 0.153499
+PROGRESS rbf/F64_l8/draw507041/white_whitened_mlp 5000 val 0.1532
+PROGRESS rbf/F64_l8/draw507041/white_whitened_mlp 5500 val 0.152505
+PROGRESS rbf/F64_l8/draw507041/white_whitened_mlp 6000 val 0.152552
+DONE rbf/F64_l8/draw507041/white_whitened_mlp seconds 50.7 residual 0.712074 CRPS 0.675749
+START rbf/F64_l8/draw507041/gp_mlp params 73960 device cuda steps 6000
+PROGRESS rbf/F64_l8/draw507041/gp_mlp 500 val 1.843862
+PROGRESS rbf/F64_l8/draw507041/gp_mlp 1000 val 1.820084
+PROGRESS rbf/F64_l8/draw507041/gp_mlp 1500 val 1.793517
+PROGRESS rbf/F64_l8/draw507041/gp_mlp 2000 val 1.771107
+PROGRESS rbf/F64_l8/draw507041/gp_mlp 2500 val 1.766143
+PROGRESS rbf/F64_l8/draw507041/gp_mlp 3000 val 1.756014
+PROGRESS rbf/F64_l8/draw507041/gp_mlp 3500 val 1.762249
+PROGRESS rbf/F64_l8/draw507041/gp_mlp 4000 val 1.755499
+PROGRESS rbf/F64_l8/draw507041/gp_mlp 4500 val 1.748073
+PROGRESS rbf/F64_l8/draw507041/gp_mlp 5000 val 1.746156
+PROGRESS rbf/F64_l8/draw507041/gp_mlp 5500 val 1.738239
+PROGRESS rbf/F64_l8/draw507041/gp_mlp 6000 val 1.738782
+DONE rbf/F64_l8/draw507041/gp_mlp seconds 50.0 residual 0.722436 CRPS 0.648158
+START rbf/F64_l8/draw507041/gp_s4 params 74038 device cuda steps 6000
+PROGRESS rbf/F64_l8/draw507041/gp_s4 500 val 1.902872
+PROGRESS rbf/F64_l8/draw507041/gp_s4 1000 val 1.840569
+PROGRESS rbf/F64_l8/draw507041/gp_s4 1500 val 1.79798
+PROGRESS rbf/F64_l8/draw507041/gp_s4 2000 val 1.776932
+PROGRESS rbf/F64_l8/draw507041/gp_s4 2500 val 1.764781
+PROGRESS rbf/F64_l8/draw507041/gp_s4 3000 val 1.763996
+PROGRESS rbf/F64_l8/draw507041/gp_s4 3500 val 1.757697
+PROGRESS rbf/F64_l8/draw507041/gp_s4 4000 val 1.763093
+PROGRESS rbf/F64_l8/draw507041/gp_s4 4500 val 1.746423
+PROGRESS rbf/F64_l8/draw507041/gp_s4 5000 val 1.750868
+PROGRESS rbf/F64_l8/draw507041/gp_s4 5500 val 1.736142
+PROGRESS rbf/F64_l8/draw507041/gp_s4 6000 val 1.73697
+DONE rbf/F64_l8/draw507041/gp_s4 seconds 272.1 residual 0.721805 CRPS 0.647616
+START rbf/F64_l8/draw507041/gp_whitened_mlp params 73960 device cuda steps 6000
+PROGRESS rbf/F64_l8/draw507041/gp_whitened_mlp 500 val 0.207124
+PROGRESS rbf/F64_l8/draw507041/gp_whitened_mlp 1000 val 0.20176
+PROGRESS rbf/F64_l8/draw507041/gp_whitened_mlp 1500 val 0.199077
+PROGRESS rbf/F64_l8/draw507041/gp_whitened_mlp 2000 val 0.197542
+PROGRESS rbf/F64_l8/draw507041/gp_whitened_mlp 2500 val 0.19724
+PROGRESS rbf/F64_l8/draw507041/gp_whitened_mlp 3000 val 0.196716
+PROGRESS rbf/F64_l8/draw507041/gp_whitened_mlp 3500 val 0.195667
+PROGRESS rbf/F64_l8/draw507041/gp_whitened_mlp 4000 val 0.195247
+PROGRESS rbf/F64_l8/draw507041/gp_whitened_mlp 4500 val 0.194458
+PROGRESS rbf/F64_l8/draw507041/gp_whitened_mlp 5000 val 0.194742
+PROGRESS rbf/F64_l8/draw507041/gp_whitened_mlp 5500 val 0.194228
+PROGRESS rbf/F64_l8/draw507041/gp_whitened_mlp 6000 val 0.194018
+DONE rbf/F64_l8/draw507041/gp_whitened_mlp seconds 51.6 residual 0.705892 CRPS 0.643079
+GEOMETRY matern52 F64_l8 draw507041 gp_top2 0.54 white_top2 0.3566 signal_pcs 64 both_full_rank
+START matern52/F64_l8/draw507041/white_mlp params 73960 device cuda steps 6000
+PROGRESS matern52/F64_l8/draw507041/white_mlp 500 val 0.972349
+PROGRESS matern52/F64_l8/draw507041/white_mlp 1000 val 0.903157
+PROGRESS matern52/F64_l8/draw507041/white_mlp 1500 val 0.880607
+PROGRESS matern52/F64_l8/draw507041/white_mlp 2000 val 0.862774
+PROGRESS matern52/F64_l8/draw507041/white_mlp 2500 val 0.859451
+PROGRESS matern52/F64_l8/draw507041/white_mlp 3000 val 0.851914
+PROGRESS matern52/F64_l8/draw507041/white_mlp 3500 val 0.845176
+PROGRESS matern52/F64_l8/draw507041/white_mlp 4000 val 0.842169
+PROGRESS matern52/F64_l8/draw507041/white_mlp 4500 val 0.836138
+PROGRESS matern52/F64_l8/draw507041/white_mlp 5000 val 0.837141
+PROGRESS matern52/F64_l8/draw507041/white_mlp 5500 val 0.831303
+PROGRESS matern52/F64_l8/draw507041/white_mlp 6000 val 0.831029
+DONE matern52/F64_l8/draw507041/white_mlp seconds 42.9 residual 0.592612 CRPS 0.671006
+START matern52/F64_l8/draw507041/white_s4 params 74038 device cuda steps 6000
+PROGRESS matern52/F64_l8/draw507041/white_s4 500 val 0.881223
+PROGRESS matern52/F64_l8/draw507041/white_s4 1000 val 0.791641
+PROGRESS matern52/F64_l8/draw507041/white_s4 1500 val 0.761291
+PROGRESS matern52/F64_l8/draw507041/white_s4 2000 val 0.773327
+PROGRESS matern52/F64_l8/draw507041/white_s4 2500 val 0.74169
+PROGRESS matern52/F64_l8/draw507041/white_s4 3000 val 0.730052
+PROGRESS matern52/F64_l8/draw507041/white_s4 3500 val 0.73164
+PROGRESS matern52/F64_l8/draw507041/white_s4 4000 val 0.728631
+PROGRESS matern52/F64_l8/draw507041/white_s4 4500 val 0.7282
+PROGRESS matern52/F64_l8/draw507041/white_s4 5000 val 0.726972
+PROGRESS matern52/F64_l8/draw507041/white_s4 5500 val 0.724011
+PROGRESS matern52/F64_l8/draw507041/white_s4 6000 val 0.730485
+DONE matern52/F64_l8/draw507041/white_s4 seconds 273.5 residual 0.482483 CRPS 0.669964
+START matern52/F64_l8/draw507041/white_whitened_mlp params 73960 device cuda steps 6000
+PROGRESS matern52/F64_l8/draw507041/white_whitened_mlp 500 val 0.249725
+PROGRESS matern52/F64_l8/draw507041/white_whitened_mlp 1000 val 0.237933
+PROGRESS matern52/F64_l8/draw507041/white_whitened_mlp 1500 val 0.233038
+PROGRESS matern52/F64_l8/draw507041/white_whitened_mlp 2000 val 0.230921
+PROGRESS matern52/F64_l8/draw507041/white_whitened_mlp 2500 val 0.230266
+PROGRESS matern52/F64_l8/draw507041/white_whitened_mlp 3000 val 0.228807
+PROGRESS matern52/F64_l8/draw507041/white_whitened_mlp 3500 val 0.228208
+PROGRESS matern52/F64_l8/draw507041/white_whitened_mlp 4000 val 0.22785
+PROGRESS matern52/F64_l8/draw507041/white_whitened_mlp 4500 val 0.226911
+PROGRESS matern52/F64_l8/draw507041/white_whitened_mlp 5000 val 0.226877
+PROGRESS matern52/F64_l8/draw507041/white_whitened_mlp 5500 val 0.226235
+PROGRESS matern52/F64_l8/draw507041/white_whitened_mlp 6000 val 0.226069
+DONE matern52/F64_l8/draw507041/white_whitened_mlp seconds 43.7 residual 0.648565 CRPS 0.672326
+START matern52/F64_l8/draw507041/gp_mlp params 73960 device cuda steps 6000
+PROGRESS matern52/F64_l8/draw507041/gp_mlp 500 val 1.852584
+PROGRESS matern52/F64_l8/draw507041/gp_mlp 1000 val 1.840679
+PROGRESS matern52/F64_l8/draw507041/gp_mlp 1500 val 1.825169
+PROGRESS matern52/F64_l8/draw507041/gp_mlp 2000 val 1.817957
+PROGRESS matern52/F64_l8/draw507041/gp_mlp 2500 val 1.813381
+PROGRESS matern52/F64_l8/draw507041/gp_mlp 3000 val 1.809077
+PROGRESS matern52/F64_l8/draw507041/gp_mlp 3500 val 1.811205
+PROGRESS matern52/F64_l8/draw507041/gp_mlp 4000 val 1.801963
+PROGRESS matern52/F64_l8/draw507041/gp_mlp 4500 val 1.805155
+PROGRESS matern52/F64_l8/draw507041/gp_mlp 5000 val 1.80497
+PROGRESS matern52/F64_l8/draw507041/gp_mlp 5500 val 1.79781
+PROGRESS matern52/F64_l8/draw507041/gp_mlp 6000 val 1.8019
+DONE matern52/F64_l8/draw507041/gp_mlp seconds 45.4 residual 0.835833 CRPS 0.667308
+START matern52/F64_l8/draw507041/gp_s4 params 74038 device cuda steps 6000
+PROGRESS matern52/F64_l8/draw507041/gp_s4 500 val 1.885501
+PROGRESS matern52/F64_l8/draw507041/gp_s4 1000 val 1.85736
+PROGRESS matern52/F64_l8/draw507041/gp_s4 1500 val 1.830864
+PROGRESS matern52/F64_l8/draw507041/gp_s4 2000 val 1.8147
+PROGRESS matern52/F64_l8/draw507041/gp_s4 2500 val 1.810301
+PROGRESS matern52/F64_l8/draw507041/gp_s4 3000 val 1.807055
+PROGRESS matern52/F64_l8/draw507041/gp_s4 3500 val 1.806464
+PROGRESS matern52/F64_l8/draw507041/gp_s4 4000 val 1.800213
+PROGRESS matern52/F64_l8/draw507041/gp_s4 4500 val 1.796888
+PROGRESS matern52/F64_l8/draw507041/gp_s4 5000 val 1.802944
+PROGRESS matern52/F64_l8/draw507041/gp_s4 5500 val 1.791847
+PROGRESS matern52/F64_l8/draw507041/gp_s4 6000 val 1.799161
+DONE matern52/F64_l8/draw507041/gp_s4 seconds 270.6 residual 0.834057 CRPS 0.666523
+START matern52/F64_l8/draw507041/gp_whitened_mlp params 73960 device cuda steps 6000
+PROGRESS matern52/F64_l8/draw507041/gp_whitened_mlp 500 val 0.809371
+PROGRESS matern52/F64_l8/draw507041/gp_whitened_mlp 1000 val 0.804339
+PROGRESS matern52/F64_l8/draw507041/gp_whitened_mlp 1500 val 0.801167
+PROGRESS matern52/F64_l8/draw507041/gp_whitened_mlp 2000 val 0.798365
+PROGRESS matern52/F64_l8/draw507041/gp_whitened_mlp 2500 val 0.796259
+PROGRESS matern52/F64_l8/draw507041/gp_whitened_mlp 3000 val 0.788473
+PROGRESS matern52/F64_l8/draw507041/gp_whitened_mlp 3500 val 0.785424
+PROGRESS matern52/F64_l8/draw507041/gp_whitened_mlp 4000 val 0.784692
+PROGRESS matern52/F64_l8/draw507041/gp_whitened_mlp 4500 val 0.783329
+PROGRESS matern52/F64_l8/draw507041/gp_whitened_mlp 5000 val 0.783316
+PROGRESS matern52/F64_l8/draw507041/gp_whitened_mlp 5500 val 0.782845
+PROGRESS matern52/F64_l8/draw507041/gp_whitened_mlp 6000 val 0.782462
+DONE matern52/F64_l8/draw507041/gp_whitened_mlp seconds 50.1 residual 0.853158 CRPS 0.666023
+GEOMETRY matern32 F64_l8 draw507041 gp_top2 0.5178 white_top2 0.3397 signal_pcs 64 both_full_rank
+START matern32/F64_l8/draw507041/white_mlp params 73960 device cuda steps 6000
+PROGRESS matern32/F64_l8/draw507041/white_mlp 500 val 1.039073
+PROGRESS matern32/F64_l8/draw507041/white_mlp 1000 val 0.98205
+PROGRESS matern32/F64_l8/draw507041/white_mlp 1500 val 0.962791
+PROGRESS matern32/F64_l8/draw507041/white_mlp 2000 val 0.947378
+PROGRESS matern32/F64_l8/draw507041/white_mlp 2500 val 0.944679
+PROGRESS matern32/F64_l8/draw507041/white_mlp 3000 val 0.93936
+PROGRESS matern32/F64_l8/draw507041/white_mlp 3500 val 0.935005
+PROGRESS matern32/F64_l8/draw507041/white_mlp 4000 val 0.929765
+PROGRESS matern32/F64_l8/draw507041/white_mlp 4500 val 0.92742
+PROGRESS matern32/F64_l8/draw507041/white_mlp 5000 val 0.930238
+PROGRESS matern32/F64_l8/draw507041/white_mlp 5500 val 0.923001
+PROGRESS matern32/F64_l8/draw507041/white_mlp 6000 val 0.924069
+DONE matern32/F64_l8/draw507041/white_mlp seconds 54.2 residual 0.696752 CRPS 0.670155
+START matern32/F64_l8/draw507041/white_s4 params 74038 device cuda steps 6000
+PROGRESS matern32/F64_l8/draw507041/white_s4 500 val 0.923971
+PROGRESS matern32/F64_l8/draw507041/white_s4 1000 val 0.8797
+PROGRESS matern32/F64_l8/draw507041/white_s4 1500 val 0.853416
+PROGRESS matern32/F64_l8/draw507041/white_s4 2000 val 0.84382
+PROGRESS matern32/F64_l8/draw507041/white_s4 2500 val 0.835406
+PROGRESS matern32/F64_l8/draw507041/white_s4 3000 val 0.83301
+PROGRESS matern32/F64_l8/draw507041/white_s4 3500 val 0.833173
+PROGRESS matern32/F64_l8/draw507041/white_s4 4000 val 0.830361
+PROGRESS matern32/F64_l8/draw507041/white_s4 4500 val 0.829523
+PROGRESS matern32/F64_l8/draw507041/white_s4 5000 val 0.833073
+PROGRESS matern32/F64_l8/draw507041/white_s4 5500 val 0.829099
+PROGRESS matern32/F64_l8/draw507041/white_s4 6000 val 0.833134
+DONE matern32/F64_l8/draw507041/white_s4 seconds 271.0 residual 0.598572 CRPS 0.670953
+START matern32/F64_l8/draw507041/white_whitened_mlp params 73960 device cuda steps 6000
+PROGRESS matern32/F64_l8/draw507041/white_whitened_mlp 500 val 0.323506
+PROGRESS matern32/F64_l8/draw507041/white_whitened_mlp 1000 val 0.311356
+PROGRESS matern32/F64_l8/draw507041/white_whitened_mlp 1500 val 0.307828
+PROGRESS matern32/F64_l8/draw507041/white_whitened_mlp 2000 val 0.306657
+PROGRESS matern32/F64_l8/draw507041/white_whitened_mlp 2500 val 0.306032
+PROGRESS matern32/F64_l8/draw507041/white_whitened_mlp 3000 val 0.304998
+PROGRESS matern32/F64_l8/draw507041/white_whitened_mlp 3500 val 0.304582
+PROGRESS matern32/F64_l8/draw507041/white_whitened_mlp 4000 val 0.304214
+PROGRESS matern32/F64_l8/draw507041/white_whitened_mlp 4500 val 0.303239
+PROGRESS matern32/F64_l8/draw507041/white_whitened_mlp 5000 val 0.303392
+PROGRESS matern32/F64_l8/draw507041/white_whitened_mlp 5500 val 0.303119
+PROGRESS matern32/F64_l8/draw507041/white_whitened_mlp 6000 val 0.303037
+DONE matern32/F64_l8/draw507041/white_whitened_mlp seconds 40.3 residual 0.724037 CRPS 0.672463
+START matern32/F64_l8/draw507041/gp_mlp params 73960 device cuda steps 6000
+PROGRESS matern32/F64_l8/draw507041/gp_mlp 500 val 1.854853
+PROGRESS matern32/F64_l8/draw507041/gp_mlp 1000 val 1.844378
+PROGRESS matern32/F64_l8/draw507041/gp_mlp 1500 val 1.826225
+PROGRESS matern32/F64_l8/draw507041/gp_mlp 2000 val 1.821792
+PROGRESS matern32/F64_l8/draw507041/gp_mlp 2500 val 1.820884
+PROGRESS matern32/F64_l8/draw507041/gp_mlp 3000 val 1.814847
+PROGRESS matern32/F64_l8/draw507041/gp_mlp 3500 val 1.81903
+PROGRESS matern32/F64_l8/draw507041/gp_mlp 4000 val 1.812223
+PROGRESS matern32/F64_l8/draw507041/gp_mlp 4500 val 1.814847
+PROGRESS matern32/F64_l8/draw507041/gp_mlp 5000 val 1.814512
+PROGRESS matern32/F64_l8/draw507041/gp_mlp 5500 val 1.808909
+PROGRESS matern32/F64_l8/draw507041/gp_mlp 6000 val 1.811368
+DONE matern32/F64_l8/draw507041/gp_mlp seconds 48.8 residual 0.889217 CRPS 0.67045
+START matern32/F64_l8/draw507041/gp_s4 params 74038 device cuda steps 6000
+PROGRESS matern32/F64_l8/draw507041/gp_s4 500 val 1.875707
+PROGRESS matern32/F64_l8/draw507041/gp_s4 1000 val 1.856589
+PROGRESS matern32/F64_l8/draw507041/gp_s4 1500 val 1.846184
+PROGRESS matern32/F64_l8/draw507041/gp_s4 2000 val 1.828782
+PROGRESS matern32/F64_l8/draw507041/gp_s4 2500 val 1.822186
+PROGRESS matern32/F64_l8/draw507041/gp_s4 3000 val 1.814696
+PROGRESS matern32/F64_l8/draw507041/gp_s4 3500 val 1.814024
+PROGRESS matern32/F64_l8/draw507041/gp_s4 4000 val 1.81042
+PROGRESS matern32/F64_l8/draw507041/gp_s4 4500 val 1.80779
+PROGRESS matern32/F64_l8/draw507041/gp_s4 5000 val 1.809321
+PROGRESS matern32/F64_l8/draw507041/gp_s4 5500 val 1.801694
+PROGRESS matern32/F64_l8/draw507041/gp_s4 6000 val 1.806135
+DONE matern32/F64_l8/draw507041/gp_s4 seconds 266.4 residual 0.884518 CRPS 0.667812
+START matern32/F64_l8/draw507041/gp_whitened_mlp params 73960 device cuda steps 6000
+PROGRESS matern32/F64_l8/draw507041/gp_whitened_mlp 500 val 0.815017
+PROGRESS matern32/F64_l8/draw507041/gp_whitened_mlp 1000 val 0.808792
+PROGRESS matern32/F64_l8/draw507041/gp_whitened_mlp 1500 val 0.801082
+PROGRESS matern32/F64_l8/draw507041/gp_whitened_mlp 2000 val 0.799251
+PROGRESS matern32/F64_l8/draw507041/gp_whitened_mlp 2500 val 0.798269
+PROGRESS matern32/F64_l8/draw507041/gp_whitened_mlp 3000 val 0.797412
+PROGRESS matern32/F64_l8/draw507041/gp_whitened_mlp 3500 val 0.797306
+PROGRESS matern32/F64_l8/draw507041/gp_whitened_mlp 4000 val 0.797085
+PROGRESS matern32/F64_l8/draw507041/gp_whitened_mlp 4500 val 0.796584
+PROGRESS matern32/F64_l8/draw507041/gp_whitened_mlp 5000 val 0.796007
+PROGRESS matern32/F64_l8/draw507041/gp_whitened_mlp 5500 val 0.79601
+PROGRESS matern32/F64_l8/draw507041/gp_whitened_mlp 6000 val 0.795802
+DONE matern32/F64_l8/draw507041/gp_whitened_mlp seconds 45.9 residual 0.937593 CRPS 0.672636
+GEOMETRY ou F64_l8 draw507041 gp_top2 0.4326 white_top2 0.2783 signal_pcs 64 both_full_rank
+START ou/F64_l8/draw507041/white_mlp params 73960 device cuda steps 6000
+PROGRESS ou/F64_l8/draw507041/white_mlp 500 val 1.375059
+PROGRESS ou/F64_l8/draw507041/white_mlp 1000 val 1.333379
+PROGRESS ou/F64_l8/draw507041/white_mlp 1500 val 1.301322
+PROGRESS ou/F64_l8/draw507041/white_mlp 2000 val 1.286749
+PROGRESS ou/F64_l8/draw507041/white_mlp 2500 val 1.279153
+PROGRESS ou/F64_l8/draw507041/white_mlp 3000 val 1.274716
+PROGRESS ou/F64_l8/draw507041/white_mlp 3500 val 1.269879
+PROGRESS ou/F64_l8/draw507041/white_mlp 4000 val 1.264259
+PROGRESS ou/F64_l8/draw507041/white_mlp 4500 val 1.262336
+PROGRESS ou/F64_l8/draw507041/white_mlp 5000 val 1.262301
+PROGRESS ou/F64_l8/draw507041/white_mlp 5500 val 1.259024
+PROGRESS ou/F64_l8/draw507041/white_mlp 6000 val 1.259255
+DONE ou/F64_l8/draw507041/white_mlp seconds 52.8 residual 1.077958 CRPS 0.657806
+START ou/F64_l8/draw507041/white_s4 params 74038 device cuda steps 6000
+PROGRESS ou/F64_l8/draw507041/white_s4 500 val 1.212399
+PROGRESS ou/F64_l8/draw507041/white_s4 1000 val 1.193687
+PROGRESS ou/F64_l8/draw507041/white_s4 1500 val 1.188337
+PROGRESS ou/F64_l8/draw507041/white_s4 2000 val 1.18265
+PROGRESS ou/F64_l8/draw507041/white_s4 2500 val 1.184537
+PROGRESS ou/F64_l8/draw507041/white_s4 3000 val 1.17592
+PROGRESS ou/F64_l8/draw507041/white_s4 3500 val 1.181922
+PROGRESS ou/F64_l8/draw507041/white_s4 4000 val 1.176077
+PROGRESS ou/F64_l8/draw507041/white_s4 4500 val 1.175465
+PROGRESS ou/F64_l8/draw507041/white_s4 5000 val 1.178834
+PROGRESS ou/F64_l8/draw507041/white_s4 5500 val 1.176397
+PROGRESS ou/F64_l8/draw507041/white_s4 6000 val 1.177723
+DONE ou/F64_l8/draw507041/white_s4 seconds 271.3 residual 0.992277 CRPS 0.659977
+START ou/F64_l8/draw507041/white_whitened_mlp params 73960 device cuda steps 6000
+PROGRESS ou/F64_l8/draw507041/white_whitened_mlp 500 val 0.603923
+PROGRESS ou/F64_l8/draw507041/white_whitened_mlp 1000 val 0.593157
+PROGRESS ou/F64_l8/draw507041/white_whitened_mlp 1500 val 0.58844
+PROGRESS ou/F64_l8/draw507041/white_whitened_mlp 2000 val 0.585867
+PROGRESS ou/F64_l8/draw507041/white_whitened_mlp 2500 val 0.584725
+PROGRESS ou/F64_l8/draw507041/white_whitened_mlp 3000 val 0.583816
+PROGRESS ou/F64_l8/draw507041/white_whitened_mlp 3500 val 0.583421
+PROGRESS ou/F64_l8/draw507041/white_whitened_mlp 4000 val 0.5825
+PROGRESS ou/F64_l8/draw507041/white_whitened_mlp 4500 val 0.581932
+PROGRESS ou/F64_l8/draw507041/white_whitened_mlp 5000 val 0.581499
+PROGRESS ou/F64_l8/draw507041/white_whitened_mlp 5500 val 0.581694
+PROGRESS ou/F64_l8/draw507041/white_whitened_mlp 6000 val 0.58071
+DONE ou/F64_l8/draw507041/white_whitened_mlp seconds 54.7 residual 1.089053 CRPS 0.660514
+START ou/F64_l8/draw507041/gp_mlp params 73960 device cuda steps 6000
+PROGRESS ou/F64_l8/draw507041/gp_mlp 500 val 1.836612
+PROGRESS ou/F64_l8/draw507041/gp_mlp 1000 val 1.820956
+PROGRESS ou/F64_l8/draw507041/gp_mlp 1500 val 1.808314
+PROGRESS ou/F64_l8/draw507041/gp_mlp 2000 val 1.807363
+PROGRESS ou/F64_l8/draw507041/gp_mlp 2500 val 1.803975
+PROGRESS ou/F64_l8/draw507041/gp_mlp 3000 val 1.799486
+PROGRESS ou/F64_l8/draw507041/gp_mlp 3500 val 1.807752
+PROGRESS ou/F64_l8/draw507041/gp_mlp 4000 val 1.802183
+PROGRESS ou/F64_l8/draw507041/gp_mlp 4500 val 1.804564
+PROGRESS ou/F64_l8/draw507041/gp_mlp 5000 val 1.799236
+PROGRESS ou/F64_l8/draw507041/gp_mlp 5500 val 1.800194
+PROGRESS ou/F64_l8/draw507041/gp_mlp 6000 val 1.803748
+DONE ou/F64_l8/draw507041/gp_mlp seconds 41.5 residual 1.062115 CRPS 0.65995
+START ou/F64_l8/draw507041/gp_s4 params 74038 device cuda steps 6000
+PROGRESS ou/F64_l8/draw507041/gp_s4 500 val 1.826361
+PROGRESS ou/F64_l8/draw507041/gp_s4 1000 val 1.819544
+PROGRESS ou/F64_l8/draw507041/gp_s4 1500 val 1.808456
+PROGRESS ou/F64_l8/draw507041/gp_s4 2000 val 1.805782
+PROGRESS ou/F64_l8/draw507041/gp_s4 2500 val 1.797515
+PROGRESS ou/F64_l8/draw507041/gp_s4 3000 val 1.793544
+PROGRESS ou/F64_l8/draw507041/gp_s4 3500 val 1.802548
+PROGRESS ou/F64_l8/draw507041/gp_s4 4000 val 1.793716
+PROGRESS ou/F64_l8/draw507041/gp_s4 4500 val 1.795485
+PROGRESS ou/F64_l8/draw507041/gp_s4 5000 val 1.792226
+PROGRESS ou/F64_l8/draw507041/gp_s4 5500 val 1.786969
+PROGRESS ou/F64_l8/draw507041/gp_s4 6000 val 1.794956
+DONE ou/F64_l8/draw507041/gp_s4 seconds 273.8 residual 1.049722 CRPS 0.658688
+START ou/F64_l8/draw507041/gp_whitened_mlp params 73960 device cuda steps 6000
+PROGRESS ou/F64_l8/draw507041/gp_whitened_mlp 500 val 0.816288
+PROGRESS ou/F64_l8/draw507041/gp_whitened_mlp 1000 val 0.813696
+PROGRESS ou/F64_l8/draw507041/gp_whitened_mlp 1500 val 0.812793
+PROGRESS ou/F64_l8/draw507041/gp_whitened_mlp 2000 val 0.81116
+PROGRESS ou/F64_l8/draw507041/gp_whitened_mlp 2500 val 0.811121
+PROGRESS ou/F64_l8/draw507041/gp_whitened_mlp 3000 val 0.809972
+PROGRESS ou/F64_l8/draw507041/gp_whitened_mlp 3500 val 0.809813
+PROGRESS ou/F64_l8/draw507041/gp_whitened_mlp 4000 val 0.809559
+PROGRESS ou/F64_l8/draw507041/gp_whitened_mlp 4500 val 0.809263
+PROGRESS ou/F64_l8/draw507041/gp_whitened_mlp 5000 val 0.809262
+PROGRESS ou/F64_l8/draw507041/gp_whitened_mlp 5500 val 0.808955
+PROGRESS ou/F64_l8/draw507041/gp_whitened_mlp 6000 val 0.80925
+DONE ou/F64_l8/draw507041/gp_whitened_mlp seconds 38.3 residual 1.096556 CRPS 0.658131
+GEOMETRY rbf F16_l4 draw507041 gp_top2 0.8552 white_top2 0.6639 signal_pcs 10 both_full_rank
+START rbf/F16_l4/draw507041/white_mlp params 65464 device cuda steps 6000
+PROGRESS rbf/F16_l4/draw507041/white_mlp 500 val 1.177596
+PROGRESS rbf/F16_l4/draw507041/white_mlp 1000 val 1.081766
+PROGRESS rbf/F16_l4/draw507041/white_mlp 1500 val 1.055042
+PROGRESS rbf/F16_l4/draw507041/white_mlp 2000 val 1.028739
+PROGRESS rbf/F16_l4/draw507041/white_mlp 2500 val 1.01534
+PROGRESS rbf/F16_l4/draw507041/white_mlp 3000 val 1.008473
+PROGRESS rbf/F16_l4/draw507041/white_mlp 3500 val 0.98496
+PROGRESS rbf/F16_l4/draw507041/white_mlp 4000 val 0.983363
+PROGRESS rbf/F16_l4/draw507041/white_mlp 4500 val 0.973399
+PROGRESS rbf/F16_l4/draw507041/white_mlp 5000 val 0.970069
+PROGRESS rbf/F16_l4/draw507041/white_mlp 5500 val 0.969957
+PROGRESS rbf/F16_l4/draw507041/white_mlp 6000 val 0.96423
+DONE rbf/F16_l4/draw507041/white_mlp seconds 44.5 residual 0.313831 CRPS 0.662946
+START rbf/F16_l4/draw507041/white_s4 params 65281 device cuda steps 6000
+PROGRESS rbf/F16_l4/draw507041/white_s4 500 val 1.233083
+PROGRESS rbf/F16_l4/draw507041/white_s4 1000 val 1.13578
+PROGRESS rbf/F16_l4/draw507041/white_s4 1500 val 1.138414
+PROGRESS rbf/F16_l4/draw507041/white_s4 2000 val 1.052391
+PROGRESS rbf/F16_l4/draw507041/white_s4 2500 val 1.024718
+PROGRESS rbf/F16_l4/draw507041/white_s4 3000 val 1.039217
+PROGRESS rbf/F16_l4/draw507041/white_s4 3500 val 0.995742
+PROGRESS rbf/F16_l4/draw507041/white_s4 4000 val 1.010547
+PROGRESS rbf/F16_l4/draw507041/white_s4 4500 val 0.981016
+PROGRESS rbf/F16_l4/draw507041/white_s4 5000 val 0.973563
+PROGRESS rbf/F16_l4/draw507041/white_s4 5500 val 0.969819
+PROGRESS rbf/F16_l4/draw507041/white_s4 6000 val 0.973593
+DONE rbf/F16_l4/draw507041/white_s4 seconds 176.7 residual 0.315448 CRPS 0.674492
+START rbf/F16_l4/draw507041/white_whitened_mlp params 65464 device cuda steps 6000
+PROGRESS rbf/F16_l4/draw507041/white_whitened_mlp 500 val 0.196047
+PROGRESS rbf/F16_l4/draw507041/white_whitened_mlp 1000 val 0.17479
+PROGRESS rbf/F16_l4/draw507041/white_whitened_mlp 1500 val 0.166603
+PROGRESS rbf/F16_l4/draw507041/white_whitened_mlp 2000 val 0.165585
+PROGRESS rbf/F16_l4/draw507041/white_whitened_mlp 2500 val 0.16093
+PROGRESS rbf/F16_l4/draw507041/white_whitened_mlp 3000 val 0.159029
+PROGRESS rbf/F16_l4/draw507041/white_whitened_mlp 3500 val 0.155253
+PROGRESS rbf/F16_l4/draw507041/white_whitened_mlp 4000 val 0.15512
+PROGRESS rbf/F16_l4/draw507041/white_whitened_mlp 4500 val 0.155099
+PROGRESS rbf/F16_l4/draw507041/white_whitened_mlp 5000 val 0.1525
+PROGRESS rbf/F16_l4/draw507041/white_whitened_mlp 5500 val 0.15064
+PROGRESS rbf/F16_l4/draw507041/white_whitened_mlp 6000 val 0.149824
+DONE rbf/F16_l4/draw507041/white_whitened_mlp seconds 49.5 residual 0.300489 CRPS 0.667091
+START rbf/F16_l4/draw507041/gp_mlp params 65464 device cuda steps 6000
+PROGRESS rbf/F16_l4/draw507041/gp_mlp 500 val 2.044719
+PROGRESS rbf/F16_l4/draw507041/gp_mlp 1000 val 1.983288
+PROGRESS rbf/F16_l4/draw507041/gp_mlp 1500 val 1.937366
+PROGRESS rbf/F16_l4/draw507041/gp_mlp 2000 val 1.90348
+PROGRESS rbf/F16_l4/draw507041/gp_mlp 2500 val 1.891298
+PROGRESS rbf/F16_l4/draw507041/gp_mlp 3000 val 1.882773
+PROGRESS rbf/F16_l4/draw507041/gp_mlp 3500 val 1.884655
+PROGRESS rbf/F16_l4/draw507041/gp_mlp 4000 val 1.850999
+PROGRESS rbf/F16_l4/draw507041/gp_mlp 4500 val 1.840896
+PROGRESS rbf/F16_l4/draw507041/gp_mlp 5000 val 1.859831
+PROGRESS rbf/F16_l4/draw507041/gp_mlp 5500 val 1.842087
+PROGRESS rbf/F16_l4/draw507041/gp_mlp 6000 val 1.806792
+DONE rbf/F16_l4/draw507041/gp_mlp seconds 53.5 residual 0.305425 CRPS 0.668966
+START rbf/F16_l4/draw507041/gp_s4 params 65281 device cuda steps 6000
+PROGRESS rbf/F16_l4/draw507041/gp_s4 500 val 2.110305
+PROGRESS rbf/F16_l4/draw507041/gp_s4 1000 val 1.998851
+PROGRESS rbf/F16_l4/draw507041/gp_s4 1500 val 1.960799
+PROGRESS rbf/F16_l4/draw507041/gp_s4 2000 val 1.93177
+PROGRESS rbf/F16_l4/draw507041/gp_s4 2500 val 1.942511
+PROGRESS rbf/F16_l4/draw507041/gp_s4 3000 val 1.885885
+PROGRESS rbf/F16_l4/draw507041/gp_s4 3500 val 1.889592
+PROGRESS rbf/F16_l4/draw507041/gp_s4 4000 val 1.879624
+PROGRESS rbf/F16_l4/draw507041/gp_s4 4500 val 1.856185
+PROGRESS rbf/F16_l4/draw507041/gp_s4 5000 val 1.872843
+PROGRESS rbf/F16_l4/draw507041/gp_s4 5500 val 1.856345
+PROGRESS rbf/F16_l4/draw507041/gp_s4 6000 val 1.842588
+DONE rbf/F16_l4/draw507041/gp_s4 seconds 160.7 residual 0.31653 CRPS 0.670029
+START rbf/F16_l4/draw507041/gp_whitened_mlp params 65464 device cuda steps 6000
+PROGRESS rbf/F16_l4/draw507041/gp_whitened_mlp 500 val 0.369718
+PROGRESS rbf/F16_l4/draw507041/gp_whitened_mlp 1000 val 0.354034
+PROGRESS rbf/F16_l4/draw507041/gp_whitened_mlp 1500 val 0.34746
+PROGRESS rbf/F16_l4/draw507041/gp_whitened_mlp 2000 val 0.343626
+PROGRESS rbf/F16_l4/draw507041/gp_whitened_mlp 2500 val 0.340533
+PROGRESS rbf/F16_l4/draw507041/gp_whitened_mlp 3000 val 0.337631
+PROGRESS rbf/F16_l4/draw507041/gp_whitened_mlp 3500 val 0.336437
+PROGRESS rbf/F16_l4/draw507041/gp_whitened_mlp 4000 val 0.33611
+PROGRESS rbf/F16_l4/draw507041/gp_whitened_mlp 4500 val 0.333622
+PROGRESS rbf/F16_l4/draw507041/gp_whitened_mlp 5000 val 0.33191
+PROGRESS rbf/F16_l4/draw507041/gp_whitened_mlp 5500 val 0.332578
+PROGRESS rbf/F16_l4/draw507041/gp_whitened_mlp 6000 val 0.33071
+DONE rbf/F16_l4/draw507041/gp_whitened_mlp seconds 47.2 residual 0.294102 CRPS 0.664346
+GEOMETRY matern52 F16_l4 draw507041 gp_top2 0.8062 white_top2 0.6175 signal_pcs 16 both_full_rank
+START matern52/F16_l4/draw507041/white_mlp params 65464 device cuda steps 6000
+PROGRESS matern52/F16_l4/draw507041/white_mlp 500 val 1.318898
+PROGRESS matern52/F16_l4/draw507041/white_mlp 1000 val 1.258444
+PROGRESS matern52/F16_l4/draw507041/white_mlp 1500 val 1.249143
+PROGRESS matern52/F16_l4/draw507041/white_mlp 2000 val 1.235567
+PROGRESS matern52/F16_l4/draw507041/white_mlp 2500 val 1.224589
+PROGRESS matern52/F16_l4/draw507041/white_mlp 3000 val 1.216891
+PROGRESS matern52/F16_l4/draw507041/white_mlp 3500 val 1.209076
+PROGRESS matern52/F16_l4/draw507041/white_mlp 4000 val 1.208716
+PROGRESS matern52/F16_l4/draw507041/white_mlp 4500 val 1.205585
+PROGRESS matern52/F16_l4/draw507041/white_mlp 5000 val 1.204591
+PROGRESS matern52/F16_l4/draw507041/white_mlp 5500 val 1.203827
+PROGRESS matern52/F16_l4/draw507041/white_mlp 6000 val 1.204714
+DONE matern52/F16_l4/draw507041/white_mlp seconds 55.3 residual 0.577379 CRPS 0.728664
+START matern52/F16_l4/draw507041/white_s4 params 65281 device cuda steps 6000
+PROGRESS matern52/F16_l4/draw507041/white_s4 500 val 1.381477
+PROGRESS matern52/F16_l4/draw507041/white_s4 1000 val 1.284208
+PROGRESS matern52/F16_l4/draw507041/white_s4 1500 val 1.268248
+PROGRESS matern52/F16_l4/draw507041/white_s4 2000 val 1.22936
+PROGRESS matern52/F16_l4/draw507041/white_s4 2500 val 1.219961
+PROGRESS matern52/F16_l4/draw507041/white_s4 3000 val 1.215908
+PROGRESS matern52/F16_l4/draw507041/white_s4 3500 val 1.221391
+PROGRESS matern52/F16_l4/draw507041/white_s4 4000 val 1.207342
+PROGRESS matern52/F16_l4/draw507041/white_s4 4500 val 1.214226
+PROGRESS matern52/F16_l4/draw507041/white_s4 5000 val 1.208548
+PROGRESS matern52/F16_l4/draw507041/white_s4 5500 val 1.205284
+PROGRESS matern52/F16_l4/draw507041/white_s4 6000 val 1.202727
+DONE matern52/F16_l4/draw507041/white_s4 seconds 172.2 residual 0.571468 CRPS 0.73638
+START matern52/F16_l4/draw507041/white_whitened_mlp params 65464 device cuda steps 6000
+PROGRESS matern52/F16_l4/draw507041/white_whitened_mlp 500 val 0.333741
+PROGRESS matern52/F16_l4/draw507041/white_whitened_mlp 1000 val 0.320416
+PROGRESS matern52/F16_l4/draw507041/white_whitened_mlp 1500 val 0.315241
+PROGRESS matern52/F16_l4/draw507041/white_whitened_mlp 2000 val 0.311321
+PROGRESS matern52/F16_l4/draw507041/white_whitened_mlp 2500 val 0.309203
+PROGRESS matern52/F16_l4/draw507041/white_whitened_mlp 3000 val 0.308605
+PROGRESS matern52/F16_l4/draw507041/white_whitened_mlp 3500 val 0.307219
+PROGRESS matern52/F16_l4/draw507041/white_whitened_mlp 4000 val 0.307571
+PROGRESS matern52/F16_l4/draw507041/white_whitened_mlp 4500 val 0.306343
+PROGRESS matern52/F16_l4/draw507041/white_whitened_mlp 5000 val 0.306168
+PROGRESS matern52/F16_l4/draw507041/white_whitened_mlp 5500 val 0.305635
+PROGRESS matern52/F16_l4/draw507041/white_whitened_mlp 6000 val 0.304356
+DONE matern52/F16_l4/draw507041/white_whitened_mlp seconds 61.9 residual 0.568313 CRPS 0.735082
+START matern52/F16_l4/draw507041/gp_mlp params 65464 device cuda steps 6000
+PROGRESS matern52/F16_l4/draw507041/gp_mlp 500 val 2.133097
+PROGRESS matern52/F16_l4/draw507041/gp_mlp 1000 val 2.090948
+PROGRESS matern52/F16_l4/draw507041/gp_mlp 1500 val 2.07532
+PROGRESS matern52/F16_l4/draw507041/gp_mlp 2000 val 2.054709
+PROGRESS matern52/F16_l4/draw507041/gp_mlp 2500 val 2.05483
+PROGRESS matern52/F16_l4/draw507041/gp_mlp 3000 val 2.04839
+PROGRESS matern52/F16_l4/draw507041/gp_mlp 3500 val 2.036198
+PROGRESS matern52/F16_l4/draw507041/gp_mlp 4000 val 2.043774
+PROGRESS matern52/F16_l4/draw507041/gp_mlp 4500 val 2.048658
+PROGRESS matern52/F16_l4/draw507041/gp_mlp 5000 val 2.043743
+PROGRESS matern52/F16_l4/draw507041/gp_mlp 5500 val 2.031224
+PROGRESS matern52/F16_l4/draw507041/gp_mlp 6000 val 2.039391
+DONE matern52/F16_l4/draw507041/gp_mlp seconds 41.3 residual 0.456396 CRPS 0.728996
+START matern52/F16_l4/draw507041/gp_s4 params 65281 device cuda steps 6000
+PROGRESS matern52/F16_l4/draw507041/gp_s4 500 val 2.209802
+PROGRESS matern52/F16_l4/draw507041/gp_s4 1000 val 2.135243
+PROGRESS matern52/F16_l4/draw507041/gp_s4 1500 val 2.079043
+PROGRESS matern52/F16_l4/draw507041/gp_s4 2000 val 2.062489
+PROGRESS matern52/F16_l4/draw507041/gp_s4 2500 val 2.053203
+PROGRESS matern52/F16_l4/draw507041/gp_s4 3000 val 2.057503
+PROGRESS matern52/F16_l4/draw507041/gp_s4 3500 val 2.037045
+PROGRESS matern52/F16_l4/draw507041/gp_s4 4000 val 2.054021
+PROGRESS matern52/F16_l4/draw507041/gp_s4 4500 val 2.041039
+PROGRESS matern52/F16_l4/draw507041/gp_s4 5000 val 2.047951
+PROGRESS matern52/F16_l4/draw507041/gp_s4 5500 val 2.026997
+PROGRESS matern52/F16_l4/draw507041/gp_s4 6000 val 2.043547
+DONE matern52/F16_l4/draw507041/gp_s4 seconds 186.7 residual 0.453447 CRPS 0.730473
+START matern52/F16_l4/draw507041/gp_whitened_mlp params 65464 device cuda steps 6000
+PROGRESS matern52/F16_l4/draw507041/gp_whitened_mlp 500 val 0.693751
+PROGRESS matern52/F16_l4/draw507041/gp_whitened_mlp 1000 val 0.686037
+PROGRESS matern52/F16_l4/draw507041/gp_whitened_mlp 1500 val 0.682938
+PROGRESS matern52/F16_l4/draw507041/gp_whitened_mlp 2000 val 0.68305
+PROGRESS matern52/F16_l4/draw507041/gp_whitened_mlp 2500 val 0.680527
+PROGRESS matern52/F16_l4/draw507041/gp_whitened_mlp 3000 val 0.679853
+PROGRESS matern52/F16_l4/draw507041/gp_whitened_mlp 3500 val 0.679957
+PROGRESS matern52/F16_l4/draw507041/gp_whitened_mlp 4000 val 0.677867
+PROGRESS matern52/F16_l4/draw507041/gp_whitened_mlp 4500 val 0.677464
+PROGRESS matern52/F16_l4/draw507041/gp_whitened_mlp 5000 val 0.677981
+PROGRESS matern52/F16_l4/draw507041/gp_whitened_mlp 5500 val 0.677386
+PROGRESS matern52/F16_l4/draw507041/gp_whitened_mlp 6000 val 0.67779
+DONE matern52/F16_l4/draw507041/gp_whitened_mlp seconds 41.7 residual 0.448764 CRPS 0.728281
+GEOMETRY matern32 F16_l4 draw507041 gp_top2 0.7742 white_top2 0.5872 signal_pcs 16 both_full_rank
+START matern32/F16_l4/draw507041/white_mlp params 65464 device cuda steps 6000
+PROGRESS matern32/F16_l4/draw507041/white_mlp 500 val 1.422915
+PROGRESS matern32/F16_l4/draw507041/white_mlp 1000 val 1.366886
+PROGRESS matern32/F16_l4/draw507041/white_mlp 1500 val 1.362595
+PROGRESS matern32/F16_l4/draw507041/white_mlp 2000 val 1.356095
+PROGRESS matern32/F16_l4/draw507041/white_mlp 2500 val 1.339875
+PROGRESS matern32/F16_l4/draw507041/white_mlp 3000 val 1.336582
+PROGRESS matern32/F16_l4/draw507041/white_mlp 3500 val 1.326993
+PROGRESS matern32/F16_l4/draw507041/white_mlp 4000 val 1.326524
+PROGRESS matern32/F16_l4/draw507041/white_mlp 4500 val 1.328006
+PROGRESS matern32/F16_l4/draw507041/white_mlp 5000 val 1.323233
+PROGRESS matern32/F16_l4/draw507041/white_mlp 5500 val 1.321751
+PROGRESS matern32/F16_l4/draw507041/white_mlp 6000 val 1.322214
+DONE matern32/F16_l4/draw507041/white_mlp seconds 42.0 residual 0.738917 CRPS 0.741056
+START matern32/F16_l4/draw507041/white_s4 params 65281 device cuda steps 6000
+PROGRESS matern32/F16_l4/draw507041/white_s4 500 val 1.433708
+PROGRESS matern32/F16_l4/draw507041/white_s4 1000 val 1.37125
+PROGRESS matern32/F16_l4/draw507041/white_s4 1500 val 1.354023
+PROGRESS matern32/F16_l4/draw507041/white_s4 2000 val 1.334918
+PROGRESS matern32/F16_l4/draw507041/white_s4 2500 val 1.334186
+PROGRESS matern32/F16_l4/draw507041/white_s4 3000 val 1.329436
+PROGRESS matern32/F16_l4/draw507041/white_s4 3500 val 1.345798
+PROGRESS matern32/F16_l4/draw507041/white_s4 4000 val 1.31921
+PROGRESS matern32/F16_l4/draw507041/white_s4 4500 val 1.3211
+PROGRESS matern32/F16_l4/draw507041/white_s4 5000 val 1.320611
+PROGRESS matern32/F16_l4/draw507041/white_s4 5500 val 1.316055
+PROGRESS matern32/F16_l4/draw507041/white_s4 6000 val 1.31621
+DONE matern32/F16_l4/draw507041/white_s4 seconds 182.8 residual 0.732998 CRPS 0.74259
+START matern32/F16_l4/draw507041/white_whitened_mlp params 65464 device cuda steps 6000
+PROGRESS matern32/F16_l4/draw507041/white_whitened_mlp 500 val 0.428063
+PROGRESS matern32/F16_l4/draw507041/white_whitened_mlp 1000 val 0.418888
+PROGRESS matern32/F16_l4/draw507041/white_whitened_mlp 1500 val 0.414469
+PROGRESS matern32/F16_l4/draw507041/white_whitened_mlp 2000 val 0.412413
+PROGRESS matern32/F16_l4/draw507041/white_whitened_mlp 2500 val 0.411265
+PROGRESS matern32/F16_l4/draw507041/white_whitened_mlp 3000 val 0.410158
+PROGRESS matern32/F16_l4/draw507041/white_whitened_mlp 3500 val 0.408903
+PROGRESS matern32/F16_l4/draw507041/white_whitened_mlp 4000 val 0.408201
+PROGRESS matern32/F16_l4/draw507041/white_whitened_mlp 4500 val 0.408346
+PROGRESS matern32/F16_l4/draw507041/white_whitened_mlp 5000 val 0.408375
+PROGRESS matern32/F16_l4/draw507041/white_whitened_mlp 5500 val 0.407145
+PROGRESS matern32/F16_l4/draw507041/white_whitened_mlp 6000 val 0.406846
+DONE matern32/F16_l4/draw507041/white_whitened_mlp seconds 49.0 residual 0.733937 CRPS 0.744863
+START matern32/F16_l4/draw507041/gp_mlp params 65464 device cuda steps 6000
+PROGRESS matern32/F16_l4/draw507041/gp_mlp 500 val 2.155732
+PROGRESS matern32/F16_l4/draw507041/gp_mlp 1000 val 2.109858
+PROGRESS matern32/F16_l4/draw507041/gp_mlp 1500 val 2.105486
+PROGRESS matern32/F16_l4/draw507041/gp_mlp 2000 val 2.091674
+PROGRESS matern32/F16_l4/draw507041/gp_mlp 2500 val 2.085016
+PROGRESS matern32/F16_l4/draw507041/gp_mlp 3000 val 2.084508
+PROGRESS matern32/F16_l4/draw507041/gp_mlp 3500 val 2.075507
+PROGRESS matern32/F16_l4/draw507041/gp_mlp 4000 val 2.083369
+PROGRESS matern32/F16_l4/draw507041/gp_mlp 4500 val 2.082308
+PROGRESS matern32/F16_l4/draw507041/gp_mlp 5000 val 2.079821
+PROGRESS matern32/F16_l4/draw507041/gp_mlp 5500 val 2.076189
+PROGRESS matern32/F16_l4/draw507041/gp_mlp 6000 val 2.075771
+DONE matern32/F16_l4/draw507041/gp_mlp seconds 48.6 residual 0.553562 CRPS 0.740482
+START matern32/F16_l4/draw507041/gp_s4 params 65281 device cuda steps 6000
+PROGRESS matern32/F16_l4/draw507041/gp_s4 500 val 2.202737
+PROGRESS matern32/F16_l4/draw507041/gp_s4 1000 val 2.13028
+PROGRESS matern32/F16_l4/draw507041/gp_s4 1500 val 2.111381
+PROGRESS matern32/F16_l4/draw507041/gp_s4 2000 val 2.103266
+PROGRESS matern32/F16_l4/draw507041/gp_s4 2500 val 2.088351
+PROGRESS matern32/F16_l4/draw507041/gp_s4 3000 val 2.091781
+PROGRESS matern32/F16_l4/draw507041/gp_s4 3500 val 2.078086
+PROGRESS matern32/F16_l4/draw507041/gp_s4 4000 val 2.080526
+PROGRESS matern32/F16_l4/draw507041/gp_s4 4500 val 2.090568
+PROGRESS matern32/F16_l4/draw507041/gp_s4 5000 val 2.084691
+PROGRESS matern32/F16_l4/draw507041/gp_s4 5500 val 2.075502
+PROGRESS matern32/F16_l4/draw507041/gp_s4 6000 val 2.080608
+DONE matern32/F16_l4/draw507041/gp_s4 seconds 178.7 residual 0.549335 CRPS 0.74237
+START matern32/F16_l4/draw507041/gp_whitened_mlp params 65464 device cuda steps 6000
+PROGRESS matern32/F16_l4/draw507041/gp_whitened_mlp 500 val 0.711277
+PROGRESS matern32/F16_l4/draw507041/gp_whitened_mlp 1000 val 0.706545
+PROGRESS matern32/F16_l4/draw507041/gp_whitened_mlp 1500 val 0.7045
+PROGRESS matern32/F16_l4/draw507041/gp_whitened_mlp 2000 val 0.704895
+PROGRESS matern32/F16_l4/draw507041/gp_whitened_mlp 2500 val 0.70345
+PROGRESS matern32/F16_l4/draw507041/gp_whitened_mlp 3000 val 0.703127
+PROGRESS matern32/F16_l4/draw507041/gp_whitened_mlp 3500 val 0.703383
+PROGRESS matern32/F16_l4/draw507041/gp_whitened_mlp 4000 val 0.701217
+PROGRESS matern32/F16_l4/draw507041/gp_whitened_mlp 4500 val 0.701009
+PROGRESS matern32/F16_l4/draw507041/gp_whitened_mlp 5000 val 0.701419
+PROGRESS matern32/F16_l4/draw507041/gp_whitened_mlp 5500 val 0.700706
+PROGRESS matern32/F16_l4/draw507041/gp_whitened_mlp 6000 val 0.700803
+DONE matern32/F16_l4/draw507041/gp_whitened_mlp seconds 48.3 residual 0.543692 CRPS 0.740059
+GEOMETRY ou F16_l4 draw507041 gp_top2 0.6468 white_top2 0.4771 signal_pcs 16 both_full_rank
+START ou/F16_l4/draw507041/white_mlp params 65464 device cuda steps 6000
+PROGRESS ou/F16_l4/draw507041/white_mlp 500 val 1.640197
+PROGRESS ou/F16_l4/draw507041/white_mlp 1000 val 1.606318
+PROGRESS ou/F16_l4/draw507041/white_mlp 1500 val 1.602304
+PROGRESS ou/F16_l4/draw507041/white_mlp 2000 val 1.59601
+PROGRESS ou/F16_l4/draw507041/white_mlp 2500 val 1.588398
+PROGRESS ou/F16_l4/draw507041/white_mlp 3000 val 1.587098
+PROGRESS ou/F16_l4/draw507041/white_mlp 3500 val 1.582427
+PROGRESS ou/F16_l4/draw507041/white_mlp 4000 val 1.58229
+PROGRESS ou/F16_l4/draw507041/white_mlp 4500 val 1.576798
+PROGRESS ou/F16_l4/draw507041/white_mlp 5000 val 1.581184
+PROGRESS ou/F16_l4/draw507041/white_mlp 5500 val 1.57338
+PROGRESS ou/F16_l4/draw507041/white_mlp 6000 val 1.577047
+DONE ou/F16_l4/draw507041/white_mlp seconds 48.0 residual 1.141315 CRPS 0.717994
+START ou/F16_l4/draw507041/white_s4 params 65281 device cuda steps 6000
+PROGRESS ou/F16_l4/draw507041/white_s4 500 val 1.654402
+PROGRESS ou/F16_l4/draw507041/white_s4 1000 val 1.60551
+PROGRESS ou/F16_l4/draw507041/white_s4 1500 val 1.588122
+PROGRESS ou/F16_l4/draw507041/white_s4 2000 val 1.582139
+PROGRESS ou/F16_l4/draw507041/white_s4 2500 val 1.576406
+PROGRESS ou/F16_l4/draw507041/white_s4 3000 val 1.575801
+PROGRESS ou/F16_l4/draw507041/white_s4 3500 val 1.578736
+PROGRESS ou/F16_l4/draw507041/white_s4 4000 val 1.574191
+PROGRESS ou/F16_l4/draw507041/white_s4 4500 val 1.573347
+PROGRESS ou/F16_l4/draw507041/white_s4 5000 val 1.571374
+PROGRESS ou/F16_l4/draw507041/white_s4 5500 val 1.576899
+PROGRESS ou/F16_l4/draw507041/white_s4 6000 val 1.572489
+DONE ou/F16_l4/draw507041/white_s4 seconds 181.5 residual 1.137281 CRPS 0.718502
+START ou/F16_l4/draw507041/white_whitened_mlp params 65464 device cuda steps 6000
+PROGRESS ou/F16_l4/draw507041/white_whitened_mlp 500 val 0.654567
+PROGRESS ou/F16_l4/draw507041/white_whitened_mlp 1000 val 0.645403
+PROGRESS ou/F16_l4/draw507041/white_whitened_mlp 1500 val 0.643101
+PROGRESS ou/F16_l4/draw507041/white_whitened_mlp 2000 val 0.641395
+PROGRESS ou/F16_l4/draw507041/white_whitened_mlp 2500 val 0.640873
+PROGRESS ou/F16_l4/draw507041/white_whitened_mlp 3000 val 0.639295
+PROGRESS ou/F16_l4/draw507041/white_whitened_mlp 3500 val 0.63928
+PROGRESS ou/F16_l4/draw507041/white_whitened_mlp 4000 val 0.638865
+PROGRESS ou/F16_l4/draw507041/white_whitened_mlp 4500 val 0.638258
+PROGRESS ou/F16_l4/draw507041/white_whitened_mlp 5000 val 0.639473
+PROGRESS ou/F16_l4/draw507041/white_whitened_mlp 5500 val 0.637798
+PROGRESS ou/F16_l4/draw507041/white_whitened_mlp 6000 val 0.638002
+DONE ou/F16_l4/draw507041/white_whitened_mlp seconds 47.9 residual 1.137312 CRPS 0.719258
+START ou/F16_l4/draw507041/gp_mlp params 65464 device cuda steps 6000
+PROGRESS ou/F16_l4/draw507041/gp_mlp 500 val 2.047486
+PROGRESS ou/F16_l4/draw507041/gp_mlp 1000 val 2.022518
+PROGRESS ou/F16_l4/draw507041/gp_mlp 1500 val 2.022694
+PROGRESS ou/F16_l4/draw507041/gp_mlp 2000 val 2.016082
+PROGRESS ou/F16_l4/draw507041/gp_mlp 2500 val 2.018772
+PROGRESS ou/F16_l4/draw507041/gp_mlp 3000 val 2.014508
+PROGRESS ou/F16_l4/draw507041/gp_mlp 3500 val 2.011381
+PROGRESS ou/F16_l4/draw507041/gp_mlp 4000 val 2.010725
+PROGRESS ou/F16_l4/draw507041/gp_mlp 4500 val 2.013143
+PROGRESS ou/F16_l4/draw507041/gp_mlp 5000 val 2.014345
+PROGRESS ou/F16_l4/draw507041/gp_mlp 5500 val 2.013091
+PROGRESS ou/F16_l4/draw507041/gp_mlp 6000 val 2.012101
+DONE ou/F16_l4/draw507041/gp_mlp seconds 45.8 residual 0.837075 CRPS 0.721559
+START ou/F16_l4/draw507041/gp_s4 params 65281 device cuda steps 6000
+PROGRESS ou/F16_l4/draw507041/gp_s4 500 val 2.057846
+PROGRESS ou/F16_l4/draw507041/gp_s4 1000 val 2.042658
+PROGRESS ou/F16_l4/draw507041/gp_s4 1500 val 2.030021
+PROGRESS ou/F16_l4/draw507041/gp_s4 2000 val 2.025194
+PROGRESS ou/F16_l4/draw507041/gp_s4 2500 val 2.017967
+PROGRESS ou/F16_l4/draw507041/gp_s4 3000 val 2.025561
+PROGRESS ou/F16_l4/draw507041/gp_s4 3500 val 2.014851
+PROGRESS ou/F16_l4/draw507041/gp_s4 4000 val 2.01436
+PROGRESS ou/F16_l4/draw507041/gp_s4 4500 val 2.020605
+PROGRESS ou/F16_l4/draw507041/gp_s4 5000 val 2.022146
+PROGRESS ou/F16_l4/draw507041/gp_s4 5500 val 2.016882
+PROGRESS ou/F16_l4/draw507041/gp_s4 6000 val 2.019338
+DONE ou/F16_l4/draw507041/gp_s4 seconds 184.5 residual 0.837326 CRPS 0.722164
+START ou/F16_l4/draw507041/gp_whitened_mlp params 65464 device cuda steps 6000
+PROGRESS ou/F16_l4/draw507041/gp_whitened_mlp 500 val 0.75533
+PROGRESS ou/F16_l4/draw507041/gp_whitened_mlp 1000 val 0.750595
+PROGRESS ou/F16_l4/draw507041/gp_whitened_mlp 1500 val 0.748797
+PROGRESS ou/F16_l4/draw507041/gp_whitened_mlp 2000 val 0.749901
+PROGRESS ou/F16_l4/draw507041/gp_whitened_mlp 2500 val 0.74874
+PROGRESS ou/F16_l4/draw507041/gp_whitened_mlp 3000 val 0.747854
+PROGRESS ou/F16_l4/draw507041/gp_whitened_mlp 3500 val 0.747685
+PROGRESS ou/F16_l4/draw507041/gp_whitened_mlp 4000 val 0.746947
+PROGRESS ou/F16_l4/draw507041/gp_whitened_mlp 4500 val 0.74688
+PROGRESS ou/F16_l4/draw507041/gp_whitened_mlp 5000 val 0.747411
+PROGRESS ou/F16_l4/draw507041/gp_whitened_mlp 5500 val 0.747081
+PROGRESS ou/F16_l4/draw507041/gp_whitened_mlp 6000 val 0.748056
+DONE ou/F16_l4/draw507041/gp_whitened_mlp seconds 52.9 residual 0.835137 CRPS 0.717084
+GEOMETRY rbf F16_l2 draw507041 gp_top2 0.5843 white_top2 0.4281 signal_pcs 15 both_full_rank
+START rbf/F16_l2/draw507041/white_mlp params 65464 device cuda steps 6000
+PROGRESS rbf/F16_l2/draw507041/white_mlp 500 val 1.276019
+PROGRESS rbf/F16_l2/draw507041/white_mlp 1000 val 1.236583
+PROGRESS rbf/F16_l2/draw507041/white_mlp 1500 val 1.221816
+PROGRESS rbf/F16_l2/draw507041/white_mlp 2000 val 1.209994
+PROGRESS rbf/F16_l2/draw507041/white_mlp 2500 val 1.202425
+PROGRESS rbf/F16_l2/draw507041/white_mlp 3000 val 1.195068
+PROGRESS rbf/F16_l2/draw507041/white_mlp 3500 val 1.1875
+PROGRESS rbf/F16_l2/draw507041/white_mlp 4000 val 1.188476
+PROGRESS rbf/F16_l2/draw507041/white_mlp 4500 val 1.184267
+PROGRESS rbf/F16_l2/draw507041/white_mlp 5000 val 1.186957
+PROGRESS rbf/F16_l2/draw507041/white_mlp 5500 val 1.181609
+PROGRESS rbf/F16_l2/draw507041/white_mlp 6000 val 1.176582
+DONE rbf/F16_l2/draw507041/white_mlp seconds 50.2 residual 0.743368 CRPS 0.660538
+START rbf/F16_l2/draw507041/white_s4 params 65281 device cuda steps 6000
+PROGRESS rbf/F16_l2/draw507041/white_s4 500 val 1.357217
+PROGRESS rbf/F16_l2/draw507041/white_s4 1000 val 1.258709
+PROGRESS rbf/F16_l2/draw507041/white_s4 1500 val 1.229277
+PROGRESS rbf/F16_l2/draw507041/white_s4 2000 val 1.211861
+PROGRESS rbf/F16_l2/draw507041/white_s4 2500 val 1.202605
+PROGRESS rbf/F16_l2/draw507041/white_s4 3000 val 1.193393
+PROGRESS rbf/F16_l2/draw507041/white_s4 3500 val 1.197957
+PROGRESS rbf/F16_l2/draw507041/white_s4 4000 val 1.188545
+PROGRESS rbf/F16_l2/draw507041/white_s4 4500 val 1.180773
+PROGRESS rbf/F16_l2/draw507041/white_s4 5000 val 1.182319
+PROGRESS rbf/F16_l2/draw507041/white_s4 5500 val 1.186176
+PROGRESS rbf/F16_l2/draw507041/white_s4 6000 val 1.181456
+DONE rbf/F16_l2/draw507041/white_s4 seconds 186.1 residual 0.746155 CRPS 0.665021
+START rbf/F16_l2/draw507041/white_whitened_mlp params 65464 device cuda steps 6000
+PROGRESS rbf/F16_l2/draw507041/white_whitened_mlp 500 val 0.36816
+PROGRESS rbf/F16_l2/draw507041/white_whitened_mlp 1000 val 0.35033
+PROGRESS rbf/F16_l2/draw507041/white_whitened_mlp 1500 val 0.34074
+PROGRESS rbf/F16_l2/draw507041/white_whitened_mlp 2000 val 0.336821
+PROGRESS rbf/F16_l2/draw507041/white_whitened_mlp 2500 val 0.335205
+PROGRESS rbf/F16_l2/draw507041/white_whitened_mlp 3000 val 0.331766
+PROGRESS rbf/F16_l2/draw507041/white_whitened_mlp 3500 val 0.33007
+PROGRESS rbf/F16_l2/draw507041/white_whitened_mlp 4000 val 0.330416
+PROGRESS rbf/F16_l2/draw507041/white_whitened_mlp 4500 val 0.328249
+PROGRESS rbf/F16_l2/draw507041/white_whitened_mlp 5000 val 0.33024
+PROGRESS rbf/F16_l2/draw507041/white_whitened_mlp 5500 val 0.327984
+PROGRESS rbf/F16_l2/draw507041/white_whitened_mlp 6000 val 0.325936
+DONE rbf/F16_l2/draw507041/white_whitened_mlp seconds 43.1 residual 0.7397 CRPS 0.662749
+START rbf/F16_l2/draw507041/gp_mlp params 65464 device cuda steps 6000
+PROGRESS rbf/F16_l2/draw507041/gp_mlp 500 val 1.862953
+PROGRESS rbf/F16_l2/draw507041/gp_mlp 1000 val 1.843304
+PROGRESS rbf/F16_l2/draw507041/gp_mlp 1500 val 1.826032
+PROGRESS rbf/F16_l2/draw507041/gp_mlp 2000 val 1.82636
+PROGRESS rbf/F16_l2/draw507041/gp_mlp 2500 val 1.81298
+PROGRESS rbf/F16_l2/draw507041/gp_mlp 3000 val 1.810493
+PROGRESS rbf/F16_l2/draw507041/gp_mlp 3500 val 1.806285
+PROGRESS rbf/F16_l2/draw507041/gp_mlp 4000 val 1.800899
+PROGRESS rbf/F16_l2/draw507041/gp_mlp 4500 val 1.797425
+PROGRESS rbf/F16_l2/draw507041/gp_mlp 5000 val 1.801711
+PROGRESS rbf/F16_l2/draw507041/gp_mlp 5500 val 1.798881
+PROGRESS rbf/F16_l2/draw507041/gp_mlp 6000 val 1.801452
+DONE rbf/F16_l2/draw507041/gp_mlp seconds 50.6 residual 0.813035 CRPS 0.663081
+START rbf/F16_l2/draw507041/gp_s4 params 65281 device cuda steps 6000
+PROGRESS rbf/F16_l2/draw507041/gp_s4 500 val 1.910728
+PROGRESS rbf/F16_l2/draw507041/gp_s4 1000 val 1.868747
+PROGRESS rbf/F16_l2/draw507041/gp_s4 1500 val 1.834586
+PROGRESS rbf/F16_l2/draw507041/gp_s4 2000 val 1.828128
+PROGRESS rbf/F16_l2/draw507041/gp_s4 2500 val 1.823829
+PROGRESS rbf/F16_l2/draw507041/gp_s4 3000 val 1.821605
+PROGRESS rbf/F16_l2/draw507041/gp_s4 3500 val 1.806055
+PROGRESS rbf/F16_l2/draw507041/gp_s4 4000 val 1.800341
+PROGRESS rbf/F16_l2/draw507041/gp_s4 4500 val 1.802263
+PROGRESS rbf/F16_l2/draw507041/gp_s4 5000 val 1.804623
+PROGRESS rbf/F16_l2/draw507041/gp_s4 5500 val 1.800468
+PROGRESS rbf/F16_l2/draw507041/gp_s4 6000 val 1.808532
+DONE rbf/F16_l2/draw507041/gp_s4 seconds 181.0 residual 0.812413 CRPS 0.664719
+START rbf/F16_l2/draw507041/gp_whitened_mlp params 65464 device cuda steps 6000
+PROGRESS rbf/F16_l2/draw507041/gp_whitened_mlp 500 val 0.675405
+PROGRESS rbf/F16_l2/draw507041/gp_whitened_mlp 1000 val 0.665033
+PROGRESS rbf/F16_l2/draw507041/gp_whitened_mlp 1500 val 0.657881
+PROGRESS rbf/F16_l2/draw507041/gp_whitened_mlp 2000 val 0.656268
+PROGRESS rbf/F16_l2/draw507041/gp_whitened_mlp 2500 val 0.652411
+PROGRESS rbf/F16_l2/draw507041/gp_whitened_mlp 3000 val 0.651195
+PROGRESS rbf/F16_l2/draw507041/gp_whitened_mlp 3500 val 0.649875
+PROGRESS rbf/F16_l2/draw507041/gp_whitened_mlp 4000 val 0.648816
+PROGRESS rbf/F16_l2/draw507041/gp_whitened_mlp 4500 val 0.647179
+PROGRESS rbf/F16_l2/draw507041/gp_whitened_mlp 5000 val 0.646568
+PROGRESS rbf/F16_l2/draw507041/gp_whitened_mlp 5500 val 0.648782
+PROGRESS rbf/F16_l2/draw507041/gp_whitened_mlp 6000 val 0.647811
+DONE rbf/F16_l2/draw507041/gp_whitened_mlp seconds 56.3 residual 0.797727 CRPS 0.658996
+GEOMETRY matern52 F16_l2 draw507041 gp_top2 0.5477 white_top2 0.4014 signal_pcs 16 both_full_rank
+START matern52/F16_l2/draw507041/white_mlp params 65464 device cuda steps 6000
+PROGRESS matern52/F16_l2/draw507041/white_mlp 500 val 1.456012
+PROGRESS matern52/F16_l2/draw507041/white_mlp 1000 val 1.429011
+PROGRESS matern52/F16_l2/draw507041/white_mlp 1500 val 1.427507
+PROGRESS matern52/F16_l2/draw507041/white_mlp 2000 val 1.418319
+PROGRESS matern52/F16_l2/draw507041/white_mlp 2500 val 1.412921
+PROGRESS matern52/F16_l2/draw507041/white_mlp 3000 val 1.4097
+PROGRESS matern52/F16_l2/draw507041/white_mlp 3500 val 1.40511
+PROGRESS matern52/F16_l2/draw507041/white_mlp 4000 val 1.404119
+PROGRESS matern52/F16_l2/draw507041/white_mlp 4500 val 1.404749
+PROGRESS matern52/F16_l2/draw507041/white_mlp 5000 val 1.405861
+PROGRESS matern52/F16_l2/draw507041/white_mlp 5500 val 1.401182
+PROGRESS matern52/F16_l2/draw507041/white_mlp 6000 val 1.401337
+DONE matern52/F16_l2/draw507041/white_mlp seconds 44.5 residual 1.013737 CRPS 0.682549
+START matern52/F16_l2/draw507041/white_s4 params 65281 device cuda steps 6000
+PROGRESS matern52/F16_l2/draw507041/white_s4 500 val 1.498366
+PROGRESS matern52/F16_l2/draw507041/white_s4 1000 val 1.435211
+PROGRESS matern52/F16_l2/draw507041/white_s4 1500 val 1.416155
+PROGRESS matern52/F16_l2/draw507041/white_s4 2000 val 1.410483
+PROGRESS matern52/F16_l2/draw507041/white_s4 2500 val 1.405386
+PROGRESS matern52/F16_l2/draw507041/white_s4 3000 val 1.403862
+PROGRESS matern52/F16_l2/draw507041/white_s4 3500 val 1.404666
+PROGRESS matern52/F16_l2/draw507041/white_s4 4000 val 1.39769
+PROGRESS matern52/F16_l2/draw507041/white_s4 4500 val 1.401372
+PROGRESS matern52/F16_l2/draw507041/white_s4 5000 val 1.399294
+PROGRESS matern52/F16_l2/draw507041/white_s4 5500 val 1.396992
+PROGRESS matern52/F16_l2/draw507041/white_s4 6000 val 1.39938
+DONE matern52/F16_l2/draw507041/white_s4 seconds 178.3 residual 1.007829 CRPS 0.682487
+START matern52/F16_l2/draw507041/white_whitened_mlp params 65464 device cuda steps 6000
+PROGRESS matern52/F16_l2/draw507041/white_whitened_mlp 500 val 0.521791
+PROGRESS matern52/F16_l2/draw507041/white_whitened_mlp 1000 val 0.513914
+PROGRESS matern52/F16_l2/draw507041/white_whitened_mlp 1500 val 0.510112
+PROGRESS matern52/F16_l2/draw507041/white_whitened_mlp 2000 val 0.507409
+PROGRESS matern52/F16_l2/draw507041/white_whitened_mlp 2500 val 0.507237
+PROGRESS matern52/F16_l2/draw507041/white_whitened_mlp 3000 val 0.505526
+PROGRESS matern52/F16_l2/draw507041/white_whitened_mlp 3500 val 0.504906
+PROGRESS matern52/F16_l2/draw507041/white_whitened_mlp 4000 val 0.50445
+PROGRESS matern52/F16_l2/draw507041/white_whitened_mlp 4500 val 0.504244
+PROGRESS matern52/F16_l2/draw507041/white_whitened_mlp 5000 val 0.504943
+PROGRESS matern52/F16_l2/draw507041/white_whitened_mlp 5500 val 0.503462
+PROGRESS matern52/F16_l2/draw507041/white_whitened_mlp 6000 val 0.503328
+DONE matern52/F16_l2/draw507041/white_whitened_mlp seconds 46.2 residual 1.012192 CRPS 0.680408
+START matern52/F16_l2/draw507041/gp_mlp params 65464 device cuda steps 6000
+PROGRESS matern52/F16_l2/draw507041/gp_mlp 500 val 1.919801
+PROGRESS matern52/F16_l2/draw507041/gp_mlp 1000 val 1.901092
+PROGRESS matern52/F16_l2/draw507041/gp_mlp 1500 val 1.894251
+PROGRESS matern52/F16_l2/draw507041/gp_mlp 2000 val 1.892433
+PROGRESS matern52/F16_l2/draw507041/gp_mlp 2500 val 1.890524
+PROGRESS matern52/F16_l2/draw507041/gp_mlp 3000 val 1.886109
+PROGRESS matern52/F16_l2/draw507041/gp_mlp 3500 val 1.88212
+PROGRESS matern52/F16_l2/draw507041/gp_mlp 4000 val 1.884899
+PROGRESS matern52/F16_l2/draw507041/gp_mlp 4500 val 1.885631
+PROGRESS matern52/F16_l2/draw507041/gp_mlp 5000 val 1.888835
+PROGRESS matern52/F16_l2/draw507041/gp_mlp 5500 val 1.886391
+PROGRESS matern52/F16_l2/draw507041/gp_mlp 6000 val 1.884007
+DONE matern52/F16_l2/draw507041/gp_mlp seconds 50.3 residual 0.966997 CRPS 0.678472
+START matern52/F16_l2/draw507041/gp_s4 params 65281 device cuda steps 6000
+PROGRESS matern52/F16_l2/draw507041/gp_s4 500 val 1.939546
+PROGRESS matern52/F16_l2/draw507041/gp_s4 1000 val 1.917998
+PROGRESS matern52/F16_l2/draw507041/gp_s4 1500 val 1.90969
+PROGRESS matern52/F16_l2/draw507041/gp_s4 2000 val 1.908486
+PROGRESS matern52/F16_l2/draw507041/gp_s4 2500 val 1.898186
+PROGRESS matern52/F16_l2/draw507041/gp_s4 3000 val 1.894838
+PROGRESS matern52/F16_l2/draw507041/gp_s4 3500 val 1.888134
+PROGRESS matern52/F16_l2/draw507041/gp_s4 4000 val 1.883357
+PROGRESS matern52/F16_l2/draw507041/gp_s4 4500 val 1.885685
+PROGRESS matern52/F16_l2/draw507041/gp_s4 5000 val 1.892447
+PROGRESS matern52/F16_l2/draw507041/gp_s4 5500 val 1.887354
+PROGRESS matern52/F16_l2/draw507041/gp_s4 6000 val 1.88943
+DONE matern52/F16_l2/draw507041/gp_s4 seconds 183.6 residual 0.965543 CRPS 0.680213
+START matern52/F16_l2/draw507041/gp_whitened_mlp params 65464 device cuda steps 6000
+PROGRESS matern52/F16_l2/draw507041/gp_whitened_mlp 500 val 0.751566
+PROGRESS matern52/F16_l2/draw507041/gp_whitened_mlp 1000 val 0.745161
+PROGRESS matern52/F16_l2/draw507041/gp_whitened_mlp 1500 val 0.743024
+PROGRESS matern52/F16_l2/draw507041/gp_whitened_mlp 2000 val 0.744145
+PROGRESS matern52/F16_l2/draw507041/gp_whitened_mlp 2500 val 0.742956
+PROGRESS matern52/F16_l2/draw507041/gp_whitened_mlp 3000 val 0.74162
+PROGRESS matern52/F16_l2/draw507041/gp_whitened_mlp 3500 val 0.741594
+PROGRESS matern52/F16_l2/draw507041/gp_whitened_mlp 4000 val 0.740878
+PROGRESS matern52/F16_l2/draw507041/gp_whitened_mlp 4500 val 0.74025
+PROGRESS matern52/F16_l2/draw507041/gp_whitened_mlp 5000 val 0.74093
+PROGRESS matern52/F16_l2/draw507041/gp_whitened_mlp 5500 val 0.740266
+PROGRESS matern52/F16_l2/draw507041/gp_whitened_mlp 6000 val 0.741166
+DONE matern52/F16_l2/draw507041/gp_whitened_mlp seconds 41.2 residual 0.9615 CRPS 0.678798
+GEOMETRY matern32 F16_l2 draw507041 gp_top2 0.5261 white_top2 0.3855 signal_pcs 16 both_full_rank
+START matern32/F16_l2/draw507041/white_mlp params 65464 device cuda steps 6000
+PROGRESS matern32/F16_l2/draw507041/white_mlp 500 val 1.535103
+PROGRESS matern32/F16_l2/draw507041/white_mlp 1000 val 1.507064
+PROGRESS matern32/F16_l2/draw507041/white_mlp 1500 val 1.506349
+PROGRESS matern32/F16_l2/draw507041/white_mlp 2000 val 1.496478
+PROGRESS matern32/F16_l2/draw507041/white_mlp 2500 val 1.491685
+PROGRESS matern32/F16_l2/draw507041/white_mlp 3000 val 1.488318
+PROGRESS matern32/F16_l2/draw507041/white_mlp 3500 val 1.485331
+PROGRESS matern32/F16_l2/draw507041/white_mlp 4000 val 1.485077
+PROGRESS matern32/F16_l2/draw507041/white_mlp 4500 val 1.483424
+PROGRESS matern32/F16_l2/draw507041/white_mlp 5000 val 1.485591
+PROGRESS matern32/F16_l2/draw507041/white_mlp 5500 val 1.480764
+PROGRESS matern32/F16_l2/draw507041/white_mlp 6000 val 1.481707
+DONE matern32/F16_l2/draw507041/white_mlp seconds 49.2 residual 1.11952 CRPS 0.68183
+START matern32/F16_l2/draw507041/white_s4 params 65281 device cuda steps 6000
+PROGRESS matern32/F16_l2/draw507041/white_s4 500 val 1.568412
+PROGRESS matern32/F16_l2/draw507041/white_s4 1000 val 1.498929
+PROGRESS matern32/F16_l2/draw507041/white_s4 1500 val 1.497345
+PROGRESS matern32/F16_l2/draw507041/white_s4 2000 val 1.490134
+PROGRESS matern32/F16_l2/draw507041/white_s4 2500 val 1.48273
+PROGRESS matern32/F16_l2/draw507041/white_s4 3000 val 1.481651
+PROGRESS matern32/F16_l2/draw507041/white_s4 3500 val 1.481752
+PROGRESS matern32/F16_l2/draw507041/white_s4 4000 val 1.479309
+PROGRESS matern32/F16_l2/draw507041/white_s4 4500 val 1.48014
+PROGRESS matern32/F16_l2/draw507041/white_s4 5000 val 1.478112
+PROGRESS matern32/F16_l2/draw507041/white_s4 5500 val 1.476778
+PROGRESS matern32/F16_l2/draw507041/white_s4 6000 val 1.478279
+DONE matern32/F16_l2/draw507041/white_s4 seconds 180.3 residual 1.114772 CRPS 0.681884
+START matern32/F16_l2/draw507041/white_whitened_mlp params 65464 device cuda steps 6000
+PROGRESS matern32/F16_l2/draw507041/white_whitened_mlp 500 val 0.593295
+PROGRESS matern32/F16_l2/draw507041/white_whitened_mlp 1000 val 0.585436
+PROGRESS matern32/F16_l2/draw507041/white_whitened_mlp 1500 val 0.582316
+PROGRESS matern32/F16_l2/draw507041/white_whitened_mlp 2000 val 0.579868
+PROGRESS matern32/F16_l2/draw507041/white_whitened_mlp 2500 val 0.579999
+PROGRESS matern32/F16_l2/draw507041/white_whitened_mlp 3000 val 0.577625
+PROGRESS matern32/F16_l2/draw507041/white_whitened_mlp 3500 val 0.577785
+PROGRESS matern32/F16_l2/draw507041/white_whitened_mlp 4000 val 0.576534
+PROGRESS matern32/F16_l2/draw507041/white_whitened_mlp 4500 val 0.576042
+PROGRESS matern32/F16_l2/draw507041/white_whitened_mlp 5000 val 0.577275
+PROGRESS matern32/F16_l2/draw507041/white_whitened_mlp 5500 val 0.575783
+PROGRESS matern32/F16_l2/draw507041/white_whitened_mlp 6000 val 0.575171
+DONE matern32/F16_l2/draw507041/white_whitened_mlp seconds 47.6 residual 1.118654 CRPS 0.680755
+START matern32/F16_l2/draw507041/gp_mlp params 65464 device cuda steps 6000
+PROGRESS matern32/F16_l2/draw507041/gp_mlp 500 val 1.920592
+PROGRESS matern32/F16_l2/draw507041/gp_mlp 1000 val 1.900391
+PROGRESS matern32/F16_l2/draw507041/gp_mlp 1500 val 1.894481
+PROGRESS matern32/F16_l2/draw507041/gp_mlp 2000 val 1.893324
+PROGRESS matern32/F16_l2/draw507041/gp_mlp 2500 val 1.893889
+PROGRESS matern32/F16_l2/draw507041/gp_mlp 3000 val 1.889005
+PROGRESS matern32/F16_l2/draw507041/gp_mlp 3500 val 1.887608
+PROGRESS matern32/F16_l2/draw507041/gp_mlp 4000 val 1.888326
+PROGRESS matern32/F16_l2/draw507041/gp_mlp 4500 val 1.889641
+PROGRESS matern32/F16_l2/draw507041/gp_mlp 5000 val 1.892032
+PROGRESS matern32/F16_l2/draw507041/gp_mlp 5500 val 1.889457
+PROGRESS matern32/F16_l2/draw507041/gp_mlp 6000 val 1.888805
+DONE matern32/F16_l2/draw507041/gp_mlp seconds 37.6 residual 1.023049 CRPS 0.678792
+START matern32/F16_l2/draw507041/gp_s4 params 65281 device cuda steps 6000
+PROGRESS matern32/F16_l2/draw507041/gp_s4 500 val 1.927762
+PROGRESS matern32/F16_l2/draw507041/gp_s4 1000 val 1.913172
+PROGRESS matern32/F16_l2/draw507041/gp_s4 1500 val 1.906419
+PROGRESS matern32/F16_l2/draw507041/gp_s4 2000 val 1.911084
+PROGRESS matern32/F16_l2/draw507041/gp_s4 2500 val 1.896902
+PROGRESS matern32/F16_l2/draw507041/gp_s4 3000 val 1.89682
+PROGRESS matern32/F16_l2/draw507041/gp_s4 3500 val 1.889761
+PROGRESS matern32/F16_l2/draw507041/gp_s4 4000 val 1.888759
+PROGRESS matern32/F16_l2/draw507041/gp_s4 4500 val 1.888326
+PROGRESS matern32/F16_l2/draw507041/gp_s4 5000 val 1.897616
+PROGRESS matern32/F16_l2/draw507041/gp_s4 5500 val 1.891809
+PROGRESS matern32/F16_l2/draw507041/gp_s4 6000 val 1.895427
+DONE matern32/F16_l2/draw507041/gp_s4 seconds 170.2 residual 1.020688 CRPS 0.679485
+START matern32/F16_l2/draw507041/gp_whitened_mlp params 65464 device cuda steps 6000
+PROGRESS matern32/F16_l2/draw507041/gp_whitened_mlp 500 val 0.761521
+PROGRESS matern32/F16_l2/draw507041/gp_whitened_mlp 1000 val 0.755963
+PROGRESS matern32/F16_l2/draw507041/gp_whitened_mlp 1500 val 0.753815
+PROGRESS matern32/F16_l2/draw507041/gp_whitened_mlp 2000 val 0.754911
+PROGRESS matern32/F16_l2/draw507041/gp_whitened_mlp 2500 val 0.753475
+PROGRESS matern32/F16_l2/draw507041/gp_whitened_mlp 3000 val 0.75251
+PROGRESS matern32/F16_l2/draw507041/gp_whitened_mlp 3500 val 0.752418
+PROGRESS matern32/F16_l2/draw507041/gp_whitened_mlp 4000 val 0.7519
+PROGRESS matern32/F16_l2/draw507041/gp_whitened_mlp 4500 val 0.751153
+PROGRESS matern32/F16_l2/draw507041/gp_whitened_mlp 5000 val 0.752065
+PROGRESS matern32/F16_l2/draw507041/gp_whitened_mlp 5500 val 0.751034
+PROGRESS matern32/F16_l2/draw507041/gp_whitened_mlp 6000 val 0.752421
+DONE matern32/F16_l2/draw507041/gp_whitened_mlp seconds 39.8 residual 1.01796 CRPS 0.681026
+GEOMETRY ou F16_l2 draw507041 gp_top2 0.4498 white_top2 0.3321 signal_pcs 16 both_full_rank
+START ou/F16_l2/draw507041/white_mlp params 65464 device cuda steps 6000
+PROGRESS ou/F16_l2/draw507041/white_mlp 500 val 1.662907
+PROGRESS ou/F16_l2/draw507041/white_mlp 1000 val 1.639702
+PROGRESS ou/F16_l2/draw507041/white_mlp 1500 val 1.637887
+PROGRESS ou/F16_l2/draw507041/white_mlp 2000 val 1.635756
+PROGRESS ou/F16_l2/draw507041/white_mlp 2500 val 1.632426
+PROGRESS ou/F16_l2/draw507041/white_mlp 3000 val 1.631059
+PROGRESS ou/F16_l2/draw507041/white_mlp 3500 val 1.629429
+PROGRESS ou/F16_l2/draw507041/white_mlp 4000 val 1.628535
+PROGRESS ou/F16_l2/draw507041/white_mlp 4500 val 1.627889
+PROGRESS ou/F16_l2/draw507041/white_mlp 5000 val 1.629391
+PROGRESS ou/F16_l2/draw507041/white_mlp 5500 val 1.625786
+PROGRESS ou/F16_l2/draw507041/white_mlp 6000 val 1.627298
+DONE ou/F16_l2/draw507041/white_mlp seconds 53.1 residual 1.341373 CRPS 0.669066
+START ou/F16_l2/draw507041/white_s4 params 65281 device cuda steps 6000
+PROGRESS ou/F16_l2/draw507041/white_s4 500 val 1.669709
+PROGRESS ou/F16_l2/draw507041/white_s4 1000 val 1.637599
+PROGRESS ou/F16_l2/draw507041/white_s4 1500 val 1.637224
+PROGRESS ou/F16_l2/draw507041/white_s4 2000 val 1.633346
+PROGRESS ou/F16_l2/draw507041/white_s4 2500 val 1.62688
+PROGRESS ou/F16_l2/draw507041/white_s4 3000 val 1.626532
+PROGRESS ou/F16_l2/draw507041/white_s4 3500 val 1.626001
+PROGRESS ou/F16_l2/draw507041/white_s4 4000 val 1.626719
+PROGRESS ou/F16_l2/draw507041/white_s4 4500 val 1.623809
+PROGRESS ou/F16_l2/draw507041/white_s4 5000 val 1.627084
+PROGRESS ou/F16_l2/draw507041/white_s4 5500 val 1.629281
+PROGRESS ou/F16_l2/draw507041/white_s4 6000 val 1.623067
+DONE ou/F16_l2/draw507041/white_s4 seconds 186.2 residual 1.338865 CRPS 0.669596
+START ou/F16_l2/draw507041/white_whitened_mlp params 65464 device cuda steps 6000
+PROGRESS ou/F16_l2/draw507041/white_whitened_mlp 500 val 0.719411
+PROGRESS ou/F16_l2/draw507041/white_whitened_mlp 1000 val 0.709813
+PROGRESS ou/F16_l2/draw507041/white_whitened_mlp 1500 val 0.708067
+PROGRESS ou/F16_l2/draw507041/white_whitened_mlp 2000 val 0.706486
+PROGRESS ou/F16_l2/draw507041/white_whitened_mlp 2500 val 0.706237
+PROGRESS ou/F16_l2/draw507041/white_whitened_mlp 3000 val 0.705018
+PROGRESS ou/F16_l2/draw507041/white_whitened_mlp 3500 val 0.704446
+PROGRESS ou/F16_l2/draw507041/white_whitened_mlp 4000 val 0.704196
+PROGRESS ou/F16_l2/draw507041/white_whitened_mlp 4500 val 0.703917
+PROGRESS ou/F16_l2/draw507041/white_whitened_mlp 5000 val 0.704988
+PROGRESS ou/F16_l2/draw507041/white_whitened_mlp 5500 val 0.703452
+PROGRESS ou/F16_l2/draw507041/white_whitened_mlp 6000 val 0.703366
+DONE ou/F16_l2/draw507041/white_whitened_mlp seconds 52.9 residual 1.342866 CRPS 0.668238
+START ou/F16_l2/draw507041/gp_mlp params 65464 device cuda steps 6000
+PROGRESS ou/F16_l2/draw507041/gp_mlp 500 val 1.869785
+PROGRESS ou/F16_l2/draw507041/gp_mlp 1000 val 1.854545
+PROGRESS ou/F16_l2/draw507041/gp_mlp 1500 val 1.851342
+PROGRESS ou/F16_l2/draw507041/gp_mlp 2000 val 1.852069
+PROGRESS ou/F16_l2/draw507041/gp_mlp 2500 val 1.85067
+PROGRESS ou/F16_l2/draw507041/gp_mlp 3000 val 1.847696
+PROGRESS ou/F16_l2/draw507041/gp_mlp 3500 val 1.848993
+PROGRESS ou/F16_l2/draw507041/gp_mlp 4000 val 1.848723
+PROGRESS ou/F16_l2/draw507041/gp_mlp 4500 val 1.85042
+PROGRESS ou/F16_l2/draw507041/gp_mlp 5000 val 1.848914
+PROGRESS ou/F16_l2/draw507041/gp_mlp 5500 val 1.849214
+PROGRESS ou/F16_l2/draw507041/gp_mlp 6000 val 1.85156
+DONE ou/F16_l2/draw507041/gp_mlp seconds 49.5 residual 1.170957 CRPS 0.669021
+START ou/F16_l2/draw507041/gp_s4 params 65281 device cuda steps 6000
+PROGRESS ou/F16_l2/draw507041/gp_s4 500 val 1.875238
+PROGRESS ou/F16_l2/draw507041/gp_s4 1000 val 1.863685
+PROGRESS ou/F16_l2/draw507041/gp_s4 1500 val 1.857496
+PROGRESS ou/F16_l2/draw507041/gp_s4 2000 val 1.864481
+PROGRESS ou/F16_l2/draw507041/gp_s4 2500 val 1.850325
+PROGRESS ou/F16_l2/draw507041/gp_s4 3000 val 1.85102
+PROGRESS ou/F16_l2/draw507041/gp_s4 3500 val 1.848415
+PROGRESS ou/F16_l2/draw507041/gp_s4 4000 val 1.848294
+PROGRESS ou/F16_l2/draw507041/gp_s4 4500 val 1.846904
+PROGRESS ou/F16_l2/draw507041/gp_s4 5000 val 1.856491
+PROGRESS ou/F16_l2/draw507041/gp_s4 5500 val 1.849433
+PROGRESS ou/F16_l2/draw507041/gp_s4 6000 val 1.855753
+DONE ou/F16_l2/draw507041/gp_s4 seconds 179.9 residual 1.166886 CRPS 0.667417
+START ou/F16_l2/draw507041/gp_whitened_mlp params 65464 device cuda steps 6000
+PROGRESS ou/F16_l2/draw507041/gp_whitened_mlp 500 val 0.778528
+PROGRESS ou/F16_l2/draw507041/gp_whitened_mlp 1000 val 0.773753
+PROGRESS ou/F16_l2/draw507041/gp_whitened_mlp 1500 val 0.772054
+PROGRESS ou/F16_l2/draw507041/gp_whitened_mlp 2000 val 0.773242
+PROGRESS ou/F16_l2/draw507041/gp_whitened_mlp 2500 val 0.771831
+PROGRESS ou/F16_l2/draw507041/gp_whitened_mlp 3000 val 0.77193
+PROGRESS ou/F16_l2/draw507041/gp_whitened_mlp 3500 val 0.771242
+PROGRESS ou/F16_l2/draw507041/gp_whitened_mlp 4000 val 0.771141
+PROGRESS ou/F16_l2/draw507041/gp_whitened_mlp 4500 val 0.770772
+PROGRESS ou/F16_l2/draw507041/gp_whitened_mlp 5000 val 0.77135
+PROGRESS ou/F16_l2/draw507041/gp_whitened_mlp 5500 val 0.771256
+PROGRESS ou/F16_l2/draw507041/gp_whitened_mlp 6000 val 0.772285
+DONE ou/F16_l2/draw507041/gp_whitened_mlp seconds 46.5 residual 1.166636 CRPS 0.669262

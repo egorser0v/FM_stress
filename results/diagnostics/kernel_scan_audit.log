@@ -1,0 +1,72 @@
+rbf/F16_l8/draw307041: 6 runs checked, 0 failures so far
+matern52/F16_l8/draw307041: 12 runs checked, 0 failures so far
+matern32/F16_l8/draw307041: 18 runs checked, 0 failures so far
+ou/F16_l8/draw307041: 24 runs checked, 0 failures so far
+rbf/F32_l8/draw307041: 30 runs checked, 0 failures so far
+matern52/F32_l8/draw307041: 36 runs checked, 0 failures so far
+matern32/F32_l8/draw307041: 42 runs checked, 0 failures so far
+ou/F32_l8/draw307041: 48 runs checked, 0 failures so far
+rbf/F64_l8/draw307041: 54 runs checked, 0 failures so far
+matern52/F64_l8/draw307041: 60 runs checked, 0 failures so far
+matern32/F64_l8/draw307041: 66 runs checked, 0 failures so far
+ou/F64_l8/draw307041: 72 runs checked, 0 failures so far
+rbf/F16_l4/draw307041: 78 runs checked, 0 failures so far
+matern52/F16_l4/draw307041: 84 runs checked, 0 failures so far
+matern32/F16_l4/draw307041: 90 runs checked, 0 failures so far
+ou/F16_l4/draw307041: 96 runs checked, 0 failures so far
+rbf/F16_l2/draw307041: 102 runs checked, 0 failures so far
+matern52/F16_l2/draw307041: 108 runs checked, 0 failures so far
+matern32/F16_l2/draw307041: 114 runs checked, 0 failures so far
+ou/F16_l2/draw307041: 120 runs checked, 0 failures so far
+rbf/F16_l8/draw407041: 126 runs checked, 0 failures so far
+matern52/F16_l8/draw407041: 132 runs checked, 0 failures so far
+matern32/F16_l8/draw407041: 138 runs checked, 0 failures so far
+ou/F16_l8/draw407041: 144 runs checked, 0 failures so far
+rbf/F32_l8/draw407041: 150 runs checked, 0 failures so far
+matern52/F32_l8/draw407041: 156 runs checked, 0 failures so far
+matern32/F32_l8/draw407041: 162 runs checked, 0 failures so far
+ou/F32_l8/draw407041: 168 runs checked, 0 failures so far
+rbf/F64_l8/draw407041: 174 runs checked, 0 failures so far
+matern52/F64_l8/draw407041: 180 runs checked, 0 failures so far
+matern32/F64_l8/draw407041: 186 runs checked, 0 failures so far
+ou/F64_l8/draw407041: 192 runs checked, 0 failures so far
+rbf/F16_l4/draw407041: 198 runs checked, 0 failures so far
+matern52/F16_l4/draw407041: 204 runs checked, 0 failures so far
+matern32/F16_l4/draw407041: 210 runs checked, 0 failures so far
+ou/F16_l4/draw407041: 216 runs checked, 0 failures so far
+rbf/F16_l2/draw407041: 222 runs checked, 0 failures so far
+matern52/F16_l2/draw407041: 228 runs checked, 0 failures so far
+matern32/F16_l2/draw407041: 234 runs checked, 0 failures so far
+ou/F16_l2/draw407041: 240 runs checked, 0 failures so far
+rbf/F16_l8/draw507041: 246 runs checked, 0 failures so far
+matern52/F16_l8/draw507041: 252 runs checked, 0 failures so far
+matern32/F16_l8/draw507041: 258 runs checked, 0 failures so far
+ou/F16_l8/draw507041: 264 runs checked, 0 failures so far
+rbf/F32_l8/draw507041: 270 runs checked, 0 failures so far
+matern52/F32_l8/draw507041: 276 runs checked, 0 failures so far
+matern32/F32_l8/draw507041: 282 runs checked, 0 failures so far
+ou/F32_l8/draw507041: 288 runs checked, 0 failures so far
+rbf/F64_l8/draw507041: 294 runs checked, 0 failures so far
+matern52/F64_l8/draw507041: 300 runs checked, 0 failures so far
+matern32/F64_l8/draw507041: 306 runs checked, 0 failures so far
+ou/F64_l8/draw507041: 312 runs checked, 0 failures so far
+rbf/F16_l4/draw507041: 318 runs checked, 0 failures so far
+matern52/F16_l4/draw507041: 324 runs checked, 0 failures so far
+matern32/F16_l4/draw507041: 330 runs checked, 0 failures so far
+ou/F16_l4/draw507041: 336 runs checked, 0 failures so far
+rbf/F16_l2/draw507041: 342 runs checked, 0 failures so far
+matern52/F16_l2/draw507041: 348 runs checked, 0 failures so far
+matern32/F16_l2/draw507041: 354 runs checked, 0 failures so far
+ou/F16_l2/draw507041: 360 runs checked, 0 failures so far
+{
+ "complete": true,
+ "verified_runs": 360,
+ "checks": 14682,
+ "n_failures": 0,
+ "replay_relative_rms": {
+  "max": 2.577329930633615e-06,
+  "median": 2.666522624082153e-07
+ },
+ "selected_at_last_update": 186
+}
+exit 0

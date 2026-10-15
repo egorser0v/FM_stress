@@ -1,0 +1,16 @@
+{
+  "config_sha256": "6137a9a287d1e8d364dd4356f09cf176018ca0e2c3aa4ec91a4087011110261d",
+  "source_hashes": {
+    "fm_stress/etth1_normalization.py": "7a1aba6ac5b07c7bd3d0cfb7b30517a678981343194c55b9a180dadbced1b762",
+    "fm_stress/etth1_prior_level.py": "6dbcb9b83af8e94ffb98ee8340b46838aac39db2388914ad91cdf302c9f95f7b",
+    "fm_stress/extended_data.py": "8b574fcf1265483d69bce73148091a149fa59a56db8e821967c47aab6a612c97",
+    "fm_stress/extended_models.py": "cb6b4892ecfa78579ac7515818487438e7f54896bbbfaedc0f6e34a06e339564",
+    "fm_stress/extended_metrics.py": "e78bafc09eb050bf9e0034c84cc7e85b01a19ca921dc15c75836906cfd3aa1eb",
+    "fm_stress/extended_experiment.py": "9c88677a6ccced9e074974d936aef7fa12f2c5bfaa57647e4a96ee221d4b93dd",
+    "fm_stress/models.py": "902e2f591f1b3e55d98e4903847bb859bd3ce859ba5c044d6f2c5b793b4199ce",
+    "fm_stress/experiment.py": "dedca2b6e2d51c9c8a6d2a343617a7d28eb451e55cbbf06969402b876a14ef1f",
+    "fm_stress/metrics.py": "4b0aa09389b684d710eed2a9a03be9a3b3ab9b9c17f81eeca8a09774087df2e3"
+  },
+  "dataset_sha256": "f18de3ad269cef59bb07b5438d79bb3042d3be49bdeecf01c1cd6d29695ee066",
+  "fingerprint": "c531f25eb6d600b33a1cec9617bf0b67fc0565cb7178560ddfc21456e718054a"
+}

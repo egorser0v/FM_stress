@@ -1,0 +1,16 @@
+START global_white_mlp_seed33 62999 device cuda
+DONE global_white_mlp_seed33 best_step 2000 CRPS 0.16494 seconds 14.9
+START global_white_s4_seed33 63966 device cuda
+DONE global_white_s4_seed33 best_step 1000 CRPS 0.18938 seconds 63.2
+START global_gp_mlp_seed33 62999 device cuda
+DONE global_gp_mlp_seed33 best_step 1750 CRPS 0.19278 seconds 14.8
+START global_gp_s4_seed33 63966 device cuda
+DONE global_gp_s4_seed33 best_step 2000 CRPS 0.16543 seconds 61.2
+START history_white_mlp_seed33 62999 device cuda
+DONE history_white_mlp_seed33 best_step 1000 CRPS 0.08635 seconds 13.6
+START history_white_s4_seed33 63966 device cuda
+DONE history_white_s4_seed33 best_step 1500 CRPS 0.09156 seconds 62.8
+START history_gp_mlp_seed33 62999 device cuda
+DONE history_gp_mlp_seed33 best_step 500 CRPS 0.08625 seconds 14.9
+START history_gp_s4_seed33 63966 device cuda
+DONE history_gp_s4_seed33 best_step 500 CRPS 0.08721 seconds 60.5

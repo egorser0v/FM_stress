@@ -14,7 +14,7 @@ benchmark reproduction.
 
 - Latest original-setting follow-up: [GP / white-noise mixture report](output/prior-mixture/report.html). 102 audited MPS fits; source smoothness, MLP/S4 and separate coordinate/loss controls.
 - Poster: [PDF](output/poster/flow-matching-poster-LaTeX-A1.pdf) · [editable LaTeX](output/poster/flow-matching-poster.tex). This is the project proposal; completed results are in the reports below.
-- Reports: [main experiment](output/pdf/research-report.pdf) · [S4/MLP follow-up](output/pdf/s4-mlp-followup.pdf) · [related work](output/pdf/related-work.pdf).
+- Reports: [main experiment](output/pdf/research-report.pdf) (post-hoc sections 10–11: head Jacobian, normalization, kernel scan) · [S4/MLP follow-up](output/pdf/s4-mlp-followup.pdf) · [related work](output/pdf/related-work.pdf).
 - `docs/README_RU.md`: a short Russian guide for the team.
 - `output/pdf/research-report.pdf`: completed experimental report.
 - `output/pdf/s4-mlp-followup.pdf`: additional head-by-loss and conditional-forecast experiments.
@@ -326,3 +326,89 @@ The checked full archive is `output/fm-stress-prior-mixture.zip`; previous
 archives and all original results are preserved. The HTML report uses images
 in the same directory: send the archive or the whole report folder, not only
 its HTML file. All **151 tests** passed with MPS access.
+
+## Post-hoc analyses (report sections 10–11)
+
+These analyses ran after every primary result. They do not change any Task 1–3
+flag; the assignment's all-fail branch stands. The probes and follow-up
+experiments fixed their reading rules before their first runs; the per-PC
+Jacobian breakdown and the metric review are descriptive. They are summarized
+on pages 11–12 of the
+[main report](output/pdf/research-report.pdf).
+
+**The head Jacobian (section 10).** The assignment places its claim in "the
+Jacobian of the head". For a Gaussian source and the exact Gaussian conditional
+target, the ideal field is affine, with Jacobian `J* = U S^-1`. We computed the
+full learned 16×16 Jacobian of every primary checkpoint by autodiff and compared
+it with `J*` on the residual block (velocity PCs 3–16):
+
+| Source · head | Learned / exact norm | Cosine with `J*` | Relative error | CRPS change after a kick |
+|---|---|---|---|---|
+| White · MLP | 0.98 | 0.99 | 0.13 | +0.0000 |
+| White · S4 | 0.99 | 0.99 | 0.15 | +0.0000 |
+| GP · MLP | 0.16 | 0.21 | 0.99 | +0.0003 |
+| GP · S4 | 0.32 | 0.34 | 0.93 | +0.0004 |
+| GP · whitened MLP | — | — | 4.33 | +0.0697 |
+
+- **The predicted ill-conditioning is present.** With the matched GP source both
+  heads leave the residual directions largely unlearned. S4 has the lower error
+  in 5/5 seeds, which was the pre-declared rule.
+- **It is harmless in this cell.** Those directions carry almost no variance in
+  either the source or the target, so the generated paths never exercise them.
+  Neither head corrects a perturbation injected there, and the CRPS cost is
+  negligible.
+- **Whitening over-responds.** The whitened MLP amplifies the perturbation 27×
+  (the exact field: 19×) and loses 17% CRPS.
+- **Window length does not help.** S4's Jacobian advantage does not grow with
+  F = 16, 32, 64 on the kernel-scan checkpoints (rule: refuted).
+
+**Normalization on ETTh1-OT (section 11).** This is a pre-declared follow-up of
+the extension, with 24 CUDA fits. The extension scaled channels globally. Here
+each window is instead normalized by its own history, as in the synthetic task,
+and forecasts are mapped back. Fair CRPS on the same 64 test contexts:
+
+| Normalization | Ridge | White · MLP | White · S4 | GP · MLP | GP · S4 |
+|---|---|---|---|---|---|
+| Global | 0.0933 | 0.1487 | 0.1778 | 0.2262 | 0.1702 |
+| History | 0.0852 | 0.0855 | 0.0922 | 0.0886 | 0.0877 |
+
+62.5% of the test contexts lie outside the central 95% of training history
+levels, so global scaling forces level extrapolation. History normalization
+removes the prior × head interaction (−0.085 → −0.008, verdict "C2 supported")
+and brings the networks level with ridge. The extension's S4 advantage on
+ETTh1-OT was a normalization effect, not a head effect.
+
+**Kernels and window length (section 11).** This is a pre-declared scan of
+360 CUDA fits: RBF, Matérn-5/2, Matérn-3/2 and OU kernels, F/ℓ ∈ {2, 4, 8},
+and three data draws. With the GP source, S4/MLP CRPS lies between 0.978 and
+1.004 in every cell. S4's residual-MSE disadvantage at the RBF anchor (1.18)
+disappears at F/ℓ ≥ 4, but no S4 advantage appears. For the Gauss–Markov
+kernels the pre-declared recommendation is to keep TimeFlow's head. See
+`docs/kernel_scan_protocol.md` and `docs/kernel_scan_findings.md`.
+
+**Metrics (section 11).** `docs/final_report_addendum.md` shows two limits of
+the Task 2 metrics. "Residual MSE" is mostly the PC3 error plus ten
+nugget-level directions. A rank-2 truncation of the true targets still passes
+the ±20% roughness band. Neither metric can see the Jacobian deficit above.
+
+Reproduce:
+
+```sh
+.venv/bin/python scripts/probe_exact_jacobian.py        # section 10, main checkpoints (CPU)
+.venv/bin/python scripts/jacobian_per_pc.py
+.venv/bin/python scripts/perturbation_recovery.py
+.venv/bin/python scripts/jacobian_vs_window.py          # needs results/kernel-scan checkpoints
+.venv/bin/python -m fm_stress.etth1_normalization --device cuda --seed 31   # repeat for 32, 33
+.venv/bin/python scripts/analyze_etth1_normalization.py
+.venv/bin/python -m fm_stress.kernel_scan --device cuda --data-seed 307041  # repeat for 407041, 507041
+.venv/bin/python scripts/check_kernel_scan.py && .venv/bin/python -m fm_stress.analyze_kernel_scan
+.venv/bin/python scripts/build_report.py && .venv/bin/python scripts/check_delivery.py
+```
+
+The CUDA runs are never pooled with the MPS studies. The kernel scan's
+generated-forecast archives (`results/kernel-scan/**/samples`, about 900 MB) are
+not committed. Its run records, checkpoints and the audit log of the complete run
+(`results/diagnostics/kernel_scan_audit.log`) are. Re-running
+`scripts/check_kernel_scan.py` or resuming the scan needs those archives;
+`scripts/jacobian_vs_window.py` runs without them and records the skipped
+comparisons as null.

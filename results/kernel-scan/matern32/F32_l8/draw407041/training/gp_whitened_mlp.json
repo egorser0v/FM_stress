@@ -1,0 +1,86 @@
+[
+  {
+    "step": 500,
+    "train_loss": 0.6920024156570435,
+    "validation_objective": 0.7183007001876831,
+    "validation_raw_mse": 2.0077011585235596,
+    "seconds": 3.9337486349995743
+  },
+  {
+    "step": 1000,
+    "train_loss": 0.7371188998222351,
+    "validation_objective": 0.7132343649864197,
+    "validation_raw_mse": 1.965881109237671,
+    "seconds": 7.407415660999504
+  },
+  {
+    "step": 1500,
+    "train_loss": 0.6911177635192871,
+    "validation_objective": 0.7114297151565552,
+    "validation_raw_mse": 1.948198914527893,
+    "seconds": 10.782282068999848
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.7048031091690063,
+    "validation_objective": 0.7108827829360962,
+    "validation_raw_mse": 1.9446022510528564,
+    "seconds": 13.88865435400021
+  },
+  {
+    "step": 2500,
+    "train_loss": 0.6913242340087891,
+    "validation_objective": 0.7089426517486572,
+    "validation_raw_mse": 1.9386231899261475,
+    "seconds": 17.129382516999613
+  },
+  {
+    "step": 3000,
+    "train_loss": 0.6947519779205322,
+    "validation_objective": 0.708276629447937,
+    "validation_raw_mse": 1.9300135374069214,
+    "seconds": 20.238536453999586
+  },
+  {
+    "step": 3500,
+    "train_loss": 0.6860241889953613,
+    "validation_objective": 0.7074925899505615,
+    "validation_raw_mse": 1.9196951389312744,
+    "seconds": 23.348310456000036
+  },
+  {
+    "step": 4000,
+    "train_loss": 0.6956654787063599,
+    "validation_objective": 0.7080081701278687,
+    "validation_raw_mse": 1.9221901893615723,
+    "seconds": 26.462201637999897
+  },
+  {
+    "step": 4500,
+    "train_loss": 0.6935510039329529,
+    "validation_objective": 0.7080246210098267,
+    "validation_raw_mse": 1.9195369482040405,
+    "seconds": 29.994969913000205
+  },
+  {
+    "step": 5000,
+    "train_loss": 0.7175325155258179,
+    "validation_objective": 0.7066908478736877,
+    "validation_raw_mse": 1.9088666439056396,
+    "seconds": 33.74905368300006
+  },
+  {
+    "step": 5500,
+    "train_loss": 0.7244523763656616,
+    "validation_objective": 0.7065361142158508,
+    "validation_raw_mse": 1.9158055782318115,
+    "seconds": 37.29605804699986
+  },
+  {
+    "step": 6000,
+    "train_loss": 0.6836840510368347,
+    "validation_objective": 0.7063198089599609,
+    "validation_raw_mse": 1.910529613494873,
+    "seconds": 40.52038354199976
+  }
+]

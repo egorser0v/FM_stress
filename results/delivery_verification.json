@@ -21,7 +21,7 @@
   },
   "reports": {
     "one_page_synthesis": true,
-    "report_pages": 11,
+    "report_pages": 13,
     "conclusions_match_export": true,
     "no_empty_pages": true
   }

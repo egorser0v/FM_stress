@@ -1,4 +1,4 @@
-"""Build the final eleven-page research report from complete saved experiments.
+"""Build the final research report (primary results, two post-hoc sections, recommendation) from saved experiments.
 
 Run only after 25 main runs, 15 shorter-lengthscale runs, nine optimization checks and docs/conclusions.md exist:
   .venv/bin/python scripts/build_report.py --results results/main \
@@ -9,6 +9,7 @@ assignment-rule successes. Missing optional diagnostics are explicitly disclosed
 """
 from __future__ import annotations
 import argparse
+import csv
 import hashlib
 import json
 from pathlib import Path
@@ -32,11 +33,16 @@ from PIL import Image as PILImage
 NAVY=colors.HexColor('#183C4A');TEAL=colors.HexColor('#147D81')
 INK=colors.HexColor('#263B46');MUTED=colors.HexColor('#5E737D')
 PALE=colors.HexColor('#EDF4F4');LINE=colors.HexColor('#CEDDE1')
-EXPECTED_PAGES=11
+EXPECTED_PAGES=13
 WIDTH=A4[0]-80-12  # SimpleDocTemplate frame has 6 pt inner padding per side
 
 
 def read(path):return json.loads(Path(path).read_text())
+
+
+def sci(x):
+    m,e=f'{x:.1e}'.split('e')
+    return f"{m}·10{str(int(e)).translate(str.maketrans('-0123456789','⁻⁰¹²³⁴⁵⁶⁷⁸⁹'))}"
 
 
 def register_fonts():
@@ -139,7 +145,10 @@ class Report:
             self.p('**Primary criterion outcome.** No run passes the literal joint rule. This is reported as a failure of the specified pass criterion, not converted into a success using another normalization. Raw errors, normalized diagnostics, oracle noise and solver checks are shown separately. Any recommendation is consequently qualified.','box')
         else:
             self.p(f'**Primary criterion outcome.** {passes} of {n} runs pass the joint rule. A pass is interpreted together with actual error magnitudes, oracle diagnostics and cross-seed variability; it does not by itself establish the claimed mechanism.','box')
-        self.p('Reading guide: scientific comparison (p. 2), data and models (pp. 3–4), required results (pp. 5–6), scale/noise/solver diagnostics (pp. 7–8), robustness and reproducibility (p. 9), optimization sensitivity (p. 10), recommendation (p. 11).','small')
+        perpc=read(ROOT/'results/diagnostics/jacobian_per_pc.json')
+        share=lambda kind:float(np.mean([v['ratio'] for k,v in perpc.items() if k.startswith(f'gp|{kind}|')]))
+        self.p(f'**Post-hoc finding (pp. 11–12).** Measured directly, the head Jacobian shows the ill-conditioning the hypothesis predicts: with the GP source both heads leave the residual directions largely unlearned (MLP {share("mlp"):.0%}, S4 {share("s4"):.0%} of the exact response). It is harmless here, because those directions carry almost no variance in the source or the target, and the three Task 2 metrics cannot see it. This measurement goes beyond the planned metrics and does not change the outcome above.')
+        self.p('Reading guide: scientific comparison (p. 2), data and models (pp. 3–4), required results (pp. 5–6), scale/noise/solver diagnostics (pp. 7–8), robustness and reproducibility (p. 9), optimization sensitivity (p. 10), post-hoc head Jacobian and supplementary analyses (pp. 11–12), recommendation (p. 13).','small')
 
     def literature_page(self):
         self.title('01 · Scientific context','The missing comparison')
@@ -224,9 +233,11 @@ class Report:
         learned={};oracle=None
         for p in sorted(candidates):
             d=read(p)
+            if not isinstance(d,dict):continue  # later diagnostics with other record layouts
             if d.get('config_sha256') not in (None,self.records[0].get('config_sha256')):
                 continue
             if d.get('status') not in ('complete',None):continue
+            if not isinstance(d.get('runs',{}),dict):continue
             for name,record in d.get('runs',{}).items():
                 if 'rows' in record:learned[name]=record
             if 'oracle' in d and 'sources' in d['oracle']:oracle=d['oracle']
@@ -327,7 +338,7 @@ class Report:
         self.p('For exact per-seed before/after metrics, saved states, selected extra steps and learning curves, see `results/main/optimization_sensitivity/`. The validation-based expansion decision is recorded alongside the runs. Finite-budget sensitivity limits a mechanistic explanation based solely on the initial head comparison.','small')
 
     def conclusion_page(self):
-        self.title('10 · Interpretation and recommendation','A design recommendation with its limits')
+        self.title('12 · Interpretation and recommendation','A design recommendation with its limits')
         text=self.args.conclusions.read_text().strip()
         # Read the authored, final evidence-based interpretation. Do not fabricate it.
         if re.search(r'\b(TODO|TBD|PLACEHOLDER)\b',text,re.I):raise ValueError('Conclusions contain unfinished placeholders')
@@ -344,9 +355,75 @@ class Report:
         self.p('Official code revisions: Sundial `3212e42564493f520593e5414af4367fc4b49226`; state-spaces/S4 `e757cef57d89e448c413de7325ed5601aceaac13`; inspected TSFlow `ff893176a41a1037f63efae674aab71480eee7d0`. Apache-2.0 reference sources and licenses are preserved for Sundial and S4. TSFlow’s unlicensed repository source is inspected, not vendored. See `vendor/manifest.json` and `docs/model_provenance.md` for checksums and adaptations.','small')
         self.p('AI assistance was used for implementation, analysis tooling and writing. Numerical equivalence tests, independent known-value metric tests, split/geometry checks and saved experiment records provide verification; the report does not treat generated prose as evidence.','small')
 
+    def image(self,path,caption,max_height=290):
+        with PILImage.open(path) as im:w,h=im.size
+        scale=min(WIDTH/w,max_height/h)
+        self.story.append(Image(str(path),width=w*scale,height=h*scale))
+        self.p(caption,'small')
+
+    def jacobian_page(self):
+        self.title('10 · Post-hoc analysis, beyond the planned metrics','The head Jacobian')
+        diag=ROOT/'results/diagnostics'
+        probe=read(diag/'exact_jacobian_probe.json');perpc=read(diag/'jacobian_per_pc.json')
+        pert=read(diag/'perturbation_recovery.json');window=read(diag/'jacobian_vs_window.json')
+        spectrum=read(diag/'report_addendum.json')['spectra']['gp_velocity']
+        times=sorted({k.split('|')[3] for k in perpc});seeds=sorted({k.split('|')[2] for k in perpc})
+        def per_seed(src,kind,key):
+            return np.asarray([np.mean([perpc[f'{src}|{kind}|{s}|{t}'][key] for t in times]) for s in seeds])
+        def rng(a):return f'{a.mean():.2f} [{a.min():.2f}–{a.max():.2f}]'
+        primary=pert['protocol']['primary'];setting=f"t0={primary['t0']}|size={primary['size']}"
+        self.p('Run after the primary results; no primary flag changes. The exact, perturbation and window-length probes fixed their reading rules before their first runs; the per-PC breakdown is descriptive (`scripts/probe_exact_jacobian.py`, `jacobian_per_pc.py`, `perturbation_recovery.py`, `jacobian_vs_window.py`; outputs in `results/diagnostics/`).')
+        self.p('The assignment locates the claim in “the Jacobian of the head”. With a Gaussian source N(0, Cₛ) and the exact Gaussian conditional target N(m, C) given the raw history, the ideal velocity is affine in xₜ, with Jacobian J* = U S⁻¹, where S = t²C + (1−t)²Cₛ and U = tC − (1−t)Cₛ. For every primary checkpoint we computed the full learned 16×16 Jacobian by automatic differentiation on 256 test windows at five times and compared it with J* in the training-velocity PCA basis.')
+        rows=[]
+        for src,kind,label in (('white','mlp','White · MLP'),('white','s4','White · S4'),('gp','mlp','GP · MLP'),
+                               ('gp','s4','GP · S4'),('gp','whitened_mlp','GP · whitened MLP')):
+            has=kind!='whitened_mlp'
+            amp=pert['summary'][f'{src}|{kind}'][setting]
+            rows.append([label,rng(per_seed(src,kind,'ratio')) if has else '—',rng(per_seed(src,kind,'cosine')) if has else '—',
+                         f"{probe['summary'][f'{src}|{kind}']['residual_block'][0]:.2f}",
+                         f"{amp['amp_learned']['mean']:.2f}",f"{amp['crps_change']['mean']:+.4f}"])
+        self.table(['Source · head','Learned / exact norm, PCs 3–16','Cosine with J*, PCs 3–16','Relative error, PCs 3–16',
+                    'Kick gain','CRPS change'],rows,widths=[92,92,88,72,66,WIDTH-410])
+        mlp,s4=probe['summary']['gp|mlp']['residual_block'][1],probe['summary']['gp|s4']['residual_block'][1]
+        ideal={src:pert['reference'][src]['settings'][setting]['amp_ideal'] for src in ('white','gp')}
+        self.p(f'Norm and cosine: mean over five seeds [range]. Kick gain: response at t=1 to a size-{primary["size"]} perturbation in PCs 3–16 injected at t={primary["t0"]}; the exact field’s gain is {ideal["white"]:.2f} (white) and {ideal["gp"]:.1f} (GP). CRPS change: perturbed minus unperturbed ensemble CRPS.','small')
+        tail=spectrum[4]/spectrum[0];floor=min(spectrum[6:])/spectrum[0]
+        gp_rel={k:pert['summary'][f'gp|{k}'][setting]['rel_error']['mean'] for k in ('mlp','s4')}
+        s4_wins=pert['verdict']['primary']['s4_lower_in_seeds']
+        carried=pert['reference']['gp']['settings'][setting]['carried_unchanged_rel_error']
+        self.p(f'**The predicted ill-conditioning is present.** With the white source both heads learn the residual block almost exactly. With the matched GP source both leave it largely unlearned: S4 has the lower residual-block error in every seed (MLP {min(mlp):.3f}–{max(mlp):.3f}, S4 {min(s4):.3f}–{max(s4):.3f}), as the pre-declared rule required. Under the GP source the velocity variance along PC5 is {sci(tail)} of PC1 and falls to about {sci(floor)} along PCs 7–16, so gradient steps in those directions vanish.')
+        self.p(f'**S4 mitigates it only partly, and it is harmless here.** The unlearned directions are those along which xₜ never varies: generation starts from the same GP source, which already carries nearly the right spread there. A missing response therefore costs nothing in velocity MSE, generated roughness or CRPS. Neither head corrects an injected perturbation (relative error {gp_rel["mlp"]:.2f} for MLP and {gp_rel["s4"]:.2f} for S4, against {carried:.2f} when it is carried unchanged); S4 is lower in {s4_wins}/5 seeds, with no forecast effect. The whitened MLP over-responds, amplifying the kick more than the exact field and worsening CRPS.')
+        self.p(f'**Window length.** On the kernel-scan checkpoints (RBF, F = 16, 32, 64), S4’s residual-block advantage does not grow with F; the pre-declared rule reads “{window["verdict_primary"]}”.')
+        self.image(ROOT/'output/jacobian/per_pc_gain.png','Learned response projected on the exact response, per input velocity PC (1 = exact, 0 = none); main-study checkpoints, mean over five times; thin lines are seeds.',max_height=135)
+
+    def normalization_page(self):
+        self.title('11 · Post-hoc analysis, supplementary studies','Normalization, kernels and metrics')
+        e4=read(ROOT/'results/etth1-normalization/summary.json');cold=read(ROOT/'results/diagnostics/etth1_level_diagnostics.json')['E0']
+        t=e4['table'];ridge=e4['ridge']
+        self.p('ETTh1-OT: global versus history normalization','h2')
+        self.p('The extension found S4 ahead of the MLP on ETTh1-OT with a GP source. That study scaled each channel globally, so the networks saw the absolute temperature. A pre-declared follow-up (`docs/etth1_normalization_protocol.md`, 24 fits) repeats the four cells with each window normalized by its own history, as in the synthetic task. Forecasts are mapped back to the same units and scored on the same 64 test contexts. The extension’s ridge + residual-bootstrap baseline is refitted under each normalization.')
+        rows=[[norm.capitalize(),f"{ridge[norm]['fair_crps']:.4f}"]+[f"{t[f'{norm}|{p}|{h}']['crps_mean']:.4f}" for p,h in
+              (('white','mlp'),('white','s4'),('gp','mlp'),('gp','s4'))] for norm in ('global','history')]
+        self.table(['Normalization','Ridge','White · MLP','White · S4','GP · MLP','GP · S4'],rows,widths=[95,70,70,70,70,WIDTH-375])
+        inter=e4['interaction']
+        self.p(f'Fair CRPS, mean over three seeds. Pre-declared verdict: “{e4["verdict"]}”. The prior × head interaction shrinks from {inter["global"]:+.3f} to {inter["history"]:+.3f}. {cold["fraction_outside_train_central_95"]:.1%} of the evaluated test contexts lie outside the central 95% of training history levels, so global scaling forces level extrapolation; history normalization removes it. With it, every network improves {min(t[f"global|{k}"]["crps_mean"]/t[f"history|{k}"]["crps_mean"] for k in ("white|mlp","white|s4","gp|mlp","gp|s4")):.1f}–{max(t[f"global|{k}"]["crps_mean"]/t[f"history|{k}"]["crps_mean"] for k in ("white|mlp","white|s4","gp|mlp","gp|s4")):.1f}× and the best one ties ridge. The extension’s S4 advantage was a normalization effect, not a head effect.','small')
+        ks=read(ROOT/'output/kernel-scan/summary.json')
+        with open(ROOT/'output/kernel-scan/cell_contrasts.csv') as f:
+            contrasts=list(csv.DictReader(f))
+        crps=[float(r['geometric_mean']) for r in contrasts if r['source']=='gp' and r['pair']=='s4/mlp' and r['metric']=='fair_crps']
+        anchor=[float(r['geometric_mean']) for r in contrasts if r['source']=='gp' and r['pair']=='s4/mlp'
+                and r['metric']=='residual_mse' and r['kernel']=='rbf' and r['geometry']=='F16_l8'][0]
+        self.p('Kernels and window length','h2')
+        self.p(f'A pre-declared scan (`docs/kernel_scan_protocol.md`; {ks["runs"]} fits on four kernels — RBF, Matérn-5/2, Matérn-3/2, OU — and F/ℓ ∈ {{2, 4, 8}}, three data draws) follows the assignment’s own remedy for an empty task: lengthen the patch or shorten the lengthscale. With the GP source, S4/MLP CRPS lies between {min(crps):.3f} and {max(crps):.3f} in every cell. S4’s residual-MSE disadvantage at the RBF anchor ({anchor:.2f}) disappears at F/ℓ ≥ 4, but no S4 advantage appears. Verdicts: residual MSE “{ks["verdicts"]["E1"]["verdict"]}”, CRPS “{ks["verdicts"]["E2"]["verdict"]}”. For the Gauss–Markov kernels the pre-declared recommendation is “{ks["recommendation"]["result"]}”.')
+        ad=read(ROOT/'results/diagnostics/report_addendum.json');sp=ad['spectra'];trunc=ad['rank_truncation_of_true_targets']['2']
+        self.p('What the assignment’s metrics can see','h2')
+        self.p(f'From `docs/final_report_addendum.md`. **Residual group.** PCs 7–16 carry no structure: their eigenvalues match the normalized numerical nugget ({sp["normalized_nugget_level"]:.1e}), so “residual MSE” is mostly the PC3 error plus ten nugget directions. **Roughness.** True targets truncated to their first two PCs keep {trunc["roughness_ratio"]:.2f} of the target roughness, inside the ±20% band, although every residual PC is removed. Neither metric observes the Jacobian deficit of section 10; this is why the mechanism was invisible in the Task 2 table.')
+        self.p('**Summary of sections 10–11.** The assignment’s mechanism exists in the head Jacobian: with the matched GP source both heads leave the residual directions largely unlearned, and S4 recovers more of them than the MLP in every seed, but far from all. It is harmless in this cell, because those directions carry almost no variance in either the source or the target; under the GP source S4’s CRPS advantage is only 2–3%. No kernel or window length gives S4 or whitening a material advantage. On ETTh1-OT, history normalization improves every network about twofold and brings them level with ridge, so normalization matters more than either the source or the head. Whitening learns the residual Jacobian but over-responds to perturbations and should be regularized before it is adopted.','box')
+
     def build(self):
         for method in (self.summary_page,self.literature_page,self.data_page,self.models_page,self.primary_page,
-                       self.paths_page,self.diagnostics_page,self.oracle_page,self.supplementary_page,self.optimization_page,self.conclusion_page):method()
+                       self.paths_page,self.diagnostics_page,self.oracle_page,self.supplementary_page,self.optimization_page,
+                       self.jacobian_page,self.normalization_page,self.conclusion_page):method()
         self.args.output.parent.mkdir(parents=True,exist_ok=True)
         page_count=[]
         def footer(canvas,doc):
@@ -406,7 +483,7 @@ def main():
               'results':str(args.results),'analysis':str(args.analysis),
               'conclusions_sha256':hashlib.sha256(args.conclusions.read_bytes()).hexdigest(),
               'lengthscale_results':str(args.lengthscale_results),'lengthscale_runs':len(alt_records),
-              'optimization_runs':len(optimization_records),'note':'Eleven-page count verified by report layout; visually render all pages before delivery.'}
+              'optimization_runs':len(optimization_records),'note':'Thirteen-page count (primary pages, two post-hoc sections, recommendation) verified by report layout; visually render all pages before delivery.'}
     args.output.with_suffix('.manifest.json').write_text(json.dumps(manifest,indent=2)+'\n')
     print(args.output)
 

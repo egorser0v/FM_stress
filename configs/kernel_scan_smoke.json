@@ -1,0 +1,131 @@
+{
+  "name": "kernel_scan_smoke",
+  "kernels": [
+    "rbf",
+    "matern52",
+    "matern32",
+    "ou"
+  ],
+  "geometries": [
+    {
+      "id": "F16_l8",
+      "axes": [
+        "horizon",
+        "lengthscale"
+      ],
+      "horizon": 16,
+      "lookback": 32,
+      "lengthscale": 8.0
+    },
+    {
+      "id": "F32_l8",
+      "axes": [
+        "horizon"
+      ],
+      "horizon": 32,
+      "lookback": 64,
+      "lengthscale": 8.0
+    },
+    {
+      "id": "F64_l8",
+      "axes": [
+        "horizon"
+      ],
+      "horizon": 64,
+      "lookback": 128,
+      "lengthscale": 8.0
+    },
+    {
+      "id": "F16_l4",
+      "axes": [
+        "lengthscale"
+      ],
+      "horizon": 16,
+      "lookback": 32,
+      "lengthscale": 4.0
+    },
+    {
+      "id": "F16_l2",
+      "axes": [
+        "lengthscale"
+      ],
+      "horizon": 16,
+      "lookback": 32,
+      "lengthscale": 2.0
+    }
+  ],
+  "variance": 1.0,
+  "nugget": 1e-06,
+  "normalization_threshold": 0.01,
+  "sources": [
+    "white",
+    "gp"
+  ],
+  "heads": [
+    "mlp",
+    "s4",
+    "whitened_mlp"
+  ],
+  "replicates": [
+    {
+      "data_seed": 307041,
+      "seed": 50
+    }
+  ],
+  "n_train": 4096,
+  "n_val": 1024,
+  "n_test": 512,
+  "n_paths": 64,
+  "n_ensemble_contexts": 16,
+  "ensemble_size": 8,
+  "steps": 50,
+  "batch_size": 256,
+  "eval_every": 25,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "clip_grad": 1.0,
+  "euler_steps": 64,
+  "generation_batch_size": 1024,
+  "solver_check": {
+    "replicate_index": 0,
+    "n_contexts": 16,
+    "euler_steps": 128
+  },
+  "model": {
+    "encoder_dim": 32,
+    "depth": 3,
+    "state_size": 16,
+    "time_dim": 32
+  },
+  "widths": {
+    "16": {
+      "mlp": 56,
+      "s4": 56
+    },
+    "32": {
+      "mlp": 56,
+      "s4": 57
+    },
+    "64": {
+      "mlp": 56,
+      "s4": 59
+    }
+  },
+  "signal_floor_multiple": 2.0,
+  "oracle_chunk": 1024,
+  "analysis": {
+    "co_primary_endpoints": [
+      "residual_mse",
+      "fair_crps"
+    ],
+    "velocity_material_ratio": 0.8,
+    "crps_material_ratio": 0.95,
+    "consistency": "same direction in every replicate",
+    "trend": "per replicate OLS slope of log(S4/MLP) on log2(F/l) over the three ratios of an axis",
+    "kernel_contrast": "log(S4/MLP) at OU minus at RBF, per replicate, at each geometry and averaged over the five geometries"
+  },
+  "protocol": {
+    "status": "Development smoke configuration only; not evidence.",
+    "document": "docs/kernel_scan_protocol.md"
+  }
+}

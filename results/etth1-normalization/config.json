@@ -1,0 +1,68 @@
+{
+  "name": "etth1_normalization",
+  "protocol": "docs/etth1_normalization_protocol.md",
+  "dataset": {
+    "kind": "real",
+    "path": "data/real/ETTh1.csv",
+    "format": "csv",
+    "columns": [
+      "OT"
+    ],
+    "lookback": 48,
+    "horizon": 24,
+    "split_ends": [
+      8640,
+      11520,
+      14400
+    ],
+    "strides": {
+      "train": 4,
+      "val": 24,
+      "test": 24
+    },
+    "source_lengthscale": 8.0,
+    "seasonal_period": 24
+  },
+  "priors": [
+    "white",
+    "gp"
+  ],
+  "heads": [
+    "mlp",
+    "s4"
+  ],
+  "seeds": [
+    31,
+    32,
+    33
+  ],
+  "model": {
+    "lookback": 48,
+    "horizon": 24,
+    "channels": 1,
+    "width": 55,
+    "density": 0.5
+  },
+  "steps": 2000,
+  "batch_size": 128,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "clip_grad": 1.0,
+  "eval_every": 250,
+  "evaluation_seed": 110041,
+  "n_ensemble_contexts": 64,
+  "ensemble_size": 32,
+  "euler_steps": 64,
+  "generation_batch_size": 1024,
+  "reading_rules": {
+    "reference": "global cells: MLP-gp mean CRPS >= 1.10 x MLP-white and S4-gp < MLP-gp",
+    "interaction": "I(norm) = [S4-gp - MLP-gp] - [S4-white - MLP-white], mean CRPS",
+    "supports_C2": "|I(history)| <= 0.5 |I(global)| AND MLP-gp within 5% of MLP-white under history normalization",
+    "refutes_C2": "|I(history)| >= 0.8 |I(global)| with the same sign",
+    "otherwise": "inconclusive"
+  },
+  "normalizations": [
+    "global",
+    "history"
+  ]
+}

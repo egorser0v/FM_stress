@@ -1,0 +1,16 @@
+START global_white_mlp_seed32 62999 device cuda
+DONE global_white_mlp_seed32 best_step 2000 CRPS 0.1425 seconds 18.3
+START global_white_s4_seed32 63966 device cuda
+DONE global_white_s4_seed32 best_step 1750 CRPS 0.16925 seconds 60.1
+START global_gp_mlp_seed32 62999 device cuda
+DONE global_gp_mlp_seed32 best_step 1750 CRPS 0.28452 seconds 14.4
+START global_gp_s4_seed32 63966 device cuda
+DONE global_gp_s4_seed32 best_step 1750 CRPS 0.13221 seconds 57.9
+START history_white_mlp_seed32 62999 device cuda
+DONE history_white_mlp_seed32 best_step 1500 CRPS 0.08295 seconds 13.3
+START history_white_s4_seed32 63966 device cuda
+DONE history_white_s4_seed32 best_step 1000 CRPS 0.09948 seconds 57.9
+START history_gp_mlp_seed32 62999 device cuda
+DONE history_gp_mlp_seed32 best_step 750 CRPS 0.08709 seconds 12.9
+START history_gp_s4_seed32 63966 device cuda
+DONE history_gp_s4_seed32 best_step 500 CRPS 0.08852 seconds 58.0

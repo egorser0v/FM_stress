@@ -1,0 +1,9 @@
+{
+  "device": "cuda",
+  "torch": "2.14.1+cu130",
+  "numpy": "2.5.3",
+  "platform": "Linux-6.8.0-146-generic-x86_64-with-glibc2.39",
+  "mps_available": false,
+  "cuda_available": true,
+  "cuda_device": "NVIDIA GeForce RTX 2060"
+}
