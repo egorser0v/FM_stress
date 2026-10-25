@@ -1,0 +1,13 @@
+{
+  "width": 56,
+  "epsilon": 1e-06,
+  "smallest_singular_values": [
+    0.9668658667519378,
+    9.038548354796835e-07,
+    3.437277415001221e-17
+  ],
+  "rank_threshold_1e-12": 55,
+  "rank_threshold_1e-5": 54,
+  "formula_exact_rank": "width-1 because epsilon is positive; width-2 only when epsilon=0",
+  "note": "Illustrative direct derivative, not a trained model diagnostic"
+}

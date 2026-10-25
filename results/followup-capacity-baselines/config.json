@@ -1,0 +1,10 @@
+{
+  "name": "zero-vector-field negative control",
+  "scope": "All 12 frozen capacity kernel/source/draw groups; no training, checkpoints, selection or tuning. Frozen test data are scored, including all three planned draws.",
+  "capacity_config_sha256": "257058fe103310e4af7ade1005203ca6b1cb248f0c22f9d93ea351e4fbd61bbc",
+  "capacity_manifest_sha256": "791fd31c2aa526ab13dbd1209fdc8927246c39670112a67aa88e269ec2d1fca5",
+  "script_sha256": "809483c74272d2429971ddba2e5c2618a13c17a5bf43b3011f6e9b762e241d36",
+  "independent_definitions_sha256": "5e910709f218311e0d0e952db82acf691a05a51df597747e734705454ef46844",
+  "expected_groups": 12,
+  "precision": "Velocity truth and PCA use float64; unchanged source paths are cast to float32, matching model-generation initial states."
+}

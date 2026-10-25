@@ -1,0 +1,257 @@
+{
+  "name": "history_gp_white_level_s4_seed72",
+  "budget": 2000,
+  "identity": {
+    "record_sha256": "316f36a07b64a1a14e7ade1b25c057590e42e695198801b83b1bf1e28100493b",
+    "samples_sha256": "8cf46e64794ba65b9ce3c4829c16d797c20c52ac54b1b9e0aa1ed2cb4d1b7b91",
+    "checkpoint_sha256": "35b0335ecb4bf12292832953b0f25fb7d8ac42f22b5f07a54af1746fe2ef2252",
+    "audit_script_sha256": "232aad65d11c4dcd9b1a2db0706dc6edf32f85ec6b72017fe1d40c6d75a5693e",
+    "dataset_sha256": "f18de3ad269cef59bb07b5438d79bb3042d3be49bdeecf01c1cd6d29695ee066",
+    "config_sha256": "f0690e1efdcd6370be974e0b71a0205118bcdc08fad8985d1be8d93da323373e",
+    "manifest_sha256": "cc82e7bc8f6931aeabd029947fb39684dff134afe9e10919e4bcc57958cb7610"
+  },
+  "passed": true,
+  "n_test_pairs": 118,
+  "n_forecast_contexts": 2,
+  "members": 64,
+  "checks": {
+    "samples_hash": {
+      "passed": true
+    },
+    "checkpoint_hash": {
+      "passed": true
+    },
+    "rebuilt_target": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "rebuilt_test_x": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "rebuilt_test_time": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "rebuilt_velocity": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "rebuilt_history_model": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "rebuilt_location": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "rebuilt_scale": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "rebuilt_ensemble_source": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "rebuilt_starts": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "inverse_forecast": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "per_context_fair_crps": {
+      "passed": true,
+      "max_abs": 1.6653345369377348e-16,
+      "max_relative": 1.6231218187748173e-15
+    },
+    "per_context_joint_energy_scaled": {
+      "passed": true,
+      "max_abs": 2.7755575615628914e-17,
+      "max_relative": 4.045039417021938e-16
+    },
+    "per_context_channel_sum_crps_scaled": {
+      "passed": true,
+      "max_abs": 1.6653345369377348e-16,
+      "max_relative": 1.6231218187748173e-15
+    },
+    "per_context_mean_forecast_mse": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "per_context_coverage_90": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "per_context_width_90": {
+      "passed": true,
+      "max_abs": 3.3306690738754696e-16,
+      "max_relative": 4.514068167299455e-16
+    },
+    "per_context_generated_roughness": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "per_context_target_roughness": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "forecast_mean_fair_crps": {
+      "passed": true,
+      "max_abs": 2.7755575615628914e-17,
+      "max_relative": 2.6592412894931955e-16
+    },
+    "forecast_mean_joint_energy_scaled": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "forecast_mean_channel_sum_crps_scaled": {
+      "passed": true,
+      "max_abs": 2.7755575615628914e-17,
+      "max_relative": 2.6592412894931955e-16
+    },
+    "forecast_mean_mean_forecast_mse": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "forecast_mean_coverage_90": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "forecast_mean_width_90": {
+      "passed": true,
+      "max_abs": 5.551115123125783e-17,
+      "max_relative": 1.2122840247527914e-16
+    },
+    "forecast_mean_generated_roughness": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "forecast_mean_target_roughness": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "forecast_mean_roughness_ratio": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "original64_fair_crps": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "original64_joint_energy_scaled": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "original64_channel_sum_crps_scaled": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "original64_mean_forecast_mse": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "original64_coverage_90": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "original64_width_90": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "original64_generated_roughness": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "original64_target_roughness": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "velocity_model": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "velocity_global": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "prior_mean": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "prior_variance": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "checkpoint_identity": {
+      "passed": true
+    },
+    "validation_prefix_selection": {
+      "passed": true
+    },
+    "cpu_all_test_velocity": {
+      "passed": true,
+      "max_abs": 1.430511474609375e-06,
+      "max_relative": 0.00027643180554357986
+    },
+    "cpu_validation_objective": {
+      "passed": true,
+      "max_abs": 1.1591918669395795e-07,
+      "max_relative": 1.1045375482944404e-07
+    },
+    "cpu_euler_model": {
+      "passed": true,
+      "max_abs": 3.814697265625e-06,
+      "max_relative": 0.0011942298109924535
+    },
+    "cpu_euler_global": {
+      "passed": true,
+      "max_abs": 5.564586475492739e-07,
+      "max_relative": 1.0977252153616257e-05
+    }
+  },
+  "forecast_means": {
+    "fair_crps": 0.10437403978831257,
+    "joint_energy_scaled": 0.12192967296467871,
+    "channel_sum_crps_scaled": 0.10437403978831257,
+    "mean_forecast_mse": 0.03596979826460001,
+    "coverage_90": 0.7658898305084746,
+    "width_90": 0.457905491599442,
+    "generated_roughness": 0.028036859651226334,
+    "target_roughness": 0.04615423239937237,
+    "roughness_ratio": 0.607460208819497
+  }
+}

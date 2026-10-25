@@ -1,0 +1,149 @@
+{
+  "complete": true,
+  "fingerprint": "84f5850e12687b6c16478d4cc894098abc603c43a600fa94367d90c6dd12a49d",
+  "encoder_initial_sha256": "e1098188a63ff67d81da9b041211499d18cc9f415a7b3471bdba95d43fcb3bb7",
+  "batch_hashes": {
+    "1": {
+      "indices": "39f47e8cbe18c083456b20a90b2a4b5cc8749970aa26c0f1487854bed96a478e",
+      "normals": "a2829e77d166b6647bee21efdf8bf017fddc926a8be1953716b0978a2d61e168",
+      "time": "f3577f5f1b89b463491b2811c4046c3b8c389172f4a79686609aada5ae1a7219"
+    },
+    "6000": {
+      "indices": "2a33251b15f819a98eedfeb1c3b9f267577c4fd1889a85f6ca1807f12f8e5e00",
+      "normals": "5ee316e45ef1fd290a52f9829b26b52d25e4584b5b5fafb0d6ed2b7dabcb3021",
+      "time": "6bcce32d6222288dfa99e1193cae545a8ce643f6acc31ed3cec393d32f539ae9"
+    },
+    "12000": {
+      "indices": "87a9d66cff2bfb1fcd2ce253307a232d4a75b62dbe591c8fafb314b94e8f05b5",
+      "normals": "a364bfef1e1c038db125293e6ed87e586466f495bc4d7c67d8da4b7b8e02f16a",
+      "time": "d2d27faef55a0ecb017f78d6eb37592ad53e0c200e553263fb007e36a31aacd7"
+    }
+  },
+  "curve": [
+    {
+      "step": 500,
+      "validation_mse": 1.7862029075622559,
+      "seconds": 3.489684917003615
+    },
+    {
+      "step": 1000,
+      "validation_mse": 1.7474236488342285,
+      "seconds": 6.898340792002273
+    },
+    {
+      "step": 1500,
+      "validation_mse": 1.7324004173278809,
+      "seconds": 10.838250042012078
+    },
+    {
+      "step": 2000,
+      "validation_mse": 1.7217345237731934,
+      "seconds": 15.504798167006811
+    },
+    {
+      "step": 2500,
+      "validation_mse": 1.7185815572738647,
+      "seconds": 19.825866000013775
+    },
+    {
+      "step": 3000,
+      "validation_mse": 1.7166556119918823,
+      "seconds": 24.202354709006613
+    },
+    {
+      "step": 3500,
+      "validation_mse": 1.7127325534820557,
+      "seconds": 28.1097528750106
+    },
+    {
+      "step": 4000,
+      "validation_mse": 1.7036153078079224,
+      "seconds": 31.658742958999937
+    },
+    {
+      "step": 4500,
+      "validation_mse": 1.691225290298462,
+      "seconds": 34.94427533401176
+    },
+    {
+      "step": 5000,
+      "validation_mse": 1.7061078548431396,
+      "seconds": 38.28372245900391
+    },
+    {
+      "step": 5500,
+      "validation_mse": 1.6865365505218506,
+      "seconds": 41.68777020901325
+    },
+    {
+      "step": 6000,
+      "validation_mse": 1.6904094219207764,
+      "seconds": 45.00848279200727
+    },
+    {
+      "step": 6500,
+      "validation_mse": 1.6860482692718506,
+      "seconds": 48.29311733400391
+    },
+    {
+      "step": 7000,
+      "validation_mse": 1.6858885288238525,
+      "seconds": 51.620376167004
+    },
+    {
+      "step": 7500,
+      "validation_mse": 1.6912245750427246,
+      "seconds": 54.91963150000083
+    },
+    {
+      "step": 8000,
+      "validation_mse": 1.6869604587554932,
+      "seconds": 58.23627833400678
+    },
+    {
+      "step": 8500,
+      "validation_mse": 1.7090046405792236,
+      "seconds": 61.544140584010165
+    },
+    {
+      "step": 9000,
+      "validation_mse": 1.6765624284744263,
+      "seconds": 64.96127629200055
+    },
+    {
+      "step": 9500,
+      "validation_mse": 1.6829191446304321,
+      "seconds": 67.78409283400106
+    },
+    {
+      "step": 10000,
+      "validation_mse": 1.6780040264129639,
+      "seconds": 70.51585950001027
+    },
+    {
+      "step": 10500,
+      "validation_mse": 1.673793911933899,
+      "seconds": 73.28580370900454
+    },
+    {
+      "step": 11000,
+      "validation_mse": 1.676642656326294,
+      "seconds": 76.00380383401352
+    },
+    {
+      "step": 11500,
+      "validation_mse": 1.6791205406188965,
+      "seconds": 78.70397991700156
+    },
+    {
+      "step": 12000,
+      "validation_mse": 1.6690800189971924,
+      "seconds": 81.41723858400655
+    }
+  ],
+  "seconds": 81.42643283400685,
+  "checkpoint_hashes": {
+    "6000": "bd3a0d38541fa04753e362539807d01c540a1a1fb6c8b2c34c43d614f10089fc",
+    "12000": "963e3cc56af03952d6c3e562654996d1f88089c9f7301757d48d59cbee102763"
+  }
+}

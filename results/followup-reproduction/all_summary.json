@@ -1,0 +1,14 @@
+{
+  "phase": "all",
+  "expected_runs": 360,
+  "verified_runs": 360,
+  "complete": true,
+  "passed": true,
+  "n_generation_runs": 18,
+  "cpu_threads": 2,
+  "torch": "2.14.1",
+  "rtol": 0.0001,
+  "atol": 1e-08,
+  "summed_seconds": 804.2616671209253,
+  "failed_checks": []
+}

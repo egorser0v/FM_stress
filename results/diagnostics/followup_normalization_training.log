@@ -1,0 +1,264 @@
+START global_white_mlp_seed71 device mps
+BUDGET global_white_mlp_seed71 2000 best 2000 seconds 13.5
+BUDGET global_white_mlp_seed71 6000 best 5250 seconds 41.7
+DONE global_white_mlp_seed71 CRPS 0.213184 seconds 43.6
+START global_white_mlp_seed72 device mps
+BUDGET global_white_mlp_seed72 2000 best 2000 seconds 15.0
+BUDGET global_white_mlp_seed72 6000 best 4250 seconds 44.7
+DONE global_white_mlp_seed72 CRPS 0.169968 seconds 46.6
+START global_white_mlp_seed73 device mps
+BUDGET global_white_mlp_seed73 2000 best 1500 seconds 15.0
+BUDGET global_white_mlp_seed73 6000 best 4750 seconds 45.4
+DONE global_white_mlp_seed73 CRPS 0.206032 seconds 47.4
+START global_white_s4_seed71 device mps
+BUDGET global_white_s4_seed71 2000 best 1750 seconds 44.9
+BUDGET global_white_s4_seed71 6000 best 3750 seconds 135.0
+DONE global_white_s4_seed71 CRPS 0.146639 seconds 149.0
+START global_white_s4_seed72 device mps
+BUDGET global_white_s4_seed72 2000 best 1250 seconds 49.3
+BUDGET global_white_s4_seed72 6000 best 4750 seconds 154.7
+DONE global_white_s4_seed72 CRPS 0.226415 seconds 181.0
+START global_white_s4_seed73 device mps
+BUDGET global_white_s4_seed73 2000 best 2000 seconds 51.5
+BUDGET global_white_s4_seed73 6000 best 4500 seconds 187.9
+DONE global_white_s4_seed73 CRPS 0.214528 seconds 214.3
+START global_gp_mlp_seed71 device mps
+BUDGET global_gp_mlp_seed71 2000 best 1000 seconds 15.5
+BUDGET global_gp_mlp_seed71 6000 best 1000 seconds 54.6
+DONE global_gp_mlp_seed71 CRPS 0.191746 seconds 57.4
+START global_gp_mlp_seed72 device mps
+BUDGET global_gp_mlp_seed72 2000 best 1000 seconds 15.4
+BUDGET global_gp_mlp_seed72 6000 best 2250 seconds 46.4
+DONE global_gp_mlp_seed72 CRPS 0.274028 seconds 49.5
+START global_gp_mlp_seed73 device mps
+BUDGET global_gp_mlp_seed73 2000 best 1750 seconds 16.0
+BUDGET global_gp_mlp_seed73 6000 best 3250 seconds 46.4
+DONE global_gp_mlp_seed73 CRPS 0.183666 seconds 49.3
+START global_gp_s4_seed71 device mps
+BUDGET global_gp_s4_seed71 2000 best 1000 seconds 72.5
+BUDGET global_gp_s4_seed71 6000 best 2500 seconds 216.9
+DONE global_gp_s4_seed71 CRPS 0.145356 seconds 243.4
+START global_gp_s4_seed72 device mps
+BUDGET global_gp_s4_seed72 2000 best 2000 seconds 75.7
+BUDGET global_gp_s4_seed72 6000 best 2250 seconds 201.5
+DONE global_gp_s4_seed72 CRPS 0.213649 seconds 218.6
+START global_gp_s4_seed73 device mps
+BUDGET global_gp_s4_seed73 2000 best 1250 seconds 34.4
+BUDGET global_gp_s4_seed73 6000 best 3000 seconds 98.4
+DONE global_gp_s4_seed73 CRPS 0.165403 seconds 114.4
+START global_gp_zero_level_mlp_seed71 device mps
+BUDGET global_gp_zero_level_mlp_seed71 2000 best 1750 seconds 13.5
+BUDGET global_gp_zero_level_mlp_seed71 6000 best 4500 seconds 36.6
+DONE global_gp_zero_level_mlp_seed71 CRPS 0.332986 seconds 38.3
+START global_gp_zero_level_mlp_seed72 device mps
+BUDGET global_gp_zero_level_mlp_seed72 2000 best 1750 seconds 11.3
+BUDGET global_gp_zero_level_mlp_seed72 6000 best 5500 seconds 33.9
+DONE global_gp_zero_level_mlp_seed72 CRPS 0.179072 seconds 35.6
+START global_gp_zero_level_mlp_seed73 device mps
+BUDGET global_gp_zero_level_mlp_seed73 2000 best 1500 seconds 11.9
+BUDGET global_gp_zero_level_mlp_seed73 6000 best 2500 seconds 37.8
+DONE global_gp_zero_level_mlp_seed73 CRPS 0.311932 seconds 40.5
+START global_gp_zero_level_s4_seed71 device mps
+BUDGET global_gp_zero_level_s4_seed71 2000 best 2000 seconds 75.6
+BUDGET global_gp_zero_level_s4_seed71 6000 best 3750 seconds 212.0
+DONE global_gp_zero_level_s4_seed71 CRPS 0.165376 seconds 238.5
+START global_gp_zero_level_s4_seed72 device mps
+BUDGET global_gp_zero_level_s4_seed72 2000 best 1500 seconds 69.7
+BUDGET global_gp_zero_level_s4_seed72 6000 best 3750 seconds 190.9
+DONE global_gp_zero_level_s4_seed72 CRPS 0.155861 seconds 215.3
+START global_gp_zero_level_s4_seed73 device mps
+BUDGET global_gp_zero_level_s4_seed73 2000 best 2000 seconds 60.4
+BUDGET global_gp_zero_level_s4_seed73 6000 best 5000 seconds 187.1
+DONE global_gp_zero_level_s4_seed73 CRPS 0.341091 seconds 213.5
+START global_gp_white_level_mlp_seed71 device mps
+BUDGET global_gp_white_level_mlp_seed71 2000 best 1750 seconds 30.3
+BUDGET global_gp_white_level_mlp_seed71 6000 best 2250 seconds 75.0
+DONE global_gp_white_level_mlp_seed71 CRPS 0.217663 seconds 77.3
+START global_gp_white_level_mlp_seed72 device mps
+BUDGET global_gp_white_level_mlp_seed72 2000 best 2000 seconds 18.4
+BUDGET global_gp_white_level_mlp_seed72 6000 best 2250 seconds 51.6
+DONE global_gp_white_level_mlp_seed72 CRPS 0.241084 seconds 53.6
+START global_gp_white_level_mlp_seed73 device mps
+BUDGET global_gp_white_level_mlp_seed73 2000 best 1500 seconds 17.1
+BUDGET global_gp_white_level_mlp_seed73 6000 best 2750 seconds 70.5
+DONE global_gp_white_level_mlp_seed73 CRPS 0.196863 seconds 73.2
+START global_gp_white_level_s4_seed71 device mps
+BUDGET global_gp_white_level_s4_seed71 2000 best 1750 seconds 81.7
+BUDGET global_gp_white_level_s4_seed71 6000 best 3750 seconds 246.3
+DONE global_gp_white_level_s4_seed71 CRPS 0.167668 seconds 271.6
+START global_gp_white_level_s4_seed72 device mps
+BUDGET global_gp_white_level_s4_seed72 2000 best 1000 seconds 66.5
+BUDGET global_gp_white_level_s4_seed72 6000 best 3750 seconds 182.2
+DONE global_gp_white_level_s4_seed72 CRPS 0.174361 seconds 208.9
+START global_gp_white_level_s4_seed73 device mps
+BUDGET global_gp_white_level_s4_seed73 2000 best 2000 seconds 58.7
+BUDGET global_gp_white_level_s4_seed73 6000 best 3500 seconds 209.0
+DONE global_gp_white_level_s4_seed73 CRPS 0.205749 seconds 235.8
+START center_white_mlp_seed71 device mps
+BUDGET center_white_mlp_seed71 2000 best 1750 seconds 13.4
+BUDGET center_white_mlp_seed71 6000 best 5000 seconds 37.9
+DONE center_white_mlp_seed71 CRPS 0.100869 seconds 39.8
+START center_white_mlp_seed72 device mps
+BUDGET center_white_mlp_seed72 2000 best 1750 seconds 11.4
+BUDGET center_white_mlp_seed72 6000 best 1750 seconds 33.8
+DONE center_white_mlp_seed72 CRPS 0.101919 seconds 35.8
+START center_white_mlp_seed73 device mps
+BUDGET center_white_mlp_seed73 2000 best 1250 seconds 12.5
+BUDGET center_white_mlp_seed73 6000 best 5500 seconds 39.4
+DONE center_white_mlp_seed73 CRPS 0.104184 seconds 42.1
+START center_white_s4_seed71 device mps
+BUDGET center_white_s4_seed71 2000 best 1750 seconds 63.9
+BUDGET center_white_s4_seed71 6000 best 3750 seconds 191.0
+DONE center_white_s4_seed71 CRPS 0.099464 seconds 216.2
+START center_white_s4_seed72 device mps
+BUDGET center_white_s4_seed72 2000 best 2000 seconds 67.5
+BUDGET center_white_s4_seed72 6000 best 5250 seconds 187.5
+DONE center_white_s4_seed72 CRPS 0.101276 seconds 211.6
+START center_white_s4_seed73 device mps
+BUDGET center_white_s4_seed73 2000 best 2000 seconds 61.2
+BUDGET center_white_s4_seed73 6000 best 2000 seconds 185.7
+DONE center_white_s4_seed73 CRPS 0.098909 seconds 212.1
+START center_gp_mlp_seed71 device mps
+BUDGET center_gp_mlp_seed71 2000 best 1000 seconds 16.4
+BUDGET center_gp_mlp_seed71 6000 best 1000 seconds 48.2
+DONE center_gp_mlp_seed71 CRPS 0.098054 seconds 50.1
+START center_gp_mlp_seed72 device mps
+BUDGET center_gp_mlp_seed72 2000 best 1500 seconds 11.9
+BUDGET center_gp_mlp_seed72 6000 best 1500 seconds 35.6
+DONE center_gp_mlp_seed72 CRPS 0.100357 seconds 38.0
+START center_gp_mlp_seed73 device mps
+BUDGET center_gp_mlp_seed73 2000 best 1250 seconds 11.1
+BUDGET center_gp_mlp_seed73 6000 best 1250 seconds 30.4
+DONE center_gp_mlp_seed73 CRPS 0.09622 seconds 31.8
+START center_gp_s4_seed71 device mps
+BUDGET center_gp_s4_seed71 2000 best 1000 seconds 32.0
+BUDGET center_gp_s4_seed71 6000 best 2500 seconds 102.7
+DONE center_gp_s4_seed71 CRPS 0.098408 seconds 124.8
+START center_gp_s4_seed72 device mps
+BUDGET center_gp_s4_seed72 2000 best 1750 seconds 34.3
+BUDGET center_gp_s4_seed72 6000 best 2250 seconds 108.1
+DONE center_gp_s4_seed72 CRPS 0.096497 seconds 129.1
+START center_gp_s4_seed73 device mps
+BUDGET center_gp_s4_seed73 2000 best 1500 seconds 46.1
+BUDGET center_gp_s4_seed73 6000 best 1500 seconds 168.4
+DONE center_gp_s4_seed73 CRPS 0.099308 seconds 192.6
+START scale_white_mlp_seed71 device mps
+BUDGET scale_white_mlp_seed71 2000 best 1750 seconds 14.5
+BUDGET scale_white_mlp_seed71 6000 best 4000 seconds 43.8
+DONE scale_white_mlp_seed71 CRPS 0.112851 seconds 46.4
+START scale_white_mlp_seed72 device mps
+BUDGET scale_white_mlp_seed72 2000 best 1750 seconds 14.8
+BUDGET scale_white_mlp_seed72 6000 best 3250 seconds 45.3
+DONE scale_white_mlp_seed72 CRPS 0.135309 seconds 47.9
+START scale_white_mlp_seed73 device mps
+BUDGET scale_white_mlp_seed73 2000 best 2000 seconds 16.0
+BUDGET scale_white_mlp_seed73 6000 best 2750 seconds 47.0
+DONE scale_white_mlp_seed73 CRPS 0.146385 seconds 49.5
+START scale_white_s4_seed71 device mps
+BUDGET scale_white_s4_seed71 2000 best 1750 seconds 65.3
+BUDGET scale_white_s4_seed71 6000 best 4000 seconds 198.7
+DONE scale_white_s4_seed71 CRPS 0.114389 seconds 225.7
+START scale_white_s4_seed72 device mps
+BUDGET scale_white_s4_seed72 2000 best 2000 seconds 48.7
+BUDGET scale_white_s4_seed72 6000 best 3250 seconds 137.3
+DONE scale_white_s4_seed72 CRPS 0.1163 seconds 163.5
+START scale_white_s4_seed73 device mps
+BUDGET scale_white_s4_seed73 2000 best 2000 seconds 45.7
+BUDGET scale_white_s4_seed73 6000 best 5250 seconds 131.3
+DONE scale_white_s4_seed73 CRPS 0.138503 seconds 150.5
+START scale_gp_mlp_seed71 device mps
+BUDGET scale_gp_mlp_seed71 2000 best 1000 seconds 14.4
+BUDGET scale_gp_mlp_seed71 6000 best 1000 seconds 41.6
+DONE scale_gp_mlp_seed71 CRPS 0.13418 seconds 43.5
+START scale_gp_mlp_seed72 device mps
+BUDGET scale_gp_mlp_seed72 2000 best 1500 seconds 11.5
+BUDGET scale_gp_mlp_seed72 6000 best 1500 seconds 36.1
+DONE scale_gp_mlp_seed72 CRPS 0.115006 seconds 38.0
+START scale_gp_mlp_seed73 device mps
+BUDGET scale_gp_mlp_seed73 2000 best 1250 seconds 12.0
+BUDGET scale_gp_mlp_seed73 6000 best 1250 seconds 35.2
+DONE scale_gp_mlp_seed73 CRPS 0.104399 seconds 37.1
+START scale_gp_s4_seed71 device mps
+BUDGET scale_gp_s4_seed71 2000 best 2000 seconds 44.1
+BUDGET scale_gp_s4_seed71 6000 best 2250 seconds 172.7
+DONE scale_gp_s4_seed71 CRPS 0.147506 seconds 198.2
+START scale_gp_s4_seed72 device mps
+BUDGET scale_gp_s4_seed72 2000 best 1500 seconds 65.1
+BUDGET scale_gp_s4_seed72 6000 best 1500 seconds 198.0
+DONE scale_gp_s4_seed72 CRPS 0.124371 seconds 224.2
+START scale_gp_s4_seed73 device mps
+BUDGET scale_gp_s4_seed73 2000 best 1250 seconds 69.6
+BUDGET scale_gp_s4_seed73 6000 best 1250 seconds 135.7
+DONE scale_gp_s4_seed73 CRPS 0.126372 seconds 157.2
+START history_white_mlp_seed71 device mps
+BUDGET history_white_mlp_seed71 2000 best 1750 seconds 13.6
+BUDGET history_white_mlp_seed71 6000 best 1750 seconds 36.4
+DONE history_white_mlp_seed71 CRPS 0.09849 seconds 38.4
+START history_white_mlp_seed72 device mps
+BUDGET history_white_mlp_seed72 2000 best 1500 seconds 11.5
+BUDGET history_white_mlp_seed72 6000 best 1500 seconds 34.6
+DONE history_white_mlp_seed72 CRPS 0.101013 seconds 36.5
+START history_white_mlp_seed73 device mps
+BUDGET history_white_mlp_seed73 2000 best 1250 seconds 11.8
+BUDGET history_white_mlp_seed73 6000 best 1250 seconds 35.3
+DONE history_white_mlp_seed73 CRPS 0.096603 seconds 37.3
+START history_white_s4_seed71 device mps
+BUDGET history_white_s4_seed71 2000 best 1000 seconds 51.5
+BUDGET history_white_s4_seed71 6000 best 1000 seconds 124.5
+DONE history_white_s4_seed71 CRPS 0.110138 seconds 140.5
+START history_white_s4_seed72 device mps
+BUDGET history_white_s4_seed72 2000 best 1000 seconds 45.2
+BUDGET history_white_s4_seed72 6000 best 1000 seconds 130.8
+DONE history_white_s4_seed72 CRPS 0.106139 seconds 147.3
+START history_white_s4_seed73 device mps
+BUDGET history_white_s4_seed73 2000 best 1500 seconds 40.3
+BUDGET history_white_s4_seed73 6000 best 1500 seconds 123.4
+DONE history_white_s4_seed73 CRPS 0.104086 seconds 137.2
+START history_gp_mlp_seed71 device mps
+BUDGET history_gp_mlp_seed71 2000 best 750 seconds 13.2
+BUDGET history_gp_mlp_seed71 6000 best 750 seconds 43.8
+DONE history_gp_mlp_seed71 CRPS 0.097105 seconds 45.8
+START history_gp_mlp_seed72 device mps
+BUDGET history_gp_mlp_seed72 2000 best 500 seconds 13.6
+BUDGET history_gp_mlp_seed72 6000 best 500 seconds 42.5
+DONE history_gp_mlp_seed72 CRPS 0.100653 seconds 44.1
+START history_gp_mlp_seed73 device mps
+BUDGET history_gp_mlp_seed73 2000 best 750 seconds 12.7
+BUDGET history_gp_mlp_seed73 6000 best 750 seconds 37.1
+DONE history_gp_mlp_seed73 CRPS 0.097651 seconds 38.6
+START history_gp_s4_seed71 device mps
+BUDGET history_gp_s4_seed71 2000 best 500 seconds 46.5
+BUDGET history_gp_s4_seed71 6000 best 500 seconds 159.7
+DONE history_gp_s4_seed71 CRPS 0.100061 seconds 180.4
+START history_gp_s4_seed72 device mps
+BUDGET history_gp_s4_seed72 2000 best 500 seconds 49.9
+BUDGET history_gp_s4_seed72 6000 best 500 seconds 123.6
+DONE history_gp_s4_seed72 CRPS 0.099972 seconds 134.8
+START history_gp_s4_seed73 device mps
+BUDGET history_gp_s4_seed73 2000 best 500 seconds 33.9
+BUDGET history_gp_s4_seed73 6000 best 500 seconds 99.1
+DONE history_gp_s4_seed73 CRPS 0.101509 seconds 110.2
+SKIP history_gp_zero_level_mlp_seed71
+SKIP history_gp_zero_level_mlp_seed72
+SKIP history_gp_zero_level_mlp_seed73
+SKIP history_gp_zero_level_s4_seed71
+SKIP history_gp_zero_level_s4_seed72
+SKIP history_gp_zero_level_s4_seed73
+SKIP history_gp_white_level_mlp_seed71
+SKIP history_gp_white_level_mlp_seed72
+SKIP history_gp_white_level_mlp_seed73
+SKIP history_gp_white_level_s4_seed71
+SKIP history_gp_white_level_s4_seed72
+SKIP history_gp_white_level_s4_seed73
+SKIP history_rawloss_white_mlp_seed71
+SKIP history_rawloss_white_mlp_seed72
+SKIP history_rawloss_white_mlp_seed73
+SKIP history_rawloss_white_s4_seed71
+SKIP history_rawloss_white_s4_seed72
+SKIP history_rawloss_white_s4_seed73
+SKIP history_rawloss_gp_mlp_seed71
+SKIP history_rawloss_gp_mlp_seed72
+SKIP history_rawloss_gp_mlp_seed73
+SKIP history_rawloss_gp_s4_seed71
+SKIP history_rawloss_gp_s4_seed72
+SKIP history_rawloss_gp_s4_seed73

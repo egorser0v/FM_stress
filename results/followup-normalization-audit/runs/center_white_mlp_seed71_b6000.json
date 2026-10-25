@@ -1,0 +1,257 @@
+{
+  "name": "center_white_mlp_seed71",
+  "budget": 6000,
+  "identity": {
+    "record_sha256": "badbca8c2fa1bad7f3f0f3a0939dc7ba0ecd46da5de281bfaf9bccbe51a30dcd",
+    "samples_sha256": "7341e81dd1a49070fab55fa379e80e285126343780ce9af3e4eefa62fb93fff1",
+    "checkpoint_sha256": "d1728eef6f102d36d059d01871208d2202fa65a0234359970179ca4c366879cb",
+    "audit_script_sha256": "232aad65d11c4dcd9b1a2db0706dc6edf32f85ec6b72017fe1d40c6d75a5693e",
+    "dataset_sha256": "f18de3ad269cef59bb07b5438d79bb3042d3be49bdeecf01c1cd6d29695ee066",
+    "config_sha256": "f0690e1efdcd6370be974e0b71a0205118bcdc08fad8985d1be8d93da323373e",
+    "manifest_sha256": "cc82e7bc8f6931aeabd029947fb39684dff134afe9e10919e4bcc57958cb7610"
+  },
+  "passed": true,
+  "n_test_pairs": 118,
+  "n_forecast_contexts": 2,
+  "members": 64,
+  "checks": {
+    "samples_hash": {
+      "passed": true
+    },
+    "checkpoint_hash": {
+      "passed": true
+    },
+    "rebuilt_target": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "rebuilt_test_x": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "rebuilt_test_time": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "rebuilt_velocity": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "rebuilt_history_model": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "rebuilt_location": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "rebuilt_scale": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "rebuilt_ensemble_source": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "rebuilt_starts": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "inverse_forecast": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "per_context_fair_crps": {
+      "passed": true,
+      "max_abs": 1.1102230246251565e-16,
+      "max_relative": 1.2602971721286918e-15
+    },
+    "per_context_joint_energy_scaled": {
+      "passed": true,
+      "max_abs": 5.551115123125783e-17,
+      "max_relative": 5.958587904044053e-16
+    },
+    "per_context_channel_sum_crps_scaled": {
+      "passed": true,
+      "max_abs": 1.1102230246251565e-16,
+      "max_relative": 1.2602971721286918e-15
+    },
+    "per_context_mean_forecast_mse": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "per_context_coverage_90": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "per_context_width_90": {
+      "passed": true,
+      "max_abs": 3.3306690738754696e-16,
+      "max_relative": 3.9975616050009986e-16
+    },
+    "per_context_generated_roughness": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "per_context_target_roughness": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "forecast_mean_fair_crps": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "forecast_mean_joint_energy_scaled": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "forecast_mean_channel_sum_crps_scaled": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "forecast_mean_mean_forecast_mse": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "forecast_mean_coverage_90": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "forecast_mean_width_90": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "forecast_mean_generated_roughness": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "forecast_mean_target_roughness": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "forecast_mean_roughness_ratio": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "original64_fair_crps": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "original64_joint_energy_scaled": {
+      "passed": true,
+      "max_abs": 1.3877787807814457e-17,
+      "max_relative": 1.2699242101267583e-16
+    },
+    "original64_channel_sum_crps_scaled": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "original64_mean_forecast_mse": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "original64_coverage_90": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "original64_width_90": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "original64_generated_roughness": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "original64_target_roughness": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "velocity_model": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "velocity_global": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "prior_mean": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "prior_variance": {
+      "passed": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0
+    },
+    "checkpoint_identity": {
+      "passed": true
+    },
+    "validation_prefix_selection": {
+      "passed": true
+    },
+    "cpu_all_test_velocity": {
+      "passed": true,
+      "max_abs": 1.1920928955078125e-06,
+      "max_relative": 0.0002179166752730496
+    },
+    "cpu_validation_objective": {
+      "passed": true,
+      "max_abs": 2.319970576758479e-08,
+      "max_relative": 9.222617827378039e-08
+    },
+    "cpu_euler_model": {
+      "passed": true,
+      "max_abs": 2.980232238769531e-07,
+      "max_relative": 7.991262885819977e-05
+    },
+    "cpu_euler_global": {
+      "passed": true,
+      "max_abs": 2.980232238769531e-07,
+      "max_relative": 3.646867497112163e-05
+    }
+  },
+  "forecast_means": {
+    "fair_crps": 0.10086933981414237,
+    "joint_energy_scaled": 0.1176642735309496,
+    "channel_sum_crps_scaled": 0.10086933981414237,
+    "mean_forecast_mse": 0.033570358814738854,
+    "coverage_90": 0.951271186440678,
+    "width_90": 0.816930445190488,
+    "generated_roughness": 0.07175336370803051,
+    "target_roughness": 0.04615423239937237,
+    "roughness_ratio": 1.5546432034043804
+  }
+}

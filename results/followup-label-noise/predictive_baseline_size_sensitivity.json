@@ -1,0 +1,47 @@
+{
+  "complete": true,
+  "rows": [
+    {
+      "data_seed": 917041,
+      "members": 32,
+      "coverage_90": 0.847412109375,
+      "samples_sha256": "4c85e3a74180c72fde52544f1cbbe5ba18f0200d7d643318c7fb9af606564ba3",
+      "note": "Post-hoc arithmetic on the first members of the existing exact-reference ensemble; no new samples or training."
+    },
+    {
+      "data_seed": 917041,
+      "members": 64,
+      "coverage_90": 0.86279296875,
+      "samples_sha256": "4c85e3a74180c72fde52544f1cbbe5ba18f0200d7d643318c7fb9af606564ba3",
+      "note": "Post-hoc arithmetic on the first members of the existing exact-reference ensemble; no new samples or training."
+    },
+    {
+      "data_seed": 1017041,
+      "members": 32,
+      "coverage_90": 0.8466796875,
+      "samples_sha256": "839e3ed9cd5ee95e0b92ea7594ccdfb568c12cf676802db013ec01150bbb1f27",
+      "note": "Post-hoc arithmetic on the first members of the existing exact-reference ensemble; no new samples or training."
+    },
+    {
+      "data_seed": 1017041,
+      "members": 64,
+      "coverage_90": 0.875732421875,
+      "samples_sha256": "839e3ed9cd5ee95e0b92ea7594ccdfb568c12cf676802db013ec01150bbb1f27",
+      "note": "Post-hoc arithmetic on the first members of the existing exact-reference ensemble; no new samples or training."
+    },
+    {
+      "data_seed": 1117041,
+      "members": 32,
+      "coverage_90": 0.87060546875,
+      "samples_sha256": "0d005c2013474f6481fd125e94bba3680591924053ccef00db337768be40da61",
+      "note": "Post-hoc arithmetic on the first members of the existing exact-reference ensemble; no new samples or training."
+    },
+    {
+      "data_seed": 1117041,
+      "members": 64,
+      "coverage_90": 0.8935546875,
+      "samples_sha256": "0d005c2013474f6481fd125e94bba3680591924053ccef00db337768be40da61",
+      "note": "Post-hoc arithmetic on the first members of the existing exact-reference ensemble; no new samples or training."
+    }
+  ]
+}

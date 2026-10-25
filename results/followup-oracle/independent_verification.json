@@ -1,0 +1,199 @@
+{
+  "status": "passed",
+  "checks": {
+    "centered_basis_mean_max_abs": 1.3158374123634076e-07,
+    "centered_basis_rate_relative_rms": 7.054338530400242e-10,
+    "centered_basis_covariance_relative_rms": 1.968684155094862e-11,
+    "fresh_raw_gp_calibration": {
+      "sample_mean": 0.5576513217005673,
+      "theory": 0.5517241379310345,
+      "standard_error": 0.003999175900061196,
+      "z_score": 1.4821012922792742
+    },
+    "independent_adaptive_integral": [
+      {
+        "source": "white",
+        "history_index": 0,
+        "relative_velocity_rms": 2.557075669549258e-15,
+        "absolute_integrator_error": 6.06322060617323e-09
+      },
+      {
+        "source": "white",
+        "history_index": 1,
+        "relative_velocity_rms": 5.665899335806071e-16,
+        "absolute_integrator_error": 2.6841000594365403e-10
+      },
+      {
+        "source": "white",
+        "history_index": 2,
+        "relative_velocity_rms": 8.622024939429644e-16,
+        "absolute_integrator_error": 6.2950607517741955e-09
+      },
+      {
+        "source": "gp",
+        "history_index": 0,
+        "relative_velocity_rms": 1.7809600161310007e-12,
+        "absolute_integrator_error": 1.3727178757050625e-08
+      },
+      {
+        "source": "gp",
+        "history_index": 1,
+        "relative_velocity_rms": 9.5070935432545e-13,
+        "absolute_integrator_error": 7.570908219612524e-09
+      },
+      {
+        "source": "gp",
+        "history_index": 2,
+        "relative_velocity_rms": 3.621408216951388e-12,
+        "absolute_integrator_error": 2.665390755887849e-09
+      }
+    ],
+    "replayed_residual_jacobian_rows": 250,
+    "max_summary_replay_error": 0.0,
+    "source_hashes_unchanged": true
+  },
+  "perturbation_support": [
+    {
+      "source": "white",
+      "time": 0.1,
+      "perturbation_norm": 0.1,
+      "direction": "uniform sphere in velocity-PC3..F",
+      "rms_mahalanobis_radius_mean": 0.11108600611729194,
+      "p10": 0.11105855045601809,
+      "p90": 0.11110552678025537,
+      "typical_unconditional_radius_sqrtF": 4.0,
+      "interpretation": "Geometry diagnostic: conditional covariance radius; mixture is not Gaussian. Does not prove every direction is off support."
+    },
+    {
+      "source": "white",
+      "time": 0.3,
+      "perturbation_norm": 0.1,
+      "direction": "uniform sphere in velocity-PC3..F",
+      "rms_mahalanobis_radius_mean": 0.1425671238339725,
+      "p10": 0.14228189150017578,
+      "p90": 0.14276869249790475,
+      "typical_unconditional_radius_sqrtF": 4.0,
+      "interpretation": "Geometry diagnostic: conditional covariance radius; mixture is not Gaussian. Does not prove every direction is off support."
+    },
+    {
+      "source": "white",
+      "time": 0.5,
+      "perturbation_norm": 0.1,
+      "direction": "uniform sphere in velocity-PC3..F",
+      "rms_mahalanobis_radius_mean": 0.19871214408690765,
+      "p10": 0.19754226834285546,
+      "p90": 0.19952327800606834,
+      "typical_unconditional_radius_sqrtF": 4.0,
+      "interpretation": "Geometry diagnostic: conditional covariance radius; mixture is not Gaussian. Does not prove every direction is off support."
+    },
+    {
+      "source": "white",
+      "time": 0.7,
+      "perturbation_norm": 0.1,
+      "direction": "uniform sphere in velocity-PC3..F",
+      "rms_mahalanobis_radius_mean": 0.32822058206586624,
+      "p10": 0.3255015857178798,
+      "p90": 0.33060737547502234,
+      "typical_unconditional_radius_sqrtF": 4.0,
+      "interpretation": "Geometry diagnostic: conditional covariance radius; mixture is not Gaussian. Does not prove every direction is off support."
+    },
+    {
+      "source": "white",
+      "time": 0.9,
+      "perturbation_norm": 0.1,
+      "direction": "uniform sphere in velocity-PC3..F",
+      "rms_mahalanobis_radius_mean": 0.9655206739299252,
+      "p10": 0.9550068911831301,
+      "p90": 0.9744102092731046,
+      "typical_unconditional_radius_sqrtF": 4.0,
+      "interpretation": "Geometry diagnostic: conditional covariance radius; mixture is not Gaussian. Does not prove every direction is off support."
+    },
+    {
+      "source": "gp",
+      "time": 0.1,
+      "perturbation_norm": 0.1,
+      "direction": "uniform sphere in velocity-PC3..F",
+      "rms_mahalanobis_radius_mean": 87.35037975055049,
+      "p10": 84.71754189239283,
+      "p90": 89.1964944358035,
+      "typical_unconditional_radius_sqrtF": 4.0,
+      "interpretation": "Geometry diagnostic: conditional covariance radius; mixture is not Gaussian. Does not prove every direction is off support."
+    },
+    {
+      "source": "gp",
+      "time": 0.3,
+      "perturbation_norm": 0.1,
+      "direction": "uniform sphere in velocity-PC3..F",
+      "rms_mahalanobis_radius_mean": 91.12479640535844,
+      "p10": 69.09393899327227,
+      "p90": 106.82279384332567,
+      "typical_unconditional_radius_sqrtF": 4.0,
+      "interpretation": "Geometry diagnostic: conditional covariance radius; mixture is not Gaussian. Does not prove every direction is off support."
+    },
+    {
+      "source": "gp",
+      "time": 0.5,
+      "perturbation_norm": 0.1,
+      "direction": "uniform sphere in velocity-PC3..F",
+      "rms_mahalanobis_radius_mean": 84.79854302032264,
+      "p10": 49.57813290630912,
+      "p90": 117.21455012512945,
+      "typical_unconditional_radius_sqrtF": 4.0,
+      "interpretation": "Geometry diagnostic: conditional covariance radius; mixture is not Gaussian. Does not prove every direction is off support."
+    },
+    {
+      "source": "gp",
+      "time": 0.7,
+      "perturbation_norm": 0.1,
+      "direction": "uniform sphere in velocity-PC3..F",
+      "rms_mahalanobis_radius_mean": 73.02465487329974,
+      "p10": 37.17907510612422,
+      "p90": 111.37630861590029,
+      "typical_unconditional_radius_sqrtF": 4.0,
+      "interpretation": "Geometry diagnostic: conditional covariance radius; mixture is not Gaussian. Does not prove every direction is off support."
+    },
+    {
+      "source": "gp",
+      "time": 0.9,
+      "perturbation_norm": 0.1,
+      "direction": "uniform sphere in velocity-PC3..F",
+      "rms_mahalanobis_radius_mean": 60.868198312660226,
+      "p10": 29.59311740145474,
+      "p90": 95.76927405099016,
+      "typical_unconditional_radius_sqrtF": 4.0,
+      "interpretation": "Geometry diagnostic: conditional covariance radius; mixture is not Gaussian. Does not prove every direction is off support."
+    }
+  ],
+  "artifact_sha256": {
+    "results/followup-oracle/config.json": "f84ed5421549bcd0d35affc73fc49184ffa322555855d1a34f11aa53ee2fc465",
+    "results/followup-oracle/manifest.json": "f59725ab11dc49fc0cef4189e910c922c470da565e73cef78761f51180fef778",
+    "results/followup-oracle/model_gp_mlp_seed0.npz": "2ad16d116922c0e5f264481aa1c53cd4f9a43e1b8071ee94eec61e960743c61e",
+    "results/followup-oracle/model_gp_mlp_seed1.npz": "f556b97aac76faac0ac13b812b4286a864017e4ab1a45abf4d91aca733e48785",
+    "results/followup-oracle/model_gp_mlp_seed2.npz": "3990ca24235c47c6ad15e004307374b586f6cf2c7788132513ef9763a0016dde",
+    "results/followup-oracle/model_gp_mlp_seed3.npz": "569970c46cd6129cd00f1a1a61b1a7658c839c1b1ce36ae157862994a380c3dd",
+    "results/followup-oracle/model_gp_mlp_seed4.npz": "9fb15fc47c1777c18fd8cdec758d6a09779a1f23371a40e733e277b1f9dd86fe",
+    "results/followup-oracle/model_gp_s4_seed0.npz": "8cf49b27403ca6413398a3a1b95045dc2abbea64b3726c06bbef2dd0760230d4",
+    "results/followup-oracle/model_gp_s4_seed1.npz": "9417d7c150ce6bc9cc453f047ea67c3c16c54828c63cb381d06e5e9ab9e71f3d",
+    "results/followup-oracle/model_gp_s4_seed2.npz": "01723c742d207c23eb0f3369f7bde792f945c6a266468e4474439408ed254dc0",
+    "results/followup-oracle/model_gp_s4_seed3.npz": "0b0aa513822b0d3b465bf6ceafe7c21596a7b49453ce269bd4f6a3d5773a7cdb",
+    "results/followup-oracle/model_gp_s4_seed4.npz": "903507a63b483464efbbebaa96dfdd307ff89e36190dcdc15ecfa9a4a2798fce",
+    "results/followup-oracle/model_gp_whitened_mlp_seed0.npz": "600cbdfa2e9061c97a50c953d672f9aefc8cb7749a9f2a7a1c66fcdb20af34c6",
+    "results/followup-oracle/model_gp_whitened_mlp_seed1.npz": "0a7c6bb63e6d7e6eabaefb1a49de0151b1ad96b3352399e7c999a695a8b6c533",
+    "results/followup-oracle/model_gp_whitened_mlp_seed2.npz": "32705986f0960324aab0e2e5f08969016baccbf767a94fdc388aa453792419b8",
+    "results/followup-oracle/model_gp_whitened_mlp_seed3.npz": "8d31439e19a0eb76cef8671b2950194dee7dbc6c35382f8af4312acaeeb9664a",
+    "results/followup-oracle/model_gp_whitened_mlp_seed4.npz": "77ee2602a1e2c920c9bd59f7a35f7a3654f689776ddddad0036064ba19532ffc",
+    "results/followup-oracle/model_white_mlp_seed0.npz": "4b2f0ac852c9e41aaf19cc9bff9f48c98d7c7b41b07513e254686a2e390d5195",
+    "results/followup-oracle/model_white_mlp_seed1.npz": "5cea15cf881607698a2e3263f677953db7a55e9b087089e6ceccf11807e80185",
+    "results/followup-oracle/model_white_mlp_seed2.npz": "89007fe3aa356b594422ab2b61f9378acb57ff13bea3287b499f1355e2a98549",
+    "results/followup-oracle/model_white_mlp_seed3.npz": "534262af50011f0d6c62ae28adca124d0eaa0c7777623056d9c79ba617461521",
+    "results/followup-oracle/model_white_mlp_seed4.npz": "0c0e5c8173d6db18bfd8b4f3f296b215665247d58376e009aff12d3de038c7ec",
+    "results/followup-oracle/model_white_s4_seed0.npz": "a16dcca110a75eebeb94ddcf50d163dee10ffcc6f6cc27a4bea8f729cc777a6b",
+    "results/followup-oracle/model_white_s4_seed1.npz": "2691f4b57184fe58eefb5cf8e8a10ff9d9f500cca825243e48cec71daafb6cb8",
+    "results/followup-oracle/model_white_s4_seed2.npz": "f3acb209ca236d3047c0bcb2c834de0882dfc3566864b3ef5485cc4ca3196e1a",
+    "results/followup-oracle/model_white_s4_seed3.npz": "3e325f92eb17853f0a0264a8db01d9fc37294d4d1d4a008c3ef3b05815710fdd",
+    "results/followup-oracle/model_white_s4_seed4.npz": "99a09c74b1ba8f01a84aa97c0d2d060cd10fc2c40631df11889e2a25c16502f9",
+    "results/followup-oracle/oracle_gp.npz": "d44fb2dfcbf9327c85438adc4d214d88a67bb042c83ba7f519ea5d15d9c3c1b2",
+    "results/followup-oracle/oracle_white.npz": "17b0d0aaeffbb90cddbded634ed1d79ac0ddec6a1eda080cb91393ddbf1eb655",
+    "results/followup-oracle/summary.json": "c213d0c8f0a88ff48474a15dc8438c6325ed70e73d3b83c57af297d3750e88d8"
+  }
+}

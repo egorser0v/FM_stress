@@ -1,0 +1,128 @@
+{
+  "complete": true,
+  "fingerprint": "23dd57e8f630c431da9a42c60cc7f973aff302cf7651f4837bb1d44713d8c69f",
+  "records": [
+    {
+      "data_seed": 917041,
+      "source": "white",
+      "replayed_training_pairs": 1536000,
+      "max_stored_teacher_abs_error": 0.0,
+      "splits": [
+        {
+          "split": "val",
+          "velocity_relative_rms": 1.056571371107024e-15,
+          "noise_covariance_relative_rms": 1.2299538335276338e-15
+        },
+        {
+          "split": "test",
+          "velocity_relative_rms": 1.077990192818999e-15,
+          "noise_covariance_relative_rms": 1.3537600332036804e-15
+        }
+      ],
+      "seconds": 20.126240249999682,
+      "prepared_sha256": "13cee17b2ebee2cfe5736a1c315e47f9d796c1ba96819fdbab42b74ce5160ca8"
+    },
+    {
+      "data_seed": 917041,
+      "source": "gp",
+      "replayed_training_pairs": 1536000,
+      "max_stored_teacher_abs_error": 4.76837158203125e-07,
+      "splits": [
+        {
+          "split": "val",
+          "velocity_relative_rms": 2.1123069094166965e-12,
+          "noise_covariance_relative_rms": 6.125718077856394e-12
+        },
+        {
+          "split": "test",
+          "velocity_relative_rms": 2.098977116108077e-12,
+          "noise_covariance_relative_rms": 7.181125374386472e-12
+        }
+      ],
+      "seconds": 20.091002625005785,
+      "prepared_sha256": "8a4af53a25bec3a8d0b1924b2d15ec114feed95338b22026d3050796f8db0e10"
+    },
+    {
+      "data_seed": 1017041,
+      "source": "white",
+      "replayed_training_pairs": 1536000,
+      "max_stored_teacher_abs_error": 0.0,
+      "splits": [
+        {
+          "split": "val",
+          "velocity_relative_rms": 1.0915832003947037e-15,
+          "noise_covariance_relative_rms": 1.2164515782073284e-15
+        },
+        {
+          "split": "test",
+          "velocity_relative_rms": 1.0182763714193368e-15,
+          "noise_covariance_relative_rms": 1.405825755110404e-15
+        }
+      ],
+      "seconds": 20.168838750003488,
+      "prepared_sha256": "f77590f3f34e121e4f9e566747a059c0ad2c88179a65a1925b4570e06308d292"
+    },
+    {
+      "data_seed": 1017041,
+      "source": "gp",
+      "replayed_training_pairs": 1536000,
+      "max_stored_teacher_abs_error": 9.5367431640625e-07,
+      "splits": [
+        {
+          "split": "val",
+          "velocity_relative_rms": 2.0027891818207986e-12,
+          "noise_covariance_relative_rms": 6.593335785133832e-12
+        },
+        {
+          "split": "test",
+          "velocity_relative_rms": 2.1145940931042348e-12,
+          "noise_covariance_relative_rms": 8.796083161216723e-12
+        }
+      ],
+      "seconds": 20.157106625003507,
+      "prepared_sha256": "9d6a8b2e31dbad32338c9673bfc9dbf708ecaefa433881e85ec7baef69cd9ad7"
+    },
+    {
+      "data_seed": 1117041,
+      "source": "white",
+      "replayed_training_pairs": 1536000,
+      "max_stored_teacher_abs_error": 0.0,
+      "splits": [
+        {
+          "split": "val",
+          "velocity_relative_rms": 1.0476737038091563e-15,
+          "noise_covariance_relative_rms": 1.3974296418477063e-15
+        },
+        {
+          "split": "test",
+          "velocity_relative_rms": 1.0727983935926937e-15,
+          "noise_covariance_relative_rms": 1.8206123835804434e-15
+        }
+      ],
+      "seconds": 20.150659666993306,
+      "prepared_sha256": "464341e8c2aebcac60dcccdc6d6000fa616feb9c5546d9e86ed1429ff7073a5c"
+    },
+    {
+      "data_seed": 1117041,
+      "source": "gp",
+      "replayed_training_pairs": 1536000,
+      "max_stored_teacher_abs_error": 4.76837158203125e-07,
+      "splits": [
+        {
+          "split": "val",
+          "velocity_relative_rms": 2.1387290717505195e-12,
+          "noise_covariance_relative_rms": 5.9317064477845215e-12
+        },
+        {
+          "split": "test",
+          "velocity_relative_rms": 2.083695973948186e-12,
+          "noise_covariance_relative_rms": 6.101272715706676e-12
+        }
+      ],
+      "seconds": 21.813987874993472,
+      "prepared_sha256": "a7b3a37a67d764f337f2eaf9fca4d0fb46d1d81254b5bef7b7fe14d95186fe24"
+    }
+  ],
+  "teacher_replay_dependency": "normalized_history_oracle.py, independently checked by centered-basis derivation, direct adaptive mixture integration and Monte Carlo",
+  "status": "passed"
+}

@@ -14,3 +14,16 @@ output/**/*-preview.png
 # Superseded poster exports; current LaTeX source and PDF are tracked.
 output/poster/flow-matching-poster-A1-EN.pdf
 output/poster/flow-matching-poster-A1-EN.pptx
+
+# Additional experiments: large reproducible artifacts stay local.
+/results/followup-*/**/*.pt
+/results/followup-*/**/*.pth
+/results/followup-*/**/*.npy
+/results/followup-*/**/*.npz
+# Development-only smoke runs, interrupted attempts, and PDF previews.
+/results/followup-*smoke*/
+/output/followup-*smoke*/
+/results/followup-capacity/software-smoke/
+/results/followup-capacity/pre-audit-interrupted/
+/results/followup-solver/pre-review-smoke/
+/tmp/pdfs/

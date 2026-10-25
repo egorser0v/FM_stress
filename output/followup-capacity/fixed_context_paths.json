@@ -1,0 +1,28 @@
+{
+  "data_seed": 607041,
+  "context_index": 0,
+  "member_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "budget": 12000,
+  "selection_rule": "First draw, first held-out context and first eight members, chosen by index, not score.",
+  "input_sha256": {
+    "results/followup-capacity/rbf/F64_l8/draw607041/samples/white_mlp_original_budget12000.npz": "19f212b5b476139fe92d27ec194950d0c1c2d1021959f9c0c69afa443714b885",
+    "results/followup-capacity/rbf/F64_l8/draw607041/samples/white_mlp_rank_clear_budget12000.npz": "9e31c2be0211773964eaa649b25d300234158fcf1158d46d9d2b21430d37588d",
+    "results/followup-capacity/rbf/F64_l8/draw607041/samples/white_mlp_wide_budget12000.npz": "a7f949fb3d1e43ab16edfd8eca3235b4a663da90082ac85ea82ce7d2b99d77d3",
+    "results/followup-capacity/rbf/F64_l8/draw607041/samples/white_s4_budget12000.npz": "165e359218092ffda24570ac0e3fbdf43a47796f129f6bba7235b218648315b2",
+    "results/followup-capacity/rbf/F64_l8/draw607041/samples/gp_mlp_original_budget12000.npz": "d7f898031a8908badc00503ee2b34dd0b86886d97338d03747be86610060c471",
+    "results/followup-capacity/rbf/F64_l8/draw607041/samples/gp_mlp_rank_clear_budget12000.npz": "76ba1d83b045c26f82ba78fa50ba3b96d45560bb5978e6eb7d4d6a59861271ec",
+    "results/followup-capacity/rbf/F64_l8/draw607041/samples/gp_mlp_wide_budget12000.npz": "ea4901e9b23888e03fc0722eed8b5cae420c254f76efe86b0a4227f9f7f69ca9",
+    "results/followup-capacity/rbf/F64_l8/draw607041/samples/gp_s4_budget12000.npz": "8bba46372bbe51e96aa04e66f66a20736318819bedacff46e631bbb5bb563816"
+  },
+  "script_sha256": "4281ee5a8833b75000cac5c9812fdb737c38998bddc2e25e8f8b5741d6ee6833",
+  "interpretation": "The realized target is one possible future, not a unique correct generated path. All panels share axes; aggregate metrics use all contexts."
+}

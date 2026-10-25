@@ -1,0 +1,57 @@
+{
+  "fingerprint": "23dd57e8f630c431da9a42c60cc7f973aff302cf7651f4837bb1d44713d8c69f",
+  "data_seed": 1017041,
+  "source": "white",
+  "complete": true,
+  "training_pairs": 1536000,
+  "stream_quadrature_checks": [
+    {
+      "relative_rms": 1.0847622340200856e-15,
+      "max_abs": 3.019806626980426e-14
+    },
+    {
+      "relative_rms": 9.004100117419486e-16,
+      "max_abs": 1.509903313490213e-14
+    }
+  ],
+  "float32_teacher_rounding_checks": [
+    {
+      "relative_rms": 1.1537271830597964e-06,
+      "max_abs": 1.967293893301303e-05,
+      "residual_pc_rms": 1.7369561780710999e-06,
+      "tail_pc7_16_rms": 1.4817415112053213e-06
+    },
+    {
+      "relative_rms": 1.2933349687331483e-06,
+      "max_abs": 2.6599766768331534e-05,
+      "residual_pc_rms": 1.0525917093632911e-06,
+      "tail_pc7_16_rms": 4.383809214718101e-07
+    }
+  ],
+  "split_quadrature_checks": {
+    "val": {
+      "relative_rms": 1.0915832003947037e-15,
+      "max_abs": 6.750155989720952e-14
+    },
+    "test": {
+      "relative_rms": 1.0182763714193368e-15,
+      "max_abs": 3.552713678800501e-14
+    }
+  },
+  "max_threshold_tail": 2.8600574221610745e-11,
+  "seconds": 21.949481374991592,
+  "files": {
+    "geometry.json": "8556f07ec4f887283cbe1e975cee9e960c66dc75dfa302320b5751e9b3aaf122",
+    "train.npz": "cf3ae090b0efceb9497f87e72adb58d97e27d35fc952e442f6f69f1db36f65bf",
+    "target_pca.json": "23c71aeea61ca0e6e5fc5ea0810d637eb4f459e9ae839915639c0c14d7aa1d1e",
+    "stochastic.npy": "0259f7df80a285033577333094c4cc1fc7582e1d737f2746608b3df22d8abd1e",
+    "test.npz": "02dd42eb213cd12f991949993c2d96e79610d5e4d34bfd8c3988a769194f51cc",
+    "val.npz": "7889054d9c6b391c859e5b4fc9ab66652a7f4a05aff3d33ab2d2b93931538bfe",
+    "pca.json": "010370c0bbbe7e82e6f02d3181570d9aba1ddfa08e50a2269bb2690a9f761dc1",
+    "index.npy": "902f860ff39ceb17353a2b43b1a43bc27333813104eccd328d96d4ffca94adc9",
+    "time.npy": "29a43c721ad1aa31807904d38855399c7e1f43949be679408f666d17a5bc3eb4",
+    "x.npy": "820089ecc55fce763093e71d2e6c370fa29723b07af90fcfffbaa510e858b0a3",
+    "jacobian_reference.npz": "ed5934c4b511d436dfb2b8626df31b73d3d9a2a377719222d71b4146e1ac3fb2",
+    "oracle.npy": "3ec229ca3e0caf9980d67128c6b2526e8e3c26c7ed5d5ca1a6f47fa71e5ee84e"
+  }
+}

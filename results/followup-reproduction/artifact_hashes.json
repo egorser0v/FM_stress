@@ -1,0 +1,12 @@
+{
+  "scripts/audit_followup_reproduction.py": "448caf64705f6fb9a69b56e406cd67705c9823376dfb55c67cbaaa0f8e5fe370",
+  "scripts/audit_followup_decoder_span.py": "abb84e675bf9a8cb0a6dd8306d3bb2f43d1b8ed786f44007c86bcf5254cdb57b",
+  "scripts/plot_followup_decoder_span.py": "119c5184c68288691552f63c67771ab080dfcb98e59aadbece8c3c318470463f",
+  "docs/followup_reproduction_audit.md": "b874623a6e2caa15e73cf11331489285b0576c58eae33cbc827e2655f8cdba67",
+  "results/followup-reproduction/all_summary.json": "928fe1b92bbccbafb2ecc2f5ff11fcc6eac4be888599ca13839ce360371d91e1",
+  "results/followup-reproduction/integrity.json": "dd5e2ad83bd8691f4d737adcbfe29193fa8a8b01a21cc95563a897cd866376eb",
+  "results/followup-reproduction/decoder_span.json": "e92896a78325258e455b06d7494981239c0a6aa72a4ad67b6b6fc0c69b59bae1",
+  "output/followup-reproduction/decoder_null_variance.png": "4fe363cad4e45c78a2af0f08d06e7f281b8149a5f88feffb0fb19b75b590f92a",
+  "scripts/audit_followup_scope_geometry.py": "6b1c5a817d67926f13d8cd76c3634ae5a04eece6ff9ea52bcf18ca2d0e9aeb81",
+  "results/followup-reproduction/scope_geometry.json": "93b0ec549c9bf2ef976f6674f7d3ba0ef7f34edc6ca302a0ee22f14efcf24e1a"
+}

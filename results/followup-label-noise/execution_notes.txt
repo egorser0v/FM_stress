@@ -1,0 +1,89 @@
+Conditional label-noise follow-up — execution and interpretation notes
+25 October 2026
+
+The numerical implementation, configuration and original protocol remain frozen
+and hash-checked. This note clarifies interpretation without changing the design,
+endpoints, training settings, checkpoint selection or arrays.
+
+Interpretation clarification
+The study measures sensitivity to conditional-mean supervision. Replacing each
+stochastic velocity label with the population conditional expectation removes
+conditional target variability, but also uses exact knowledge of the data
+generator and replaces the single realized future associated with each history
+in the finite training pool. Therefore an improvement does not uniquely identify
+stochastic-gradient noise, poor optimizer conditioning or intrinsic head failure.
+The frozen protocol's phrase “supports label-variance-limited learning” should be
+read with this qualification; it is not a claim of an isolated optimizer-noise
+mechanism. This clarification was recorded before scored model training.
+
+Software verification before scored training
+- Nine oracle and label-study tests passed. They cover analytic target moments,
+  the small-scale branch, flow endpoints and conditional noise, quadrature and
+  finite-difference Jacobians, truncated-scale integration, input pairing and
+  model/encoder initialization.
+- Eight tiny CPU smoke fits covered both sources, both heads and both label modes
+  using separate data seed 9917041. One additional S4/oracle/GP smoke fit checked
+  the final finite-loss and artifact-hash safeguards. Smoke scores did not select
+  any scored setting.
+- All six full training streams were prepared on CPU. Each contains 6,000 batches
+  of 256 interpolants: 1,536,000 pairs per source/data combination, 9,216,000 total.
+- An independent replay regenerated every training index, source normal, flow
+  time, interpolant, ordinary label and analytical teacher label. All six streams
+  passed. Validation/test inputs and conditional-noise references were separately
+  recomputed with 128-point quadrature. The teacher implementation itself had
+  already passed an independent centered-basis derivation, adaptive scalar
+  integration and raw-GP Monte Carlo checks.
+- References for validation and test were prepared before model training solely
+  as fixed numerical/scoring inputs. Test results do not determine fitting or
+  checkpoint selection.
+- The actual float32 teacher-input rounding is explicitly quantified. A rare
+  posterior scale-threshold case in data draw 1017041 was checked at all 39
+  affected training positions for each source using 64, 128 and 256 nodes.
+- Direct Student-t predictive samples conditional on normalized history, plus a
+  privileged raw-history Gaussian reference, were generated for the same 256
+  test contexts in each draw. Their 64-member fair CRPS was checked against the
+  direct pairwise formula. These predictive distributions are independent of
+  source choice and use no Euler integration.
+
+Hardware and model checks
+Scored fitting requires MPS explicitly; the runner refuses a silent CPU fallback.
+Runtime environment, fixed-stream hashes and encoder initialization hashes are
+recorded. Every training loss, clipped gradient norm and validation score must
+be finite. All labels use the same validation conditional-mean discrepancy for
+checkpoint selection, intentionally differing from the historical study.
+The completed-model checker reconstructs checkpoint predictions, validation
+loss/selection, bounded CPU Euler paths and Jacobian probes. It also verifies
+saved metric arithmetic and paired inputs. These model checks run after fits.
+
+Completed results and final verification
+All 24 scored fits completed on MPS. The full independent model audit passed
+for every checkpoint; all frozen source, configuration and prepared-stream
+hashes were checked again after training. Direct PC-error, CRPS and interval
+coverage arithmetic also passed. Eleven checkpoints were selected at the final
+6,000-update boundary, so convergence is not established.
+
+Conditional-mean supervision reduced both residual raw-label MSE and residual
+oracle discrepancy in all 12 paired comparisons. CRPS improved in all six MLP
+pairs and four of six S4 pairs. Forecast coverage did not improve uniformly.
+This establishes finite-budget sensitivity to supervision in these three paired
+data/initialization replicates, not an isolated optimizer-noise mechanism or a
+universal forecasting advantage for either head.
+
+All 24 fits passed the original roughness criterion, but none passed the literal
+two-sided velocity ratio criterion. That rule requires residual raw MSE to lie
+within 20% of PC1 raw MSE; unequal component-specific noise floors make equality
+of these errors difficult to interpret. No threshold or pass flag was changed.
+
+A separately frozen post-hoc numerical study reran all 24 checkpoints on every
+256-by-32 ensemble at 64 and 128 Euler steps. Full MPS 64-step replay was exact.
+The largest individual CRPS shift was 0.00067382, and the largest change in a
+paired label contrast was 0.00045342. No contrast changed sign. An independent
+CPU 128-step replay of eight contexts per model passed with maximum relative
+RMS error 8.26e-7. See results/followup-label-solver and its separate report.
+
+The finite-ensemble interval caveat is quantitative. Rescoring the first 32
+members of the already saved exact predictive reference gives mean nominal-90%
+coverage 0.85490, compared with 0.87736 using all 64 members. These are finite-test
+estimates from the correct predictive law. Coverage below 0.90 alone therefore
+does not establish underdispersion for a 32-member empirical-quantile forecast.
+No new samples, fitting or checkpoint selection were used for this arithmetic.

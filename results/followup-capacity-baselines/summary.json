@@ -1,0 +1,120 @@
+{
+  "complete": true,
+  "groups": 12,
+  "scope": "All 12 frozen capacity kernel/source/draw groups; no training, checkpoints, selection or tuning. Frozen test data are scored, including all three planned draws.",
+  "config_sha256": "e2591fd201ac0e7300e79fd85b39559a389b906e25d28f07bcf687f9d6ec3967",
+  "elapsed_seconds": 3.093602180480957,
+  "max_crps_formula_disagreement": 8.881784197001252e-16,
+  "cells": [
+    {
+      "kernel": "rbf",
+      "source": "white",
+      "draws": [
+        607041,
+        707041,
+        807041
+      ],
+      "metrics": {
+        "pc1_mse": 40.3396369403796,
+        "residual_mse": 1.6920082047908753,
+        "roughness_ratio": 9.6011927775914
+      },
+      "forecast_means": {
+        "fair_crps": 0.7343027499337249,
+        "fair_energy_score": 7.093736289670318,
+        "mean_forecast_mse": 1.7502104907949485,
+        "coverage_80": 0.65576171875,
+        "width_80": 2.4009385563942796,
+        "coverage_90": 0.7578938802083334,
+        "width_90": 3.01946076924202
+      },
+      "literal_successes": 0
+    },
+    {
+      "kernel": "rbf",
+      "source": "gp",
+      "draws": [
+        607041,
+        707041,
+        807041
+      ],
+      "metrics": {
+        "pc1_mse": 58.19657846010699,
+        "residual_mse": 1.1617217524864907,
+        "roughness_ratio": 0.845914761578646
+      },
+      "forecast_means": {
+        "fair_crps": 0.7336791667559286,
+        "fair_energy_score": 6.970863757933665,
+        "mean_forecast_mse": 1.7517540925742197,
+        "coverage_80": 0.6580607096354166,
+        "width_80": 2.4025571945044253,
+        "coverage_90": 0.7569580078125,
+        "width_90": 3.0236076785789616
+      },
+      "literal_successes": 0
+    },
+    {
+      "kernel": "ou",
+      "source": "white",
+      "draws": [
+        607041,
+        707041,
+        807041
+      ],
+      "metrics": {
+        "pc1_mse": 27.017454047298646,
+        "residual_mse": 1.7754065803837713,
+        "roughness_ratio": 2.62907923800933
+      },
+      "forecast_means": {
+        "fair_crps": 0.6731759106381409,
+        "fair_energy_score": 6.605638706297369,
+        "mean_forecast_mse": 1.465254941894009,
+        "coverage_80": 0.68524169921875,
+        "width_80": 2.4009385563942796,
+        "coverage_90": 0.7864990234375,
+        "width_90": 3.01946076924202
+      },
+      "literal_successes": 0
+    },
+    {
+      "kernel": "ou",
+      "source": "gp",
+      "draws": [
+        607041,
+        707041,
+        807041
+      ],
+      "metrics": {
+        "pc1_mse": 40.722328994177005,
+        "residual_mse": 1.3929674655277997,
+        "roughness_ratio": 0.9013146603352524
+      },
+      "forecast_means": {
+        "fair_crps": 0.6731129520221403,
+        "fair_energy_score": 6.537605954914177,
+        "mean_forecast_mse": 1.4643430943733104,
+        "coverage_80": 0.6859944661458334,
+        "width_80": 2.4010812166272104,
+        "coverage_90": 0.7878824869791666,
+        "width_90": 3.0183105914342683
+      },
+      "literal_successes": 0
+    }
+  ],
+  "record_hashes": {
+    "results/followup-capacity-baselines/runs/ou_draw607041_gp.json": "6a0802223c63afc2fa491f1737dc7262fb32f2fed14528e2ae5a226646bcbd9b",
+    "results/followup-capacity-baselines/runs/ou_draw607041_white.json": "d27f8704ce775a057bdb3daed7c5fe68c6790e1610d0929544bcb96becbe9a2b",
+    "results/followup-capacity-baselines/runs/ou_draw707041_gp.json": "3d641a226fa848574e8d63b65d51b71a9adaeb90e0438e89f89974e97bff8d66",
+    "results/followup-capacity-baselines/runs/ou_draw707041_white.json": "828f56dd14e94cd5d254436282eff386cb091b6c6c6c950814601bc0a26dd0fc",
+    "results/followup-capacity-baselines/runs/ou_draw807041_gp.json": "beb73ed8ea3ec8ebbd53d81d61e620f03dd7a0bdc0ba406d9070899978d601b3",
+    "results/followup-capacity-baselines/runs/ou_draw807041_white.json": "7b47ccd4ba762bfed431c46c20e37c02e819bf7a2f3b68dffbaf4cd7b6450413",
+    "results/followup-capacity-baselines/runs/rbf_draw607041_gp.json": "d9ed7c9d6e69e8c8848b0508c954a7f8439deda2b1125d50f45e7a46a9f9d3f3",
+    "results/followup-capacity-baselines/runs/rbf_draw607041_white.json": "bcefdd7cc26b9ecff651a70f53ff17425c968117be412726f4fcaa3203eaca87",
+    "results/followup-capacity-baselines/runs/rbf_draw707041_gp.json": "437cf5d211a62115a258e2c62156acb5aceb913d23b3fc90956a469c53e3d570",
+    "results/followup-capacity-baselines/runs/rbf_draw707041_white.json": "d335bc699f6d4ce49f500630fd3500f216b207a12613d0ad80059c249f1945b5",
+    "results/followup-capacity-baselines/runs/rbf_draw807041_gp.json": "ee5d8e491d4ed87530d414a870573b1586c3ccfbccf2e0602b9086e524eb9439",
+    "results/followup-capacity-baselines/runs/rbf_draw807041_white.json": "1022553d28f4b19ea0e48f041a9b7bba7ae195bae83a29525705bb6de8cb368d"
+  }
+}

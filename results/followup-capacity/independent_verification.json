@@ -1,0 +1,622 @@
+{
+  "protocol_provenance": {
+    "frozen_sha256": "a8dd90d3b4008e9f77666e6097587e114deadde38bd28df00e0122cb4ca07b46",
+    "public_sha256": "a8dd90d3b4008e9f77666e6097587e114deadde38bd28df00e0122cb4ca07b46",
+    "frozen_copy": "results/followup-capacity/frozen_protocol.md"
+  },
+  "complete": true,
+  "expected_records": 72,
+  "verified_records": 72,
+  "missing_identities": [],
+  "checks": 2754,
+  "failures": [],
+  "max_relative_deviations": {
+    "train_velocity_orthogonal": 1.4150976381180094e-06,
+    "train_velocity_PCA": 3.603307439599148e-06,
+    "train_target_orthogonal": 1.2364319192494978e-06,
+    "train_target_PCA": 2.2669674479999523e-06,
+    "pc_mse": 0.0,
+    "pc1": 0.0,
+    "residual": 0.0,
+    "target_basis_pc_mse": 0.0,
+    "roughness_generated": 0.0,
+    "roughness_target": 0.0,
+    "normalized_PC_error": 0.0,
+    "forecast_fair_crps": 0.0,
+    "forecast_mean_fair_crps": 0.0,
+    "forecast_fair_energy_score": 1.2977421071053182e-15,
+    "forecast_mean_fair_energy_score": 2.9236133488143247e-16,
+    "forecast_mean_forecast_mse": 0.0,
+    "forecast_mean_mean_forecast_mse": 0.0,
+    "forecast_coverage_80": 0.0,
+    "forecast_mean_coverage_80": 0.0,
+    "forecast_width_80": 0.0,
+    "forecast_mean_width_80": 0.0,
+    "forecast_coverage_90": 0.0,
+    "forecast_mean_coverage_90": 0.0,
+    "forecast_width_90": 0.0,
+    "forecast_mean_width_90": 0.0,
+    "best_val": 0.0,
+    "null_projection": 0.0,
+    "null_forced_error": 0.0
+  },
+  "records": [
+    {
+      "run": "ou/F64_l8/draw607041/runs/gp_mlp_rank_clear_budget12000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 1.867723966597623e-07,
+      "cpu_replay_relative_rms": 2.3836797804051116e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 1.3323338521331607e-07
+    },
+    {
+      "run": "ou/F64_l8/draw607041/runs/gp_mlp_rank_clear_budget6000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 1.867723966597623e-07,
+      "cpu_replay_relative_rms": 2.3836797804051116e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 1.3323338521331607e-07
+    },
+    {
+      "run": "ou/F64_l8/draw607041/runs/gp_s4_budget12000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 1.2284803574402758e-07,
+      "cpu_replay_relative_rms": 1.573879216293059e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 1.177919486394785e-07
+    },
+    {
+      "run": "ou/F64_l8/draw607041/runs/gp_s4_budget6000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 1.2284803574402758e-07,
+      "cpu_replay_relative_rms": 1.573879216293059e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 1.177919486394785e-07
+    },
+    {
+      "run": "ou/F64_l8/draw607041/runs/white_mlp_rank_clear_budget12000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 3.0441887588494865e-07,
+      "cpu_replay_relative_rms": 2.803002650044534e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 1.5152347998537152e-07
+    },
+    {
+      "run": "ou/F64_l8/draw607041/runs/white_mlp_rank_clear_budget6000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 2.7712735573004466e-07,
+      "cpu_replay_relative_rms": 2.521251629440512e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 1.3124174813583522e-07
+    },
+    {
+      "run": "ou/F64_l8/draw607041/runs/white_s4_budget12000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 2.3058500175920926e-07,
+      "cpu_replay_relative_rms": 2.0983630213083672e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 1.3751531469097245e-07
+    },
+    {
+      "run": "ou/F64_l8/draw607041/runs/white_s4_budget6000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 2.754141803507082e-07,
+      "cpu_replay_relative_rms": 2.5698687910036677e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 1.470254744617705e-07
+    },
+    {
+      "run": "ou/F64_l8/draw707041/runs/gp_mlp_rank_clear_budget12000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 1.788883707831701e-07,
+      "cpu_replay_relative_rms": 2.2954914858685505e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 1.6411736680765898e-07
+    },
+    {
+      "run": "ou/F64_l8/draw707041/runs/gp_mlp_rank_clear_budget6000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 1.788883707831701e-07,
+      "cpu_replay_relative_rms": 2.2954914858685505e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 1.6411736680765898e-07
+    },
+    {
+      "run": "ou/F64_l8/draw707041/runs/gp_s4_budget12000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 1.1107513131491942e-07,
+      "cpu_replay_relative_rms": 1.4155615790022835e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 1.156682145619925e-07
+    },
+    {
+      "run": "ou/F64_l8/draw707041/runs/gp_s4_budget6000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 1.1107513131491942e-07,
+      "cpu_replay_relative_rms": 1.4155615790022835e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 1.156682145619925e-07
+    },
+    {
+      "run": "ou/F64_l8/draw707041/runs/white_mlp_rank_clear_budget12000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 3.540273212365719e-07,
+      "cpu_replay_relative_rms": 3.2544080737029056e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 1.9576822296585306e-07
+    },
+    {
+      "run": "ou/F64_l8/draw707041/runs/white_mlp_rank_clear_budget6000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 2.996264072407939e-07,
+      "cpu_replay_relative_rms": 2.758891008225343e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 2.075243372701152e-07
+    },
+    {
+      "run": "ou/F64_l8/draw707041/runs/white_s4_budget12000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 2.6534294761404453e-07,
+      "cpu_replay_relative_rms": 2.3953838385846863e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 2.9161358838791784e-07
+    },
+    {
+      "run": "ou/F64_l8/draw707041/runs/white_s4_budget6000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 2.9278498914209194e-07,
+      "cpu_replay_relative_rms": 2.6436714018371634e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 2.2334431548642897e-07
+    },
+    {
+      "run": "ou/F64_l8/draw807041/runs/gp_mlp_rank_clear_budget12000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 1.7215268144354923e-07,
+      "cpu_replay_relative_rms": 2.242426388374724e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 1.3671669307768752e-07
+    },
+    {
+      "run": "ou/F64_l8/draw807041/runs/gp_mlp_rank_clear_budget6000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 1.7215268144354923e-07,
+      "cpu_replay_relative_rms": 2.242426388374724e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 1.3671669307768752e-07
+    },
+    {
+      "run": "ou/F64_l8/draw807041/runs/gp_s4_budget12000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 1.1102162744691668e-07,
+      "cpu_replay_relative_rms": 1.4780904208517027e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 1.5981055412339629e-07
+    },
+    {
+      "run": "ou/F64_l8/draw807041/runs/gp_s4_budget6000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 1.1102162744691668e-07,
+      "cpu_replay_relative_rms": 1.4780904208517027e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 1.5981055412339629e-07
+    },
+    {
+      "run": "ou/F64_l8/draw807041/runs/white_mlp_rank_clear_budget12000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 3.2251244874714757e-07,
+      "cpu_replay_relative_rms": 2.920084771153497e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 1.3254097552817257e-07
+    },
+    {
+      "run": "ou/F64_l8/draw807041/runs/white_mlp_rank_clear_budget6000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 2.842062940544565e-07,
+      "cpu_replay_relative_rms": 2.63552390935571e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 1.7248407857550774e-07
+    },
+    {
+      "run": "ou/F64_l8/draw807041/runs/white_s4_budget12000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 2.315738640845666e-07,
+      "cpu_replay_relative_rms": 2.0790675393250406e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 1.7509087513190025e-07
+    },
+    {
+      "run": "ou/F64_l8/draw807041/runs/white_s4_budget6000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 2.950097552911757e-07,
+      "cpu_replay_relative_rms": 2.655861861287004e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 1.745916478057552e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw607041/runs/gp_mlp_original_budget12000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 3.183345711477159e-07,
+      "cpu_replay_relative_rms": 3.123172043566429e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 2.0679991052929836e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw607041/runs/gp_mlp_original_budget6000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 2.5478504994680407e-07,
+      "cpu_replay_relative_rms": 2.673409076997e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 1.5746273618333362e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw607041/runs/gp_mlp_rank_clear_budget12000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 3.388955462924059e-07,
+      "cpu_replay_relative_rms": 3.3297233897233475e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 1.8657030409485742e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw607041/runs/gp_mlp_rank_clear_budget6000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 2.6498483407522144e-07,
+      "cpu_replay_relative_rms": 2.767714128760924e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 1.1796324628221555e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw607041/runs/gp_mlp_wide_budget12000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 3.073899108585465e-07,
+      "cpu_replay_relative_rms": 3.0395855876792493e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 1.3696143241759273e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw607041/runs/gp_mlp_wide_budget6000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 2.529547487029049e-07,
+      "cpu_replay_relative_rms": 2.63361122994488e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 2.0897071806302847e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw607041/runs/gp_s4_budget12000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 4.004711513516668e-07,
+      "cpu_replay_relative_rms": 3.91921225524613e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 1.7886573289160879e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw607041/runs/gp_s4_budget6000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 2.6078984660671267e-07,
+      "cpu_replay_relative_rms": 2.684432199588319e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 1.8686348823848675e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw607041/runs/white_mlp_original_budget12000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 5.703370788978646e-07,
+      "cpu_replay_relative_rms": 4.086722132589715e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 2.773939797862113e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw607041/runs/white_mlp_original_budget6000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 5.572890131588792e-07,
+      "cpu_replay_relative_rms": 4.044340855393452e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 2.3333795695634763e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw607041/runs/white_mlp_rank_clear_budget12000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 5.089685259918042e-07,
+      "cpu_replay_relative_rms": 3.535437156454542e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 2.805442989028961e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw607041/runs/white_mlp_rank_clear_budget6000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 4.934510116072488e-07,
+      "cpu_replay_relative_rms": 3.518544846993135e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 1.5437251477123937e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw607041/runs/white_mlp_wide_budget12000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 5.340320967661683e-07,
+      "cpu_replay_relative_rms": 3.719987726102361e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 2.211364460436016e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw607041/runs/white_mlp_wide_budget6000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 5.384002861319459e-07,
+      "cpu_replay_relative_rms": 3.7730624478172455e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 1.4477096499376785e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw607041/runs/white_s4_budget12000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 3.622471240305458e-06,
+      "cpu_replay_relative_rms": 2.4975286665166675e-06,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 4.087933405116928e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw607041/runs/white_s4_budget6000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 3.273057700425852e-06,
+      "cpu_replay_relative_rms": 2.308867425137506e-06,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 4.247204969942686e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw707041/runs/gp_mlp_original_budget12000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 3.184452452842379e-07,
+      "cpu_replay_relative_rms": 3.2639492248914783e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 3.5868978898179193e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw707041/runs/gp_mlp_original_budget6000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 2.65622304596036e-07,
+      "cpu_replay_relative_rms": 2.664542307938894e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 1.8596858808450634e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw707041/runs/gp_mlp_rank_clear_budget12000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 3.034140263480367e-07,
+      "cpu_replay_relative_rms": 3.112232987956891e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 2.60578161714875e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw707041/runs/gp_mlp_rank_clear_budget6000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 2.592432224446384e-07,
+      "cpu_replay_relative_rms": 2.58070636681053e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 2.0560646873946098e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw707041/runs/gp_mlp_wide_budget12000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 3.2195444532590045e-07,
+      "cpu_replay_relative_rms": 3.2972685448063984e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 3.408183317787916e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw707041/runs/gp_mlp_wide_budget6000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 2.6862727509069373e-07,
+      "cpu_replay_relative_rms": 2.681609045752461e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 1.532445139673655e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw707041/runs/gp_s4_budget12000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 3.2333264243789017e-07,
+      "cpu_replay_relative_rms": 3.285505700965812e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 3.0382267368622706e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw707041/runs/gp_s4_budget6000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 2.842457149654365e-07,
+      "cpu_replay_relative_rms": 2.8483713021759336e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 2.1342944478419668e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw707041/runs/white_mlp_original_budget12000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 4.695495192663657e-07,
+      "cpu_replay_relative_rms": 3.387471516382052e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 2.5445092433074024e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw707041/runs/white_mlp_original_budget6000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 4.877407491221675e-07,
+      "cpu_replay_relative_rms": 3.5312458086980164e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 2.0090170949060848e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw707041/runs/white_mlp_rank_clear_budget12000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 5.352168273020652e-07,
+      "cpu_replay_relative_rms": 3.747332602662124e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 2.583492744179239e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw707041/runs/white_mlp_rank_clear_budget6000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 5.122075208419119e-07,
+      "cpu_replay_relative_rms": 3.544218725893946e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 1.7774571858808486e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw707041/runs/white_mlp_wide_budget12000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 4.904516117676394e-07,
+      "cpu_replay_relative_rms": 3.4472005795488483e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 1.9805206363798789e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw707041/runs/white_mlp_wide_budget6000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 4.941863949170511e-07,
+      "cpu_replay_relative_rms": 3.428804108253437e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 1.5507744421938696e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw707041/runs/white_s4_budget12000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 4.417427135194885e-06,
+      "cpu_replay_relative_rms": 3.0122855616463043e-06,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 3.325208126625512e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw707041/runs/white_s4_budget6000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 3.4735478493530536e-06,
+      "cpu_replay_relative_rms": 2.4364348962023943e-06,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 5.210547442402458e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw807041/runs/gp_mlp_original_budget12000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 3.1662074206906254e-07,
+      "cpu_replay_relative_rms": 3.2008172785890735e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 1.1540017652578172e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw807041/runs/gp_mlp_original_budget6000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 2.575747259925265e-07,
+      "cpu_replay_relative_rms": 2.661876588755032e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 1.1169424851686927e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw807041/runs/gp_mlp_rank_clear_budget12000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 3.1197691896522883e-07,
+      "cpu_replay_relative_rms": 3.178337791860751e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 1.3712408986066293e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw807041/runs/gp_mlp_rank_clear_budget6000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 2.4953919819381554e-07,
+      "cpu_replay_relative_rms": 2.592935934241129e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 1.5907754402633145e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw807041/runs/gp_mlp_wide_budget12000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 2.9608801810354635e-07,
+      "cpu_replay_relative_rms": 3.027265525266643e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 1.2469978116769198e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw807041/runs/gp_mlp_wide_budget6000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 2.361514077620086e-07,
+      "cpu_replay_relative_rms": 2.3656484452089622e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 1.320968721074678e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw807041/runs/gp_s4_budget12000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 3.4049668329316773e-07,
+      "cpu_replay_relative_rms": 3.4768848039170504e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 1.971867362726698e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw807041/runs/gp_s4_budget6000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 2.85062270677372e-07,
+      "cpu_replay_relative_rms": 2.917828419865508e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 1.66501592957502e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw807041/runs/white_mlp_original_budget12000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 4.788230398844462e-07,
+      "cpu_replay_relative_rms": 3.469802322778621e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 2.7452801987237763e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw807041/runs/white_mlp_original_budget6000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 4.899154077975254e-07,
+      "cpu_replay_relative_rms": 3.5313161549448584e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 1.8590911565752322e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw807041/runs/white_mlp_rank_clear_budget12000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 5.022849904889881e-07,
+      "cpu_replay_relative_rms": 3.468764845972847e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 2.0895613772609067e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw807041/runs/white_mlp_rank_clear_budget6000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 4.754053009037307e-07,
+      "cpu_replay_relative_rms": 3.331363894481876e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 2.1422272311610868e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw807041/runs/white_mlp_wide_budget12000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 4.968339339939121e-07,
+      "cpu_replay_relative_rms": 3.486867029357152e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 1.4666242975636123e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw807041/runs/white_mlp_wide_budget6000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 5.118292278893932e-07,
+      "cpu_replay_relative_rms": 3.604242785828189e-07,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 1.6625553200810828e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw807041/runs/white_s4_budget12000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 3.3734238513716264e-06,
+      "cpu_replay_relative_rms": 2.329035636512943e-06,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 2.740067372997146e-07
+    },
+    {
+      "run": "rbf/F64_l8/draw807041/runs/white_s4_budget6000.json",
+      "cpu_replay_n": 8192,
+      "cpu_replay_rms": 2.9681546038773376e-06,
+      "cpu_replay_relative_rms": 2.0449889667695785e-06,
+      "cpu_euler_n": 2,
+      "cpu_euler_rms": 2.6588506329972006e-07
+    }
+  ],
+  "scope": "Independent data/score formulas; CPU checkpoint replay first N pairs. No retraining. Partial sets remain complete=false."
+}

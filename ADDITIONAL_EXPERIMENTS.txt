@@ -1,0 +1,39 @@
+ADDITIONAL EXPERIMENTS — LIGHTWEIGHT RESEARCH DELIVERY
+
+Branch: additional_expriments
+Research base: 0333803e2563b38b98073b4ed2009c41e3889bfd
+
+Start here:
+  output/pdf/followup-research.pdf — final 16-page report
+  output/followup-research/README_RU.txt — Russian findings and reproduction commands
+  output/followup-research/followup-research.html — browser version
+  docs/followup_research_plan.md — scope and experiment plan
+
+Included: research code, configurations, tests, protocols, run-level JSON
+metrics, aggregate tables, figures, independent audit records and final report.
+144 new MPS training runs; 60 models checked with Euler 64/128.
+
+Intentionally omitted from this commit: model checkpoints (.pt/.pth), NumPy
+training arrays and prediction ensembles (.npy/.npz), development smoke-run
+outputs, interrupted attempts and temporary PDF previews. These remain on the
+original research machine. No large artifact was deleted locally.
+
+The report and saved audits can be read without the omitted binaries.
+Audits that reload models, predictions or training arrays require regeneration
+of those artifacts. Follow the training, preparation and diagnostic commands
+in output/followup-research/README_RU.txt, using the recorded environment and
+seeds. Real-data CSV files are also excluded by the existing repository policy;
+obtain the inputs using the project's data instructions. Retraining on another
+environment is not guaranteed to reproduce historical hashes bit-for-bit.
+The report builder enforces the original artifact audit gates; it is not a
+standalone regeneration command for a lightweight checkout.
+
+The research report, manifests and delivery verification are historical snapshots
+made before publication. Their statements that no commit/push was created,
+and their recorded base revision, refer to that research stage. Publication of
+this branch was separately requested afterward; the frozen evidence is retained
+without rewriting its hashes or scientific conclusions.
+
+See additional_experiments_publication.json for the included file inventory and
+checksums. The full original repository history is inherited by this branch;
+large files already tracked in older commits are not removed or rewritten.

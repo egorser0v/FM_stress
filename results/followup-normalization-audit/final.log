@@ -1,0 +1,41 @@
+history_gp_mlp_seed72 2000 PASS
+history_gp_mlp_seed72 6000 PASS
+history_gp_mlp_seed73 2000 PASS
+history_gp_mlp_seed73 6000 PASS
+history_gp_s4_seed71 2000 PASS
+history_gp_s4_seed71 6000 PASS
+history_gp_s4_seed72 2000 PASS
+history_gp_s4_seed72 6000 PASS
+history_gp_s4_seed73 2000 PASS
+history_gp_s4_seed73 6000 PASS
+history_gp_white_level_s4_seed72 2000 PASS
+history_gp_white_level_s4_seed72 6000 PASS
+history_gp_white_level_s4_seed73 2000 PASS
+history_gp_white_level_s4_seed73 6000 PASS
+{
+  "complete": true,
+  "passed": true,
+  "expected_fits": 84,
+  "verified_fits": 84,
+  "verified_budget_artifacts": 168,
+  "problems": [],
+  "scaler_reconstruction": {
+    "train_mean": [
+      17.1282616982271
+    ],
+    "train_sd": [
+      9.176491024944333
+    ],
+    "training_end": 8640,
+    "split_sizes": {
+      "train": 2143,
+      "val": 118,
+      "test": 118
+    }
+  },
+  "cpu_threads": 2,
+  "torch": "2.14.1",
+  "source_manifest_sha256": "cc82e7bc8f6931aeabd029947fb39684dff134afe9e10919e4bcc57958cb7610",
+  "config_sha256": "f0690e1efdcd6370be974e0b71a0205118bcdc08fad8985d1be8d93da323373e",
+  "audit_script_sha256": "232aad65d11c4dcd9b1a2db0706dc6edf32f85ec6b72017fe1d40c6d75a5693e"
+}

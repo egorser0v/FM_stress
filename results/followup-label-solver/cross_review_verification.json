@@ -1,0 +1,328 @@
+{
+  "complete": true,
+  "status": "passed",
+  "checks": 642,
+  "failures": [],
+  "records": [
+    {
+      "identity": [
+        1017041,
+        82,
+        "gp",
+        "mlp",
+        "oracle"
+      ],
+      "max_crps64_error": 4.440892098500626e-16,
+      "max_crps128_error": 8.881784197001252e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        1017041,
+        82,
+        "gp",
+        "mlp",
+        "stochastic"
+      ],
+      "max_crps64_error": 6.661338147750939e-16,
+      "max_crps128_error": 8.881784197001252e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        1017041,
+        82,
+        "gp",
+        "s4",
+        "oracle"
+      ],
+      "max_crps64_error": 8.881784197001252e-16,
+      "max_crps128_error": 8.881784197001252e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        1017041,
+        82,
+        "gp",
+        "s4",
+        "stochastic"
+      ],
+      "max_crps64_error": 4.440892098500626e-16,
+      "max_crps128_error": 8.881784197001252e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        1017041,
+        82,
+        "white",
+        "mlp",
+        "oracle"
+      ],
+      "max_crps64_error": 8.881784197001252e-16,
+      "max_crps128_error": 6.661338147750939e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        1017041,
+        82,
+        "white",
+        "mlp",
+        "stochastic"
+      ],
+      "max_crps64_error": 8.881784197001252e-16,
+      "max_crps128_error": 6.661338147750939e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        1017041,
+        82,
+        "white",
+        "s4",
+        "oracle"
+      ],
+      "max_crps64_error": 8.881784197001252e-16,
+      "max_crps128_error": 6.661338147750939e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        1017041,
+        82,
+        "white",
+        "s4",
+        "stochastic"
+      ],
+      "max_crps64_error": 8.881784197001252e-16,
+      "max_crps128_error": 8.881784197001252e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        1117041,
+        83,
+        "gp",
+        "mlp",
+        "oracle"
+      ],
+      "max_crps64_error": 8.881784197001252e-16,
+      "max_crps128_error": 8.881784197001252e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        1117041,
+        83,
+        "gp",
+        "mlp",
+        "stochastic"
+      ],
+      "max_crps64_error": 1.7763568394002505e-15,
+      "max_crps128_error": 8.881784197001252e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        1117041,
+        83,
+        "gp",
+        "s4",
+        "oracle"
+      ],
+      "max_crps64_error": 2.6645352591003757e-15,
+      "max_crps128_error": 1.7763568394002505e-15,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        1117041,
+        83,
+        "gp",
+        "s4",
+        "stochastic"
+      ],
+      "max_crps64_error": 2.6645352591003757e-15,
+      "max_crps128_error": 3.552713678800501e-15,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        1117041,
+        83,
+        "white",
+        "mlp",
+        "oracle"
+      ],
+      "max_crps64_error": 2.6645352591003757e-15,
+      "max_crps128_error": 3.552713678800501e-15,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        1117041,
+        83,
+        "white",
+        "mlp",
+        "stochastic"
+      ],
+      "max_crps64_error": 3.552713678800501e-15,
+      "max_crps128_error": 3.552713678800501e-15,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        1117041,
+        83,
+        "white",
+        "s4",
+        "oracle"
+      ],
+      "max_crps64_error": 3.552713678800501e-15,
+      "max_crps128_error": 3.552713678800501e-15,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        1117041,
+        83,
+        "white",
+        "s4",
+        "stochastic"
+      ],
+      "max_crps64_error": 5.329070518200751e-15,
+      "max_crps128_error": 3.552713678800501e-15,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        917041,
+        81,
+        "gp",
+        "mlp",
+        "oracle"
+      ],
+      "max_crps64_error": 1.3322676295501878e-15,
+      "max_crps128_error": 1.3322676295501878e-15,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        917041,
+        81,
+        "gp",
+        "mlp",
+        "stochastic"
+      ],
+      "max_crps64_error": 1.3322676295501878e-15,
+      "max_crps128_error": 8.881784197001252e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        917041,
+        81,
+        "gp",
+        "s4",
+        "oracle"
+      ],
+      "max_crps64_error": 1.7763568394002505e-15,
+      "max_crps128_error": 1.3322676295501878e-15,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        917041,
+        81,
+        "gp",
+        "s4",
+        "stochastic"
+      ],
+      "max_crps64_error": 8.881784197001252e-16,
+      "max_crps128_error": 8.881784197001252e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        917041,
+        81,
+        "white",
+        "mlp",
+        "oracle"
+      ],
+      "max_crps64_error": 8.881784197001252e-16,
+      "max_crps128_error": 8.881784197001252e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        917041,
+        81,
+        "white",
+        "mlp",
+        "stochastic"
+      ],
+      "max_crps64_error": 8.881784197001252e-16,
+      "max_crps128_error": 8.881784197001252e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        917041,
+        81,
+        "white",
+        "s4",
+        "oracle"
+      ],
+      "max_crps64_error": 6.661338147750939e-16,
+      "max_crps128_error": 1.7763568394002505e-15,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        917041,
+        81,
+        "white",
+        "s4",
+        "stochastic"
+      ],
+      "max_crps64_error": 1.3322676295501878e-15,
+      "max_crps128_error": 1.1102230246251565e-15,
+      "contexts": 256,
+      "members": 32
+    }
+  ],
+  "frozen_inputs_unchanged": true,
+  "manifest_sha256": "8698bd56242754f5b7d5741dd6231b188519d888d5002207c64bfd24db041405",
+  "summary_sha256": "5df91bf64e3bd4d97b30182c1b0d7ab2e3457589dd590089e329444170c6c167",
+  "analysis_sha256": "b176fa7a1e7cb6a97c8ee7a8b6057ee74fee5403e5e799b4663e0b0d2ac581ca",
+  "checker_sha256": "90c005aa99a47904864e6b85be502bfd28c5be72aa0ab3aa578c46901e3ee32b",
+  "max_direct_crps64_error": 5.329070518200751e-15,
+  "max_direct_crps128_error": 3.552713678800501e-15,
+  "scope": "Separate-agent cross-review. Independent NumPy covariance, source and normalized-history reconstruction; direct pairwise fair CRPS for every original64 and saved128 ensemble; hashes, checkpoint metadata and paired summary contrasts. CPU only. No integration or training. Original64 arrays are used because the rerun64 ensembles were not archived separately. This complements, and does not overwrite, the author CPU replay report."
+}

@@ -1,0 +1,9 @@
+VERIFIED rbf_draw607041_white_mlp_original 256 contexts 3.16 seconds
+VERIFIED rbf_draw607041_white_mlp_rank_clear 256 contexts 2.7 seconds
+VERIFIED rbf_draw607041_white_mlp_wide 256 contexts 3.66 seconds
+VERIFIED rbf_draw607041_white_s4 256 contexts 142.68 seconds
+VERIFIED rbf_draw607041_gp_mlp_original 256 contexts 3.25 seconds
+VERIFIED rbf_draw607041_gp_mlp_rank_clear 256 contexts 3.06 seconds
+VERIFIED rbf_draw607041_gp_mlp_wide 256 contexts 3.94 seconds
+VERIFIED rbf_draw607041_gp_s4 256 contexts 141.66 seconds
+COMPLETE False MODELS 8

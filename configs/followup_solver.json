@@ -1,0 +1,12 @@
+{
+  "scope": "Post-hoc numerical integration diagnostic; all 36 final-budget capacity models; no new training or test-driven model selection",
+  "capacity_root": "results/followup-capacity",
+  "expected_models": 36,
+  "selected_budget": 12000,
+  "coarse_steps": 64,
+  "fine_steps": 128,
+  "replay_contexts": 2,
+  "relative_replay_tolerance": 0.0002,
+  "smoke_contexts": 2,
+  "smoke_identities": [["rbf",607041,"white","mlp_original"],["rbf",607041,"white","s4"]]
+}

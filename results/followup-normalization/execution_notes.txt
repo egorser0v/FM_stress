@@ -1,0 +1,19 @@
+Normalization study execution notes — 25 October 2026
+
+All scored training used the frozen MPS configuration and implementation.
+The main runner traversed the planned identity list in its configured order.
+To use available resources, disjoint identity subsets were run by separate
+processes: history_rawloss; history/gp_zero_level; history/gp_white_level.
+Each subset was started before the main runner reached those identities.
+Completed compatible run records are skipped by the main runner. No scored
+cell was assigned to two workers concurrently. Per-cell random streams are
+seeded independently inside each process, and first/last minibatch hashes
+are retained for paired comparisons.
+
+Several training processes shared the Apple GPU. Elapsed seconds therefore
+measure this execution schedule, not isolated architecture throughput.
+Validation-selected checkpoints and fixed update counts determine comparisons;
+wall-clock runtime is not a scientific endpoint of this study.
+
+Software smokes use separate output directories and do not count among the
+84 scored fits. The frozen configuration/source manifests remain unchanged.

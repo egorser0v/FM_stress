@@ -1,0 +1,32 @@
+{
+  "complete": true,
+  "status": "passed",
+  "source_files": 8,
+  "groups": [
+    {
+      "group": "results/followup-label-noise/dataset_1017041/gp",
+      "verified_files": 12
+    },
+    {
+      "group": "results/followup-label-noise/dataset_1017041/white",
+      "verified_files": 12
+    },
+    {
+      "group": "results/followup-label-noise/dataset_1117041/gp",
+      "verified_files": 12
+    },
+    {
+      "group": "results/followup-label-noise/dataset_1117041/white",
+      "verified_files": 12
+    },
+    {
+      "group": "results/followup-label-noise/dataset_917041/gp",
+      "verified_files": 12
+    },
+    {
+      "group": "results/followup-label-noise/dataset_917041/white",
+      "verified_files": 12
+    }
+  ],
+  "fingerprint": "23dd57e8f630c431da9a42c60cc7f973aff302cf7651f4837bb1d44713d8c69f"
+}

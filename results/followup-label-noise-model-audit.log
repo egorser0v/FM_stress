@@ -1,0 +1,30 @@
+BASELINES 3
+MODEL_AUDITED 917041 white mlp stochastic
+MODEL_AUDITED 917041 white mlp oracle
+MODEL_AUDITED 917041 white s4 stochastic
+MODEL_AUDITED 917041 white s4 oracle
+MODEL_AUDITED 917041 gp mlp stochastic
+MODEL_AUDITED 917041 gp mlp oracle
+MODEL_AUDITED 917041 gp s4 stochastic
+MODEL_AUDITED 917041 gp s4 oracle
+MODEL_AUDITED 1017041 white mlp stochastic
+MODEL_AUDITED 1017041 white mlp oracle
+MODEL_AUDITED 1017041 white s4 stochastic
+MODEL_AUDITED 1017041 white s4 oracle
+MODEL_AUDITED 1017041 gp mlp stochastic
+MODEL_AUDITED 1017041 gp mlp oracle
+MODEL_AUDITED 1017041 gp s4 stochastic
+MODEL_AUDITED 1017041 gp s4 oracle
+MODEL_AUDITED 1117041 white mlp stochastic
+MODEL_AUDITED 1117041 white mlp oracle
+MODEL_AUDITED 1117041 white s4 stochastic
+MODEL_AUDITED 1117041 white s4 oracle
+MODEL_AUDITED 1117041 gp mlp stochastic
+MODEL_AUDITED 1117041 gp mlp oracle
+MODEL_AUDITED 1117041 gp s4 stochastic
+MODEL_AUDITED 1117041 gp s4 oracle
+{
+  "complete": true,
+  "models": 24,
+  "missing": 0
+}

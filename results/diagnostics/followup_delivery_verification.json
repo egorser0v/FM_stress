@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "status": "passed",
+  "pdf_pages": 16,
+  "report_sha256": "29cee569d93e0ad989e327793a868229fa022cc29b9c3e1cd788e43ee7cde5e1",
+  "html_sha256": "4f71616f4d98e44cf6d7b318c78a5d3dc2969fdab07fd8458ef6820f7cab7a02",
+  "verified_input_artifacts": 83,
+  "all_html_figures_present": true,
+  "final_audit_gate_passed": true,
+  "head_unchanged": true,
+  "tracked_edits": false,
+  "all_pages_visually_reviewed": true
+}

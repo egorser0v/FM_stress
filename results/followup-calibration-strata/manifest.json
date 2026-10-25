@@ -1,0 +1,28 @@
+{
+  "analysis_config_sha256": "bda10dd4369fa278b9f53f7b173324597512337285e2a07d01c29155acb5a71d",
+  "script_sha256": "f37afb37baaa5ed67174ad0da71053bf35416bceef90221110ccabf071e83208",
+  "independent_data_definition_sha256": "232aad65d11c4dcd9b1a2db0706dc6edf32f85ec6b72017fe1d40c6d75a5693e",
+  "experiment_config_sha256": "f0690e1efdcd6370be974e0b71a0205118bcdc08fad8985d1be8d93da323373e",
+  "experiment_manifest_sha256": "cc82e7bc8f6931aeabd029947fb39684dff134afe9e10919e4bcc57958cb7610",
+  "dataset_sha256": "f18de3ad269cef59bb07b5438d79bb3042d3be49bdeecf01c1cd6d29695ee066",
+  "train_quartiles": [
+    0.18082674907659274,
+    0.2747884016685185
+  ],
+  "training_histories": 2143,
+  "scaler": {
+    "train_mean": [
+      17.1282616982271
+    ],
+    "train_sd": [
+      9.176491024944333
+    ],
+    "training_end": 8640,
+    "split_sizes": {
+      "train": 2143,
+      "val": 118,
+      "test": 118
+    }
+  },
+  "pre_stratified_outcome_freeze": true
+}

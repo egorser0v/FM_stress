@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "rows": 250,
+  "max_metric_difference": 0,
+  "all_frozen_inputs_unchanged": true,
+  "limitation": "Replays saved finite changes and independent arithmetic, not an independent oracle implementation; oracle derivation and quadrature are separately audited."
+}

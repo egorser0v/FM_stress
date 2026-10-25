@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "records": [
+    {
+      "data_seed": 917041,
+      "source": "white",
+      "rare_history_count": 0,
+      "affected_training_pairs": 0
+    },
+    {
+      "data_seed": 917041,
+      "source": "gp",
+      "rare_history_count": 0,
+      "affected_training_pairs": 0
+    },
+    {
+      "data_seed": 1017041,
+      "source": "white",
+      "rare_history_count": 1,
+      "affected_training_pairs": 39,
+      "64_vs_128_relative_rms": 4.044816168250654e-07,
+      "128_vs_256_relative_rms": 9.96044827078179e-08,
+      "64_vs_128_max_abs": 2.654766021592536e-05
+    },
+    {
+      "data_seed": 1017041,
+      "source": "gp",
+      "rare_history_count": 1,
+      "affected_training_pairs": 39,
+      "64_vs_128_relative_rms": 7.693053719298768e-07,
+      "128_vs_256_relative_rms": 1.860664823058888e-07,
+      "64_vs_128_max_abs": 6.244164115010165e-05
+    },
+    {
+      "data_seed": 1117041,
+      "source": "white",
+      "rare_history_count": 0,
+      "affected_training_pairs": 0
+    },
+    {
+      "data_seed": 1117041,
+      "source": "gp",
+      "rare_history_count": 0,
+      "affected_training_pairs": 0
+    }
+  ]
+}

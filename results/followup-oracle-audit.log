@@ -1,0 +1,167 @@
+{
+  "status": "passed",
+  "checks": {
+    "centered_basis_mean_max_abs": 1.3158374123634076e-07,
+    "centered_basis_rate_relative_rms": 7.054338530400242e-10,
+    "centered_basis_covariance_relative_rms": 1.968684155094862e-11,
+    "fresh_raw_gp_calibration": {
+      "sample_mean": 0.5576513217005673,
+      "theory": 0.5517241379310345,
+      "standard_error": 0.003999175900061196,
+      "z_score": 1.4821012922792742
+    },
+    "independent_adaptive_integral": [
+      {
+        "source": "white",
+        "history_index": 0,
+        "relative_velocity_rms": 2.557075669549258e-15,
+        "absolute_integrator_error": 6.06322060617323e-09
+      },
+      {
+        "source": "white",
+        "history_index": 1,
+        "relative_velocity_rms": 5.665899335806071e-16,
+        "absolute_integrator_error": 2.6841000594365403e-10
+      },
+      {
+        "source": "white",
+        "history_index": 2,
+        "relative_velocity_rms": 8.622024939429644e-16,
+        "absolute_integrator_error": 6.2950607517741955e-09
+      },
+      {
+        "source": "gp",
+        "history_index": 0,
+        "relative_velocity_rms": 1.7809600161310007e-12,
+        "absolute_integrator_error": 1.3727178757050625e-08
+      },
+      {
+        "source": "gp",
+        "history_index": 1,
+        "relative_velocity_rms": 9.5070935432545e-13,
+        "absolute_integrator_error": 7.570908219612524e-09
+      },
+      {
+        "source": "gp",
+        "history_index": 2,
+        "relative_velocity_rms": 3.621408216951388e-12,
+        "absolute_integrator_error": 2.665390755887849e-09
+      }
+    ],
+    "replayed_residual_jacobian_rows": 250,
+    "max_summary_replay_error": 0.0,
+    "source_hashes_unchanged": true
+  },
+  "perturbation_support": [
+    {
+      "source": "white",
+      "time": 0.1,
+      "perturbation_norm": 0.1,
+      "direction": "uniform sphere in velocity-PC3..F",
+      "rms_mahalanobis_radius_mean": 0.11108600611729194,
+      "p10": 0.11105855045601809,
+      "p90": 0.11110552678025537,
+      "typical_unconditional_radius_sqrtF": 4.0,
+      "interpretation": "Geometry diagnostic: conditional covariance radius; mixture is not Gaussian. Does not prove every direction is off support."
+    },
+    {
+      "source": "white",
+      "time": 0.3,
+      "perturbation_norm": 0.1,
+      "direction": "uniform sphere in velocity-PC3..F",
+      "rms_mahalanobis_radius_mean": 0.1425671238339725,
+      "p10": 0.14228189150017578,
+      "p90": 0.14276869249790475,
+      "typical_unconditional_radius_sqrtF": 4.0,
+      "interpretation": "Geometry diagnostic: conditional covariance radius; mixture is not Gaussian. Does not prove every direction is off support."
+    },
+    {
+      "source": "white",
+      "time": 0.5,
+      "perturbation_norm": 0.1,
+      "direction": "uniform sphere in velocity-PC3..F",
+      "rms_mahalanobis_radius_mean": 0.19871214408690765,
+      "p10": 0.19754226834285546,
+      "p90": 0.19952327800606834,
+      "typical_unconditional_radius_sqrtF": 4.0,
+      "interpretation": "Geometry diagnostic: conditional covariance radius; mixture is not Gaussian. Does not prove every direction is off support."
+    },
+    {
+      "source": "white",
+      "time": 0.7,
+      "perturbation_norm": 0.1,
+      "direction": "uniform sphere in velocity-PC3..F",
+      "rms_mahalanobis_radius_mean": 0.32822058206586624,
+      "p10": 0.3255015857178798,
+      "p90": 0.33060737547502234,
+      "typical_unconditional_radius_sqrtF": 4.0,
+      "interpretation": "Geometry diagnostic: conditional covariance radius; mixture is not Gaussian. Does not prove every direction is off support."
+    },
+    {
+      "source": "white",
+      "time": 0.9,
+      "perturbation_norm": 0.1,
+      "direction": "uniform sphere in velocity-PC3..F",
+      "rms_mahalanobis_radius_mean": 0.9655206739299252,
+      "p10": 0.9550068911831301,
+      "p90": 0.9744102092731046,
+      "typical_unconditional_radius_sqrtF": 4.0,
+      "interpretation": "Geometry diagnostic: conditional covariance radius; mixture is not Gaussian. Does not prove every direction is off support."
+    },
+    {
+      "source": "gp",
+      "time": 0.1,
+      "perturbation_norm": 0.1,
+      "direction": "uniform sphere in velocity-PC3..F",
+      "rms_mahalanobis_radius_mean": 87.35037975055049,
+      "p10": 84.71754189239283,
+      "p90": 89.1964944358035,
+      "typical_unconditional_radius_sqrtF": 4.0,
+      "interpretation": "Geometry diagnostic: conditional covariance radius; mixture is not Gaussian. Does not prove every direction is off support."
+    },
+    {
+      "source": "gp",
+      "time": 0.3,
+      "perturbation_norm": 0.1,
+      "direction": "uniform sphere in velocity-PC3..F",
+      "rms_mahalanobis_radius_mean": 91.12479640535844,
+      "p10": 69.09393899327227,
+      "p90": 106.82279384332567,
+      "typical_unconditional_radius_sqrtF": 4.0,
+      "interpretation": "Geometry diagnostic: conditional covariance radius; mixture is not Gaussian. Does not prove every direction is off support."
+    },
+    {
+      "source": "gp",
+      "time": 0.5,
+      "perturbation_norm": 0.1,
+      "direction": "uniform sphere in velocity-PC3..F",
+      "rms_mahalanobis_radius_mean": 84.79854302032264,
+      "p10": 49.57813290630912,
+      "p90": 117.21455012512945,
+      "typical_unconditional_radius_sqrtF": 4.0,
+      "interpretation": "Geometry diagnostic: conditional covariance radius; mixture is not Gaussian. Does not prove every direction is off support."
+    },
+    {
+      "source": "gp",
+      "time": 0.7,
+      "perturbation_norm": 0.1,
+      "direction": "uniform sphere in velocity-PC3..F",
+      "rms_mahalanobis_radius_mean": 73.02465487329974,
+      "p10": 37.17907510612422,
+      "p90": 111.37630861590029,
+      "typical_unconditional_radius_sqrtF": 4.0,
+      "interpretation": "Geometry diagnostic: conditional covariance radius; mixture is not Gaussian. Does not prove every direction is off support."
+    },
+    {
+      "source": "gp",
+      "time": 0.9,
+      "perturbation_norm": 0.1,
+      "direction": "uniform sphere in velocity-PC3..F",
+      "rms_mahalanobis_radius_mean": 60.868198312660226,
+      "p10": 29.59311740145474,
+      "p90": 95.76927405099016,
+      "typical_unconditional_radius_sqrtF": 4.0,
+      "interpretation": "Geometry diagnostic: conditional covariance radius; mixture is not Gaussian. Does not prove every direction is off support."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "status": "Exploratory post-hoc calibration stratification; motivated by aggregate coverage differences, not independent confirmation",
+  "stratifier": "Population standard deviation (ddof=0) of observed history in train-standardized original units",
+  "cutpoints": [0.25, 0.75],
+  "quantile_method": "linear",
+  "bins": ["low: std < q25", "middle: q25 <= std <= q75", "high: std > q75"],
+  "metrics": ["fair_crps", "coverage_90", "width_90", "mean_forecast_mse"],
+  "budgets": [2000, 6000],
+  "expected_fits": 84,
+  "expected_budget_records": 168,
+  "paired_contrast": "history_rawloss minus center, within source/head/training seed/budget/bin",
+  "plot_budget": 6000,
+  "retraining_or_tuning": false,
+  "uncertainty": "Per-seed means and paired seed differences are descriptive; bins share one chronological test period. No significance claims or thresholds optimized on test data."
+}

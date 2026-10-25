@@ -1,0 +1,24 @@
+START history_gp_zero_level_mlp_seed71 device mps
+BUDGET history_gp_zero_level_mlp_seed71 2000 best 1250 seconds 13.1
+BUDGET history_gp_zero_level_mlp_seed71 6000 best 1250 seconds 43.1
+DONE history_gp_zero_level_mlp_seed71 CRPS 0.110007 seconds 45.2
+START history_gp_zero_level_mlp_seed72 device mps
+BUDGET history_gp_zero_level_mlp_seed72 2000 best 1000 seconds 13.5
+BUDGET history_gp_zero_level_mlp_seed72 6000 best 1000 seconds 35.8
+DONE history_gp_zero_level_mlp_seed72 CRPS 0.111245 seconds 37.7
+START history_gp_zero_level_mlp_seed73 device mps
+BUDGET history_gp_zero_level_mlp_seed73 2000 best 1500 seconds 11.2
+BUDGET history_gp_zero_level_mlp_seed73 6000 best 1500 seconds 33.9
+DONE history_gp_zero_level_mlp_seed73 CRPS 0.107174 seconds 35.8
+START history_gp_zero_level_s4_seed71 device mps
+BUDGET history_gp_zero_level_s4_seed71 2000 best 1250 seconds 32.7
+BUDGET history_gp_zero_level_s4_seed71 6000 best 1250 seconds 114.1
+DONE history_gp_zero_level_s4_seed71 CRPS 0.122331 seconds 128.3
+START history_gp_zero_level_s4_seed72 device mps
+BUDGET history_gp_zero_level_s4_seed72 2000 best 1250 seconds 40.0
+BUDGET history_gp_zero_level_s4_seed72 6000 best 1250 seconds 127.7
+DONE history_gp_zero_level_s4_seed72 CRPS 0.112143 seconds 144.1
+START history_gp_zero_level_s4_seed73 device mps
+BUDGET history_gp_zero_level_s4_seed73 2000 best 2000 seconds 41.8
+BUDGET history_gp_zero_level_s4_seed73 6000 best 2000 seconds 123.5
+DONE history_gp_zero_level_s4_seed73 CRPS 0.118082 seconds 140.9

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "complete": true,
+  "checks": 1708,
+  "completed_fits": 84,
+  "newer_unanalyzed_fits": 0,
+  "contrasts": 140,
+  "interactions": 10,
+  "analysis_sha256": "843f5507f4203a0902da518de0a303b696c13db6191b80957713c7434520a18b",
+  "audit_script_sha256": "01f2e18cac6126421df04727320b7cb83ce7db2524064bbc420d62dabc79c7e3",
+  "independent_definitions_sha256": "232aad65d11c4dcd9b1a2db0706dc6edf32f85ec6b72017fe1d40c6d75a5693e",
+  "failures": {}
+}

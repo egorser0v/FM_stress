@@ -1,0 +1,30 @@
+{
+  "kernel-scan": {
+    "counts": {
+      "records": 360,
+      "checkpoints_ok": 360,
+      "checkpoints_missing": 0,
+      "checkpoints_wrong": 0,
+      "samples_ok": 0,
+      "samples_missing": 360,
+      "samples_wrong": 0
+    },
+    "changed_frozen_sources": []
+  },
+  "etth1-normalization": {
+    "counts": {
+      "records": 24,
+      "checkpoints_ok": 24,
+      "checkpoints_missing": 0,
+      "checkpoints_wrong": 0,
+      "samples_ok": 24,
+      "samples_missing": 0,
+      "samples_wrong": 0
+    },
+    "changed_frozen_sources": []
+  },
+  "missing_referenced_protocols": [
+    "docs/etth1_level_hypothesis.tex",
+    "docs/etth1_prior_level_protocol.md"
+  ]
+}

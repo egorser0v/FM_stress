@@ -1,0 +1,26 @@
+{
+  "n_jacobian": 256,
+  "times": [
+    0.1,
+    0.3,
+    0.5,
+    0.7,
+    0.9
+  ],
+  "jacobian_source_seed": 424242,
+  "n_fresh": 2048,
+  "fresh_data_seed": 9251041,
+  "fresh_source_seed": 9251042,
+  "fresh_time_seed": 9251043,
+  "quadrature_orders": [
+    32,
+    64,
+    128
+  ],
+  "max_order": 256,
+  "relative_tolerance": 0.0001,
+  "secondary_added_after_initial_probes": "covariance-weighted local Jacobian discrepancy; exploratory",
+  "device": "cpu",
+  "torch_threads": 2,
+  "status": "supplementary post-hoc diagnostic; no training"
+}

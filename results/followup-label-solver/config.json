@@ -1,0 +1,15 @@
+{
+  "status": "post-hoc numerical integration sensitivity, no training or checkpoint selection",
+  "steps": [
+    64,
+    128
+  ],
+  "contexts": 256,
+  "members": 32,
+  "batch_size": 1024,
+  "device": "mps",
+  "torch_threads": 2,
+  "replay_relative_rms_tolerance": 1e-05,
+  "independent_score_tolerance": 1e-09,
+  "design": "All 24 existing checkpoints; same full ensemble initial states, histories and targets as the frozen label study."
+}

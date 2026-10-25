@@ -1,0 +1,80 @@
+{
+  "name": "followup_normalization",
+  "protocol": "docs/followup_normalization_protocol.md",
+  "dataset": {
+    "kind": "real",
+    "path": "data/real/ETTh1.csv",
+    "format": "csv",
+    "columns": [
+      "OT"
+    ],
+    "lookback": 48,
+    "horizon": 24,
+    "split_ends": [
+      8640,
+      11520,
+      14400
+    ],
+    "strides": {
+      "train": 4,
+      "val": 24,
+      "test": 24
+    },
+    "source_lengthscale": 8.0,
+    "seasonal_period": 24
+  },
+  "priors": [
+    "white",
+    "gp"
+  ],
+  "heads": [
+    "mlp",
+    "s4"
+  ],
+  "seeds": [
+    71,
+    72,
+    73
+  ],
+  "model": {
+    "lookback": 48,
+    "horizon": 24,
+    "channels": 1,
+    "width": 55,
+    "density": 0.5
+  },
+  "steps": 6000,
+  "batch_size": 128,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "clip_grad": 1.0,
+  "eval_every": 250,
+  "evaluation_seed": 110041,
+  "n_ensemble_contexts": 118,
+  "ensemble_size": 64,
+  "euler_steps": 64,
+  "generation_batch_size": 1024,
+  "normalizations": [
+    "global",
+    "center",
+    "scale",
+    "history",
+    "history_rawloss"
+  ],
+  "extra_priors": [
+    "gp_zero_level",
+    "gp_white_level"
+  ],
+  "budgets": [
+    2000,
+    6000
+  ],
+  "solver_check": true,
+  "reading_rules": {
+    "primary": "All118 non-overlapping future blocks,64samples,mean fair CRPS across3pairedtrainingseeds. Report effects per seed; no independent-data claim.",
+    "factorial": "center/global,scale/global,history/center,history/scale; prior-head interaction at each normalization and budget.",
+    "loss_control": "history_rawloss vs history changes only regression weighting and matching validation selection.",
+    "prior_control": "gp_zero_level/gp_white_level in global and history coordinates; preservation of prior temporal shape is explicit, no constant-total-variance claim.",
+    "budgets": "best validation among checkpoints<=2000 and<=6000; evaluate both only after6000. Both are correlated observations, not extra independent runs."
+  }
+}

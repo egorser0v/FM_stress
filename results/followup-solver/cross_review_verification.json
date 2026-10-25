@@ -1,0 +1,522 @@
+{
+  "complete": true,
+  "status": "passed",
+  "checks": 1017,
+  "failures": [],
+  "records": [
+    {
+      "identity": [
+        "rbf",
+        607041,
+        "white",
+        "mlp_original"
+      ],
+      "max_direct_crps64_error": 4.440892098500626e-16,
+      "max_direct_crps128_error": 4.440892098500626e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        "rbf",
+        607041,
+        "white",
+        "mlp_rank_clear"
+      ],
+      "max_direct_crps64_error": 8.881784197001252e-16,
+      "max_direct_crps128_error": 8.881784197001252e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        "rbf",
+        607041,
+        "white",
+        "mlp_wide"
+      ],
+      "max_direct_crps64_error": 4.440892098500626e-16,
+      "max_direct_crps128_error": 8.881784197001252e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        "rbf",
+        607041,
+        "white",
+        "s4"
+      ],
+      "max_direct_crps64_error": 4.440892098500626e-16,
+      "max_direct_crps128_error": 4.440892098500626e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        "rbf",
+        607041,
+        "gp",
+        "mlp_original"
+      ],
+      "max_direct_crps64_error": 4.440892098500626e-16,
+      "max_direct_crps128_error": 4.440892098500626e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        "rbf",
+        607041,
+        "gp",
+        "mlp_rank_clear"
+      ],
+      "max_direct_crps64_error": 4.440892098500626e-16,
+      "max_direct_crps128_error": 4.440892098500626e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        "rbf",
+        607041,
+        "gp",
+        "mlp_wide"
+      ],
+      "max_direct_crps64_error": 8.881784197001252e-16,
+      "max_direct_crps128_error": 6.661338147750939e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        "rbf",
+        607041,
+        "gp",
+        "s4"
+      ],
+      "max_direct_crps64_error": 4.440892098500626e-16,
+      "max_direct_crps128_error": 4.440892098500626e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        "rbf",
+        707041,
+        "white",
+        "mlp_original"
+      ],
+      "max_direct_crps64_error": 4.440892098500626e-16,
+      "max_direct_crps128_error": 4.440892098500626e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        "rbf",
+        707041,
+        "white",
+        "mlp_rank_clear"
+      ],
+      "max_direct_crps64_error": 4.440892098500626e-16,
+      "max_direct_crps128_error": 8.881784197001252e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        "rbf",
+        707041,
+        "white",
+        "mlp_wide"
+      ],
+      "max_direct_crps64_error": 4.440892098500626e-16,
+      "max_direct_crps128_error": 4.440892098500626e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        "rbf",
+        707041,
+        "white",
+        "s4"
+      ],
+      "max_direct_crps64_error": 4.440892098500626e-16,
+      "max_direct_crps128_error": 6.661338147750939e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        "rbf",
+        707041,
+        "gp",
+        "mlp_original"
+      ],
+      "max_direct_crps64_error": 4.440892098500626e-16,
+      "max_direct_crps128_error": 4.440892098500626e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        "rbf",
+        707041,
+        "gp",
+        "mlp_rank_clear"
+      ],
+      "max_direct_crps64_error": 4.440892098500626e-16,
+      "max_direct_crps128_error": 4.440892098500626e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        "rbf",
+        707041,
+        "gp",
+        "mlp_wide"
+      ],
+      "max_direct_crps64_error": 4.440892098500626e-16,
+      "max_direct_crps128_error": 6.661338147750939e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        "rbf",
+        707041,
+        "gp",
+        "s4"
+      ],
+      "max_direct_crps64_error": 8.881784197001252e-16,
+      "max_direct_crps128_error": 8.881784197001252e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        "rbf",
+        807041,
+        "white",
+        "mlp_original"
+      ],
+      "max_direct_crps64_error": 8.881784197001252e-16,
+      "max_direct_crps128_error": 8.881784197001252e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        "rbf",
+        807041,
+        "white",
+        "mlp_rank_clear"
+      ],
+      "max_direct_crps64_error": 4.440892098500626e-16,
+      "max_direct_crps128_error": 4.440892098500626e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        "rbf",
+        807041,
+        "white",
+        "mlp_wide"
+      ],
+      "max_direct_crps64_error": 4.440892098500626e-16,
+      "max_direct_crps128_error": 4.440892098500626e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        "rbf",
+        807041,
+        "white",
+        "s4"
+      ],
+      "max_direct_crps64_error": 4.440892098500626e-16,
+      "max_direct_crps128_error": 6.661338147750939e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        "rbf",
+        807041,
+        "gp",
+        "mlp_original"
+      ],
+      "max_direct_crps64_error": 6.661338147750939e-16,
+      "max_direct_crps128_error": 4.440892098500626e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        "rbf",
+        807041,
+        "gp",
+        "mlp_rank_clear"
+      ],
+      "max_direct_crps64_error": 4.440892098500626e-16,
+      "max_direct_crps128_error": 6.661338147750939e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        "rbf",
+        807041,
+        "gp",
+        "mlp_wide"
+      ],
+      "max_direct_crps64_error": 6.661338147750939e-16,
+      "max_direct_crps128_error": 6.661338147750939e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        "rbf",
+        807041,
+        "gp",
+        "s4"
+      ],
+      "max_direct_crps64_error": 6.661338147750939e-16,
+      "max_direct_crps128_error": 4.440892098500626e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        "ou",
+        607041,
+        "white",
+        "mlp_rank_clear"
+      ],
+      "max_direct_crps64_error": 5.551115123125783e-16,
+      "max_direct_crps128_error": 4.440892098500626e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        "ou",
+        607041,
+        "white",
+        "s4"
+      ],
+      "max_direct_crps64_error": 4.440892098500626e-16,
+      "max_direct_crps128_error": 4.440892098500626e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        "ou",
+        607041,
+        "gp",
+        "mlp_rank_clear"
+      ],
+      "max_direct_crps64_error": 4.440892098500626e-16,
+      "max_direct_crps128_error": 4.440892098500626e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        "ou",
+        607041,
+        "gp",
+        "s4"
+      ],
+      "max_direct_crps64_error": 4.440892098500626e-16,
+      "max_direct_crps128_error": 4.440892098500626e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        "ou",
+        707041,
+        "white",
+        "mlp_rank_clear"
+      ],
+      "max_direct_crps64_error": 4.440892098500626e-16,
+      "max_direct_crps128_error": 4.440892098500626e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        "ou",
+        707041,
+        "white",
+        "s4"
+      ],
+      "max_direct_crps64_error": 4.440892098500626e-16,
+      "max_direct_crps128_error": 4.440892098500626e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        "ou",
+        707041,
+        "gp",
+        "mlp_rank_clear"
+      ],
+      "max_direct_crps64_error": 6.661338147750939e-16,
+      "max_direct_crps128_error": 6.661338147750939e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        "ou",
+        707041,
+        "gp",
+        "s4"
+      ],
+      "max_direct_crps64_error": 6.661338147750939e-16,
+      "max_direct_crps128_error": 4.440892098500626e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        "ou",
+        807041,
+        "white",
+        "mlp_rank_clear"
+      ],
+      "max_direct_crps64_error": 4.440892098500626e-16,
+      "max_direct_crps128_error": 4.440892098500626e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        "ou",
+        807041,
+        "white",
+        "s4"
+      ],
+      "max_direct_crps64_error": 4.440892098500626e-16,
+      "max_direct_crps128_error": 4.440892098500626e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        "ou",
+        807041,
+        "gp",
+        "mlp_rank_clear"
+      ],
+      "max_direct_crps64_error": 4.440892098500626e-16,
+      "max_direct_crps128_error": 4.440892098500626e-16,
+      "contexts": 256,
+      "members": 32
+    },
+    {
+      "identity": [
+        "ou",
+        807041,
+        "gp",
+        "s4"
+      ],
+      "max_direct_crps64_error": 4.440892098500626e-16,
+      "max_direct_crps128_error": 4.440892098500626e-16,
+      "contexts": 256,
+      "members": 32
+    }
+  ],
+  "paired_head_contrasts": [
+    {
+      "kernel": "rbf",
+      "source": "white",
+      "head": "mlp_original",
+      "mean64": 0.003078126165284615,
+      "mean128": 0.003222396749395099,
+      "mean_sign_flipped": false,
+      "individual_sign_flips": 0
+    },
+    {
+      "kernel": "rbf",
+      "source": "white",
+      "head": "mlp_rank_clear",
+      "mean64": -0.0012253507489988398,
+      "mean128": -0.001076212742132654,
+      "mean_sign_flipped": false,
+      "individual_sign_flips": 0
+    },
+    {
+      "kernel": "rbf",
+      "source": "white",
+      "head": "mlp_wide",
+      "mean64": -0.000298980591888931,
+      "mean128": -0.0003260392881416774,
+      "mean_sign_flipped": false,
+      "individual_sign_flips": 0
+    },
+    {
+      "kernel": "rbf",
+      "source": "gp",
+      "head": "mlp_original",
+      "mean64": 0.000301926896384271,
+      "mean128": 0.0004116116755494466,
+      "mean_sign_flipped": false,
+      "individual_sign_flips": 0
+    },
+    {
+      "kernel": "rbf",
+      "source": "gp",
+      "head": "mlp_rank_clear",
+      "mean64": 0.0003067012742361541,
+      "mean128": 0.0004156317819036248,
+      "mean_sign_flipped": false,
+      "individual_sign_flips": 0
+    },
+    {
+      "kernel": "rbf",
+      "source": "gp",
+      "head": "mlp_wide",
+      "mean64": 0.0012091538749345505,
+      "mean128": 0.001303783235705643,
+      "mean_sign_flipped": false,
+      "individual_sign_flips": 0
+    },
+    {
+      "kernel": "ou",
+      "source": "white",
+      "head": "mlp_rank_clear",
+      "mean64": 0.00036672083199037103,
+      "mean128": 0.0004491412429201332,
+      "mean_sign_flipped": false,
+      "individual_sign_flips": 0
+    },
+    {
+      "kernel": "ou",
+      "source": "gp",
+      "head": "mlp_rank_clear",
+      "mean64": 0.0009539487368702693,
+      "mean128": 0.0009493511077143246,
+      "mean_sign_flipped": false,
+      "individual_sign_flips": 0
+    }
+  ],
+  "max_individual_mean_crps_shift": 0.00042504163704182307,
+  "mean_contrast_sign_flips": 0,
+  "individual_draw_contrast_sign_flips": 0,
+  "max_direct_crps_error": 8.881784197001252e-16,
+  "manifest_sha256": "b20ccbfb0546a22e9da2b6f62f7c2fbdc9f4b734ce096d29dff3ed6691b780d6",
+  "summary_sha256": "f1dc305f760ee5a4185a8be64218d78f382fff95af8297f34123b4666f6491b4",
+  "checker_sha256": "d18a646a79e29df2b854c11ee015a287e2653e2f19fa7d0f0446472f29f9848b",
+  "scope": "Separate-agent CPU-only cross-audit: direct fair CRPS on every stored64/128 ensemble, independent normalized test/source reconstruction, pairing, frozen source/config hashes, original checkpoint/sample hashes and all paired draw/mean contrasts. No integration, model fitting or source changes."
+}

@@ -1,0 +1,210 @@
+{
+  "status": "post-hoc descriptive geometry audit; no test data or trained scores used; no run selection",
+  "data": "ETTh1 OT; original chronological train/validation splits",
+  "train_source_seeds": [
+    681041,
+    681042,
+    681043,
+    681044,
+    681045
+  ],
+  "validation_source_seed_offset": 100,
+  "threshold": 0.9,
+  "normalizations": {
+    "global": {
+      "target_top2_energy": 0.9577901761191223,
+      "target_mean_within_patch_std": 0.15552607644699862,
+      "target_roughness": 0.06684514330384547,
+      "sources": {
+        "white": {
+          "validation_top2_energy": [
+            0.2965263516081615,
+            0.29306657920120766,
+            0.27753272574764276,
+            0.2787956326915516,
+            0.26905997800082654
+          ],
+          "min": 0.26905997800082654,
+          "max": 0.2965263516081615,
+          "mean": 0.282996253449878
+        },
+        "gp": {
+          "validation_top2_energy": [
+            0.9311551232802291,
+            0.9404377744022869,
+            0.9151464239854314,
+            0.9329528878167793,
+            0.9144346466577473
+          ],
+          "min": 0.9144346466577473,
+          "max": 0.9404377744022869,
+          "mean": 0.9268253712284948
+        }
+      },
+      "gp_energy_gate_passes": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    "center": {
+      "target_top2_energy": 0.848105993540373,
+      "target_mean_within_patch_std": 0.15552607644699867,
+      "target_roughness": 0.06684514330384547,
+      "sources": {
+        "white": {
+          "validation_top2_energy": [
+            0.1438051691733341,
+            0.13685453394651012,
+            0.14170639684889585,
+            0.14330464901953027,
+            0.13792081419361243
+          ],
+          "min": 0.13685453394651012,
+          "max": 0.1438051691733341,
+          "mean": 0.14071831263637657
+        },
+        "gp": {
+          "validation_top2_energy": [
+            0.9286439274125662,
+            0.9191215382245865,
+            0.9012728693328547,
+            0.9221717157152305,
+            0.9023458650519529
+          ],
+          "min": 0.9012728693328547,
+          "max": 0.9286439274125662,
+          "mean": 0.9147111831474382
+        }
+      },
+      "gp_energy_gate_passes": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    "scale": {
+      "target_top2_energy": 0.9632256552893195,
+      "target_mean_within_patch_std": 0.9319586911078357,
+      "target_roughness": 0.4073102043999872,
+      "sources": {
+        "white": {
+          "validation_top2_energy": [
+            0.9080034941905806,
+            0.9052985655682827,
+            0.9033094920871269,
+            0.9032750886041373,
+            0.9057275505104755
+          ],
+          "min": 0.9032750886041373,
+          "max": 0.9080034941905806,
+          "mean": 0.9051228381921206
+        },
+        "gp": {
+          "validation_top2_energy": [
+            0.9599691492648843,
+            0.9632361350698032,
+            0.9582434293940576,
+            0.9612670969775032,
+            0.9594293764612696
+          ],
+          "min": 0.9582434293940576,
+          "max": 0.9632361350698032,
+          "mean": 0.9604290374335036
+        }
+      },
+      "gp_energy_gate_passes": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    "history": {
+      "target_top2_energy": 0.8081918239944516,
+      "target_mean_within_patch_std": 0.9319586911078357,
+      "target_roughness": 0.4073102043999872,
+      "sources": {
+        "white": {
+          "validation_top2_energy": [
+            0.620988354518097,
+            0.6146331435270402,
+            0.6066165638918052,
+            0.6079852431200566,
+            0.6158018194493707
+          ],
+          "min": 0.6066165638918052,
+          "max": 0.620988354518097,
+          "mean": 0.6132050249012739
+        },
+        "gp": {
+          "validation_top2_energy": [
+            0.8457886983724667,
+            0.8502724572288737,
+            0.8208437933496111,
+            0.8406109194464071,
+            0.8509652826631566
+          ],
+          "min": 0.8208437933496111,
+          "max": 0.8509652826631566,
+          "mean": 0.841696230212103
+        }
+      },
+      "gp_energy_gate_passes": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "history_rawloss": {
+      "target_top2_energy": 0.8081918239944516,
+      "target_mean_within_patch_std": 0.9319586911078357,
+      "target_roughness": 0.4073102043999872,
+      "sources": {
+        "white": {
+          "validation_top2_energy": [
+            0.620988354518097,
+            0.6146331435270402,
+            0.6066165638918052,
+            0.6079852431200566,
+            0.6158018194493707
+          ],
+          "min": 0.6066165638918052,
+          "max": 0.620988354518097,
+          "mean": 0.6132050249012739
+        },
+        "gp": {
+          "validation_top2_energy": [
+            0.8457886983724667,
+            0.8502724572288737,
+            0.8208437933496111,
+            0.8406109194464071,
+            0.8509652826631566
+          ],
+          "min": 0.8208437933496111,
+          "max": 0.8509652826631566,
+          "mean": 0.841696230212103
+        }
+      },
+      "gp_energy_gate_passes": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    }
+  },
+  "original_optional_real_task_qualifies": false,
+  "interpretation": "The original real-data option requires the history-normalized geometry. Other modes may pass different numerical gates but are separate pipeline interventions. A failure does not invalidate this exploratory study; it prevents labeling it as the original qualifying real-data column.",
+  "config_sha256": "f0690e1efdcd6370be974e0b71a0205118bcdc08fad8985d1be8d93da323373e",
+  "dataset_sha256": "f18de3ad269cef59bb07b5438d79bb3042d3be49bdeecf01c1cd6d29695ee066",
+  "script_sha256": "6b1c5a817d67926f13d8cd76c3634ae5a04eece6ff9ea52bcf18ca2d0e9aeb81"
+}

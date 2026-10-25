@@ -1,0 +1,25 @@
+COMPLETE 1017041_gp_mlp_oracle_seed82 seconds 1.6 CRPS change 2.0151806059021116e-05
+COMPLETE 1017041_gp_mlp_stochastic_seed82 seconds 1.45 CRPS change 9.370723887069943e-05
+COMPLETE 1017041_gp_s4_oracle_seed82 seconds 14.74 CRPS change -0.0002721794251748233
+COMPLETE 1017041_gp_s4_stochastic_seed82 seconds 14.7 CRPS change 0.00010119060493624099
+COMPLETE 1017041_white_mlp_oracle_seed82 seconds 1.48 CRPS change 5.6267733092751904e-05
+COMPLETE 1017041_white_mlp_stochastic_seed82 seconds 1.45 CRPS change 0.00030886079711062164
+COMPLETE 1017041_white_s4_oracle_seed82 seconds 22.82 CRPS change -1.3963886497991851e-05
+COMPLETE 1017041_white_s4_stochastic_seed82 seconds 14.79 CRPS change 0.00013835038268517064
+COMPLETE 1117041_gp_mlp_oracle_seed83 seconds 1.55 CRPS change 5.637267640873356e-05
+COMPLETE 1117041_gp_mlp_stochastic_seed83 seconds 1.44 CRPS change -9.735743512273576e-05
+COMPLETE 1117041_gp_s4_oracle_seed83 seconds 14.74 CRPS change -0.00016888168247497504
+COMPLETE 1117041_gp_s4_stochastic_seed83 seconds 15.13 CRPS change -1.060695880783502e-05
+COMPLETE 1117041_white_mlp_oracle_seed83 seconds 1.48 CRPS change -9.37004488755222e-05
+COMPLETE 1117041_white_mlp_stochastic_seed83 seconds 1.51 CRPS change -7.952434771196781e-05
+COMPLETE 1117041_white_s4_oracle_seed83 seconds 14.78 CRPS change 7.60996256429225e-05
+COMPLETE 1117041_white_s4_stochastic_seed83 seconds 15.66 CRPS change -0.00025214628500225267
+COMPLETE 917041_gp_mlp_oracle_seed81 seconds 1.71 CRPS change 0.00022040247337484775
+COMPLETE 917041_gp_mlp_stochastic_seed81 seconds 1.49 CRPS change 0.0006738183954767551
+COMPLETE 917041_gp_s4_oracle_seed81 seconds 19.6 CRPS change -0.0001760984777046115
+COMPLETE 917041_gp_s4_stochastic_seed81 seconds 17.93 CRPS change 0.00026761085948773244
+COMPLETE 917041_white_mlp_oracle_seed81 seconds 1.47 CRPS change 0.00041242591124462935
+COMPLETE 917041_white_mlp_stochastic_seed81 seconds 1.46 CRPS change 0.0003759435864935101
+COMPLETE 917041_white_s4_oracle_seed81 seconds 14.64 CRPS change 0.00042521038049136983
+COMPLETE 917041_white_s4_stochastic_seed81 seconds 15.1 CRPS change 0.0006105613386409026
+ALL COMPLETE 213.24181413650513

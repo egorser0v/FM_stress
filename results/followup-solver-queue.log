@@ -1,0 +1,45 @@
+READY PREFIX 8
+COMPLETE False MODELS 8
+READY PREFIX 9
+VERIFIED rbf_draw707041_white_mlp_original 256 contexts 3.73 seconds
+COMPLETE False MODELS 9
+READY PREFIX 10
+VERIFIED rbf_draw707041_white_mlp_rank_clear 256 contexts 3.38 seconds
+COMPLETE False MODELS 10
+READY PREFIX 11
+VERIFIED rbf_draw707041_white_mlp_wide 256 contexts 3.94 seconds
+COMPLETE False MODELS 11
+READY PREFIX 12
+VERIFIED rbf_draw707041_white_s4 256 contexts 148.61 seconds
+COMPLETE False MODELS 12
+READY PREFIX 14
+VERIFIED rbf_draw707041_gp_mlp_original 256 contexts 3.53 seconds
+VERIFIED rbf_draw707041_gp_mlp_rank_clear 256 contexts 3.34 seconds
+COMPLETE False MODELS 14
+READY PREFIX 15
+VERIFIED rbf_draw707041_gp_mlp_wide 256 contexts 4.0 seconds
+COMPLETE False MODELS 15
+READY PREFIX 36
+VERIFIED rbf_draw707041_gp_s4 256 contexts 156.23 seconds
+VERIFIED rbf_draw807041_white_mlp_original 256 contexts 3.77 seconds
+VERIFIED rbf_draw807041_white_mlp_rank_clear 256 contexts 3.57 seconds
+VERIFIED rbf_draw807041_white_mlp_wide 256 contexts 4.58 seconds
+VERIFIED rbf_draw807041_white_s4 256 contexts 144.92 seconds
+VERIFIED rbf_draw807041_gp_mlp_original 256 contexts 3.0 seconds
+VERIFIED rbf_draw807041_gp_mlp_rank_clear 256 contexts 3.3 seconds
+VERIFIED rbf_draw807041_gp_mlp_wide 256 contexts 3.58 seconds
+VERIFIED rbf_draw807041_gp_s4 256 contexts 128.24 seconds
+VERIFIED ou_draw607041_white_mlp_rank_clear 256 contexts 2.58 seconds
+VERIFIED ou_draw607041_white_s4 256 contexts 125.41 seconds
+VERIFIED ou_draw607041_gp_mlp_rank_clear 256 contexts 2.88 seconds
+VERIFIED ou_draw607041_gp_s4 256 contexts 124.81 seconds
+VERIFIED ou_draw707041_white_mlp_rank_clear 256 contexts 2.6 seconds
+VERIFIED ou_draw707041_white_s4 256 contexts 108.58 seconds
+VERIFIED ou_draw707041_gp_mlp_rank_clear 256 contexts 2.32 seconds
+VERIFIED ou_draw707041_gp_s4 256 contexts 100.33 seconds
+VERIFIED ou_draw807041_white_mlp_rank_clear 256 contexts 2.26 seconds
+VERIFIED ou_draw807041_white_s4 256 contexts 96.23 seconds
+VERIFIED ou_draw807041_gp_mlp_rank_clear 256 contexts 2.25 seconds
+VERIFIED ou_draw807041_gp_s4 256 contexts 95.49 seconds
+COMPLETE True MODELS 36
+ALL 36 SOLVER CHECKS COMPLETE

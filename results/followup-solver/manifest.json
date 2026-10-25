@@ -1,0 +1,14 @@
+{
+  "config_sha256": "f41d753725a30ecaef9adadee70b6487233e88aa18ce7c4c234a65bd3a4df85f",
+  "capacity_config_sha256": "257058fe103310e4af7ade1005203ca6b1cb248f0c22f9d93ea351e4fbd61bbc",
+  "capacity_manifest_sha256": "791fd31c2aa526ab13dbd1209fdc8927246c39670112a67aa88e269ec2d1fca5",
+  "source_hashes": {
+    "scripts/audit_followup_solver.py": "6e50cbab9fd6de22e3841b9f681745ae9c9fe2858068c74cf185baa396330ae7",
+    "scripts/check_kernel_scan.py": "5e910709f218311e0d0e952db82acf691a05a51df597747e734705454ef46844",
+    "fm_stress/models.py": "902e2f591f1b3e55d98e4903847bb859bd3ce859ba5c044d6f2c5b793b4199ce",
+    "fm_stress/experiment.py": "dedca2b6e2d51c9c8a6d2a343617a7d28eb451e55cbbf06969402b876a14ef1f",
+    "docs/followup_solver_protocol.md": "50d7b8b2813772c7132293b415b2bf8e9a15b3c2b0ad713e0e6ee59de9804737"
+  },
+  "scope": "Post-hoc numerical integration diagnostic; all 36 final-budget capacity models; no new training or test-driven model selection",
+  "fingerprint": "5ddfe380fe4d24e470d77a51ad75830d35fae97277ebfdc029f7bad38e6f0158"
+}

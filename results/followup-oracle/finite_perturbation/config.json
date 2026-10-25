@@ -1,0 +1,29 @@
+{
+  "status": "post-hoc supplementary finite-perturbation diagnostic, no training",
+  "n_histories": 256,
+  "directions_per_history": 4,
+  "direction_seed": 9252026,
+  "scales": [
+    0.01,
+    0.1
+  ],
+  "times": [
+    0.1,
+    0.3,
+    0.5,
+    0.7,
+    0.9
+  ],
+  "quadrature_orders": [
+    64,
+    128
+  ],
+  "input_subspace": "original velocity PCA components 3:F",
+  "direction_geometry": "delta = scale * residual-PC conditional-input-covariance Cholesky * standard normal",
+  "output_metrics": [
+    "all components",
+    "residual PCs 3:F"
+  ],
+  "torch_threads": 2,
+  "interpretation": "Covariance-scaled perturbations are local geometric probes, not likelihood or support certificates."
+}
