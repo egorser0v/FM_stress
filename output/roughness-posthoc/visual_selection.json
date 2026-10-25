@@ -1,0 +1,39 @@
+{
+  "suite": "main",
+  "source": "gp",
+  "seed": 0,
+  "selected_indices": [
+    0,
+    502,
+    108
+  ],
+  "selection": "First stored path plus 35%/65% R2 order statistics among eligible paths",
+  "eligible_rule": "abs(R1_ratio-1)<=0.05, R2_ratio>1.3, target_R2>=10th percentile",
+  "eligible_count": 33,
+  "total_paths": 1024,
+  "examples": [
+    {
+      "index": 0,
+      "r1_ratio": 0.9783665788313121,
+      "r2_ratio": 4.4626419997807085,
+      "target_R2": 0.021562717797147572,
+      "generated_R2": 0.09622669007096972
+    },
+    {
+      "index": 502,
+      "r1_ratio": 0.9516668495336267,
+      "r2_ratio": 1.5713270372105048,
+      "target_R2": 0.02756178191056043,
+      "generated_R2": 0.04330857310976301
+    },
+    {
+      "index": 108,
+      "r1_ratio": 0.96582488941262,
+      "r2_ratio": 1.9159308991013448,
+      "target_R2": 0.02038551483233597,
+      "generated_R2": 0.03905723776136126
+    }
+  ],
+  "overview": "First six saved paths without metric filtering",
+  "plotting": "Straight segments through saved samples; no smoothing or alignment"
+}

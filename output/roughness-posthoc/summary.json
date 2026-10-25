@@ -1,0 +1,2937 @@
+{
+  "analysis": "post-hoc; descriptive; no new success flags",
+  "definition": "Rk = mean(abs(diff(path, n=k))), unit time spacing",
+  "ratio": "mean generated Rk / mean observed-target Rk",
+  "units": "Saved normalized observation coordinates; compare within each suite",
+  "uncertainty": "Seed min/max are descriptive, not confidence intervals",
+  "script_sha256": "72ff786955795594f0c3dd025306e91c1974d31bfc10556415cc345e2ed3ff9d",
+  "suites": {
+    "main": {
+      "runs": [
+        {
+          "run": "gp_mlp_seed0",
+          "cell": "gp_mlp",
+          "seed": 0,
+          "archive": "results/main/samples/gp_mlp_seed0.npz",
+          "sha256": "264c65bfa2364f0436eeb0a296ffd59d677090a62c4fe8a74cc2bc99dc82f53c",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.19717791131820378,
+            "target_mean": 0.18959098621563014,
+            "ratio": 1.0400173302223592,
+            "generated_path_quantiles_10_50_90": [
+              0.06449855128924052,
+              0.16435332894325255,
+              0.3754732942581178
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.06480984241131109,
+              0.15432513063922465,
+              0.35941149248802967
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.04303781538497528,
+            "target_mean": 0.0409489610928232,
+            "ratio": 1.0510111669846045,
+            "generated_path_quantiles_10_50_90": [
+              0.014808651379176549,
+              0.036375073449952264,
+              0.08125172683170864
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.013515481385604648,
+              0.03385912013054851,
+              0.07760688453119657
+            ]
+          }
+        },
+        {
+          "run": "gp_mlp_seed1",
+          "cell": "gp_mlp",
+          "seed": 1,
+          "archive": "results/main/samples/gp_mlp_seed1.npz",
+          "sha256": "534b152de3d964a5326994c22ed3f43ea107fb501734ac0866e9d9ff7542cd8a",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.192024994449154,
+            "target_mean": 0.18959098621563014,
+            "ratio": 1.0128382065102797,
+            "generated_path_quantiles_10_50_90": [
+              0.06709221243858338,
+              0.16189618706703185,
+              0.3493657275040945
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.06480984241131109,
+              0.15432513063922465,
+              0.35941149248802967
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.0421917024513862,
+            "target_mean": 0.0409489610928232,
+            "ratio": 1.030348544270658,
+            "generated_path_quantiles_10_50_90": [
+              0.014282981412751337,
+              0.03587521080459867,
+              0.07763936732496533
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.013515481385604648,
+              0.03385912013054851,
+              0.07760688453119657
+            ]
+          }
+        },
+        {
+          "run": "gp_mlp_seed2",
+          "cell": "gp_mlp",
+          "seed": 2,
+          "archive": "results/main/samples/gp_mlp_seed2.npz",
+          "sha256": "4938f0a80add6b8fbf8c45f7755d2d5cc7d940163c9df3b55a37afe1bfe0df47",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.18694392014402866,
+            "target_mean": 0.18959098621563014,
+            "ratio": 0.9860380172895411,
+            "generated_path_quantiles_10_50_90": [
+              0.06812219381332398,
+              0.15854406474779048,
+              0.33445006012916567
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.06480984241131109,
+              0.15432513063922465,
+              0.35941149248802967
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.041007169254632866,
+            "target_mean": 0.0409489610928232,
+            "ratio": 1.0014214807960016,
+            "generated_path_quantiles_10_50_90": [
+              0.015386106286730084,
+              0.035384668835571835,
+              0.07450241723230908
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.013515481385604648,
+              0.03385912013054851,
+              0.07760688453119657
+            ]
+          }
+        },
+        {
+          "run": "gp_mlp_seed3",
+          "cell": "gp_mlp",
+          "seed": 3,
+          "archive": "results/main/samples/gp_mlp_seed3.npz",
+          "sha256": "e1a4fb7e14ed6789f9207c009b031f9aa6d0baf33e147236ff55e9fac5caa18b",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.18632005191439022,
+            "target_mean": 0.18959098621563014,
+            "ratio": 0.982747416601759,
+            "generated_path_quantiles_10_50_90": [
+              0.06408077359199524,
+              0.15694582263628643,
+              0.33923133730888366
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.06480984241131109,
+              0.15432513063922465,
+              0.35941149248802967
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.040268773135116884,
+            "target_mean": 0.0409489610928232,
+            "ratio": 0.9833893720486714,
+            "generated_path_quantiles_10_50_90": [
+              0.014529913450990405,
+              0.03362037307981934,
+              0.07509973985808237
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.013515481385604648,
+              0.03385912013054851,
+              0.07760688453119657
+            ]
+          }
+        },
+        {
+          "run": "gp_mlp_seed4",
+          "cell": "gp_mlp",
+          "seed": 4,
+          "archive": "results/main/samples/gp_mlp_seed4.npz",
+          "sha256": "d8adba89c5c770e1418df1f6baa9e409861d2243c08052d897439d6b811a8cd9",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.20294155268456962,
+            "target_mean": 0.18959098621563014,
+            "ratio": 1.0704177278436398,
+            "generated_path_quantiles_10_50_90": [
+              0.06650895317395529,
+              0.16827845573425293,
+              0.3743180252114934
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.06480984241131109,
+              0.15432513063922465,
+              0.35941149248802967
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.04450035444067778,
+            "target_mean": 0.0409489610928232,
+            "ratio": 1.0867273125636636,
+            "generated_path_quantiles_10_50_90": [
+              0.016055343193667276,
+              0.03744588792324066,
+              0.0806584771190371
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.013515481385604648,
+              0.03385912013054851,
+              0.07760688453119657
+            ]
+          }
+        },
+        {
+          "run": "gp_s4_seed0",
+          "cell": "gp_s4",
+          "seed": 0,
+          "archive": "results/main/samples/gp_s4_seed0.npz",
+          "sha256": "76202ab383b1067d3681aef7980eda89ce849f3b7574f1b93deab00d904cfffd",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.20908286222655384,
+            "target_mean": 0.18959098621563014,
+            "ratio": 1.1028101409249211,
+            "generated_path_quantiles_10_50_90": [
+              0.07240286240975062,
+              0.17123132894436519,
+              0.391477998495102
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.06480984241131109,
+              0.15432513063922465,
+              0.35941149248802967
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.0710762352960046,
+            "target_mean": 0.0409489610928232,
+            "ratio": 1.7357274372575369,
+            "generated_path_quantiles_10_50_90": [
+              0.028253386701856342,
+              0.054541642777621746,
+              0.13274395040103373
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.013515481385604648,
+              0.03385912013054851,
+              0.07760688453119657
+            ]
+          }
+        },
+        {
+          "run": "gp_s4_seed1",
+          "cell": "gp_s4",
+          "seed": 1,
+          "archive": "results/main/samples/gp_s4_seed1.npz",
+          "sha256": "15e053bfa8512a3791e9ec30f250fd07910bdda93e2d21d429db3cb5a393d1db",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.18897158532411898,
+            "target_mean": 0.18959098621563014,
+            "ratio": 0.9967329623423833,
+            "generated_path_quantiles_10_50_90": [
+              0.06542012532552083,
+              0.1574855014681816,
+              0.35272911310195926
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.06480984241131109,
+              0.15432513063922465,
+              0.35941149248802967
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.07103824110538426,
+            "target_mean": 0.0409489610928232,
+            "ratio": 1.7347995946552737,
+            "generated_path_quantiles_10_50_90": [
+              0.030187704148037092,
+              0.057620193277086534,
+              0.1263860411409821
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.013515481385604648,
+              0.03385912013054851,
+              0.07760688453119657
+            ]
+          }
+        },
+        {
+          "run": "gp_s4_seed2",
+          "cell": "gp_s4",
+          "seed": 2,
+          "archive": "results/main/samples/gp_s4_seed2.npz",
+          "sha256": "ff1a48ee97729ba2cad687fc88c5752e188e3ceb70603f4290dd8b33fc868ef7",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.19695213963498948,
+            "target_mean": 0.18959098621563014,
+            "ratio": 1.0388264946888728,
+            "generated_path_quantiles_10_50_90": [
+              0.06835210164388021,
+              0.1576575537522634,
+              0.3718110301345587
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.06480984241131109,
+              0.15432513063922465,
+              0.35941149248802967
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.06630260569234483,
+            "target_mean": 0.0409489610928232,
+            "ratio": 1.6191523282373377,
+            "generated_path_quantiles_10_50_90": [
+              0.030785546132496427,
+              0.05504529071705682,
+              0.11310366775308338
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.013515481385604648,
+              0.03385912013054851,
+              0.07760688453119657
+            ]
+          }
+        },
+        {
+          "run": "gp_s4_seed3",
+          "cell": "gp_s4",
+          "seed": 3,
+          "archive": "results/main/samples/gp_s4_seed3.npz",
+          "sha256": "d9e0384c03e96f14c12bfd1cd232c33a5e64132e2b2310b15633364c6ba95460",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.18920772708876826,
+            "target_mean": 0.18959098621563014,
+            "ratio": 0.9979784949985651,
+            "generated_path_quantiles_10_50_90": [
+              0.06977432161569595,
+              0.15860647708177567,
+              0.3508542569478353
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.06480984241131109,
+              0.15432513063922465,
+              0.35941149248802967
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.06265830781983286,
+            "target_mean": 0.0409489610928232,
+            "ratio": 1.5301562273533356,
+            "generated_path_quantiles_10_50_90": [
+              0.02833164167989578,
+              0.05180285551718303,
+              0.10792380326560569
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.013515481385604648,
+              0.03385912013054851,
+              0.07760688453119657
+            ]
+          }
+        },
+        {
+          "run": "gp_s4_seed4",
+          "cell": "gp_s4",
+          "seed": 4,
+          "archive": "results/main/samples/gp_s4_seed4.npz",
+          "sha256": "29568988474285cdfbf43b301a9f1a65caadd12ab07ba12451fcb40dacdf643f",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.20026307361648227,
+            "target_mean": 0.18959098621563014,
+            "ratio": 1.0562900568949745,
+            "generated_path_quantiles_10_50_90": [
+              0.06686716427405676,
+              0.16301653819779555,
+              0.3753554011881352
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.06480984241131109,
+              0.15432513063922465,
+              0.35941149248802967
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.07355061785887479,
+            "target_mean": 0.0409489610928232,
+            "ratio": 1.7961534528837027,
+            "generated_path_quantiles_10_50_90": [
+              0.030622070495571408,
+              0.05698978315506663,
+              0.13347729300814018
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.013515481385604648,
+              0.03385912013054851,
+              0.07760688453119657
+            ]
+          }
+        },
+        {
+          "run": "gp_whitened_mlp_seed0",
+          "cell": "gp_whitened_mlp",
+          "seed": 0,
+          "archive": "results/main/samples/gp_whitened_mlp_seed0.npz",
+          "sha256": "c526656d60690e71afc98af07dfd85c3925fea4ffa90d9609eb6a4c0b08c0aa6",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.18840999973472208,
+            "target_mean": 0.18959098621563014,
+            "ratio": 0.993770872210323,
+            "generated_path_quantiles_10_50_90": [
+              0.06576001842816671,
+              0.15639294932285946,
+              0.35313389937082923
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.06480984241131109,
+              0.15432513063922465,
+              0.35941149248802967
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.04146625316075106,
+            "target_mean": 0.0409489610928232,
+            "ratio": 1.012632605422034,
+            "generated_path_quantiles_10_50_90": [
+              0.013815366583211083,
+              0.03370156618101257,
+              0.07570949622562953
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.013515481385604648,
+              0.03385912013054851,
+              0.07760688453119657
+            ]
+          }
+        },
+        {
+          "run": "gp_whitened_mlp_seed1",
+          "cell": "gp_whitened_mlp",
+          "seed": 1,
+          "archive": "results/main/samples/gp_whitened_mlp_seed1.npz",
+          "sha256": "5a8e47d117c6693874dcabed6c01bdb2999e070765bbdcfcff420e56a3e4ef7f",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.1884775141820152,
+            "target_mean": 0.18959098621563014,
+            "ratio": 0.9941269779969996,
+            "generated_path_quantiles_10_50_90": [
+              0.06450152223308882,
+              0.15618844976027807,
+              0.3512097930908204
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.06480984241131109,
+              0.15432513063922465,
+              0.35941149248802967
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.04172214909367865,
+            "target_mean": 0.0409489610928232,
+            "ratio": 1.0188817488947468,
+            "generated_path_quantiles_10_50_90": [
+              0.014080875686236791,
+              0.03420626851064818,
+              0.07681302971073561
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.013515481385604648,
+              0.03385912013054851,
+              0.07760688453119657
+            ]
+          }
+        },
+        {
+          "run": "gp_whitened_mlp_seed2",
+          "cell": "gp_whitened_mlp",
+          "seed": 2,
+          "archive": "results/main/samples/gp_whitened_mlp_seed2.npz",
+          "sha256": "be8a5acd4a09ca2fbff703294b817fb04f67990d115130a3d4499255b04acafe",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.1964777760399481,
+            "target_mean": 0.18959098621563014,
+            "ratio": 1.0363244580440407,
+            "generated_path_quantiles_10_50_90": [
+              0.06526162306467692,
+              0.1626631076137225,
+              0.36977527300516777
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.06480984241131109,
+              0.15432513063922465,
+              0.35941149248802967
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.043021255425112974,
+            "target_mean": 0.0409489610928232,
+            "ratio": 1.0506067621005646,
+            "generated_path_quantiles_10_50_90": [
+              0.014776739052363805,
+              0.03466181244168963,
+              0.08059658514601846
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.013515481385604648,
+              0.03385912013054851,
+              0.07760688453119657
+            ]
+          }
+        },
+        {
+          "run": "gp_whitened_mlp_seed3",
+          "cell": "gp_whitened_mlp",
+          "seed": 3,
+          "archive": "results/main/samples/gp_whitened_mlp_seed3.npz",
+          "sha256": "552ecae25e4bc290221f534355c62def957911b12a540c50d9e659f94d9a9546",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.19577280043608122,
+            "target_mean": 0.18959098621563014,
+            "ratio": 1.032606055508463,
+            "generated_path_quantiles_10_50_90": [
+              0.06497273524602255,
+              0.1589618941148122,
+              0.3634392589330674
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.06480984241131109,
+              0.15432513063922465,
+              0.35941149248802967
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.04249813797901782,
+            "target_mean": 0.0409489610928232,
+            "ratio": 1.0378318971922862,
+            "generated_path_quantiles_10_50_90": [
+              0.014348836030278889,
+              0.034899226788963594,
+              0.07777943611145019
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.013515481385604648,
+              0.03385912013054851,
+              0.07760688453119657
+            ]
+          }
+        },
+        {
+          "run": "gp_whitened_mlp_seed4",
+          "cell": "gp_whitened_mlp",
+          "seed": 4,
+          "archive": "results/main/samples/gp_whitened_mlp_seed4.npz",
+          "sha256": "59fe42683b04de7081e403038376956b7c09459e028c0f817096c5c984df25e5",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.19400497464681998,
+            "target_mean": 0.18959098621563014,
+            "ratio": 1.0232816365339732,
+            "generated_path_quantiles_10_50_90": [
+              0.06277956008911133,
+              0.15706421732902526,
+              0.358280930519104
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.06480984241131109,
+              0.15432513063922465,
+              0.35941149248802967
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.04263831081144482,
+            "target_mean": 0.0409489610928232,
+            "ratio": 1.041255008027974,
+            "generated_path_quantiles_10_50_90": [
+              0.014955311375004905,
+              0.034438146012169976,
+              0.0763667571757521
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.013515481385604648,
+              0.03385912013054851,
+              0.07760688453119657
+            ]
+          }
+        },
+        {
+          "run": "white_mlp_seed0",
+          "cell": "white_mlp",
+          "seed": 0,
+          "archive": "results/main/samples/white_mlp_seed0.npz",
+          "sha256": "2d6e0c9507f0a3a3b1c1e45b2a3f3b772e363b66220d285ac329d0621087711f",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.201911165337674,
+            "target_mean": 0.18959098621563014,
+            "ratio": 1.0649829370476063,
+            "generated_path_quantiles_10_50_90": [
+              0.0737388398249944,
+              0.17125663012266157,
+              0.3576962325970332
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.06480984241131109,
+              0.15432513063922465,
+              0.35941149248802967
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.06934247573296455,
+            "target_mean": 0.0409489610928232,
+            "ratio": 1.6933879122300286,
+            "generated_path_quantiles_10_50_90": [
+              0.033195792684065445,
+              0.056497976183891296,
+              0.11463540409292494
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.013515481385604648,
+              0.03385912013054851,
+              0.07760688453119657
+            ]
+          }
+        },
+        {
+          "run": "white_mlp_seed1",
+          "cell": "white_mlp",
+          "seed": 1,
+          "archive": "results/main/samples/white_mlp_seed1.npz",
+          "sha256": "4f55c192c21dac924fec8d1c873075530b6624a70dc37ee7810afc3543b2e13f",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.19943134442219163,
+            "target_mean": 0.18959098621563014,
+            "ratio": 1.051903090980125,
+            "generated_path_quantiles_10_50_90": [
+              0.07196239233016968,
+              0.16580735842386882,
+              0.35507233540217087
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.06480984241131109,
+              0.15432513063922465,
+              0.35941149248802967
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.07228233191093686,
+            "target_mean": 0.0409489610928232,
+            "ratio": 1.7651810932904282,
+            "generated_path_quantiles_10_50_90": [
+              0.03451216364545482,
+              0.05834889731236867,
+              0.12089050305741178
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.013515481385604648,
+              0.03385912013054851,
+              0.07760688453119657
+            ]
+          }
+        },
+        {
+          "run": "white_mlp_seed2",
+          "cell": "white_mlp",
+          "seed": 2,
+          "archive": "results/main/samples/white_mlp_seed2.npz",
+          "sha256": "fddf9ea12dd1c2115d04bb7f12a27cfdbebee3f408c80af4270a670a39dbaf0c",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.19266727413696572,
+            "target_mean": 0.18959098621563014,
+            "ratio": 1.0162259186617488,
+            "generated_path_quantiles_10_50_90": [
+              0.06978002786636352,
+              0.15995051463445026,
+              0.3413438264528911
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.06480984241131109,
+              0.15432513063922465,
+              0.35941149248802967
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.0607617884722913,
+            "target_mean": 0.0409489610928232,
+            "ratio": 1.483842003575044,
+            "generated_path_quantiles_10_50_90": [
+              0.028555620621357646,
+              0.048061663550989966,
+              0.09835663565567562
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.013515481385604648,
+              0.03385912013054851,
+              0.07760688453119657
+            ]
+          }
+        },
+        {
+          "run": "white_mlp_seed3",
+          "cell": "white_mlp",
+          "seed": 3,
+          "archive": "results/main/samples/white_mlp_seed3.npz",
+          "sha256": "e1fce86103b8865d9cfedae10fa368df749ad8932b56238b2cc14026e2b7f18b",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.21114873158277683,
+            "target_mean": 0.18959098621563014,
+            "ratio": 1.1137065943769506,
+            "generated_path_quantiles_10_50_90": [
+              0.07825586100419363,
+              0.1798130730787913,
+              0.38934131860733034
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.06480984241131109,
+              0.15432513063922465,
+              0.35941149248802967
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.0668849082416492,
+            "target_mean": 0.0409489610928232,
+            "ratio": 1.63337253147972,
+            "generated_path_quantiles_10_50_90": [
+              0.030495407804846764,
+              0.05466112494468689,
+              0.11354758654321948
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.013515481385604648,
+              0.03385912013054851,
+              0.07760688453119657
+            ]
+          }
+        },
+        {
+          "run": "white_mlp_seed4",
+          "cell": "white_mlp",
+          "seed": 4,
+          "archive": "results/main/samples/white_mlp_seed4.npz",
+          "sha256": "59b23e4301a1e7f1b92ca00d17ad77c3786f45e805ec69ef199c76b21adee85e",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.19747305391194156,
+            "target_mean": 0.18959098621563014,
+            "ratio": 1.0415740634807753,
+            "generated_path_quantiles_10_50_90": [
+              0.07557323257128397,
+              0.17013736963272097,
+              0.3489388620853424
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.06480984241131109,
+              0.15432513063922465,
+              0.35941149248802967
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.06918135207865816,
+            "target_mean": 0.0409489610928232,
+            "ratio": 1.6894531688322376,
+            "generated_path_quantiles_10_50_90": [
+              0.03426866361073085,
+              0.0579038882361991,
+              0.11380755028554372
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.013515481385604648,
+              0.03385912013054851,
+              0.07760688453119657
+            ]
+          }
+        },
+        {
+          "run": "white_s4_seed0",
+          "cell": "white_s4",
+          "seed": 0,
+          "archive": "results/main/samples/white_s4_seed0.npz",
+          "sha256": "11ed4159199f120306f7a1040839ec19bb9c52c84475b5df0cf71d925f03a9d7",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.1960313042263806,
+            "target_mean": 0.18959098621563014,
+            "ratio": 1.0339695369453146,
+            "generated_path_quantiles_10_50_90": [
+              0.07845772445201873,
+              0.16582743724187216,
+              0.34513631502787273
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.06480984241131109,
+              0.15432513063922465,
+              0.35941149248802967
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.06088089041012219,
+            "target_mean": 0.0409489610928232,
+            "ratio": 1.4867505495955624,
+            "generated_path_quantiles_10_50_90": [
+              0.029990713936941964,
+              0.05005447007715702,
+              0.0970394492149353
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.013515481385604648,
+              0.03385912013054851,
+              0.07760688453119657
+            ]
+          }
+        },
+        {
+          "run": "white_s4_seed1",
+          "cell": "white_s4",
+          "seed": 1,
+          "archive": "results/main/samples/white_s4_seed1.npz",
+          "sha256": "acfad8f51ca1b252af8c77c2ea16063ac8903625cf80d3d884927d88c9795c56",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.18986219384426778,
+            "target_mean": 0.18959098621563014,
+            "ratio": 1.0014304879891767,
+            "generated_path_quantiles_10_50_90": [
+              0.06474513694643975,
+              0.15595598618189493,
+              0.3375409189860027
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.06480984241131109,
+              0.15432513063922465,
+              0.35941149248802967
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.05004300495956419,
+            "target_mean": 0.0409489610928232,
+            "ratio": 1.2220824075640548,
+            "generated_path_quantiles_10_50_90": [
+              0.01961680139814104,
+              0.03825122171214648,
+              0.08254836371966771
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.013515481385604648,
+              0.03385912013054851,
+              0.07760688453119657
+            ]
+          }
+        },
+        {
+          "run": "white_s4_seed2",
+          "cell": "white_s4",
+          "seed": 2,
+          "archive": "results/main/samples/white_s4_seed2.npz",
+          "sha256": "d938b5e4d660e35ef7174e49d56b1056a3b9418e5f8b67fe06d6a46636030e11",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.21193091870809438,
+            "target_mean": 0.18959098621563014,
+            "ratio": 1.1178322500366977,
+            "generated_path_quantiles_10_50_90": [
+              0.07463706215222678,
+              0.169185874859492,
+              0.3778138287862142
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.06480984241131109,
+              0.15432513063922465,
+              0.35941149248802967
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.0609977815072073,
+            "target_mean": 0.0409489610928232,
+            "ratio": 1.4896051054613422,
+            "generated_path_quantiles_10_50_90": [
+              0.021375596949032374,
+              0.042956703808158636,
+              0.09765367422785078
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.013515481385604648,
+              0.03385912013054851,
+              0.07760688453119657
+            ]
+          }
+        },
+        {
+          "run": "white_s4_seed3",
+          "cell": "white_s4",
+          "seed": 3,
+          "archive": "results/main/samples/white_s4_seed3.npz",
+          "sha256": "93956bd04855dbd9942fb6ba1659baf73b7143cd2ec25f76260ad8b84a386f1e",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.200993243617404,
+            "target_mean": 0.18959098621563014,
+            "ratio": 1.0601413475892023,
+            "generated_path_quantiles_10_50_90": [
+              0.07042236484587193,
+              0.16058000425497693,
+              0.36276514728864034
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.06480984241131109,
+              0.15432513063922465,
+              0.35941149248802967
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.053816204787462345,
+            "target_mean": 0.0409489610928232,
+            "ratio": 1.3142263772082434,
+            "generated_path_quantiles_10_50_90": [
+              0.021742197472069947,
+              0.04071350182805743,
+              0.08892347748790473
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.013515481385604648,
+              0.03385912013054851,
+              0.07760688453119657
+            ]
+          }
+        },
+        {
+          "run": "white_s4_seed4",
+          "cell": "white_s4",
+          "seed": 4,
+          "archive": "results/main/samples/white_s4_seed4.npz",
+          "sha256": "1adbcd8f5b68080903273a71b15dbd840976d877c328644ae50d132d04985ef4",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.19138238861796708,
+            "target_mean": 0.18959098621563014,
+            "ratio": 1.0094487741115472,
+            "generated_path_quantiles_10_50_90": [
+              0.07117396374543508,
+              0.15807285408178967,
+              0.33143404066562654
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.06480984241131109,
+              0.15432513063922465,
+              0.35941149248802967
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.05289152857121085,
+            "target_mean": 0.0409489610928232,
+            "ratio": 1.291645188538879,
+            "generated_path_quantiles_10_50_90": [
+              0.022960775239127023,
+              0.04245352478963988,
+              0.08974344496216093
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.013515481385604648,
+              0.03385912013054851,
+              0.07760688453119657
+            ]
+          }
+        }
+      ],
+      "aggregates": {
+        "gp_mlp": {
+          "n_seeds": 5,
+          "R1": {
+            "ratio_mean": 1.0184117396935157,
+            "ratio_seed_min": 0.982747416601759,
+            "ratio_seed_max": 1.0704177278436398,
+            "generated_mean": 0.19308168610206924,
+            "target_mean": 0.18959098621563014
+          },
+          "R2": {
+            "ratio_mean": 1.03057957533272,
+            "ratio_seed_min": 0.9833893720486714,
+            "ratio_seed_max": 1.0867273125636636,
+            "generated_mean": 0.04220116293335781,
+            "target_mean": 0.0409489610928232
+          }
+        },
+        "gp_s4": {
+          "n_seeds": 5,
+          "R1": {
+            "ratio_mean": 1.0385276299699435,
+            "ratio_seed_min": 0.9967329623423833,
+            "ratio_seed_max": 1.1028101409249211,
+            "generated_mean": 0.19689547757818254,
+            "target_mean": 0.18959098621563014
+          },
+          "R2": {
+            "ratio_mean": 1.6831978080774372,
+            "ratio_seed_min": 1.5301562273533356,
+            "ratio_seed_max": 1.7961534528837027,
+            "generated_mean": 0.06892520155448827,
+            "target_mean": 0.0409489610928232
+          }
+        },
+        "gp_whitened_mlp": {
+          "n_seeds": 5,
+          "R1": {
+            "ratio_mean": 1.0160220000587599,
+            "ratio_seed_min": 0.993770872210323,
+            "ratio_seed_max": 1.0363244580440407,
+            "generated_mean": 0.1926286130079173,
+            "target_mean": 0.18959098621563014
+          },
+          "R2": {
+            "ratio_mean": 1.032241604327521,
+            "ratio_seed_min": 1.012632605422034,
+            "ratio_seed_max": 1.0506067621005646,
+            "generated_mean": 0.042269221294001055,
+            "target_mean": 0.0409489610928232
+          }
+        },
+        "white_mlp": {
+          "n_seeds": 5,
+          "R1": {
+            "ratio_mean": 1.0576785209094413,
+            "ratio_seed_min": 1.0162259186617488,
+            "ratio_seed_max": 1.1137065943769506,
+            "generated_mean": 0.20052631387830994,
+            "target_mean": 0.18959098621563014
+          },
+          "R2": {
+            "ratio_mean": 1.6530473418814917,
+            "ratio_seed_min": 1.483842003575044,
+            "ratio_seed_max": 1.7651810932904282,
+            "generated_mean": 0.06769057128730001,
+            "target_mean": 0.0409489610928232
+          }
+        },
+        "white_s4": {
+          "n_seeds": 5,
+          "R1": {
+            "ratio_mean": 1.0445644793343878,
+            "ratio_seed_min": 1.0014304879891767,
+            "ratio_seed_max": 1.1178322500366977,
+            "generated_mean": 0.19804000980282277,
+            "target_mean": 0.18959098621563014
+          },
+          "R2": {
+            "ratio_mean": 1.3608619256736165,
+            "ratio_seed_min": 1.2220824075640548,
+            "ratio_seed_max": 1.4896051054613422,
+            "generated_mean": 0.05572588204711337,
+            "target_mean": 0.0409489610928232
+          }
+        }
+      }
+    },
+    "lengthscale6": {
+      "runs": [
+        {
+          "run": "gp_mlp_seed0",
+          "cell": "gp_mlp",
+          "seed": 0,
+          "archive": "results/lengthscale6/samples/gp_mlp_seed0.npz",
+          "sha256": "ad7dc2d6134f56c9f567aeab2c1c303691277de8d4a34e2cb99983b24a4ba752",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.20996021859727987,
+            "target_mean": 0.225668117512363,
+            "ratio": 0.9303938053446005,
+            "generated_path_quantiles_10_50_90": [
+              0.089034347931544,
+              0.1814480045499901,
+              0.36618967294693
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.08059080885883435,
+              0.18596132332011847,
+              0.40677243900231036
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.06191893756264173,
+            "target_mean": 0.06488017727613357,
+            "ratio": 0.9543583288792716,
+            "generated_path_quantiles_10_50_90": [
+              0.027205493647072997,
+              0.05435575438397271,
+              0.10320946914809091
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.022602928994576704,
+              0.05328295605412181,
+              0.11916032998443729
+            ]
+          }
+        },
+        {
+          "run": "gp_mlp_seed1",
+          "cell": "gp_mlp",
+          "seed": 1,
+          "archive": "results/lengthscale6/samples/gp_mlp_seed1.npz",
+          "sha256": "8b7dcd72b108e2b900d303e7c316904e951b713ae4c1faacc754bdc45c5e9c0d",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.207447299677483,
+            "target_mean": 0.225668117512363,
+            "ratio": 0.9192583425796433,
+            "generated_path_quantiles_10_50_90": [
+              0.08155333101749421,
+              0.1742078532775243,
+              0.37080366214116434
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.08059080885883435,
+              0.18596132332011847,
+              0.40677243900231036
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.06084773820949099,
+            "target_mean": 0.06488017727613357,
+            "ratio": 0.9378479030739959,
+            "generated_path_quantiles_10_50_90": [
+              0.02511067023234708,
+              0.05307030464921679,
+              0.10527336043970927
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.022602928994576704,
+              0.05328295605412181,
+              0.11916032998443729
+            ]
+          }
+        },
+        {
+          "run": "gp_mlp_seed2",
+          "cell": "gp_mlp",
+          "seed": 2,
+          "archive": "results/lengthscale6/samples/gp_mlp_seed2.npz",
+          "sha256": "a225116d178900c0004b90923e1c962386b93e77cf6492e13bcfa95cbf7f3233",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.2197204125387695,
+            "target_mean": 0.225668117512363,
+            "ratio": 0.9736440174218778,
+            "generated_path_quantiles_10_50_90": [
+              0.09070109903812408,
+              0.1918731575210889,
+              0.3797386980056763
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.08059080885883435,
+              0.18596132332011847,
+              0.40677243900231036
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.0645557460853833,
+            "target_mean": 0.06488017727613357,
+            "ratio": 0.9949995329178976,
+            "generated_path_quantiles_10_50_90": [
+              0.027335414290428163,
+              0.0556938499212265,
+              0.11005990654230124
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.022602928994576704,
+              0.05328295605412181,
+              0.11916032998443729
+            ]
+          }
+        },
+        {
+          "run": "gp_s4_seed0",
+          "cell": "gp_s4",
+          "seed": 0,
+          "archive": "results/lengthscale6/samples/gp_s4_seed0.npz",
+          "sha256": "904f35fad9f1f329e8a7b68631b94e8ad7219671290d2d447c1e83d8fdcf7cc6",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.217807102940363,
+            "target_mean": 0.225668117512363,
+            "ratio": 0.9651655951285661,
+            "generated_path_quantiles_10_50_90": [
+              0.08482063074906668,
+              0.1784223516782125,
+              0.39123067622383445
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.08059080885883435,
+              0.18596132332011847,
+              0.40677243900231036
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.08749251575898143,
+            "target_mean": 0.06488017727613357,
+            "ratio": 1.3485246100146815,
+            "generated_path_quantiles_10_50_90": [
+              0.042204670395169945,
+              0.07284281828573771,
+              0.1429819107055664
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.022602928994576704,
+              0.05328295605412181,
+              0.11916032998443729
+            ]
+          }
+        },
+        {
+          "run": "gp_s4_seed1",
+          "cell": "gp_s4",
+          "seed": 1,
+          "archive": "results/lengthscale6/samples/gp_s4_seed1.npz",
+          "sha256": "fae841940b672010b77d37362daed1bd22db2bcf05917d97c269bd4c59685ec6",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.21364681928481938,
+            "target_mean": 0.225668117512363,
+            "ratio": 0.9467301878525883,
+            "generated_path_quantiles_10_50_90": [
+              0.08221465289592743,
+              0.17531841496626538,
+              0.3847436801592509
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.08059080885883435,
+              0.18596132332011847,
+              0.40677243900231036
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.07531470107969085,
+            "target_mean": 0.06488017727613357,
+            "ratio": 1.1608276093196752,
+            "generated_path_quantiles_10_50_90": [
+              0.03272055350244046,
+              0.06118102451520307,
+              0.12767356761864251
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.022602928994576704,
+              0.05328295605412181,
+              0.11916032998443729
+            ]
+          }
+        },
+        {
+          "run": "gp_s4_seed2",
+          "cell": "gp_s4",
+          "seed": 2,
+          "archive": "results/lengthscale6/samples/gp_s4_seed2.npz",
+          "sha256": "05ed5b82d93df2334db8bdd401a4c10a2b99f3ef172e693c46956c2ececc3a2b",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.2009319598056815,
+            "target_mean": 0.225668117512363,
+            "ratio": 0.8903870073479637,
+            "generated_path_quantiles_10_50_90": [
+              0.08033277610937754,
+              0.1704845483104388,
+              0.3556236713627975
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.08059080885883435,
+              0.18596132332011847,
+              0.40677243900231036
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.07173192409447893,
+            "target_mean": 0.06488017727613357,
+            "ratio": 1.1056061667215233,
+            "generated_path_quantiles_10_50_90": [
+              0.031759703797953474,
+              0.05929161315517766,
+              0.122000247665814
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.022602928994576704,
+              0.05328295605412181,
+              0.11916032998443729
+            ]
+          }
+        },
+        {
+          "run": "gp_whitened_mlp_seed0",
+          "cell": "gp_whitened_mlp",
+          "seed": 0,
+          "archive": "results/lengthscale6/samples/gp_whitened_mlp_seed0.npz",
+          "sha256": "b7a875d874b03da5f27453846c35ab09f90ccbf32ee2a9dfed4426dc46324a62",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.21440196431291647,
+            "target_mean": 0.225668117512363,
+            "ratio": 0.9500764515446923,
+            "generated_path_quantiles_10_50_90": [
+              0.0882833411047856,
+              0.17970936149358752,
+              0.3744858284791311
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.08059080885883435,
+              0.18596132332011847,
+              0.40677243900231036
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.06272780680032902,
+            "target_mean": 0.06488017727613357,
+            "ratio": 0.9668254532251979,
+            "generated_path_quantiles_10_50_90": [
+              0.025775927125609346,
+              0.05359494047505515,
+              0.10984376966953278
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.022602928994576704,
+              0.05328295605412181,
+              0.11916032998443729
+            ]
+          }
+        },
+        {
+          "run": "gp_whitened_mlp_seed1",
+          "cell": "gp_whitened_mlp",
+          "seed": 1,
+          "archive": "results/lengthscale6/samples/gp_whitened_mlp_seed1.npz",
+          "sha256": "5dd182d9aea4d533218304325f679ed4679b6220c4a963e20e35f4a55dc973ea",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.21776643180986924,
+            "target_mean": 0.225668117512363,
+            "ratio": 0.9649853697119583,
+            "generated_path_quantiles_10_50_90": [
+              0.08285828212896984,
+              0.18315422534942627,
+              0.3900439167022705
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.08059080885883435,
+              0.18596132332011847,
+              0.40677243900231036
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.06297276276441213,
+            "target_mean": 0.06488017727613357,
+            "ratio": 0.9706009663999009,
+            "generated_path_quantiles_10_50_90": [
+              0.025093606965882437,
+              0.053310308073248186,
+              0.10959197979952609
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.022602928994576704,
+              0.05328295605412181,
+              0.11916032998443729
+            ]
+          }
+        },
+        {
+          "run": "gp_whitened_mlp_seed2",
+          "cell": "gp_whitened_mlp",
+          "seed": 2,
+          "archive": "results/lengthscale6/samples/gp_whitened_mlp_seed2.npz",
+          "sha256": "20e93eeb166ce8e3832025def3e55f03a7bc8e23b8ab28146471a0c50bd44dfd",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.20652304517958175,
+            "target_mean": 0.225668117512363,
+            "ratio": 0.9151627064388819,
+            "generated_path_quantiles_10_50_90": [
+              0.08270328919092815,
+              0.17611459394296008,
+              0.3577327140172323
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.08059080885883435,
+              0.18596132332011847,
+              0.40677243900231036
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.059896349844480924,
+            "target_mean": 0.06488017727613357,
+            "ratio": 0.9231841274039495,
+            "generated_path_quantiles_10_50_90": [
+              0.02512992194720677,
+              0.051053851310695925,
+              0.10295589332069671
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.022602928994576704,
+              0.05328295605412181,
+              0.11916032998443729
+            ]
+          }
+        },
+        {
+          "run": "white_mlp_seed0",
+          "cell": "white_mlp",
+          "seed": 0,
+          "archive": "results/lengthscale6/samples/white_mlp_seed0.npz",
+          "sha256": "509a674d91a1661daa57295810ab1a3a2d038e2d28d4d5b20b4b472bef6a458e",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.22348541981053432,
+            "target_mean": 0.225668117512363,
+            "ratio": 0.9903278419393511,
+            "generated_path_quantiles_10_50_90": [
+              0.09412593752145768,
+              0.1954170862833659,
+              0.396086190144221
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.08059080885883435,
+              0.18596132332011847,
+              0.40677243900231036
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.08035639420687143,
+            "target_mean": 0.06488017727613357,
+            "ratio": 1.2385353675109463,
+            "generated_path_quantiles_10_50_90": [
+              0.039498656136649,
+              0.06964144110679626,
+              0.13331700222832818
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.022602928994576704,
+              0.05328295605412181,
+              0.11916032998443729
+            ]
+          }
+        },
+        {
+          "run": "white_mlp_seed1",
+          "cell": "white_mlp",
+          "seed": 1,
+          "archive": "results/lengthscale6/samples/white_mlp_seed1.npz",
+          "sha256": "835c5b86c55f9245c65c958f7a8348b914a337e2dd46f31cfa4efa701838baa6",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.22542856068879094,
+            "target_mean": 0.225668117512363,
+            "ratio": 0.9989384551694197,
+            "generated_path_quantiles_10_50_90": [
+              0.09400446633497873,
+              0.19418392181396485,
+              0.39456722418467216
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.08059080885883435,
+              0.18596132332011847,
+              0.40677243900231036
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.08721562933737914,
+            "target_mean": 0.06488017727613357,
+            "ratio": 1.3442569517987701,
+            "generated_path_quantiles_10_50_90": [
+              0.043944462312252394,
+              0.07515076690885639,
+              0.1437949380704335
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.022602928994576704,
+              0.05328295605412181,
+              0.11916032998443729
+            ]
+          }
+        },
+        {
+          "run": "white_mlp_seed2",
+          "cell": "white_mlp",
+          "seed": 2,
+          "archive": "results/lengthscale6/samples/white_mlp_seed2.npz",
+          "sha256": "f959fabdd4ef9a29e48552c38ae40e724f1c8d95590ffa4d66d13a4ccf795048",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.2179099466213908,
+            "target_mean": 0.225668117512363,
+            "ratio": 0.9656213249062656,
+            "generated_path_quantiles_10_50_90": [
+              0.09358040682971477,
+              0.18743259919186434,
+              0.3782304046551387
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.08059080885883435,
+              0.18596132332011847,
+              0.40677243900231036
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.08380147196039292,
+            "target_mean": 0.06488017727613357,
+            "ratio": 1.2916344479721331,
+            "generated_path_quantiles_10_50_90": [
+              0.04227246812411717,
+              0.07206027848379952,
+              0.13441056215337346
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.022602928994576704,
+              0.05328295605412181,
+              0.11916032998443729
+            ]
+          }
+        },
+        {
+          "run": "white_s4_seed0",
+          "cell": "white_s4",
+          "seed": 0,
+          "archive": "results/lengthscale6/samples/white_s4_seed0.npz",
+          "sha256": "7fbb49ee86189c28632bad51d3cfd4200c0d366c398f569c1d8b6c0b7d72acb2",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.21503861489848836,
+            "target_mean": 0.225668117512363,
+            "ratio": 0.952897632456688,
+            "generated_path_quantiles_10_50_90": [
+              0.09011654143532118,
+              0.18250629405180613,
+              0.3829271511236827
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.08059080885883435,
+              0.18596132332011847,
+              0.40677243900231036
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.0713088876316793,
+            "target_mean": 0.06488017727613357,
+            "ratio": 1.0990858938036618,
+            "generated_path_quantiles_10_50_90": [
+              0.03085271716117859,
+              0.056266328785568476,
+              0.11555498809154545
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.022602928994576704,
+              0.05328295605412181,
+              0.11916032998443729
+            ]
+          }
+        },
+        {
+          "run": "white_s4_seed1",
+          "cell": "white_s4",
+          "seed": 1,
+          "archive": "results/lengthscale6/samples/white_s4_seed1.npz",
+          "sha256": "99bc35aadc475d210b62fc3a57005945e805452bb5d13cb7f30c80e4c89bf91f",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.21438095439941662,
+            "target_mean": 0.225668117512363,
+            "ratio": 0.9499833506063257,
+            "generated_path_quantiles_10_50_90": [
+              0.08677749584118526,
+              0.17899431139230726,
+              0.3820516566435496
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.08059080885883435,
+              0.18596132332011847,
+              0.40677243900231036
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.06865980711092691,
+            "target_mean": 0.06488017727613357,
+            "ratio": 1.0582555411139989,
+            "generated_path_quantiles_10_50_90": [
+              0.029385702325297254,
+              0.05591132864356041,
+              0.11601020813520467
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.022602928994576704,
+              0.05328295605412181,
+              0.11916032998443729
+            ]
+          }
+        },
+        {
+          "run": "white_s4_seed2",
+          "cell": "white_s4",
+          "seed": 2,
+          "archive": "results/lengthscale6/samples/white_s4_seed2.npz",
+          "sha256": "83c9a153aae6b2ce8fb5a4ea51dc3b43210572d50a643caf017703d075d12b6d",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.2191839446721436,
+            "target_mean": 0.225668117512363,
+            "ratio": 0.9712667748032057,
+            "generated_path_quantiles_10_50_90": [
+              0.0895309962828954,
+              0.1856057934463024,
+              0.38536408086617796
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.08059080885883435,
+              0.18596132332011847,
+              0.40677243900231036
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.07246626196437742,
+            "target_mean": 0.06488017727613357,
+            "ratio": 1.1169245369962084,
+            "generated_path_quantiles_10_50_90": [
+              0.030997204248394285,
+              0.05967027454503945,
+              0.12093729525804521
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.022602928994576704,
+              0.05328295605412181,
+              0.11916032998443729
+            ]
+          }
+        }
+      ],
+      "aggregates": {
+        "gp_mlp": {
+          "n_seeds": 3,
+          "R1": {
+            "ratio_mean": 0.9410987217820406,
+            "ratio_seed_min": 0.9192583425796433,
+            "ratio_seed_max": 0.9736440174218778,
+            "generated_mean": 0.21237597693784413,
+            "target_mean": 0.22566811751236301
+          },
+          "R2": {
+            "ratio_mean": 0.9624019216237217,
+            "ratio_seed_min": 0.9378479030739959,
+            "ratio_seed_max": 0.9949995329178976,
+            "generated_mean": 0.06244080728583867,
+            "target_mean": 0.06488017727613357
+          }
+        },
+        "gp_s4": {
+          "n_seeds": 3,
+          "R1": {
+            "ratio_mean": 0.9340942634430394,
+            "ratio_seed_min": 0.8903870073479637,
+            "ratio_seed_max": 0.9651655951285661,
+            "generated_mean": 0.21079529401028796,
+            "target_mean": 0.22566811751236301
+          },
+          "R2": {
+            "ratio_mean": 1.2049861286852934,
+            "ratio_seed_min": 1.1056061667215233,
+            "ratio_seed_max": 1.3485246100146815,
+            "generated_mean": 0.07817971364438374,
+            "target_mean": 0.06488017727613357
+          }
+        },
+        "gp_whitened_mlp": {
+          "n_seeds": 3,
+          "R1": {
+            "ratio_mean": 0.9434081758985108,
+            "ratio_seed_min": 0.9151627064388819,
+            "ratio_seed_max": 0.9649853697119583,
+            "generated_mean": 0.21289714710078914,
+            "target_mean": 0.22566811751236301
+          },
+          "R2": {
+            "ratio_mean": 0.9535368490096827,
+            "ratio_seed_min": 0.9231841274039495,
+            "ratio_seed_max": 0.9706009663999009,
+            "generated_mean": 0.061865639803074024,
+            "target_mean": 0.06488017727613357
+          }
+        },
+        "white_mlp": {
+          "n_seeds": 3,
+          "R1": {
+            "ratio_mean": 0.9849625406716788,
+            "ratio_seed_min": 0.9656213249062656,
+            "ratio_seed_max": 0.9989384551694197,
+            "generated_mean": 0.22227464237357206,
+            "target_mean": 0.22566811751236301
+          },
+          "R2": {
+            "ratio_mean": 1.2914755890939498,
+            "ratio_seed_min": 1.2385353675109463,
+            "ratio_seed_max": 1.3442569517987701,
+            "generated_mean": 0.0837911651682145,
+            "target_mean": 0.06488017727613357
+          }
+        },
+        "white_s4": {
+          "n_seeds": 3,
+          "R1": {
+            "ratio_mean": 0.9580492526220731,
+            "ratio_seed_min": 0.9499833506063257,
+            "ratio_seed_max": 0.9712667748032057,
+            "generated_mean": 0.2162011713233495,
+            "target_mean": 0.22566811751236301
+          },
+          "R2": {
+            "ratio_mean": 1.0914219906379563,
+            "ratio_seed_min": 1.0582555411139989,
+            "ratio_seed_max": 1.1169245369962084,
+            "generated_mean": 0.0708116522356612,
+            "target_mean": 0.06488017727613357
+          }
+        }
+      }
+    },
+    "controlled_followup": {
+      "runs": [
+        {
+          "run": "gp_mlp_balanced_seed10",
+          "cell": "gp_mlp_balanced",
+          "seed": 10,
+          "archive": "results/controlled_followup/samples/gp_mlp_balanced_seed10.npz",
+          "sha256": "35a0fb785d5cd5a0a4833157d34255e6d861d4764fe8e36b5aa9b2231264a223",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.17457523498357358,
+            "target_mean": 0.19670049740448947,
+            "ratio": 0.8875180148862658,
+            "generated_path_quantiles_10_50_90": [
+              0.06551253646612168,
+              0.15829327007134755,
+              0.30961758097012837
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.060181290075861024,
+              0.15826418518742838,
+              0.371125348723445
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.040318470322793995,
+            "target_mean": 0.04245237064366099,
+            "ratio": 0.9497342483231704,
+            "generated_path_quantiles_10_50_90": [
+              0.014310675433703832,
+              0.03399920676435743,
+              0.07414821466164931
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.014484964349026271,
+              0.03333584652654955,
+              0.08262702278896321
+            ]
+          }
+        },
+        {
+          "run": "gp_mlp_balanced_seed11",
+          "cell": "gp_mlp_balanced",
+          "seed": 11,
+          "archive": "results/controlled_followup/samples/gp_mlp_balanced_seed11.npz",
+          "sha256": "42293894ea42cec1861de13e713c443bb65c073afef9ab5aa7c934dcecdb9c29",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.1748610512233199,
+            "target_mean": 0.19670049740448947,
+            "ratio": 0.888971067845042,
+            "generated_path_quantiles_10_50_90": [
+              0.07056186040242514,
+              0.15984725356101992,
+              0.30435577193895974
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.060181290075861024,
+              0.15826418518742838,
+              0.371125348723445
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.04063616972735774,
+            "target_mean": 0.04245237064366099,
+            "ratio": 0.957217915306823,
+            "generated_path_quantiles_10_50_90": [
+              0.014672653589929852,
+              0.034051144761698585,
+              0.07377872483006546
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.014484964349026271,
+              0.03333584652654955,
+              0.08262702278896321
+            ]
+          }
+        },
+        {
+          "run": "gp_mlp_balanced_seed12",
+          "cell": "gp_mlp_balanced",
+          "seed": 12,
+          "archive": "results/controlled_followup/samples/gp_mlp_balanced_seed12.npz",
+          "sha256": "e003e2c1ea6d04545d212960b0a3f9324acf8468066be847d642cabdd9f06a25",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.16153903399103095,
+            "target_mean": 0.19670049740448947,
+            "ratio": 0.8212436476906642,
+            "generated_path_quantiles_10_50_90": [
+              0.06359278003374737,
+              0.1508073737223943,
+              0.27261399189631147
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.060181290075861024,
+              0.15826418518742838,
+              0.371125348723445
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.03943544467997625,
+            "target_mean": 0.04245237064366099,
+            "ratio": 0.9289338635759973,
+            "generated_path_quantiles_10_50_90": [
+              0.013707236040915767,
+              0.033001511823385954,
+              0.07254369120512691
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.014484964349026271,
+              0.03333584652654955,
+              0.08262702278896321
+            ]
+          }
+        },
+        {
+          "run": "gp_mlp_raw_seed10",
+          "cell": "gp_mlp_raw",
+          "seed": 10,
+          "archive": "results/controlled_followup/samples/gp_mlp_raw_seed10.npz",
+          "sha256": "2dace66965ccd585da74504be7344ca5985222984fa02f3bdd448f485237ed06",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.19580339530806062,
+            "target_mean": 0.19670049740448947,
+            "ratio": 0.9954392484601395,
+            "generated_path_quantiles_10_50_90": [
+              0.06908830205599467,
+              0.15816700557867686,
+              0.3667259987195334
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.060181290075861024,
+              0.15826418518742838,
+              0.371125348723445
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.04343256862513759,
+            "target_mean": 0.04245237064366099,
+            "ratio": 1.0230893579466795,
+            "generated_path_quantiles_10_50_90": [
+              0.014989266172051433,
+              0.03581773915461131,
+              0.08352521955966949
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.014484964349026271,
+              0.03333584652654955,
+              0.08262702278896321
+            ]
+          }
+        },
+        {
+          "run": "gp_mlp_raw_seed11",
+          "cell": "gp_mlp_raw",
+          "seed": 11,
+          "archive": "results/controlled_followup/samples/gp_mlp_raw_seed11.npz",
+          "sha256": "b9c377f3226e1f5de2568e9f161958de6dc2b16d4c18e6d12b9f397f9b0ba60f",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.19229326395834884,
+            "target_mean": 0.19670049740448947,
+            "ratio": 0.9775941926721328,
+            "generated_path_quantiles_10_50_90": [
+              0.0657994731888175,
+              0.15608378251393634,
+              0.3612398115793864
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.060181290075861024,
+              0.15826418518742838,
+              0.371125348723445
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.04163681285473737,
+            "target_mean": 0.04245237064366099,
+            "ratio": 0.9807888752369264,
+            "generated_path_quantiles_10_50_90": [
+              0.014909795352390835,
+              0.03395038204533713,
+              0.07887500269072398
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.014484964349026271,
+              0.03333584652654955,
+              0.08262702278896321
+            ]
+          }
+        },
+        {
+          "run": "gp_mlp_raw_seed12",
+          "cell": "gp_mlp_raw",
+          "seed": 12,
+          "archive": "results/controlled_followup/samples/gp_mlp_raw_seed12.npz",
+          "sha256": "9c3e5fa2323e2df2e3e9a1e931b7ec78d9d21df53fd3b4e6ebb4b40b9a776e30",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.20776608895358398,
+            "target_mean": 0.19670049740448947,
+            "ratio": 1.0562560425372973,
+            "generated_path_quantiles_10_50_90": [
+              0.07696688413619995,
+              0.17465835611025493,
+              0.38485988219579065
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.060181290075861024,
+              0.15826418518742838,
+              0.371125348723445
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.046131860901799174,
+            "target_mean": 0.04245237064366099,
+            "ratio": 1.0866733754169653,
+            "generated_path_quantiles_10_50_90": [
+              0.01678778199212892,
+              0.03896840954465526,
+              0.08803878171103342
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.014484964349026271,
+              0.03333584652654955,
+              0.08262702278896321
+            ]
+          }
+        },
+        {
+          "run": "gp_s4_balanced_seed10",
+          "cell": "gp_s4_balanced",
+          "seed": 10,
+          "archive": "results/controlled_followup/samples/gp_s4_balanced_seed10.npz",
+          "sha256": "ba6eb94cb3345a3245950e26f2d9526f69ab3e6621332259f542a89d57c9f6ae",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.18293704069365047,
+            "target_mean": 0.19670049740448947,
+            "ratio": 0.9300283583801203,
+            "generated_path_quantiles_10_50_90": [
+              0.065161026318868,
+              0.15312049388885496,
+              0.3402565002441406
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.060181290075861024,
+              0.15826418518742838,
+              0.371125348723445
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.04188612838770821,
+            "target_mean": 0.04245237064366099,
+            "ratio": 0.9866617046971126,
+            "generated_path_quantiles_10_50_90": [
+              0.01568438581057957,
+              0.03484361938067845,
+              0.0771971447127206
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.014484964349026271,
+              0.03333584652654955,
+              0.08262702278896321
+            ]
+          }
+        },
+        {
+          "run": "gp_s4_balanced_seed11",
+          "cell": "gp_s4_balanced",
+          "seed": 11,
+          "archive": "results/controlled_followup/samples/gp_s4_balanced_seed11.npz",
+          "sha256": "fa33f55d609e2279d53cfe098e50601773776d14dbccbb361de6a81a4fde4094",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.18476377861034052,
+            "target_mean": 0.19670049740448947,
+            "ratio": 0.9393152587224901,
+            "generated_path_quantiles_10_50_90": [
+              0.06640013039112092,
+              0.15522512743870417,
+              0.33424272179603587
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.060181290075861024,
+              0.15826418518742838,
+              0.371125348723445
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.04236443158323969,
+            "target_mean": 0.04245237064366099,
+            "ratio": 0.9979285241533518,
+            "generated_path_quantiles_10_50_90": [
+              0.015866748137133464,
+              0.034912727906235626,
+              0.07800470675740924
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.014484964349026271,
+              0.03333584652654955,
+              0.08262702278896321
+            ]
+          }
+        },
+        {
+          "run": "gp_s4_balanced_seed12",
+          "cell": "gp_s4_balanced",
+          "seed": 12,
+          "archive": "results/controlled_followup/samples/gp_s4_balanced_seed12.npz",
+          "sha256": "e50763c11629470ba3da3825f030d8c018bbc74c18975a6ffcd0e25bbab6ff71",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.19118574141321004,
+            "target_mean": 0.19670049740448947,
+            "ratio": 0.9719636906665313,
+            "generated_path_quantiles_10_50_90": [
+              0.06935039614637693,
+              0.16346599857012428,
+              0.3468658824761709
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.060181290075861024,
+              0.15826418518742838,
+              0.371125348723445
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.04328101965554814,
+            "target_mean": 0.04245237064366099,
+            "ratio": 1.019519499130984,
+            "generated_path_quantiles_10_50_90": [
+              0.016117087858063834,
+              0.036507321787731986,
+              0.07822783929961069
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.014484964349026271,
+              0.03333584652654955,
+              0.08262702278896321
+            ]
+          }
+        },
+        {
+          "run": "gp_s4_raw_seed10",
+          "cell": "gp_s4_raw",
+          "seed": 10,
+          "archive": "results/controlled_followup/samples/gp_s4_raw_seed10.npz",
+          "sha256": "1031419b3a1406bcbb12432ea34c41d9eb45e2e7bd565eb72a57c86250d4882d",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.23295918359456969,
+            "target_mean": 0.19670049740448947,
+            "ratio": 1.184334491618081,
+            "generated_path_quantiles_10_50_90": [
+              0.08068611065546673,
+              0.18311285947759948,
+              0.4394436061382294
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.060181290075861024,
+              0.15826418518742838,
+              0.371125348723445
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.09536956759554219,
+            "target_mean": 0.04245237064366099,
+            "ratio": 2.246507465885956,
+            "generated_path_quantiles_10_50_90": [
+              0.03659646745238986,
+              0.07269567038331712,
+              0.18028437266392372
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.014484964349026271,
+              0.03333584652654955,
+              0.08262702278896321
+            ]
+          }
+        },
+        {
+          "run": "gp_s4_raw_seed11",
+          "cell": "gp_s4_raw",
+          "seed": 11,
+          "archive": "results/controlled_followup/samples/gp_s4_raw_seed11.npz",
+          "sha256": "0a4a2a6631f8845a4fdbc64fdf4639219165cfd3a6affdb36de6d937c8624a30",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.20843569074053603,
+            "target_mean": 0.19670049740448947,
+            "ratio": 1.059660211798624,
+            "generated_path_quantiles_10_50_90": [
+              0.0701717840631803,
+              0.1648229479789734,
+              0.39864214420318606
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.060181290075861024,
+              0.15826418518742838,
+              0.371125348723445
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.07470020936429884,
+            "target_mean": 0.04245237064366099,
+            "ratio": 1.7596239793372557,
+            "generated_path_quantiles_10_50_90": [
+              0.02952725710347295,
+              0.05793277706418719,
+              0.13733934036323006
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.014484964349026271,
+              0.03333584652654955,
+              0.08262702278896321
+            ]
+          }
+        },
+        {
+          "run": "gp_s4_raw_seed12",
+          "cell": "gp_s4_raw",
+          "seed": 12,
+          "archive": "results/controlled_followup/samples/gp_s4_raw_seed12.npz",
+          "sha256": "95b3b8bfac163f38b27e1fcd26d9417ad94b10334263f5f3ef6bf130f443ff7d",
+          "contexts": 1024,
+          "members": 1,
+          "R1": {
+            "generated_mean": 0.20578556405583487,
+            "target_mean": 0.19670049740448947,
+            "ratio": 1.0461873089861238,
+            "generated_path_quantiles_10_50_90": [
+              0.07196587055921555,
+              0.16739632884661354,
+              0.38234468460083015
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.060181290075861024,
+              0.15826418518742838,
+              0.371125348723445
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.07478256028489991,
+            "target_mean": 0.04245237064366099,
+            "ratio": 1.7615638220210084,
+            "generated_path_quantiles_10_50_90": [
+              0.031748159123318534,
+              0.0593059744153704,
+              0.13783853554299902
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.014484964349026271,
+              0.03333584652654955,
+              0.08262702278896321
+            ]
+          }
+        }
+      ],
+      "aggregates": {
+        "gp_mlp_balanced": {
+          "n_seeds": 3,
+          "R1": {
+            "ratio_mean": 0.8659109101406574,
+            "ratio_seed_min": 0.8212436476906642,
+            "ratio_seed_max": 0.888971067845042,
+            "generated_mean": 0.17032510673264148,
+            "target_mean": 0.19670049740448947
+          },
+          "R2": {
+            "ratio_mean": 0.9452953424019969,
+            "ratio_seed_min": 0.9289338635759973,
+            "ratio_seed_max": 0.957217915306823,
+            "generated_mean": 0.040130028243376,
+            "target_mean": 0.042452370643660996
+          }
+        },
+        "gp_mlp_raw": {
+          "n_seeds": 3,
+          "R1": {
+            "ratio_mean": 1.0097631612231899,
+            "ratio_seed_min": 0.9775941926721328,
+            "ratio_seed_max": 1.0562560425372973,
+            "generated_mean": 0.19862091607333113,
+            "target_mean": 0.19670049740448947
+          },
+          "R2": {
+            "ratio_mean": 1.0301838695335237,
+            "ratio_seed_min": 0.9807888752369264,
+            "ratio_seed_max": 1.0866733754169653,
+            "generated_mean": 0.043733747460558046,
+            "target_mean": 0.042452370643660996
+          }
+        },
+        "gp_s4_balanced": {
+          "n_seeds": 3,
+          "R1": {
+            "ratio_mean": 0.9471024359230472,
+            "ratio_seed_min": 0.9300283583801203,
+            "ratio_seed_max": 0.9719636906665313,
+            "generated_mean": 0.18629552023906704,
+            "target_mean": 0.19670049740448947
+          },
+          "R2": {
+            "ratio_mean": 1.0013699093271493,
+            "ratio_seed_min": 0.9866617046971126,
+            "ratio_seed_max": 1.019519499130984,
+            "generated_mean": 0.04251052654216534,
+            "target_mean": 0.042452370643660996
+          }
+        },
+        "gp_s4_raw": {
+          "n_seeds": 3,
+          "R1": {
+            "ratio_mean": 1.0967273374676096,
+            "ratio_seed_min": 1.0461873089861238,
+            "ratio_seed_max": 1.184334491618081,
+            "generated_mean": 0.21572681279698017,
+            "target_mean": 0.19670049740448947
+          },
+          "R2": {
+            "ratio_mean": 1.9225650890814066,
+            "ratio_seed_min": 1.7596239793372557,
+            "ratio_seed_max": 2.246507465885956,
+            "generated_mean": 0.08161744574824699,
+            "target_mean": 0.042452370643660996
+          }
+        }
+      }
+    },
+    "ensemble-evaluation": {
+      "runs": [
+        {
+          "run": "gp_mlp_seed0",
+          "cell": "gp_mlp",
+          "seed": 0,
+          "archive": "results/ensemble-evaluation/samples/gp_mlp_seed0.npz",
+          "sha256": "6271be31ec3689f3ba8c84ee0d58e65f90ffd8b562262333577dae00cb34b6d7",
+          "contexts": 256,
+          "members": 64,
+          "R1": {
+            "generated_mean": 0.19650917895822645,
+            "target_mean": 0.18978818756205737,
+            "ratio": 1.0354131175522787,
+            "generated_path_quantiles_10_50_90": [
+              0.06442280729611716,
+              0.1584669232368469,
+              0.37128535747528085
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.05508727947533224,
+              0.15229379610482235,
+              0.36268968982919825
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.04338670486392707,
+            "target_mean": 0.04274563214472894,
+            "ratio": 1.014997385394315,
+            "generated_path_quantiles_10_50_90": [
+              0.014431232852595193,
+              0.0356589640889849,
+              0.08175983695047243
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.013626858331562906,
+              0.034496037724159774,
+              0.08059162878536076
+            ]
+          }
+        },
+        {
+          "run": "gp_mlp_seed1",
+          "cell": "gp_mlp",
+          "seed": 1,
+          "archive": "results/ensemble-evaluation/samples/gp_mlp_seed1.npz",
+          "sha256": "3c0ff12dfd0d7e87b80662d7643939c5524f2c25d7074655013f65c07b7b2f53",
+          "contexts": 256,
+          "members": 64,
+          "R1": {
+            "generated_mean": 0.18723683759933513,
+            "target_mean": 0.18978818756205737,
+            "ratio": 0.9865568558533813,
+            "generated_path_quantiles_10_50_90": [
+              0.06476112738251687,
+              0.1545359820127487,
+              0.3480373557408651
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.05508727947533224,
+              0.15229379610482235,
+              0.36268968982919825
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.0418412142557535,
+            "target_mean": 0.04274563214472894,
+            "ratio": 0.9788418642187056,
+            "generated_path_quantiles_10_50_90": [
+              0.014215399750641414,
+              0.03437675961426326,
+              0.0776325146002429
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.013626858331562906,
+              0.034496037724159774,
+              0.08059162878536076
+            ]
+          }
+        },
+        {
+          "run": "gp_mlp_seed2",
+          "cell": "gp_mlp",
+          "seed": 2,
+          "archive": "results/ensemble-evaluation/samples/gp_mlp_seed2.npz",
+          "sha256": "56afcf5852f9cb8cb0d24dff4926669e3824a095fb936278b6a942b3fc7694ca",
+          "contexts": 256,
+          "members": 64,
+          "R1": {
+            "generated_mean": 0.18355761848405205,
+            "target_mean": 0.18978818756205737,
+            "ratio": 0.9671709332491094,
+            "generated_path_quantiles_10_50_90": [
+              0.0646754088997841,
+              0.1535927375157674,
+              0.3383317498366038
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.05508727947533224,
+              0.15229379610482235,
+              0.36268968982919825
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.04087467081975265,
+            "target_mean": 0.04274563214472894,
+            "ratio": 0.956230350772646,
+            "generated_path_quantiles_10_50_90": [
+              0.01448263738836561,
+              0.034392207860946655,
+              0.07480551238570896
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.013626858331562906,
+              0.034496037724159774,
+              0.08059162878536076
+            ]
+          }
+        },
+        {
+          "run": "gp_mlp_seed3",
+          "cell": "gp_mlp",
+          "seed": 3,
+          "archive": "results/ensemble-evaluation/samples/gp_mlp_seed3.npz",
+          "sha256": "15298914ad413eb76425e454f7663009612d9e0a8bd4570e944c483c1c08bd24",
+          "contexts": 256,
+          "members": 64,
+          "R1": {
+            "generated_mean": 0.1865904060002529,
+            "target_mean": 0.18978818756205737,
+            "ratio": 0.9831507871860631,
+            "generated_path_quantiles_10_50_90": [
+              0.06284070173899332,
+              0.15245795225103698,
+              0.35412079016367604
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.05508727947533224,
+              0.15229379610482235,
+              0.36268968982919825
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.040735715242606316,
+            "target_mean": 0.04274563214472894,
+            "ratio": 0.95297959577911,
+            "generated_path_quantiles_10_50_90": [
+              0.013951628229447774,
+              0.03329057565757207,
+              0.07691769429615565
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.013626858331562906,
+              0.034496037724159774,
+              0.08059162878536076
+            ]
+          }
+        },
+        {
+          "run": "gp_mlp_seed4",
+          "cell": "gp_mlp",
+          "seed": 4,
+          "archive": "results/ensemble-evaluation/samples/gp_mlp_seed4.npz",
+          "sha256": "503cc2d64d21c767af380ced8c6a3f505ca1eda237f929b911c22bbf5a003786",
+          "contexts": 256,
+          "members": 64,
+          "R1": {
+            "generated_mean": 0.201297272208535,
+            "target_mean": 0.18978818756205737,
+            "ratio": 1.060641733262321,
+            "generated_path_quantiles_10_50_90": [
+              0.06900926828384399,
+              0.16284220417340597,
+              0.3731579981247584
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.05508727947533224,
+              0.15229379610482235,
+              0.36268968982919825
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.044403112012303875,
+            "target_mean": 0.04274563214472894,
+            "ratio": 1.0387754206549809,
+            "generated_path_quantiles_10_50_90": [
+              0.01569101331489427,
+              0.03661650366016797,
+              0.08102232856409891
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.013626858331562906,
+              0.034496037724159774,
+              0.08059162878536076
+            ]
+          }
+        },
+        {
+          "run": "gp_s4_seed0",
+          "cell": "gp_s4",
+          "seed": 0,
+          "archive": "results/ensemble-evaluation/samples/gp_s4_seed0.npz",
+          "sha256": "89930fac1e768fe1053517434f9883d12d4aa68983f7d082c8330bf9f280b873",
+          "contexts": 256,
+          "members": 64,
+          "R1": {
+            "generated_mean": 0.2100464151385354,
+            "target_mean": 0.18978818756205737,
+            "ratio": 1.1067412457893564,
+            "generated_path_quantiles_10_50_90": [
+              0.06867951234181723,
+              0.16561030397812526,
+              0.40271225055058796
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.05508727947533224,
+              0.15229379610482235,
+              0.36268968982919825
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.07166837184854341,
+            "target_mean": 0.04274563214472894,
+            "ratio": 1.6766244468180358,
+            "generated_path_quantiles_10_50_90": [
+              0.02712806399379458,
+              0.05332690264497485,
+              0.13420661006655013
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.013626858331562906,
+              0.034496037724159774,
+              0.08059162878536076
+            ]
+          }
+        },
+        {
+          "run": "gp_s4_seed1",
+          "cell": "gp_s4",
+          "seed": 1,
+          "archive": "results/ensemble-evaluation/samples/gp_s4_seed1.npz",
+          "sha256": "14e47d7ec2e7fb438c576fe929c9623593cf272dff858aa0391ffa245d96a10c",
+          "contexts": 256,
+          "members": 64,
+          "R1": {
+            "generated_mean": 0.18808468882179336,
+            "target_mean": 0.18978818756205737,
+            "ratio": 0.9910242109261568,
+            "generated_path_quantiles_10_50_90": [
+              0.06420107781887055,
+              0.1478105156371991,
+              0.35709724277257926
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.05508727947533224,
+              0.15229379610482235,
+              0.36268968982919825
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.07148013450179494,
+            "target_mean": 0.04274563214472894,
+            "ratio": 1.6722207840973364,
+            "generated_path_quantiles_10_50_90": [
+              0.030469425914010834,
+              0.05552814638109079,
+              0.12886936622006556
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.013626858331562906,
+              0.034496037724159774,
+              0.08059162878536076
+            ]
+          }
+        },
+        {
+          "run": "gp_s4_seed2",
+          "cell": "gp_s4",
+          "seed": 2,
+          "archive": "results/ensemble-evaluation/samples/gp_s4_seed2.npz",
+          "sha256": "1a7d4f7970966a871f243634714f67956c305bf9edff70d3d81edbbcdf7e145b",
+          "contexts": 256,
+          "members": 64,
+          "R1": {
+            "generated_mean": 0.19229163983336464,
+            "target_mean": 0.18978818756205737,
+            "ratio": 1.0131907696862783,
+            "generated_path_quantiles_10_50_90": [
+              0.06561088442802429,
+              0.15136816970383127,
+              0.3684124186635018
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.05508727947533224,
+              0.15229379610482235,
+              0.36268968982919825
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.06631253471081378,
+            "target_mean": 0.04274563214472894,
+            "ratio": 1.551328905051435,
+            "generated_path_quantiles_10_50_90": [
+              0.03047241914485182,
+              0.05454210937023163,
+              0.11810112890920468
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.013626858331562906,
+              0.034496037724159774,
+              0.08059162878536076
+            ]
+          }
+        },
+        {
+          "run": "gp_s4_seed3",
+          "cell": "gp_s4",
+          "seed": 3,
+          "archive": "results/ensemble-evaluation/samples/gp_s4_seed3.npz",
+          "sha256": "4bb649f61c3a7b0f06eeb181a1ef40e7e22a2283a41ad3f32294bc8a0f72b203",
+          "contexts": 256,
+          "members": 64,
+          "R1": {
+            "generated_mean": 0.1889190078689743,
+            "target_mean": 0.18978818756205737,
+            "ratio": 0.9954202645367544,
+            "generated_path_quantiles_10_50_90": [
+              0.06495856126149495,
+              0.1508252461751302,
+              0.3588707548379898
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.05508727947533224,
+              0.15229379610482235,
+              0.36268968982919825
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.06404797250412043,
+            "target_mean": 0.04274563214472894,
+            "ratio": 1.498351276857145,
+            "generated_path_quantiles_10_50_90": [
+              0.028474287475858416,
+              0.05082810457263674,
+              0.11336400220835847
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.013626858331562906,
+              0.034496037724159774,
+              0.08059162878536076
+            ]
+          }
+        },
+        {
+          "run": "gp_s4_seed4",
+          "cell": "gp_s4",
+          "seed": 4,
+          "archive": "results/ensemble-evaluation/samples/gp_s4_seed4.npz",
+          "sha256": "ad9cccad72815d23c6c98453a6d3735945a7d2601bff9e9addd9c3e4be7d169b",
+          "contexts": 256,
+          "members": 64,
+          "R1": {
+            "generated_mean": 0.2003311054049031,
+            "target_mean": 0.18978818756205737,
+            "ratio": 1.0555509696271186,
+            "generated_path_quantiles_10_50_90": [
+              0.06697969188292821,
+              0.15581482847531636,
+              0.38421753920614726
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.05508727947533224,
+              0.15229379610482235,
+              0.36268968982919825
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.07436256844087273,
+            "target_mean": 0.04274563214472894,
+            "ratio": 1.7396530290883192,
+            "generated_path_quantiles_10_50_90": [
+              0.03061524916972433,
+              0.05523361821126725,
+              0.14144531461809365
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.013626858331562906,
+              0.034496037724159774,
+              0.08059162878536076
+            ]
+          }
+        },
+        {
+          "run": "gp_whitened_mlp_seed0",
+          "cell": "gp_whitened_mlp",
+          "seed": 0,
+          "archive": "results/ensemble-evaluation/samples/gp_whitened_mlp_seed0.npz",
+          "sha256": "601a2dd435ffb18e7d0ca11d32df99c424dc4ec264b2339e90f6fe7368d530a7",
+          "contexts": 256,
+          "members": 64,
+          "R1": {
+            "generated_mean": 0.18555135258983707,
+            "target_mean": 0.18978818756205737,
+            "ratio": 0.977675981700205,
+            "generated_path_quantiles_10_50_90": [
+              0.06261629680792491,
+              0.150811630487442,
+              0.346142763098081
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.05508727947533224,
+              0.15229379610482235,
+              0.36268968982919825
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.04122170880735857,
+            "target_mean": 0.04274563214472894,
+            "ratio": 0.964349027937857,
+            "generated_path_quantiles_10_50_90": [
+              0.013963588646480016,
+              0.033317419833370616,
+              0.07766756660171921
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.013626858331562906,
+              0.034496037724159774,
+              0.08059162878536076
+            ]
+          }
+        },
+        {
+          "run": "gp_whitened_mlp_seed1",
+          "cell": "gp_whitened_mlp",
+          "seed": 1,
+          "archive": "results/ensemble-evaluation/samples/gp_whitened_mlp_seed1.npz",
+          "sha256": "38c4149108c5da1aa3d30f2126dfd5e497202c5690cbfb7d963d51c7a4b7be11",
+          "contexts": 256,
+          "members": 64,
+          "R1": {
+            "generated_mean": 0.18766027757807913,
+            "target_mean": 0.18978818756205737,
+            "ratio": 0.9887879745767504,
+            "generated_path_quantiles_10_50_90": [
+              0.062440516750017806,
+              0.15286644796530408,
+              0.35493689129749945
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.05508727947533224,
+              0.15229379610482235,
+              0.36268968982919825
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.04223752562264365,
+            "target_mean": 0.04274563214472894,
+            "ratio": 0.9881132528262786,
+            "generated_path_quantiles_10_50_90": [
+              0.01406958954674857,
+              0.034210305128778734,
+              0.0805428162084094
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.013626858331562906,
+              0.034496037724159774,
+              0.08059162878536076
+            ]
+          }
+        },
+        {
+          "run": "gp_whitened_mlp_seed2",
+          "cell": "gp_whitened_mlp",
+          "seed": 2,
+          "archive": "results/ensemble-evaluation/samples/gp_whitened_mlp_seed2.npz",
+          "sha256": "21b97196c201f8a3c64f150ee2dc5020a287da34534744901aa673b8c9815241",
+          "contexts": 256,
+          "members": 64,
+          "R1": {
+            "generated_mean": 0.19458758575242416,
+            "target_mean": 0.18978818756205737,
+            "ratio": 1.0252881817989725,
+            "generated_path_quantiles_10_50_90": [
+              0.0651653250058492,
+              0.1577682927250862,
+              0.3672579775253932
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.05508727947533224,
+              0.15229379610482235,
+              0.36268968982919825
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.042968280476631246,
+            "target_mean": 0.04274563214472894,
+            "ratio": 1.0052086802962337,
+            "generated_path_quantiles_10_50_90": [
+              0.014367103576660158,
+              0.03467956291777747,
+              0.08108914366790228
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.013626858331562906,
+              0.034496037724159774,
+              0.08059162878536076
+            ]
+          }
+        },
+        {
+          "run": "gp_whitened_mlp_seed3",
+          "cell": "gp_whitened_mlp",
+          "seed": 3,
+          "archive": "results/ensemble-evaluation/samples/gp_whitened_mlp_seed3.npz",
+          "sha256": "91596afa58651b0a462ceb8bad0512155717ea7f823175843afe18b2dff28462",
+          "contexts": 256,
+          "members": 64,
+          "R1": {
+            "generated_mean": 0.1946198201176053,
+            "target_mean": 0.18978818756205737,
+            "ratio": 1.0254580256949242,
+            "generated_path_quantiles_10_50_90": [
+              0.06376497368017832,
+              0.15626803040504456,
+              0.3717713379859925
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.05508727947533224,
+              0.15229379610482235,
+              0.36268968982919825
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.04263047344533516,
+            "target_mean": 0.04274563214472894,
+            "ratio": 0.9973059539977354,
+            "generated_path_quantiles_10_50_90": [
+              0.014133580667631967,
+              0.03437415403979165,
+              0.08129564332110542
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.013626858331562906,
+              0.034496037724159774,
+              0.08059162878536076
+            ]
+          }
+        },
+        {
+          "run": "gp_whitened_mlp_seed4",
+          "cell": "gp_whitened_mlp",
+          "seed": 4,
+          "archive": "results/ensemble-evaluation/samples/gp_whitened_mlp_seed4.npz",
+          "sha256": "8382548db43c2b9cabc8c05eca705d2bf49546dd18561dba0242bfb8ed98e0b8",
+          "contexts": 256,
+          "members": 64,
+          "R1": {
+            "generated_mean": 0.1915025041633926,
+            "target_mean": 0.18978818756205737,
+            "ratio": 1.0090327887280903,
+            "generated_path_quantiles_10_50_90": [
+              0.06341628670692444,
+              0.1549473524093628,
+              0.3616402324040731
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.05508727947533224,
+              0.15229379610482235,
+              0.36268968982919825
+            ]
+          },
+          "R2": {
+            "generated_mean": 0.04257935109462365,
+            "target_mean": 0.04274563214472894,
+            "ratio": 0.9961099873422787,
+            "generated_path_quantiles_10_50_90": [
+              0.014319971676117609,
+              0.03447112813591957,
+              0.08065895693642754
+            ],
+            "target_path_quantiles_10_50_90": [
+              0.013626858331562906,
+              0.034496037724159774,
+              0.08059162878536076
+            ]
+          }
+        }
+      ],
+      "aggregates": {
+        "gp_mlp": {
+          "n_seeds": 5,
+          "R1": {
+            "ratio_mean": 1.0065866854206307,
+            "ratio_seed_min": 0.9671709332491094,
+            "ratio_seed_max": 1.060641733262321,
+            "generated_mean": 0.1910382626500803,
+            "target_mean": 0.18978818756205737
+          },
+          "R2": {
+            "ratio_mean": 0.9883649233639515,
+            "ratio_seed_min": 0.95297959577911,
+            "ratio_seed_max": 1.0387754206549809,
+            "generated_mean": 0.042248283438868675,
+            "target_mean": 0.04274563214472894
+          }
+        },
+        "gp_s4": {
+          "n_seeds": 5,
+          "R1": {
+            "ratio_mean": 1.0323854921131328,
+            "ratio_seed_min": 0.9910242109261568,
+            "ratio_seed_max": 1.1067412457893564,
+            "generated_mean": 0.19593457141351417,
+            "target_mean": 0.18978818756205737
+          },
+          "R2": {
+            "ratio_mean": 1.6276356883824543,
+            "ratio_seed_min": 1.498351276857145,
+            "ratio_seed_max": 1.7396530290883192,
+            "generated_mean": 0.06957431640122906,
+            "target_mean": 0.04274563214472894
+          }
+        },
+        "gp_whitened_mlp": {
+          "n_seeds": 5,
+          "R1": {
+            "ratio_mean": 1.0052485904997885,
+            "ratio_seed_min": 0.977675981700205,
+            "ratio_seed_max": 1.0254580256949242,
+            "generated_mean": 0.19078430804026766,
+            "target_mean": 0.18978818756205737
+          },
+          "R2": {
+            "ratio_mean": 0.9902173804800768,
+            "ratio_seed_min": 0.964349027937857,
+            "ratio_seed_max": 1.0052086802962337,
+            "generated_mean": 0.04232746788931845,
+            "target_mean": 0.04274563214472894
+          }
+        }
+      },
+      "common_inputs_sha256": "e22deecf143767ecf8df24c5d93bf0c74bfee661d077281e8b63712481ed16d9"
+    }
+  }
+}

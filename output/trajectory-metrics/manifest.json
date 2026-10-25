@@ -1,0 +1,19 @@
+{
+  "source_summary": "results/trajectory-metrics/summary.json",
+  "source_sha256": "8fedf5ca324878ac8439c8d6532ff01375f513d69ba67ba1b5002b0263f0ab29",
+  "script_sha256": "10667c95095a6caabe1c39d9e789bf78e40421e175d80881c93888d63c96f6ea",
+  "matplotlib_version": "3.11.2",
+  "numpy_version": "2.5.4",
+  "python_version": "3.12.14",
+  "cohort": "256-context ensembles; main64 members, capacity32 members",
+  "ranges": "Saved-run min/max, descriptive; not confidence intervals",
+  "outputs_sha256": {
+    "README.md": "4a33ab7c8460350db78b0b6b5132e0562fe8786dc4fa070f2298a2538ce851a3",
+    "capacity_trajectory_metrics.pdf": "4600f9485f54af1d4c8389fb10bcfdafb8eff6d67f2dfc14d7b03ac3875cae61",
+    "capacity_trajectory_metrics.png": "66be5b2ad61e89c698964e495d4be05fe17854ac0bf373f0dc2cc4f61d5b5343",
+    "main_trajectory_metrics.pdf": "a5b19eea788c20b2249965220ddd5ba177c4081e01414440e660410473dc552b",
+    "main_trajectory_metrics.png": "0ef5e2b084c4928a4eb18436f1e574158c3d1afe8a71ee89e278f2e65c92cbd1",
+    "metrics_table.csv": "e1643ffc7964b5e211183bd4835f927bf93d6bd0c04645d591f1b06a8bf33673",
+    "metrics_table.md": "b8adf7d127009ec481b82108282bf0c08a483a4e2b5dfaed238d1649cb3b165c"
+  }
+}
