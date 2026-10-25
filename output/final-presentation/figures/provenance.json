@@ -1,0 +1,143 @@
+{
+  "scope": "Scientific plot reformatting from frozen arrays; no training or forecast generation",
+  "forecast_task.png": {
+    "suite": "main GP MLP fresh ensemble evaluation",
+    "seed": 0,
+    "context_index_zero_based": 0,
+    "member_indices_zero_based": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "euler_steps": 128,
+    "history_length": 32,
+    "horizon": 16,
+    "pixels": [
+      1150,
+      380
+    ],
+    "selection": "First configured seed, first context, first four draws; no visual selection"
+  },
+  "capacity_paths.png": {
+    "kernel": "rbf",
+    "source": "white",
+    "data_seed": 607041,
+    "completed_training_budget": 12000,
+    "context_index_zero_based": 0,
+    "member_indices_zero_based": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "horizon": 64,
+    "euler_steps": 64,
+    "pixels": [
+      1150,
+      380
+    ],
+    "models": [
+      {
+        "model_id": "followup-capacity/607041/white_mlp_original_budget12000",
+        "selected_step": 11000,
+        "original_sample_source": {
+          "path": "results/followup-capacity/rbf/F64_l8/draw607041/samples/white_mlp_original_budget12000.npz",
+          "bytes": 5835499,
+          "sha256": "19f212b5b476139fe92d27ec194950d0c1c2d1021959f9c0c69afa443714b885"
+        },
+        "transferred_entry": "forecasts/followup-capacity/dataset_607041/white_mlp_original_budget12000.npz"
+      },
+      {
+        "model_id": "followup-capacity/607041/white_mlp_wide_budget12000",
+        "selected_step": 11000,
+        "original_sample_source": {
+          "path": "results/followup-capacity/rbf/F64_l8/draw607041/samples/white_mlp_wide_budget12000.npz",
+          "bytes": 5834710,
+          "sha256": "a7f949fb3d1e43ab16edfd8eca3235b4a663da90082ac85ea82ce7d2b99d77d3"
+        },
+        "transferred_entry": "forecasts/followup-capacity/dataset_607041/white_mlp_wide_budget12000.npz"
+      },
+      {
+        "model_id": "followup-capacity/607041/white_s4_budget12000",
+        "selected_step": 11000,
+        "original_sample_source": {
+          "path": "results/followup-capacity/rbf/F64_l8/draw607041/samples/white_s4_budget12000.npz",
+          "bytes": 5836176,
+          "sha256": "165e359218092ffda24570ac0e3fbdf43a47796f129f6bba7235b218648315b2"
+        },
+        "transferred_entry": "forecasts/followup-capacity/dataset_607041/white_s4_budget12000.npz"
+      }
+    ],
+    "architectures": {
+      "mlp_original": {
+        "family": "mlp",
+        "width": 56,
+        "depth": 3
+      },
+      "mlp_wide": {
+        "family": "mlp",
+        "width": 72,
+        "depth": 3
+      },
+      "s4": {
+        "family": "s4",
+        "width": 59,
+        "depth": 3
+      }
+    },
+    "selection": "Same first configured draw/context/members as output/followup-capacity/rbf_example_paths.png",
+    "axis_limits": [
+      -3.2685892581939697,
+      2.2948832511901855
+    ],
+    "shared_y_axis": true
+  },
+  "source_curves.png": {
+    "data_seed": 137041,
+    "rng_seed": 50371,
+    "rng": "numpy.random.default_rng",
+    "normal_shape": [
+      4,
+      16
+    ],
+    "alphas": [
+      0.0,
+      1.0
+    ],
+    "pixels": [
+      1150,
+      250
+    ],
+    "selection": "Exact source reconstruction used in output/prior-mixture/source_examples.png",
+    "formula": "normals @ cholesky(saved_covariance).T",
+    "shared_y_axis": true,
+    "caveat": "Source illustration only; GP covariance normalized to unit marginal variance as in mixture study"
+  },
+  "interpretation": "The first context is illustrative. One realized future and four sample paths do not establish conditional calibration or a distributional ranking.",
+  "input_sha256": {
+    "results/ensemble-evaluation/config.json": "1156ecf48b8152674fc57883feda59400707cd36992b1f9ce9741f79060936c8",
+    "results/ensemble-evaluation/common_inputs.npz": "e22deecf143767ecf8df24c5d93bf0c74bfee661d077281e8b63712481ed16d9",
+    "results/ensemble-evaluation/samples/gp_mlp_seed0.npz": "6271be31ec3689f3ba8c84ee0d58e65f90ffd8b562262333577dae00cb34b6d7",
+    "artifacts/followup-transfer/manifest.json": "d28355c644f59af9e110df59892a8d306e5cceea9d7721d1f638e36a8c440862",
+    "configs/followup_capacity.json": "257058fe103310e4af7ade1005203ca6b1cb248f0c22f9d93ea351e4fbd61bbc",
+    "artifacts/followup-transfer/forecast_samples.zip": "677df33c813d6cc94c2396b1d2efaf7f869f1664fffbc606d9f2c6870bccdea4",
+    "results/prior-mixture/dataset_137041/geometry.json": "8b5f74d52122b39b59a5dbf387c73cb88ee6b3b82da5d15d0272718a5737ee2f",
+    "scripts/build_defense_figures.py": "7f261bde294dd314e112ed9993503ca56961060499057f167e8f5c7fcd4c80a8",
+    "scripts/analyze_followup_capacity.py": "11f4d0335b597c5882748b44adea1b7c2e9783aaf960af4da01a31e371325626",
+    "fm_stress/analyze_prior_mixture.py": "a8562ef89799e39efa7c710e3221917976db76c9406803719b34c18ec4684d48"
+  },
+  "zip_entry_sha256": {
+    "forecasts/followup-capacity/dataset_607041/white_mlp_original_budget12000.npz": "d672f99c42cdbd340cb2323368a97ee0ea16806c301cbce5a27ddde6af0ec30d",
+    "forecasts/followup-capacity/dataset_607041/targets_history.npz": "4a77515769a5ae42b549445c0686a49c5cb5e3f5dd84b180dd06963379fc34d6",
+    "forecasts/followup-capacity/dataset_607041/white_mlp_wide_budget12000.npz": "9e67c794ccde3c196ece0c3c594f617174fd1a1f40d9cb4bb7dbad2874c0b9dd",
+    "forecasts/followup-capacity/dataset_607041/white_s4_budget12000.npz": "7684a6a62b68c358dec1ced0bec91448f106617abefd43fe12e42b6dc50698e4"
+  },
+  "numpy_version": "2.5.4",
+  "matplotlib_version": "3.11.2",
+  "output_sha256": {
+    "forecast_task.png": "e551ec35e645b58d9110763f70cef366ae342e22f37d0e7b9c5fa2345b4fa625",
+    "capacity_paths.png": "dcc4891fce7300d03bfc223edf2ac40636d1c568f0495da4614d97fbab6431ea",
+    "source_curves.png": "97af40acba1c41d75e3c293d609bfa9619247247c69ef0bdb6fa17367f00faf5"
+  }
+}

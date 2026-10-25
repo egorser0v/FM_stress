@@ -1,0 +1,54 @@
+{
+  "scope": "Main GP-source frozen ensembles only; no training, new inference, checkpoint selection, or new success gate.",
+  "source": "results/trajectory-metrics/summary.json",
+  "source_sha256": "8fedf5ca324878ac8439c8d6532ff01375f513d69ba67ba1b5002b0263f0ab29",
+  "script": "scripts/build_defense_score_figure.py",
+  "script_sha256": "ad22bb90f53d1b42b14cc2b410a1381e973154e01e9f9ff4712962628be35c6b",
+  "output": "output/final-presentation/figures/score_differences.png",
+  "output_sha256": "7cdd42c9f0a002ad75716075a544ea21b9c50f988b4d9acc48e1de91a0134100",
+  "size_pixels": [
+    1150,
+    370
+  ],
+  "direction": "comparison model minus MLP; negative favors the comparison model",
+  "uncertainty": "Paired-context percentile bootstrap of 256 histories after averaging five fixed models per head; conditional on fitted models and saved ensemble draws; no multiplicity adjustment.",
+  "warning": "Intervals spanning zero do not prove equivalence. S4 fair-VS upper endpoint remains positive; printed +0.00002, never rounded to zero.",
+  "records": [
+    {
+      "comparison": "s4 minus mlp",
+      "metric": "fair_crps",
+      "difference": -0.004990757659990449,
+      "context_ci95": [
+        -0.016784024641458305,
+        0.006417190211531405
+      ]
+    },
+    {
+      "comparison": "whitened_mlp minus mlp",
+      "metric": "fair_crps",
+      "difference": -0.005737962372167815,
+      "context_ci95": [
+        -0.013868623924861184,
+        0.002163506243357528
+      ]
+    },
+    {
+      "comparison": "s4 minus mlp",
+      "metric": "variogram_fair",
+      "difference": -0.002065908247529921,
+      "context_ci95": [
+        -0.004371421104580141,
+        1.99938567265194e-05
+      ]
+    },
+    {
+      "comparison": "whitened_mlp minus mlp",
+      "metric": "variogram_fair",
+      "difference": -0.0032957799228614673,
+      "context_ci95": [
+        -0.005309876390807869,
+        -0.001419533921089439
+      ]
+    }
+  ]
+}

@@ -27,3 +27,11 @@ output/poster/flow-matching-poster-A1-EN.pptx
 /results/followup-capacity/pre-audit-interrupted/
 /results/followup-solver/pre-review-smoke/
 /tmp/pdfs/
+
+# Local slide renders and validation staging.
+.presentation-build/
+
+.chart-data-*/
+output/final-paper/*.aux
+output/final-paper/*.log
+output/final-paper/*.out

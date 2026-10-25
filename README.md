@@ -6,6 +6,10 @@ sources**, **AdaLN MLP vs three-block S4-NPLR velocity heads**, and a mandatory
 **PCA-whitened MLP control**. This is not pretrained Sundial or a full TSFlow
 benchmark reproduction.
 
+## Final defense package (26 October 2026)
+
+[Paper, slides, frozen revision and reproduction instructions](docs/final_package.md). The linked final package incorporates the additional experiments, R2/variogram analysis and reviewer responses. Earlier reports below remain historical records.
+
 ## Contributors
 
 - [Daniil Koblov (@KoblovDA)](https://github.com/KoblovDA)

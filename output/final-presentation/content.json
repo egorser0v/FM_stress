@@ -1,0 +1,564 @@
+{
+  "title": "Smooth source, unstructured head",
+  "main_minutes": 12.166666666666666,
+  "timing": {
+    "speech_seconds": 730,
+    "pause_transition_seconds": 75,
+    "contribution_reserve_seconds": 0,
+    "contribution_slide_seconds": 30,
+    "planned_total_seconds": 805,
+    "hard_limit_seconds": 900
+  },
+  "slides": [
+    {
+      "title": "Smooth source,\nunstructured head",
+      "kind": "cover",
+      "seconds": 20,
+      "backup": false,
+      "subtitle": "Source = starting noise; head = the forecasting network.\nDoes smooth noise need a network built for sequences?",
+      "body": [
+        "Daniil Koblov · Vasilii Lyamin · Egor Serov · Kirill Frolov",
+        "Sequential Data project · 26 October 2026"
+      ],
+      "notes": "Source — стартовый шум, head — блок предсказания поля скоростей. Проверяем гипотезу: при гладком GP-старте временная S4 лучше выучит малые направления скорости, чем плотная MLP. Затем проверяем, что ошибки поля означают для прогнозов."
+    },
+    {
+      "title": "Forecasting a distribution of future trajectories",
+      "kind": "figure",
+      "seconds": 55,
+      "backup": false,
+      "bottom": "Synthetic data: a Gaussian process (GP), a distribution of smooth random curves.\nValues = (value − history mean) / history standard deviation; time is in sample steps.\nOne noise draw gives one future trajectory; repeat draws to sample the distribution.",
+      "notes": "Здесь две разные роли случайных кривых. GP, или гауссовский процесс, генерирует плавные синтетические данные для обучения и проверки. Отдельно мы выбираем шум, с которого модель начинает строить прогноз. Он может быть белым или тоже GP. По 32 наблюдениям получаем возможные продолжения на 16 точек. Цветные линии — четыре прогноза, чёрная — одно реализованное будущее. Совпадать они не обязаны: качество распределения проверяем на множестве историй. Гипотеза: модель S4 с временной структурой лучше выучит небольшие локальные изменения на фоне плавного общего движения. Это предположение, которое мы проверяем. Источники: docs/related_work.md; figures/provenance.json. На рисунке первая сохранённая история, без отбора по метрикам.",
+      "figure": "output/final-presentation/figures/forecast_task.png",
+      "alt": "Observed history, held-out future and four generated futures for the first test context.",
+      "bottom_top": 582,
+      "bottom_height": 92,
+      "bottom_font_size": 22
+    },
+    {
+      "title": "The network predicts velocity; integration gives a forecast",
+      "kind": "figure",
+      "seconds": 55,
+      "backup": false,
+      "bottom": "Generation time t runs from 0 to 1; it is not the time axis of the forecast.",
+      "notes": "Белый шум имеет независимые координаты, GP-шум — коррелированные. При обучении x_t=(1−t)ε+ty: смешиваем шум и известное будущее, целевая скорость y−ε. Модель получает текущую смесь, время генерации и наблюдённую историю; выдаёт 16 скоростей, по одной на каждую будущую точку. При прогнозировании реальное будущее неизвестно: интегратор много раз вызывает поле и обновляет весь вектор. Один старт даёт одну траекторию. Источники: fm_stress/experiment.py; docs/protocol.md. Иллюстрация источников имеет единичную дисперсию; matched GP совпадает с kernel сырых данных, не с нормализованным условным будущим.",
+      "figure": "output/final-presentation/figures/source_curves.png",
+      "alt": "Independent white starting noise and correlated Gaussian-process starting noise.",
+      "figure_height": 220,
+      "body": [
+        "Training: noise ε, known future y → mixed curve x(t) = (1−t)ε + ty; target u = y−ε.",
+        "Network: current curve x, generation time t, past h → velocity v (rates of change).",
+        "Sampling: integrate dx/dt = v from noise to one future trajectory."
+      ],
+      "body_top": 390,
+      "body_gap": 62,
+      "body_font_size": 25
+    },
+    {
+      "title": "Main experiment: two heads × two noise sources",
+      "kind": "table",
+      "seconds": 50,
+      "backup": false,
+      "headers": [
+        "Velocity network (head)",
+        "White noise",
+        "Smooth GP noise"
+      ],
+      "rows": [
+        [
+          "MLP: dense network",
+          "5 training seeds",
+          "5 training seeds"
+        ],
+        [
+          "S4: state-space model",
+          "5 training seeds",
+          "5 training seeds"
+        ]
+      ],
+      "bottom": "Hypothesis: with GP noise, S4 learns velocity directions with little variation better than MLP.",
+      "notes": "Матрица два на два: MLP и S4; белый и гладкий GP-источник. Пять обучений в каждой ячейке. MLP смешивает все координаты плотными слоями; S4 использует временную модель состояния. Гипотеза — преимущество S4 в малых направлениях скорости при гладком источнике. Дополнительные пять запусков: та же GP+MLP с вращением и масштабированием PCA-координат; перед оценкой возвращаем исходные координаты. Это контроль влияния геометрии. Данные и бюджет общие. Источник: docs/protocol.md. PCA fit только на train, нормализация только по истории, checkpoint по validation. Способ подачи истории у голов отличается; 65464 и65281параметров. Пять seed не являются пятью наборами данных.",
+      "table_height": 180,
+      "table_font_size": 24,
+      "column_widths": [
+        360,
+        388,
+        388
+      ],
+      "body": [
+        "MLP = multilayer perceptron; S4 = structured state-space sequence model.",
+        "6,000 updates per run; about 65,000 parameters. GP noise correlates future positions.",
+        "Whitened MLP (5 extra runs): rotate along directions of training-velocity variation;",
+        "divide by their standard deviations (with a floor), then undo the transform for scoring."
+      ],
+      "body_font_size": 22,
+      "body_gap": 45,
+      "body_height": 44,
+      "bottom_font_size": 23
+    },
+    {
+      "title": "With GP noise, two directions contain 97.8% of velocity variance",
+      "kind": "chart",
+      "seconds": 55,
+      "backup": false,
+      "chart": {
+        "categories": [
+          "Target futures",
+          "White-source velocity",
+          "GP-source velocity"
+        ],
+        "series": [
+          {
+            "name": "Variance in the first two principal components",
+            "values": [
+              98.05982347491722,
+              85.03930879989257,
+              97.84357541737802
+            ]
+          }
+        ],
+        "axis": "Variance captured (%)",
+        "format": "0.0",
+        "max": 100,
+        "caption": "PCA = principal component analysis: PC1, PC2, … rank directions by decreasing variance.\nSeparate train-fitted bases for 16-point futures y and velocities u = y−ε; bars use test data.",
+        "caption_height": 58,
+        "plot_top": 230,
+        "plot_height": 330
+      },
+      "bottom": "GP generates the data; white or GP noise starts the forecast. Values use history mean/std.\nDesign check: the first two velocity PCs should explain >90% of variance; GP passes.",
+      "notes": "Прежде чем сравнивать головы, проверяем геометрию. PCA находит направления совместного изменения векторов, первое объясняет больше всего вариации. Для будущих рядов первые два направления содержат98.1процента. Для целевой скорости y−ε при белом шуме85.0, при GP97.8. Именно такой контраст требовался: гладкий источник концентрирует обучение на нескольких направлениях. Поэтому проверяем ошибки и вдоль главного направления, и в остальных. PCA оценивается на обучении; столбики — тест. Источник: evidence.main.geometry. У GP validation97.8процента тоже выше90. Базисы для будущего и скоростей разные, для каждого источника свой. Проверка геометрии сама по себе не доказывает ошибку MLP.",
+      "bottom_font_size": 23
+    },
+    {
+      "title": "GP-source residual error: MLP is lower than S4",
+      "kind": "table",
+      "seconds": 65,
+      "backup": false,
+      "headers": [
+        "Source / velocity head",
+        "MSE: PC1",
+        "Mean MSE: PC3–16",
+        "R1 ratio"
+      ],
+      "rows": [
+        [
+          "WHITE / MLP",
+          "6.677",
+          "0.1221",
+          "1.058"
+        ],
+        [
+          "WHITE / S4",
+          "7.321",
+          "0.1249",
+          "1.045"
+        ],
+        [
+          "GP / MLP",
+          "14.929",
+          "0.0493",
+          "1.018"
+        ],
+        [
+          "GP / S4",
+          "15.502",
+          "0.0583",
+          "1.039"
+        ],
+        [
+          "GP / Whitened MLP",
+          "13.618",
+          "0.0401",
+          "1.016"
+        ]
+      ],
+      "bottom": "Original rule: mean MSE(PC3–16)/MSE(PC1) ∈ [0.8,1.2] AND R1 ratio ∈ [0.8,1.2].\nFive-seed means. All 25 runs pass R1; 0/25 pass both conditions.",
+      "notes": "Это ошибки предсказания скорости, а не будущих рядов. PCA обучена на векторах целевой скорости. PC1 — главное направление, остаток — среднее поPC3–16; PC2 отдельно в отчёте. В GP-строках остаточная ошибка MLP0.0493 меньше S40.0583; whitening снижает её до0.0401. Ожидаемого преимущества S4 нет. R1 — средний модуль соседних изменений прогнозного ряда, делённый на такой же показатель данных. Все25обучений проходят эту часть. Но исходное правило одновременно требует почти равных ошибок PC1 и остатка: ни один запуск его не проходит. Ошибки направлений имеют разные масштабы; провал равенства не означает плохой прогноз. Источники: evidence.main.groups; docs/protocol.md. Сравниваем головы внутри каждого источника: между источниками различаются базисы и шумовые уровни. Исходный R1:1024траектории,Euler64; далее отдельная ансамблевая оценка.",
+      "column_widths": [
+        400,
+        235,
+        266,
+        235
+      ],
+      "table_font_size": 21,
+      "intro": "MSE = mean squared error of predicted velocity v against target u (lower is better).\nErrors use training-velocity PCs; residual = mean over PC3–16, after the two leading directions.",
+      "intro_top": 147,
+      "intro_height": 54,
+      "intro_font_size": 20,
+      "table_top": 330,
+      "table_height": 240,
+      "bottom_font_size": 22,
+      "roughness_formula": {
+        "order": 1,
+        "top": 199,
+        "definition": "x: one forecast trajectory\nH: number of future points\ni: forecast-point index"
+      },
+      "ratio_line": "Reported ratio = mean R1 of generated paths / mean R1 of observed paths; 1 means a match.",
+      "ratio_top": 290
+    },
+    {
+      "title": "R1 misses changes in slope",
+      "kind": "chart",
+      "seconds": 55,
+      "backup": false,
+      "chart": {
+        "categories": [
+          "MLP",
+          "S4",
+          "Whitened MLP"
+        ],
+        "series": [
+          {
+            "name": "R1: adjacent changes",
+            "values": [
+              1.0065866854206307,
+              1.032385492113133,
+              1.0052485904997885
+            ]
+          },
+          {
+            "name": "R2: changes of slope",
+            "values": [
+              0.9883649233639517,
+              1.627635688382454,
+              0.9902173804800765
+            ]
+          }
+        ],
+        "axis": "Generated / observed",
+        "format": "0.00",
+        "caption": "GP-source forecasts: 256 histories, 64 generated trajectories per history.",
+        "caption_height": 30,
+        "plot_top": 282,
+        "plot_height": 280,
+        "caption_top": 246
+      },
+      "bottom": "Each ratio = mean statistic of generated paths / mean statistic of observed paths.\nS4 R2 ratio = 1.63. Greater curvature alone does not establish worse forecasts.",
+      "notes": "R1 оставляем, R2 добавляем постфактум. Оба считаем на едином ансамбле прогнозов. R1 измеряет модуль соседних разностей; R2 — модуль вторых разностей, то есть изменений наклона. Делим на соответствующий показатель наблюдённых рядов. У монотонных кривых с одинаковыми концами R1 одинаков, даже если меняется наклон. У S4 R1 близок к1, но R2 равен1.63. Это больше изменений наклона, а не автоматическое доказательство плохого распределения. Василий покажет прогнозные оценки тех же GP-моделей. Источник: trajectory-metrics main groups. R2 здесь не регрессионный R-squared. 256историй×64прогноза,Euler128,5обученных моделей каждой головы.",
+      "bottom_font_size": 23,
+      "roughness_formula": {
+        "order": 2,
+        "top": 150,
+        "definition": "x: one forecast trajectory\nH: number of future points\ni: forecast-point index"
+      }
+    },
+    {
+      "title": "GP-source forecasts: shape and predictive scores differ",
+      "kind": "figure",
+      "seconds": 55,
+      "backup": false,
+      "bottom": "S4 intervals cross zero; whitening lowers VS. Negative differences favour that model.\n95% confidence intervals resample histories while holding the fitted models fixed.",
+      "notes": "Теперь оцениваем распределение прогнозов тех же GP-моделей. CRPS проверяет значения в каждый момент, VS — различия между моментами. Нужны оба: VS не замечает общий сдвиг. На графике разность с MLP, отрицательное лучше; отрезки —95-процентные интервалы. У S4 оба пересекают ноль: более высокий R2 не сопровождается установленным ухудшением прогнозов. Whitening снижает VS, по CRPS различие неубедительно. Далее переходим к отдельным проверкам: насколько сравнение голов зависит от ёмкости, нормализации и задачи. Источник: trajectory-metrics main contrasts. 256историй,64draws,Euler128;bootstrap по историям при пяти фиксированных моделях, не неопределённость нового обучения. Fair поправляет конечный размер ансамбля.",
+      "figure": "output/final-presentation/figures/score_differences.png",
+      "alt": "Paired forecast-score differences from MLP, with conditional 95 percent bootstrap intervals.",
+      "intro": "CRPS = continuous ranked probability score: predicted values at each future time.\nVS = variogram score: predicted differences between times. Lower scores are better.\n“Fair” corrects for the finite number of generated trajectories per history.",
+      "intro_font_size": 21,
+      "intro_top": 148,
+      "intro_height": 82,
+      "figure_top": 225,
+      "figure_height": 370,
+      "bottom_font_size": 21,
+      "bottom_top": 606,
+      "bottom_height": 64
+    },
+    {
+      "title": "A wider MLP greatly reduces roughness at horizon 64",
+      "kind": "figure",
+      "seconds": 60,
+      "backup": false,
+      "bottom": "Separate check: 128 past / 64 future points, white noise, 12,000 updates.\nWidth = units in each MLP hidden layer; depth and the 64-value output stay fixed.\nAcross 3 new datasets, width 56 → 72 lowers mean R2 ratio from 19.09 to 1.60.",
+      "notes": "Проверяем чувствительность к ёмкости в другой задаче: история128,горизонт64,белый шум,12000обновлений. Здесь исходный MLP даёт неровные прогнозы. Увеличиваем ширину всех его скрытых слоёв с56до72 при той же глубине. Число параметров растёт: это контроль ёмкости, а не изолированная замена последнего слоя. На трёх новых наборах R2 падает с19.09до1.60,уS4около1. Другой более широкий, но менее глубокий MLP с близким числом параметров тоже улучшает форму. VS улучшается, CRPS меняется мало. Это показывает зависимость вывода от размера сети. Источники: capacity protocol; trajectory-metrics summary; figures/provenance.json. 73960→114328параметров. Первая сохранённая история и четыре согласованных старта, без отбора по результату.",
+      "figure": "output/final-presentation/figures/capacity_paths.png",
+      "alt": "First held-out context: original MLP, wider MLP and S4, each with four matched source draws.",
+      "bottom_top": 581,
+      "bottom_height": 94,
+      "bottom_font_size": 22,
+      "figure_height": 405
+    },
+    {
+      "title": "History centering sharply reduces the ETTh1 head gap",
+      "kind": "chart",
+      "seconds": 60,
+      "backup": false,
+      "bottom": "Centering subtracts the observed history mean; mean/std also divides by its standard deviation.\nRidge = regularized linear prediction + sampled training residuals, with history normalization.\nRidge CRPS: 0.0936 on the same 118 test windows.",
+      "notes": "Следующая проверка: не зависит ли преимущество архитектуры от подготовки данных? Берём реальный ряд температуры трансформатора ETTh1. Слева масштаб общий, оценённый на обучении: S4 заметно лучше MLP. В центре из каждого окна вычитаем среднее доступной истории: большой разрыв исчезает. Дополнительное деление на масштаб истории почти не помогает. Значит, вывод об архитектуре зависит от нормализации. Простая линейная ridge-регрессия здесь лучше обеих сетей. Это 118 окон одного уже изученного хронологического тестового отрезка, не широкая проверка на реальных данных. Источники: evidence.normalization, normalization_baselines; docs/followup_normalization_protocol.md. GP-старт, 6 тысяч обновлений, одинаковые единицы оценки. Нормализация меняет весь процесс обучения, не выделяя единственную внутреннюю причину.",
+      "chart": {
+        "categories": [
+          "Train mean/std",
+          "+ history centering",
+          "+ history mean/std"
+        ],
+        "series": [
+          {
+            "name": "MLP",
+            "values": [
+              0.2164798031955394,
+              0.09821057075800281,
+              0.09846956393354366
+            ]
+          },
+          {
+            "name": "S4",
+            "values": [
+              0.17480287645895612,
+              0.09807126595445076,
+              0.10051387770979552
+            ]
+          }
+        ],
+        "axis": "CRPS (training-std units)",
+        "format": "0.000",
+        "caption": "ETTh1: hourly transformer-oil temperature · 48 past / 24 future points · GP noise\n6,000 updates; scores mapped back to training-standard-deviation units.",
+        "caption_height": 58,
+        "plot_top": 230,
+        "plot_height": 330,
+        "category_size": 22
+      },
+      "bottom_top": 581,
+      "bottom_height": 94,
+      "bottom_font_size": 21
+    },
+    {
+      "title": "Whitening helps synthetic GP, but hurts real multichannel forecasts",
+      "kind": "chart",
+      "seconds": 70,
+      "backup": false,
+      "chart": {
+        "categories": [
+          "Synthetic GP (3)",
+          "Oil temperature (1)",
+          "ETTh1 (7)",
+          "Exchange rates (8)"
+        ],
+        "caption": "Channels = variables: GP simulations; hourly transformer measurements; daily exchange rates.\nEach channel uses training mean/std; CRPS averages over forecast times and channels.",
+        "series": [
+          {
+            "name": "MLP",
+            "values": [
+              0.33281542879143533,
+              0.19498801987093164,
+              0.37502656937727435,
+              0.38519591516189994
+            ]
+          },
+          {
+            "name": "S4",
+            "values": [
+              0.3317883062388502,
+              0.14371698818210216,
+              0.4033350386733794,
+              0.42545358916773696
+            ]
+          },
+          {
+            "name": "Whitened MLP",
+            "values": [
+              0.30948022754526505,
+              0.13208565461386368,
+              0.5297719197338786,
+              0.5640360301297732
+            ]
+          }
+        ],
+        "axis": "Mean CRPS (training-std units)",
+        "format": "0.000",
+        "label_size": 19,
+        "category_size": 20,
+        "caption_height": 58,
+        "plot_top": 230,
+        "plot_height": 330
+      },
+      "bottom": "Energy score evaluates the whole future vector; lower is better and confirms the whitening trend.\nRidge + sampled training residual vectors: CRPS 0.193 / 0.093 / 0.287 / 0.068 (left to right).\nParentheses give channel counts. Compare heads within a task. GP noise; 2,000 training updates.",
+      "notes": "Переходим к совместному прогнозу нескольких величин: модель выдаёт вектор времени и каналов. Здесь четыре задачи: синтетический GP с3каналами; одна температура;7показателейETTh1;8валютных рядов. Whitening помогает синтетическому многомерномуGP и одной температуре, но ухудшает обе реальные многоканальные задачи. Поэтому дело не просто в размерности. Сравниваем головы внутри каждой группы. CRPS усредняет маргинальные оценки; energy score оценивает весь совместный вектор и подтверждает направление эффекта whitening. Простая ridge-регрессия с выборкой целого вектора остатков имеет меньший CRPS во всех четырёх задачах. Источники: evidence.multivariate; results/extension/*/baselines.json. Отдельная серия:2000обновлений,3seed,64истории×32прогноза,Euler64,фиксированный масштаб каналов поtrain. Не смешивать с предыдущей серией нормализации.",
+      "bottom_top": 581,
+      "bottom_height": 94,
+      "bottom_font_size": 21
+    },
+    {
+      "title": "Checks prompted by the review",
+      "kind": "table",
+      "seconds": 55,
+      "backup": false,
+      "headers": [
+        "Review question",
+        "What the additional check shows"
+      ],
+      "rows": [
+        [
+          "Are tiny PCA directions driving it?",
+          "GP velocity error on PC3–6: whitened MLP < MLP < S4"
+        ],
+        [
+          "Does lower velocity error mean better forecasts?",
+          "GP forecasts: no resolved S4–MLP score gap; whitening lowers VS"
+        ],
+        [
+          "Does the capacity effect repeat?",
+          "Wider MLP reduces roughness on 3 new synthetic datasets"
+        ],
+        [
+          "Is the architecture comparison isolated?",
+          "Equal budgets; the heads still use history differently"
+        ]
+      ],
+      "bottom": "Analytic reference = mean velocity given current x, time t and past h, from the known data law.\nBroader per-head tuning and the whitening rescaling floor remain limitations.",
+      "notes": "Ревью помогло уточнить интерпретацию. Пересчитали ошибку только поPC3–6: порядок whitenedMLP,MLP,S4сохраняется. Мы ограничили метрику, не удаляли координаты из модели. Ансамблевые оценки проверяют качество прогнозов отдельно от ошибки поля. Контроль ширины повторяется на трёх новых синтетических наборах. Аналитический эталон видит ту же нормализованную историю, но знает закон генерации; это диагностическая опора. Остаются разные способы подачи истории и неполный подбор настроек. Источник: docs/response_to_review.md; final-pca-audit. Проверка Euler не заменяет настройку внутренних шагов S4. Эффект whitening на реальных задачах не заменяет sweep floor или perturbation test.",
+      "bottom_font_size": 23
+    },
+    {
+      "title": "Smooth starting noise alone does not justify switching to S4",
+      "kind": "text",
+      "seconds": 45,
+      "backup": false,
+      "body": [
+        "Smooth GP noise did not produce the predicted S4 residual-error advantage.",
+        "Check both trajectory shape and forecast scores: they can tell different stories.",
+        "Capacity and normalization substantially change particular head comparisons.",
+        "Whitening helps some tasks, but hurts both real multichannel tasks tested here."
+      ],
+      "bottom": "Use a simple linear baseline too. These are conclusions from fixed-budget experiments.",
+      "notes": "Возвращаемся к вопросу: гладкий источник сам по себе не даёт оснований заменять MLP на S4. Ожидаемого преимущества S4 по остаточной ошибке скорости нет. MLP остаётся базовым вариантом; оцениваем и форму, и качество прогнозов. Прежде чем объяснять разницу архитектурой, проверяем ёмкость и нормализацию. Whitening надо проверять на конкретной задаче: он помогает даже синтетическому многомерному GP, но в реальных многоканальных задачах ухудшает результат. Простой линейный baseline обязателен для контекста. Далее вклады участников. Источники: evidence.main,capacity,normalization,multivariate."
+    },
+    {
+      "title": "Team contributions",
+      "kind": "table",
+      "seconds": 30,
+      "backup": false,
+      "headers": [
+        "Team member",
+        "Contribution"
+      ],
+      "rows": [
+        [
+          "Egor Serov",
+          "MLP and training pipeline; controlled comparisons; decoder width and capacity."
+        ],
+        [
+          "Kirill Frolov",
+          "Data and PCA; R2 / Variogram Score; forecast checks and final synthesis."
+        ],
+        [
+          "Daniil Koblov",
+          "S4 and structured heads; joint multichannel forecasting; transfer to real data."
+        ],
+        [
+          "Vasilii Lyamin",
+          "Whitening and normalization; Jacobian / kernel diagnostics; interpretation and plots."
+        ]
+      ],
+      "bottom": "Jacobian: velocity sensitivity to the current curve. Kernel: GP covariance function.\nAI assisted implementation, analysis and writing; the authors remain responsible.",
+      "notes": "Егор отвечал за базовый MLP, общий контур обучения и исследование ёмкости. Кирилл — за данные, PCA, дополнительные метрики и итоговую сверку результатов. Даниил — за S4, структурированные модели и многомерный прогноз. Василий — за whitening, нормализацию, якобианы и интерпретацию диагностик. При разработке, анализе и подготовке текста использовались AI-инструменты; ответственность за работу остаётся у авторов.",
+      "bottom_font_size": 22
+    },
+    {
+      "title": "Backup: the literal success rule",
+      "kind": "text",
+      "seconds": 0,
+      "backup": true,
+      "body": [
+        "Original rule: mean MSE(PC3–16) / MSE(PC1) must lie in [0.8, 1.2].",
+        "Generated R1 / target R1 must also lie in [0.8, 1.2].",
+        "All 25 runs pass the roughness part; 0 / 25 pass the full rule.",
+        "Earlier analytic reference also fails: it knows the generating law and the full raw history."
+      ],
+      "bottom": "Keep the declared result. Diagnose why equality between unequal-variance directions is uninformative.",
+      "notes": "PCA basis fitted on training velocities. Residual averages PC3–F, not their sum. Very small residual error should not normally count against accuracy. Noise-normalized scores remain floor-sensitive. Original rule is preserved, all new metrics explicitly post-hoc. Source: docs/protocol.md; output/final-paper/evidence.json."
+    },
+    {
+      "title": "Backup: velocity errors restricted to PC3–6",
+      "kind": "table",
+      "seconds": 0,
+      "backup": true,
+      "headers": [
+        "GP-source head",
+        "Original velocity MSE",
+        "Squared gap to analytic field"
+      ],
+      "rows": [
+        [
+          "MLP",
+          "0.172429",
+          "0.057731"
+        ],
+        [
+          "S4",
+          "0.196926",
+          "0.076748"
+        ],
+        [
+          "Whitened MLP",
+          "0.140330",
+          "0.022755"
+        ]
+      ],
+      "bottom": "PC3–6 only. Original test: 8,192 windows; analytic comparison: 2,048 fresh windows.",
+      "notes": "Original main MSE uses8192 heldout windows. Oracle comparison uses2048 fresh contexts. Direct oracle discrepancy is squared(model field−same-information oracle field), not naive subtraction of two finite-sample MSEs. The latter has a finite-sample cross term. Source: results/final-pca-audit/summary.json.",
+      "intro": "Both columns average squared errors over PC3–6 of training velocities.\nLeft: (v−u)² against target u=y−ε. Right: (v−v*)² against analytic mean v*=E[u|x,t,h].",
+      "intro_height": 72,
+      "intro_font_size": 22,
+      "table_top": 240,
+      "table_height": 280
+    },
+    {
+      "title": "Backup: averaged training labels improve forecasts modestly",
+      "kind": "table",
+      "seconds": 0,
+      "backup": true,
+      "headers": [
+        "GP-source model",
+        "Fair CRPS ↓",
+        "R2 ratio",
+        "Fair VS ↓"
+      ],
+      "rows": [
+        [
+          "MLP / random labels",
+          "0.4932",
+          "1.031",
+          "0.0714"
+        ],
+        [
+          "MLP / mean-velocity labels",
+          "0.4785",
+          "1.028",
+          "0.0688"
+        ],
+        [
+          "S4 / random labels",
+          "0.4923",
+          "1.649",
+          "0.0710"
+        ],
+        [
+          "S4 / mean-velocity labels",
+          "0.4798",
+          "1.518",
+          "0.0688"
+        ]
+      ],
+      "bottom": "3 paired dataset/seed runs. Mean-velocity labels use the known generating law.",
+      "notes": "Oracle labels use conditional average of stochastic velocity label with the same model inputs. This is not the forecast oracle. Model checkpoint selection is based on validation field discrepancy for both label modes. 6000steps, GPsource, F16,32members. Results do not show a consistent proper-score advantage of S4 over MLP. Source: docs/followup_label_noise_protocol.md; trajectory-metrics summary.",
+      "intro": "Random labels: target u=y−ε for one sampled future/noise pair.\nMean-velocity labels: average u over possible pairs at fixed curve x, time t and past h.",
+      "intro_height": 72,
+      "intro_font_size": 22,
+      "table_top": 240,
+      "table_height": 310,
+      "table_font_size": 22
+    },
+    {
+      "title": "Backup: variogram correction and uncertainty",
+      "kind": "text",
+      "seconds": 0,
+      "backup": true,
+      "body": [
+        "X[m,i] = value at time i in generated trajectory m; M = number of trajectories. For times i,j: a[m] = |X[m,i]−X[m,j]|^0.5.",
+        "Time-pair weights are proportional to 1/|i−j| and sum to 1. Fair VS subtracts sample variance of a[m] divided by M for each pair.",
+        "95% confidence intervals resample 256 paired histories, holding 5 fitted models per head fixed.",
+        "Follow-ups: 3 paired dataset/training-seed runs; no pooled population confidence interval."
+      ],
+      "bottom": "Post-hoc comparisons, no multiple-testing correction. Scores across different horizons are not directly comparable.",
+      "notes": "For eachpair z=abs(Xi−Xj)^p, a=abs(yi−yj)^p. fairVS=sum w[(a−mean z)^2−var(z,ddof1)/M]. It can be negative, do not clip. Assumes iidmembers conditional on model/history. Variogram misses common shifts and is not strictlyproper. Source: docs/trajectory_metrics.md. FairCRPS and energy match original percontext numbers for all39runs.",
+      "body_font_size": 25
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "pages": 10,
+  "compiler": "pdfLaTeX, two passes",
+  "all_consumed_hashes_match": true,
+  "all_authored_hashes_match": true,
+  "overfull_boxes": 0,
+  "undefined_references": 0,
+  "multivariate_cells": 24,
+  "multivariate_archived_checkpoints": 72,
+  "new_training_runs_in_revision": 0,
+  "visual_review": "Scientific body unchanged at 10pt; appendix prose/paragraph spacing compacted without dropping configurations, seeds, commands, audits or evidence. Final contribution/reference/appendix pages 9-10 re-rendered and inspected; no orphan last page, clipping or overflow.",
+  "scientific_review": "Separate scientific agent verified all 48 neural score entries and 8 unique ridge entries in the new tables; no scientific blocker.",
+  "pdf_sha256": "8258dc5e73005ef38da0efdca6d09556baa925a52fcb327f6e00017e24bccb37",
+  "manuscript_sha256": "e4add43670689682883c2f5e160906280bea4ce8c7c4275a139d15c7d01693f8",
+  "scope": "User-approved contributions retained verbatim. Appendix layout compacted to ten pages; scientific results, fonts and numerical evidence unchanged.",
+  "approved_contributions_match": true,
+  "approved_contributions_source": "docs/contributions.json",
+  "approved_contributions_source_sha256": "10dc2aa895018ea8188a90eebc94d517f18a20ae793e67c15e09e86b4d20f7c5",
+  "scientific_evidence_unchanged_by_role_revision": true,
+  "title_page_review": "Author order verified against the project plan (Vasilii Lyamin) and visually inspected after rebuild: Daniil Koblov, Vasilii Lyamin, Egor Serov, Kirill Frolov."
+}

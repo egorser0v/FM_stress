@@ -1,0 +1,31 @@
+{
+  "status": "user_approved",
+  "approved_date": "2026-10-25",
+  "basis": "Participant role statement approved by the user; not inferred from Git authorship or commit counts.",
+  "members": [
+    {
+      "name": "Egor Serov",
+      "focus": "Baseline experiment and MLP capacity",
+      "statement": "Implemented the MLP and shared training pipeline; organized controlled source-by-head comparisons; investigated decoder width and model capacity; and prepared the reproducible experimental protocol.",
+      "slide_summary": "MLP and training pipeline; controlled comparisons; decoder width and capacity."
+    },
+    {
+      "name": "Kirill Frolov",
+      "focus": "Data geometry and forecast evaluation",
+      "statement": "Prepared synthetic data and PCA analyses; examined the original evaluation criteria and added R2 and Variogram Score diagnostics; analyzed archived forecasts, checked numerical consistency, and consolidated the final materials.",
+      "slide_summary": "Data and PCA; R2 / Variogram Score; forecast checks and final synthesis."
+    },
+    {
+      "name": "Daniil Koblov",
+      "focus": "Temporal architectures and multivariate forecasting",
+      "statement": "Implemented and validated S4 and structured forecasting models; adapted them to joint multivariate prediction; compared source distributions and investigated how findings transfer from synthetic to real data.",
+      "slide_summary": "S4 and structured heads; joint multichannel forecasting; transfer to real data."
+    },
+    {
+      "name": "Vasilii Lyamin",
+      "focus": "Data transformations and diagnostic interpretation",
+      "statement": "Studied whitening and normalization; analyzed head Jacobians, kernel settings, and result sensitivity; investigated mechanisms behind model differences, visualized diagnostics, and formulated the limitations of the conclusions.",
+      "slide_summary": "Whitening and normalization; Jacobian / kernel diagnostics; interpretation and plots."
+    }
+  ]
+}
