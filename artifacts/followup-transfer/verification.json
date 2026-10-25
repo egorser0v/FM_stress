@@ -1,0 +1,15 @@
+{
+  "operation": "File packaging integrity verification only",
+  "status": "passed",
+  "checkpoint_files": 24,
+  "forecast_files": 24,
+  "shared_target_history_files": 6,
+  "checkpoints_byte_identical": true,
+  "forecast_npy_members_byte_identical": true,
+  "target_history_slices_byte_identical": true,
+  "all_source_and_transferred_hashes_verified": true,
+  "dtype_and_shapes_preserved": true,
+  "archive_crc_verified": true,
+  "research_code_changed": false,
+  "missing_files": []
+}
